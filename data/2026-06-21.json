@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T23:32:55+00:00",
+  "entries": [
+    {
+      "title": "US government orders Anthropic to cut off Fable 5 / Mythos 5 access for foreign nationals",
+      "summary": "Washington directed Anthropic to disable its most capable models for non-US users after the company's own cyber-capability safety warnings, a striking case of safety disclosures triggering a national-security access restriction on a frontier developer.",
+      "links": [
+        {
+          "title": "Anthropic statement on the US directive to suspend Fable 5 and Mythos 5 access",
+          "url": "https://www.anthropic.com/news/fable-mythos-access"
+        },
+        {
+          "title": "US orders Anthropic to disable AI models for all foreign nationals (Al Jazeera)",
+          "url": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals"
+        },
+        {
+          "title": "Anthropic's safety warnings may have just backfired (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
+        },
+        {
+          "title": "Anthropic's Fable and the State of AI (Schneier on Security)",
+          "url": "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html"
+        }
+      ]
+    },
+    {
+      "title": "G7 leaders and frontier labs agree voluntary AI safety commitments at Évian",
+      "summary": "At the June Évian summit, G7 heads of state and roughly a dozen lab chiefs (OpenAI, Anthropic, Google DeepMind, Mistral, Cohere and others) endorsed non-binding pledges on child safety and frontier cyber/bio risk, likely to become a de facto global baseline despite lacking the force of law.",
+      "links": [
+        {
+          "title": "G7 AI Safety Commitments digest, June 21 2026 (Asanify)",
+          "url": "https://asanify.com/blog/news/g7-ai-safety-commitments-june-21-2026/"
+        },
+        {
+          "title": "What the 2026 G7 Évian meeting really delivered (AI Governance Lead)",
+          "url": "https://aigovernancelead.substack.com/p/ai-governance-in-action-g7-evian-ai-ceos-potus"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI hit with more ChatGPT wrongful-death suits",
+      "summary": "Additional parents have filed wrongful-death and product-liability suits alleging ChatGPT contributed to users' suicides, expanding a wave of AI-chatbot tort litigation that now also includes a state attorney-general action against OpenAI and Sam Altman.",
+      "links": [
+        {
+          "title": "Mother sues OpenAI after daughter's death linked to ChatGPT (Al Jazeera)",
+          "url": "https://www.aljazeera.com/economy/2026/6/12/mother-sues-openai-in-us-after-daughters-death-linked-to-chatgpt-use"
+        },
+        {
+          "title": "Another parent files wrongful-death suit against OpenAI (Engadget)",
+          "url": "https://www.engadget.com/2192493/another-parent-has-filed-a-wrongful-death-suit-against-openai/"
+        }
+      ]
+    },
+    {
+      "title": "xAI sued by engineer who says he was fired for Grok safety warnings",
+      "summary": "A former xAI engineer's wrongful-termination/whistleblower complaint alleges he was dismissed after flagging safety problems with Grok, raising fresh questions about internal safety governance at Musk's lab.",
+      "links": [
+        {
+          "title": "xAI fired an engineer who raised Grok safety alarms, lawsuit claims (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/"
+        },
+        {
+          "title": "Former xAI engineer says he was fired over safety warnings (Law360)",
+          "url": "https://www.law360.com/articles/2487708/former-xai-engineer-says-he-was-fired-over-safety-warnings"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic faces class action over Claude Max usage limits",
+      "summary": "A proposed class action accuses Anthropic of misleading paying subscribers by quietly tightening Claude Max usage caps amid rising compute costs, a consumer-protection angle on how labs manage capacity and disclosures.",
+      "links": [
+        {
+          "title": "Anthropic hit with lawsuit over Claude Max usage limits (Engadget)",
+          "url": "https://www.engadget.com/2194626/anthropic-hit-with-lawsuit-over-its-claude-max-usage-limits/"
+        },
+        {
+          "title": "Anthropic accused of misleading users amid soaring AI costs (Gizmodo)",
+          "url": "https://gizmodo.com/anthropic-accused-of-misleading-users-over-soaring-ai-costs-in-new-lawsuit-2000772061"
+        }
+      ]
+    },
+    {
+      "title": "KPMG withdraws agentic-AI report after hallucinated case studies",
+      "summary": "KPMG pulled a flagship report on agentic AI after it was found to contain fabricated statistics and false claims about named organizations, an ironic real-world incident underscoring the reliability risks of AI-assisted professional work.",
+      "links": [
+        {
+          "title": "KPMG pulls report on AI usage due to apparent hallucinations (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/"
+        },
+        {
+          "title": "KPMG's AI report becomes an accidental demo of AI hallucinations (The Register)",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/5255029"
+        }
+      ]
+    },
+    {
+      "title": "CAISI told to halt public frontier-model evaluations",
+      "summary": "Reports say the US Center for AI Standards and Innovation was directed to stop publishing model evaluations, with testing folded into a more security- and classification-oriented framework under the administration's new AI executive order.",
+      "links": [
+        {
+          "title": "CAISI ordered to stop public model evaluations amid new AI executive order (Crypto Briefing)",
+          "url": "https://cryptobriefing.com/caisi-ai-evaluations-classified-executive-order/"
+        }
+      ]
+    },
+    {
+      "title": "New paper: defending agentic AI against model-guided automated attacks",
+      "summary": "A new arXiv preprint studies 'defensive misdirection' as a mitigation against automated, model-guided attacks on tool-using agentic systems, adding to the adversarial-robustness toolkit for agent security.",
+      "links": [
+        {
+          "title": "Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems (arXiv 2606.20470)",
+          "url": "https://arxiv.org/abs/2606.20470v1"
+        }
+      ]
+    },
+    {
+      "title": "New paper: multi-turn red-teaming and jailbreak benchmarks for LLM agents",
+      "summary": "A recent arXiv submission proposes benchmarks for multi-turn red-teaming, jailbreaks, and adversarial robustness of LLM agents in safety-critical settings, relevant to evaluation and stress-testing practice.",
+      "links": [
+        {
+          "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness (arXiv 2606.20408)",
+          "url": "https://arxiv.org/abs/2606.20408"
+        }
+      ]
+    },
+    {
+      "title": "New York passes kids' chatbot-safety bill and AI transparency acts",
+      "summary": "The New York legislature wrapped its session by passing a children's AI-chatbot safety bill plus AI transparency measures, including a requirement to label AI-generated news content, adding to the patchwork of state AI rules.",
+      "links": [
+        {
+          "title": "New York lawmakers pass kids' AI chatbot safety bill and two transparency acts (Transparency Coalition)",
+          "url": "https://www.transparencycoalition.ai/news/new-york-lawmakers-pass-kids-ai-chatbot-safety-bill-and-two-transparency-acts"
+        },
+        {
+          "title": "NY Legislature passes landmark bill to disclose AI-generated news (NY Senate)",
+          "url": "https://www.nysenate.gov/newsroom/press-releases/2026/patricia-fahy/new-york-legislature-passes-landmark-bill-disclose-ai"
+        }
+      ]
+    },
+    {
+      "title": "Coverage: International AI Safety Report flags rising real-world AI incidents",
+      "summary": "Fresh commentary on the 2026 International AI Safety Report highlights that capability gains keep widening harm pathways while visibility into misuse lags, citing climbing content-generation incidents and persistent prompt-injection success rates.",
+      "links": [
+        {
+          "title": "AI incidents on the rise: insights from 2026 safety report (The Hill)",
+          "url": "https://thehill.com/opinion/technology/5924895-ai-safety-report-2026-highlights/"
+        },
+        {
+          "title": "It may already be too late to control AI (Washington Post)",
+          "url": "https://www.washingtonpost.com/ripple/2026/06/16/ai-safety-report-2026-highlights/"
+        }
+      ]
+    }
+  ]
+}

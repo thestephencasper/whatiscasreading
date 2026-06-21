@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>What Is Cas Reading</title>
+<meta name="description" content="A daily digest of new papers, articles, bills, and policy updates on AI safety, governance, and risk — curated for Stephen (Cas) Casper." />
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;📖&lt;/text&gt;&lt;/svg&gt;" />
+<style>
+  :root {
+    --bg: #0e0f12;
+    --panel: #16181d;
+    --border: #262a31;
+    --text: #e6e7ea;
+    --muted: #9aa0aa;
+    --link: #7db4ff;
+    --link-hover: #a9cdff;
+    --accent: #f0c674;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  header { margin-bottom: 8px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h1 .emoji { margin-right: 8px; }
+  .tagline { color: var(--muted); margin: 0 0 4px; font-size: 0.98rem; }
+  .byline { color: var(--muted); font-size: 0.85rem; margin: 0; }
+  .byline a { color: var(--muted); text-decoration: underline; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+  .digest-date { font-size: 1.15rem; margin: 0 0 4px; color: var(--accent); }
+  .digest-meta { color: var(--muted); font-size: 0.8rem; margin: 0 0 20px; }
+
+  .entry { padding: 14px 0; border-top: 1px solid var(--border); }
+  .entry:first-of-type { border-top: none; }
+  .entry-title { font-weight: 600; font-size: 1.02rem; margin: 0 0 3px; }
+  .entry-summary { margin: 0 0 7px; color: var(--text); }
+  .entry-links { margin: 0; padding: 0; list-style: none; font-size: 0.9rem; }
+  .entry-links li { margin: 2px 0; }
+  .entry-links a { color: var(--link); text-decoration: none; }
+  .entry-links a:hover { color: var(--link-hover); text-decoration: underline; }
+  .entry-links a::before { content: "↳ "; color: var(--muted); }
+
+  details.older {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 10px 0;
+    background: var(--panel);
+  }
+  details.older > summary {
+    cursor: pointer;
+    padding: 12px 16px;
+    color: var(--accent);
+    font-weight: 600;
+    list-style: none;
+  }
+  details.older > summary::-webkit-details-marker { display: none; }
+  details.older > summary::before { content: "▸ "; color: var(--muted); }
+  details.older[open] > summary::before { content: "▾ "; }
+  details.older .older-body { padding: 0 16px 12px; }
+
+  #older-heading { font-size: 1.15rem; margin: 36px 0 12px; }
+  .status { color: var(--muted); padding: 20px 0; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="emoji">📖</span>What Is Cas Reading</h1>
+    <p class="tagline">A daily digest of new papers, articles, bills, and policy updates on AI safety, governance, and risk.</p>
+    <p class="byline">Curated for <a href="https://stephencasper.com/">Stephen (Cas) Casper</a> · updated every morning</p>
+  </header>
+  <hr />
+
+  <main id="latest"><p class="status">Loading the latest digest…</p></main>
+
+  <section id="older-section" hidden>
+    <h2 id="older-heading">Earlier digests</h2>
+    <div id="older"></div>
+  </section>
+
+  <footer>
+    Generated daily by Claude. Digests are kept for 60 days.
+  </footer>
+</div>
+
+<script>
+const DATA = "data/";
+
+function fmtDate(iso) {
+  // iso = "YYYY-MM-DD" -> "Saturday, June 21, 2026" (parse as local, no TZ shift)
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, {
+    weekday: "long", year: "numeric", month: "long", day: "numeric",
+  });
+}
+
+function el(tag, cls, html) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+function renderEntries(container, entries) {
+  if (!entries || !entries.length) {
+    container.appendChild(el("p", "status", "No entries in this digest."));
+    return;
+  }
+  for (const entry of entries) {
+    const wrap = el("article", "entry");
+    wrap.appendChild(el("p", "entry-title", esc(entry.title || "")));
+    if (entry.summary) wrap.appendChild(el("p", "entry-summary", esc(entry.summary)));
+    if (entry.links && entry.links.length) {
+      const ul = el("ul", "entry-links");
+      for (const link of entry.links) {
+        const li = el("li");
+        const a = el("a");
+        a.href = link.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = link.title || link.url;
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
+      wrap.appendChild(ul);
+    }
+    container.appendChild(wrap);
+  }
+}
+
+async function getDigest(date) {
+  const res = await fetch(`${DATA}${date}.json`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Could not load ${date}`);
+  return res.json();
+}
+
+async function main() {
+  const latest = document.getElementById("latest");
+  let index;
+  try {
+    const res = await fetch(`${DATA}index.json`, { cache: "no-store" });
+    index = await res.json();
+  } catch (e) {
+    latest.innerHTML = '<p class="status">Could not load digests yet. Check back soon.</p>';
+    return;
+  }
+
+  const dates = (index.digests || []).slice();
+  if (!dates.length) {
+    latest.innerHTML = '<p class="status">No digests yet. The first one will appear after the next morning update.</p>';
+    return;
+  }
+
+  // Newest digest, expanded.
+  const newest = dates[0];
+  try {
+    const digest = await getDigest(newest);
+    latest.innerHTML = "";
+    latest.appendChild(el("h2", "digest-date", fmtDate(digest.date)));
+    if (digest.generated_at) {
+      latest.appendChild(el("p", "digest-meta",
+        "Compiled " + new Date(digest.generated_at).toLocaleString()));
+    }
+    renderEntries(latest, digest.entries);
+  } catch (e) {
+    latest.innerHTML = '<p class="status">Could not load the latest digest.</p>';
+  }
+
+  // Older digests, collapsed and lazy-loaded on first open.
+  const older = dates.slice(1);
+  if (older.length) {
+    const section = document.getElementById("older-section");
+    const list = document.getElementById("older");
+    section.hidden = false;
+    for (const date of older) {
+      const det = el("details", "older");
+      const sum = el("summary", null, esc(fmtDate(date)));
+      det.appendChild(sum);
+      const body = el("div", "older-body");
+      body.appendChild(el("p", "status", "Loading…"));
+      det.appendChild(body);
+      det.addEventListener("toggle", async () => {
+        if (det.open && !det.dataset.loaded) {
+          det.dataset.loaded = "1";
+          try {
+            const digest = await getDigest(date);
+            body.innerHTML = "";
+            renderEntries(body, digest.entries);
+          } catch (e) {
+            body.innerHTML = '<p class="status">Could not load this digest.</p>';
+          }
+        }
+      });
+      list.appendChild(det);
+    }
+  }
+}
+
+main();
+</script>
+</body>
+</html>

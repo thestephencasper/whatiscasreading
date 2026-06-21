@@ -1,0 +1,219 @@
+#!/usr/bin/env python3
+"""Generate the daily "What Is Cas Reading" digest using Claude with web search.
+
+Runs once per day. It:
+  1. Reads the editorial brief from custom_prompt.txt
+  2. Asks Claude (with the web_search tool) to compile today's digest as JSON
+  3. Writes data/<YYYY-MM-DD>.json
+  4. Rebuilds data/index.json and prunes digests older than RETENTION_DAYS
+
+The Anthropic API key is read from the ANTHROPIC_API_KEY environment variable.
+"""
+
+import json
+import os
+import re
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import anthropic
+
+MODEL = "claude-opus-4-8"
+RETENTION_DAYS = 60
+DEDUP_LOOKBACK_DAYS = 7  # how many prior days of digests to show Claude to avoid repeats
+EASTERN = ZoneInfo("America/New_York")
+
+ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
+PROMPT_FILE = ROOT / "custom_prompt.txt"
+
+# JSON shape we require back. Kept in the script (not custom_prompt.txt) so editing
+# the editorial brief can't accidentally break parsing.
+OUTPUT_INSTRUCTIONS = """
+================================================================================
+OUTPUT FORMAT — READ CAREFULLY
+================================================================================
+After you finish searching, respond with EXACTLY ONE JSON object and NOTHING else
+(no prose before or after, no markdown code fences). It must match this schema:
+
+{
+  "entries": [
+    {
+      "title": "Short specific headline for this topic",
+      "summary": "One plain sentence: what happened and why it matters.",
+      "links": [
+        {"title": "Source or article title", "url": "https://..."}
+      ]
+    }
+  ]
+}
+
+Rules:
+- 10-20 entries on a normal day; fewer is fine on a slow day. One entry per story.
+- Every URL must be a real link you found via web search. Never invent one.
+- Order entries roughly by importance to Cas (most important first).
+- Output ONLY the JSON object.
+"""
+
+
+def recently_covered(today_str: str) -> str:
+    """Titles + URLs from the last few days' digests, so Claude can avoid repeats."""
+    cutoff = datetime.now(EASTERN).date() - timedelta(days=DEDUP_LOOKBACK_DAYS)
+    lines = []
+    for path in sorted(DATA_DIR.glob("*.json"), reverse=True):
+        if path.name == "index.json" or path.stem == today_str:
+            continue
+        try:
+            d = datetime.strptime(path.stem, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if d < cutoff:
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            continue
+        for entry in data.get("entries", []):
+            title = (entry.get("title") or "").strip()
+            if not title:
+                continue
+            urls = ", ".join(
+                l.get("url", "") for l in entry.get("links", []) if l.get("url")
+            )
+            lines.append(f"- [{path.stem}] {title}" + (f" ({urls})" if urls else ""))
+
+    if not lines:
+        return ""
+    return (
+        "\n"
+        "================================================================================\n"
+        "ALREADY COVERED IN THE LAST FEW DAYS — AVOID REPEATING\n"
+        "================================================================================\n"
+        "These stories, papers, and bills already appeared in recent digests. Do NOT\n"
+        "include them again UNLESS there is a genuinely new, substantive development — in\n"
+        "which case you may include it and make the summary about WHAT IS NEW. Match on the\n"
+        "URL as well as the title, since the same item may be phrased differently.\n\n"
+        + "\n".join(lines)
+        + "\n"
+    )
+
+
+def build_prompt() -> str:
+    brief = PROMPT_FILE.read_text(encoding="utf-8")
+    today_str = datetime.now(EASTERN).strftime("%Y-%m-%d")
+    today = datetime.now(EASTERN).strftime("%A, %B %-d, %Y")
+    return (
+        f"Today is {today} (US Eastern Time).\n\n"
+        f"{brief}\n{recently_covered(today_str)}\n{OUTPUT_INSTRUCTIONS}"
+    )
+
+
+def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
+    """Run the web-search agent loop until Claude produces its final text answer."""
+    tools = [{"type": "web_search_20260209", "name": "web_search"}]
+    messages = [{"role": "user", "content": prompt}]
+
+    for _ in range(15):  # safety cap on continuation rounds
+        response = client.messages.create(
+            model=MODEL,
+            max_tokens=16000,
+            thinking={"type": "adaptive"},
+            tools=tools,
+            messages=messages,
+        )
+
+        # Server-side tool loop hit its internal limit; re-send to continue.
+        if response.stop_reason == "pause_turn":
+            messages = [
+                {"role": "user", "content": prompt},
+                {"role": "assistant", "content": response.content},
+            ]
+            continue
+
+        text = "".join(b.text for b in response.content if b.type == "text")
+        return text
+
+    raise RuntimeError("Web-search agent did not finish within the round limit.")
+
+
+def extract_json(text: str) -> dict:
+    """Pull the JSON object out of the model's reply, tolerating stray fences/prose."""
+    cleaned = text.strip()
+    # Strip ```json ... ``` fences if present.
+    fence = re.search(r"```(?:json)?\s*(.*?)```", cleaned, re.DOTALL)
+    if fence:
+        cleaned = fence.group(1).strip()
+    # Fall back to the outermost { ... } span.
+    if not cleaned.startswith("{"):
+        start, end = cleaned.find("{"), cleaned.rfind("}")
+        if start != -1 and end != -1:
+            cleaned = cleaned[start : end + 1]
+    return json.loads(cleaned)
+
+
+def write_digest(date_str: str, entries: list) -> Path:
+    payload = {
+        "date": date_str,
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "entries": entries,
+    }
+    out = DATA_DIR / f"{date_str}.json"
+    out.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    return out
+
+
+def rebuild_index_and_prune() -> list:
+    """Delete digests older than RETENTION_DAYS and rewrite data/index.json."""
+    cutoff = datetime.now(EASTERN).date() - timedelta(days=RETENTION_DAYS)
+    dates = []
+    for path in DATA_DIR.glob("*.json"):
+        if path.name == "index.json":
+            continue
+        try:
+            d = datetime.strptime(path.stem, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if d < cutoff:
+            path.unlink()
+            continue
+        dates.append(path.stem)
+
+    dates.sort(reverse=True)  # newest first
+    (DATA_DIR / "index.json").write_text(
+        json.dumps({"digests": dates}, indent=2), encoding="utf-8"
+    )
+    return dates
+
+
+def main() -> int:
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        sys.exit("ERROR: ANTHROPIC_API_KEY is not set.")
+
+    DATA_DIR.mkdir(exist_ok=True)
+    client = anthropic.Anthropic()
+    date_str = datetime.now(EASTERN).strftime("%Y-%m-%d")
+
+    print(f"Generating digest for {date_str} ...")
+    reply = run_agent(client, build_prompt())
+
+    try:
+        data = extract_json(reply)
+        entries = data["entries"]
+        assert isinstance(entries, list) and entries
+    except (ValueError, KeyError, AssertionError) as e:
+        print("Failed to parse model output as JSON. Raw reply follows:\n")
+        print(reply)
+        sys.exit(f"Parse error: {e}")
+
+    out = write_digest(date_str, entries)
+    print(f"Wrote {len(entries)} entries to {out}")
+
+    kept = rebuild_index_and_prune()
+    print(f"Index rebuilt: {len(kept)} digest(s) retained.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

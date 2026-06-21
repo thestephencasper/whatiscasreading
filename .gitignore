@@ -1,0 +1,15 @@
+# Secrets — never commit your API key
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Private working notes — keep out of the public repo
+CLAUDE.md
