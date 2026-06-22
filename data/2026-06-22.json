@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T15:04:58+00:00",
+  "entries": [
+    {
+      "title": "Fatal Tesla 'Autopilot' crash in Katy, Texas feeds federal self-driving probe",
+      "summary": "A Tesla Model 3 the driver says was on Autopilot crashed through a home near Katy, Texas on June 20, killing a 76-year-old woman inside, a real-world AI-driver-assist fatality now tied to NHTSA's 3.2-million-vehicle recall investigation.",
+      "links": [
+        {
+          "title": "ABC News: Tesla allegedly in autopilot mode crashes into Texas house, woman killed",
+          "url": "https://abcnews.com/US/tesla-allegedly-autopilot-mode-crashes-texas-house-woman/story?id=134062374"
+        },
+        {
+          "title": "Electrek: Tesla driver says it was on Autopilot before fatal Texas home crash",
+          "url": "https://electrek.co/2026/06/20/tesla-autopilot-katy-texas-home-crash-woman-killed/"
+        },
+        {
+          "title": "TechTimes: Katy crash hits 3.2 million-vehicle recall probe",
+          "url": "https://www.techtimes.com/articles/318834/20260622/tesla-autopilot-claim-fatal-katy-crash-hits-32-million-vehicle-recall-probe.htm"
+        }
+      ]
+    },
+    {
+      "title": "DOJ intervenes to kill NAACP Clean Air Act suit over xAI's Memphis data centers",
+      "summary": "The Justice Department moved (filing June 15) to dismiss the NAACP's lawsuit alleging xAI runs unpermitted gas turbines polluting majority-Black Memphis neighborhoods to power Grok, framing the data-center buildout as a national-security priority—an unusual government intervention on behalf of a frontier developer.",
+      "links": [
+        {
+          "title": "CNBC: DOJ asks court to toss NAACP air pollution suit against xAI",
+          "url": "https://www.cnbc.com/2026/06/16/usdepartment-of-justice-calls-for-dismissal-of-naacp-xai-lawsuit-.html"
+        },
+        {
+          "title": "Quartz: DOJ moves to dismiss NAACP Clean Air Act lawsuit against xAI",
+          "url": "https://qz.com/trump-doj-naacp-xai-clean-air-act-lawsuit-memphis-061726"
+        },
+        {
+          "title": "The Hill: Trump DOJ intervenes in xAI air pollution case",
+          "url": "https://thehill.com/policy/energy-environment/5926181-xai-naacp-memphis-grok/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI threat report: PRC-linked influence operations targeting US AI and data-center debates",
+      "summary": "OpenAI's June 2026 threat report says it disrupted China-linked ChatGPT account clusters that tried to stir up US opposition to AI data centers, a window into how generative AI is being used in (largely ineffective) covert influence campaigns.",
+      "links": [
+        {
+          "title": "OpenAI: PRC-linked influence operations are targeting AI debates in the US",
+          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates/"
+        },
+        {
+          "title": "OpenAI June 2026 Threat Report (PDF)",
+          "url": "https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf"
+        },
+        {
+          "title": "PC Gamer coverage",
+          "url": "https://www.pcgamer.com/software/ai/openai-says-it-busted-a-shadowy-chinese-operation-that-used-chatgpt-to-whip-up-data-centre-hate-and-that-achieved-basically-nothing/"
+        }
+      ]
+    },
+    {
+      "title": "Transformer co-author Noam Shazeer leaves Google for OpenAI",
+      "summary": "Gemini co-lead Noam Shazeer—co-author of the 2017 'Attention Is All You Need' paper—is moving to OpenAI in a deal reported around $2.7 billion, the latest marquee talent shift concentrating frontier-AI expertise among a few labs.",
+      "links": [
+        {
+          "title": "CNBC: Google Gemini co-lead Noam Shazeer leaves for OpenAI",
+          "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html"
+        },
+        {
+          "title": "Neowin: Noam Shazeer is leaving Google for OpenAI",
+          "url": "https://www.neowin.net/news/google-gemini-co-lead-noam-shazeer-is-leaving-for-openai/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI discloses multistate attorney-general investigation",
+      "summary": "OpenAI revealed it faces a coordinated investigation by multiple state attorneys general over product safety and consumer-protection concerns, escalating government scrutiny beyond Florida's standalone suit and signaling broader enforcement exposure for the company.",
+      "links": [
+        {
+          "title": "Inc.: OpenAI faces multiple legal investigations—what state AGs are demanding",
+          "url": "https://www.inc.com/moses-jeanfrancois/open-ai-is-now-facing-multiple-legal-investigations-what-state-attorneys-general-demanding-to-see/91361105"
+        }
+      ]
+    },
+    {
+      "title": "EU consultation on high-risk AI classification guidelines nears (extended) deadline",
+      "summary": "The European Commission's targeted consultation on draft guidelines for classifying high-risk AI systems under the AI Act—originally closing June 23—is being extended after industry requests, shaping how providers will determine their obligations.",
+      "links": [
+        {
+          "title": "European Commission: targeted consultation on high-risk AI classification guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems"
+        },
+        {
+          "title": "Hunton: Commission releases draft high-risk AI guidelines",
+          "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/european-commission-releases-draft-guidelines-on-high-risk-ai-under-the-eu-ai-act"
+        }
+      ]
+    },
+    {
+      "title": "Paper: 'Towards Auditing AI Systems in the Wild'",
+      "summary": "A new arXiv paper argues that benchmark- and sandbox-based evaluation gives only a limited view of deployed AI behavior and proposes methods for auditing systems in real-world conditions—directly relevant to the evaluation gap and audit agendas.",
+      "links": [
+        {
+          "title": "arXiv 2606.17367",
+          "url": "https://arxiv.org/abs/2606.17367"
+        }
+      ]
+    },
+    {
+      "title": "Paper: statistical decision audits for public frontier-AI evaluation archives",
+      "summary": "A new arXiv preprint applies Bayesian inference and winner's-curse corrections to public archives of frontier-AI evaluations, addressing how to make trustworthy claims from accumulated capability/safety test results.",
+      "links": [
+        {
+          "title": "arXiv 2606.17005: Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+          "url": "https://arxiv.org/abs/2606.17005"
+        }
+      ]
+    },
+    {
+      "title": "Paper: DoubtProbe, a black-box jailbreak defense",
+      "summary": "Researchers propose DoubtProbe, an inference-time, black-box defense that uses structural verification and semantic auditing to detect and block jailbreaks—contributing to the robustness/red-teaming literature.",
+      "links": [
+        {
+          "title": "arXiv 2606.16527: DoubtProbe: Black-Box Jailbreak Defense via Structural Verification and Semantic Auditing",
+          "url": "https://arxiv.org/abs/2606.16527"
+        }
+      ]
+    },
+    {
+      "title": "Paper: defensive misdirection against automated attacks on agentic AI",
+      "summary": "A new arXiv study analyzes 'defensive misdirection' as a countermeasure to model-guided, automated prompt-injection attacks on agentic AI systems, probing robustness of LLM agents that interpret instructions and invoke tools.",
+      "links": [
+        {
+          "title": "arXiv 2606.20470: Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2606.20470"
+        }
+      ]
+    }
+  ]
+}
