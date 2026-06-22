@@ -42,7 +42,6 @@ ORGANIZATIONS / SOURCES worth checking and covering when relevant:
 ================================================================================
 WHAT MAKES A GOOD DIGEST
 ================================================================================
-- Aim for 10-20 entries. One entry PER TOPIC/STORY, not per link.
 - If several articles cover the same development, group them into ONE entry with
   multiple links.
 - Each entry gets a short, specific title and a ONE-sentence description (plain,
@@ -50,10 +49,9 @@ WHAT MAKES A GOOD DIGEST
 - Prioritize genuinely new and substantive items: new papers, bills, regulatory
   actions, court filings, official reports, major incidents, notable launches. Skip pure
   marketing, rumor, and low-signal social media chatter.
-- Prefer primary sources (the paper, the bill text, the official statement, the 
+- Prefer primary sources (the paper, the bill text, the official statement, the
   court filing) and add a secondary news link only when it adds context.
 - It is fine to have fewer than 10 entries on a slow day. Do not pad with filler.
-- Use real, working URLs you actually found via search. Never invent a URL.
 
 ================================================================================
 SEARCH STRATEGY — COVER ALL FOUR CONTENT TYPES, NOT JUST NEWS
@@ -62,31 +60,22 @@ General web search surfaces news articles much more readily than papers or bills
 you MUST run dedicated searches for each content type below every time. Do not let news
 crowd out papers and policy. Aim for a mix across these buckets:
 
-1. ACADEMIC PAPERS — run searches specifically for recent arXiv work on the topics
-   above (jailbreaks/red-teaming, evaluations/audits, robustness, open-weight model
-   safety, frontier risks). Try queries like "arXiv AI safety <topic> <month year>" and
-   check arXiv listing/search pages directly. Aim for at least 2-4 paper entries when
-   any exist in the 7-day window.
+1. ACADEMIC PAPERS — recent arXiv work on the topics above (jailbreaks/red-teaming,
+   evaluations/audits, robustness, open-weight model safety, frontier risks); check arXiv
+   listing/search pages directly. Aim for 2-4 paper entries when any exist in the window.
 
-2. BILLS, LEGISLATION & REGULATION — search specifically for new AI bills, executive
-   actions, regulatory filings, and official guidance from the US (Congress, states,
-   federal agencies, CAISI), EU (AI Act implementation, Commission), UK (AISI,
-   government), and China. Try queries like "AI bill <state/Congress> <month year>",
-   "AI Act <month year>", "AI executive order / regulation <month year>". Include any
-   substantive items found in the 7-day window.
+2. BILLS, LEGISLATION & REGULATION — new AI bills, executive actions, regulatory filings,
+   and official guidance from the US (Congress, states, agencies, CAISI), EU (AI Act,
+   Commission), UK (AISI, government), and China. Include substantive items in the window.
 
-3. LAWSUITS & COURT FILINGS — search for new complaints, rulings, settlements, and
-   notable docket activity in cases involving AI or AI companies. Prioritize, in order:
-   (a) tort suits (product liability, negligence, wrongful death — e.g. harms linked to
-   chatbots or AI products), (b) other suits against frontier developers (copyright/IP,
-   privacy, consumer protection, securities), and (c) government enforcement actions
-   (FTC, state AGs, DOJ) against AI companies. Try queries like "AI lawsuit <month year>",
-   "AI wrongful death / product liability suit", "lawsuit OpenAI / Anthropic / Google /
-   Meta / xAI / Character.AI <month year>", and check legal-news outlets (Reuters Legal,
-   Law360, Bloomberg Law) and court-document sources (CourtListener / RECAP) for the
-   underlying filing. Link the actual complaint or ruling as the primary source when you
-   can find it. Include substantive items from the 7-day window; favor new filings and
-   meaningful developments over routine procedural updates.
+3. LAWSUITS & COURT FILINGS — new complaints, rulings, and settlements in cases involving
+   AI or AI companies, in priority order: (a) tort suits (product liability, negligence,
+   wrongful death — e.g. chatbot/AI-product harms), (b) other suits against frontier
+   developers (copyright/IP, privacy, consumer protection, securities), (c) government
+   enforcement (FTC, state AGs, DOJ). Check legal outlets (Reuters Legal, Law360,
+   Bloomberg Law) and court-document sources (CourtListener/RECAP), and link the actual
+   complaint or ruling as the primary source. Favor new filings over routine procedural
+   updates.
 
 4. NEWS, INCIDENTS & ORG UPDATES — recent articles, AI incidents, and updates from the
    frontier developers and the organizations listed above (last 24-48h).

@@ -20,9 +20,11 @@ from zoneinfo import ZoneInfo
 
 import anthropic
 
-MODEL = "claude-opus-4-8"
+MODEL = "claude-sonnet-4-6"
+EFFORT = "medium"  # thinking depth / token spend: low | medium | high | max
+MAX_WEB_SEARCHES = 25  # cap server-side web searches per run (each costs ~$0.01)
 RETENTION_DAYS = 60
-DEDUP_LOOKBACK_DAYS = 7  # how many prior days of digests to show Claude to avoid repeats
+DEDUP_LOOKBACK_DAYS = 4  # how many prior days of digests to show Claude to avoid repeats
 EASTERN = ZoneInfo("America/New_York")
 
 ROOT = Path(__file__).resolve().parent
@@ -112,14 +114,25 @@ def build_prompt() -> str:
 
 def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
     """Run the web-search agent loop until Claude produces its final text answer."""
-    tools = [{"type": "web_search_20260209", "name": "web_search"}]
-    messages = [{"role": "user", "content": prompt}]
+    tools = [
+        {"type": "web_search_20260209", "name": "web_search", "max_uses": MAX_WEB_SEARCHES}
+    ]
+    # Cache the (large, stable) editorial brief so each continuation round reads it
+    # from cache (~0.1x cost) instead of reprocessing it at full price.
+    user_content = [
+        {"type": "text", "text": prompt, "cache_control": {"type": "ephemeral"}}
+    ]
+    messages = [{"role": "user", "content": user_content}]
 
     for _ in range(15):  # safety cap on continuation rounds
         response = client.messages.create(
             model=MODEL,
             max_tokens=16000,
             thinking={"type": "adaptive"},
+            output_config={"effort": EFFORT},
+            # Auto-cache the last block too, so accumulated search results carry over
+            # across rounds within this run (the 5-min cache TTL covers a single run).
+            cache_control={"type": "ephemeral"},
             tools=tools,
             messages=messages,
         )
@@ -127,7 +140,7 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
         # Server-side tool loop hit its internal limit; re-send to continue.
         if response.stop_reason == "pause_turn":
             messages = [
-                {"role": "user", "content": prompt},
+                {"role": "user", "content": user_content},
                 {"role": "assistant", "content": response.content},
             ]
             continue
