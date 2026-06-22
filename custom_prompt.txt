@@ -46,6 +46,8 @@ WHAT MAKES A GOOD DIGEST
   multiple links.
 - Each entry gets a short, specific title and a ONE-sentence description (plain,
   concrete, no hype — say what happened and why it matters).
+- Each entry is labeled with exactly one tag — Paper, Policy, Lawsuit, News, or Misc —
+  matching the four content buckets below (use Misc for anything that fits none).
 - Prioritize genuinely new and substantive items: new papers, bills, regulatory
   actions, court filings, official reports, major incidents, notable launches. Skip pure
   marketing, rumor, and low-signal social media chatter.

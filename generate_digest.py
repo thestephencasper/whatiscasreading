@@ -22,7 +22,7 @@ import anthropic
 
 MODEL = "claude-sonnet-4-6"
 EFFORT = "medium"  # thinking depth / token spend: low | medium | high | max
-MAX_WEB_SEARCHES = 25  # cap server-side web searches per run (each costs ~$0.01)
+MAX_WEB_SEARCHES = 50  # cap server-side web searches per run (each costs ~$0.01)
 RETENTION_DAYS = 60
 DEDUP_LOOKBACK_DAYS = 4  # how many prior days of digests to show Claude to avoid repeats
 EASTERN = ZoneInfo("America/New_York")
@@ -43,6 +43,7 @@ After you finish searching, respond with EXACTLY ONE JSON object and NOTHING els
 {
   "entries": [
     {
+      "tag": "Paper",
       "title": "Short specific headline for this topic",
       "summary": "One plain sentence: what happened and why it matters.",
       "links": [
@@ -54,6 +55,14 @@ After you finish searching, respond with EXACTLY ONE JSON object and NOTHING els
 
 Rules:
 - 10-20 entries on a normal day; fewer is fine on a slow day. One entry per story.
+- Every entry MUST have a "tag" that is EXACTLY ONE of: "Paper", "Policy",
+  "Lawsuit", "News", "Misc". Choose the best fit:
+    - "Paper"   = academic papers / preprints (e.g. arXiv).
+    - "Policy"  = bills, legislation, executive/regulatory actions, official
+                  government guidance and reports.
+    - "Lawsuit" = court filings, complaints, rulings, settlements, enforcement.
+    - "News"    = news articles, incidents, and org/company updates.
+    - "Misc"    = anything that doesn't clearly fit the above.
 - Every URL must be a real link you found via web search. Never invent one.
 - Order entries roughly by importance to Cas (most important first).
 - Output ONLY the JSON object.
