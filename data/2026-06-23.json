@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T16:49:10+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Fable 5/Mythos 5 ban enters day 11 — NSA testimony reveals Mythos autonomously breached 'almost all' classified systems in hours",
+      "summary": "As of June 23, both Anthropic models remain globally offline after the June 12 Commerce Department export-control directive; the narrative has been reshaped by Sen. Mark Warner's disclosure that NSA/Cyber Command Director Gen. Joshua Rudd told him Mythos broke into nearly all NSA classified systems in a red-team exercise in hours (not weeks), suggesting the government's concern is about autonomous offensive cyber capability as a whole rather than a narrow patchable jailbreak — a distinction with major implications for whether and when Fable 5 can return.",
+      "links": [
+        {
+          "title": "Anthropic official statement on suspension",
+          "url": "https://www.anthropic.com/news/fable-mythos-access"
+        },
+        {
+          "title": "NSA breach testimony reshapes ban narrative (TechTimes)",
+          "url": "https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm"
+        },
+        {
+          "title": "Mythos AI reportedly cracked NSA classified systems in hours (Security Affairs)",
+          "url": "https://securityaffairs.com/194016/ai/anthropics-mythos-ai-broke-into-almost-all-nsa-classified-systems-in-hours.html"
+        },
+        {
+          "title": "The ban was never about an AI jailbreak (TechCrunch analysis)",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/"
+        },
+        {
+          "title": "NSA claim context and caveats (CyberSec Guru)",
+          "url": "https://thecybersecguru.com/news/mythos-nsa-breach-claim/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Trump EO 14409 mandates 30-day government pre-release access to frontier AI models and AI cybersecurity clearinghouse",
+      "summary": "The full text of Trump's June 2 Executive Order 'Promoting Advanced Artificial Intelligence Innovation and Security' (EO 14409) has been published; it requires frontier AI developers to submit 'covered frontier models' for up to 30 days of government review before release to other partners, establishes a voluntary AI cybersecurity clearinghouse coordinated by Treasury/NSA/CISA, and prioritizes enforcement against AI-enabled cybercrime — Anthropic launched Fable 5 seven days after the EO without the pre-brief, which is now central to the restoration dispute.",
+      "links": [
+        {
+          "title": "EO 14409 full text (White House)",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        },
+        {
+          "title": "EO 14409 context (Wikipedia regulatory tracker)",
+          "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence_in_the_United_States"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "'Agentjacking' attack exploits MCP/Sentry trust boundary to hijack Claude Code, Cursor, and Codex — 85% success rate, 2,388 organizations exposed",
+      "summary": "Tenet Security disclosed a new class of real-world attack in which a single fake Sentry error report — sent via the public, unauthenticated DSN endpoint — is picked up through the Sentry MCP server and executed by AI coding agents as trusted instructions, stealing AWS keys, GitHub tokens, CI/CD credentials, and private repo URLs; 100+ controlled agent executions were confirmed at organizations ranging from Fortune 100 enterprises down to solo developers, and the attack bypasses all traditional security controls because every action in the chain is technically authorized.",
+      "links": [
+        {
+          "title": "Tenet Security original report",
+          "url": "https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/"
+        },
+        {
+          "title": "Agentjacking: a fake bug report can hijack your AI coding agent (The Next Web)",
+          "url": "https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry"
+        },
+        {
+          "title": "New 'Agentjacking' Attacks Could Hijack AI Coding Agents (Infosecurity Magazine)",
+          "url": "https://www.infosecurity-magazine.com/news/agentjacking-attacks-hijack-ai/"
+        },
+        {
+          "title": "CSA research note on MCP injection (Cloud Security Alliance)",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-agentjacking-mcp-sentry-injection-20260612/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Illinois AI Safety Measures Act (SB 315) passed legislature unanimously, awaits governor's signature — first US law mandating mandatory third-party audits of frontier models",
+      "summary": "Illinois SB 315 passed the House 110-0 on May 27 and the Senate 52-5; it requires large frontier AI developers to publish and annually update safety frameworks, submit pre-deployment transparency reports, undergo annual independent third-party audits, report critical safety incidents, and provide whistleblower protections — with Gov. Pritzker publicly indicating he will sign it, making Illinois the first state to mandate external audits (California and New York RAISE Act required safety frameworks but not mandatory third-party audits).",
+      "links": [
+        {
+          "title": "Illinois SB 315 bill status (ILGA official)",
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&LegId=157797&SessionID=114"
+        },
+        {
+          "title": "Illinois Legislature passes historic AI bill requiring third-party audits (NBC News)",
+          "url": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191"
+        },
+        {
+          "title": "Illinois' Landmark AI Law Sets a New Standard for Oversight (GovTech)",
+          "url": "https://www.govtech.com/artificial-intelligence/illinois-landmark-ai-law-sets-a-new-standard-for-oversight"
+        },
+        {
+          "title": "Transparency Coalition analysis",
+          "url": "https://www.transparencycoalition.ai/news/illinois-lawmakers-send-landmark-ai-frontier-model-safety-bill-to-gov-pritzker"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Alphabet stock falls 5–6% on June 22 as back-to-back Google AI researcher departures raise talent-drain alarms",
+      "summary": "Alphabet shares dropped approximately 5–6% on June 22, with market reports linking the decline to concerns about Google's ability to retain senior AI talent after both Gemini co-lead Noam Shazeer (to OpenAI) and AlphaFold Nobel laureate John Jumper (to Anthropic) announced departures within the same week, while Bloomberg reported DeepMind staff have raised concerns about the absence of a clear AI coding-tools product to compete with Anthropic and OpenAI.",
+      "links": [
+        {
+          "title": "Google loses two top AI researchers to OpenAI and Anthropic (Search Engine Journal)",
+          "url": "https://www.searchenginejournal.com/google-loses-two-top-ai-researchers-to-openai-anthropic/580201/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Third Circuit hears oral argument in Thomson Reuters v. ROSS — first federal appeals court review of AI training fair use",
+      "summary": "On June 11, 2026, the Third Circuit heard oral argument in Thomson Reuters v. ROSS Intelligence, the first time a federal appellate court has directly considered whether training an AI on copyrighted material constitutes fair use; the District of Delaware had already ruled against ROSS in February 2025, and the outcome will set binding precedent affecting the entire AI industry's training-data practices.",
+      "links": [
+        {
+          "title": "AI Copyright Lawsuits 2026 Status Tracker (Axis Intelligence)",
+          "url": "https://axis-intelligence.com/ai-copyright-lawsuits-status-tracker/"
+        },
+        {
+          "title": "AI copyright cases update 2026 (Norton Rose Fulbright)",
+          "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.13474 — Systems-safety methods (STPA/STECA/FRAM) surface governance gaps in agentic frontier-AI deployment that model-level evals miss",
+      "summary": "Applying established systems-safety methods to a generic frontier-lab agentic-coding scenario reconstructed from public materials, this paper finds that published safety frameworks leave governance responsibilities and feedback loops externally unverifiable, monitoring delays can render otherwise valid control actions ineffective, and routine operational variability can cascade into loss-of-control events — suggesting model-behavior evaluations alone are insufficient for agentic AI safety assurance.",
+      "links": [
+        {
+          "title": "Exploring Systems-Thinking Approaches to Loss of Control Risk (arXiv 2606.13474)",
+          "url": "https://arxiv.org/abs/2606.13474"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic identity-verification rollout (July 8) signals phased path to US-only Fable 5 restoration without fully lifting export directive",
+      "summary": "Anthropic has quietly updated its privacy policy (effective July 8, 2026) to collect government-issued IDs, biometrics, and facial geometry via third-party vendor Persona — a move widely interpreted as groundwork for restoring Fable 5 access to US citizens who submit identity verification, bypassing the need to formally lift the Commerce Department directive barring all foreign nationals, though no official restoration date has been announced.",
+      "links": [
+        {
+          "title": "Fable 5 ban update with identity verification path analysis (ExplainX)",
+          "url": "https://www.explainx.ai/blog/us-government-bans-fable-5-mythos-5-anthropic-export-control-2026"
+        },
+        {
+          "title": "Is Fable 5 Back? Status June 23 2026 (ExplainX)",
+          "url": "https://explainx.ai/blog/is-fable-5-back-2026"
+        }
+      ]
+    }
+  ]
+}
