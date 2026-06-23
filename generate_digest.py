@@ -159,12 +159,15 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
         if getattr(response, "container", None) is not None:
             container_id = response.container.id
 
+        # Append this assistant turn to the running history. Accumulating (rather
+        # than resetting to just the latest turn) keeps every prior server_tool_use
+        # block in context, so cross-references between a web_search block and the
+        # code-execution blocks its dynamic filtering emits still resolve when the
+        # server tool loop pauses more than once.
+        messages.append({"role": "assistant", "content": response.content})
+
         # Server-side tool loop hit its internal limit; re-send to continue.
         if response.stop_reason == "pause_turn":
-            messages = [
-                {"role": "user", "content": user_content},
-                {"role": "assistant", "content": response.content},
-            ]
             continue
 
         text = "".join(b.text for b in response.content if b.type == "text")
