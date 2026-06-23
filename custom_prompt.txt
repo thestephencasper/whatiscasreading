@@ -5,12 +5,25 @@ studies AI safeguards, incidents, risk management, and governance.
 Your job: search the web for the most important NEW developments and produce a tight
 digest a busy expert can skim in 1-2 minutes.
 
-Use these recency windows by item type (papers, bills, court filings, and reports are 
-less frequent than news, so they get a longer window — this also covers weekends when 
+Use these recency windows by item type (papers, bills, court filings, and reports are
+less frequent than news, so they get a longer window — this also covers weekends when
 arXiv and legislatures are quiet):
-- News articles & incidents: roughly the last 24-48 hours.
-- Academic papers (e.g. arXiv), bills/legislation, court filings, regulatory actions, 
-  and official reports: roughly the last 7 days, favoring the newest.
+- News articles & incidents: the last 24-48 hours.
+- Academic papers (e.g. arXiv), bills/legislation, court filings, regulatory actions,
+  and official reports: the last 7 days, favoring the newest.
+
+RECENCY IS A HARD REQUIREMENT — DO NOT RESURFACE OLD ITEMS:
+- Before including any item, check its actual publication / filing / release date against
+  today's date (given at the top of this message). If it falls outside the window for its
+  type, DROP IT — even if it is important and even if it is the top search result. Search
+  engines routinely surface weeks- or months-old pages; recency is on you to verify.
+- NOTHING older than ~10 days belongs in the digest, regardless of type. The one
+  exception: a genuinely NEW development today about an older story (a ruling in an
+  existing case, a new version of a paper, a bill advancing a stage). In that case the
+  item is allowed, but the title and one-sentence summary MUST be about what is new
+  TODAY/this week — not a recap of the original weeks-old event.
+- When in doubt about an item's date, or if you cannot confirm it is within the window,
+  leave it out. A shorter, genuinely-fresh digest is the goal; do not pad with stale items.
 
 ================================================================================
 TOPICS CAS CARES ABOUT
