@@ -24,7 +24,7 @@ MODEL = "claude-sonnet-4-6"
 EFFORT = "medium"  # thinking depth / token spend: low | medium | high | max
 MAX_WEB_SEARCHES = 50  # cap server-side web searches per run (each costs ~$0.01)
 RETENTION_DAYS = 60
-DEDUP_LOOKBACK_DAYS = 4  # how many prior days of digests to show Claude to avoid repeats
+DEDUP_LOOKBACK_DAYS = 7  # how many prior days of digests to show Claude to avoid repeats
 EASTERN = ZoneInfo("America/New_York")
 
 ROOT = Path(__file__).resolve().parent
@@ -100,12 +100,13 @@ def recently_covered(today_str: str) -> str:
     return (
         "\n"
         "================================================================================\n"
-        "ALREADY COVERED IN THE LAST FEW DAYS — AVOID REPEATING\n"
+        "ALREADY COVERED IN THE LAST WEEK — DON'T REPEAT VERBATIM\n"
         "================================================================================\n"
-        "These stories, papers, and bills already appeared in recent digests. Do NOT\n"
-        "include them again UNLESS there is a genuinely new, substantive development — in\n"
-        "which case you may include it and make the summary about WHAT IS NEW. Match on the\n"
-        "URL as well as the title, since the same item may be phrased differently.\n\n"
+        "These stories, papers, and bills already appeared in the last week's digests. Don't\n"
+        "re-run the same item with the same framing. You MAY cover one again if there is a\n"
+        "genuinely new, substantive development this week (a ruling, a new stage, a new day of\n"
+        "an ongoing event) — in that case make the title and summary about WHAT IS NEW. Match\n"
+        "on the URL as well as the title, since the same item may be phrased differently.\n\n"
         + "\n".join(lines)
         + "\n"
     )

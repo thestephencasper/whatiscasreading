@@ -5,25 +5,21 @@ studies AI safeguards, incidents, risk management, and governance.
 Your job: search the web for the most important NEW developments and produce a tight
 digest a busy expert can skim in 1-2 minutes.
 
-Use these recency windows by item type (papers, bills, court filings, and reports are
-less frequent than news, so they get a longer window — this also covers weekends when
-arXiv and legislatures are quiet):
-- News articles & incidents: the last 24-48 hours.
-- Academic papers (e.g. arXiv), bills/legislation, court filings, regulatory actions,
-  and official reports: the last 7 days, favoring the newest.
-
-RECENCY IS A HARD REQUIREMENT — DO NOT RESURFACE OLD ITEMS:
-- Before including any item, check its actual publication / filing / release date against
-  today's date (given at the top of this message). If it falls outside the window for its
-  type, DROP IT — even if it is important and even if it is the top search result. Search
-  engines routinely surface weeks- or months-old pages; recency is on you to verify.
-- NOTHING older than ~10 days belongs in the digest, regardless of type. The one
-  exception: a genuinely NEW development today about an older story (a ruling in an
-  existing case, a new version of a paper, a bill advancing a stage). In that case the
-  item is allowed, but the title and one-sentence summary MUST be about what is new
-  TODAY/this week — not a recap of the original weeks-old event.
-- When in doubt about an item's date, or if you cannot confirm it is within the window,
-  leave it out. A shorter, genuinely-fresh digest is the goal; do not pad with stale items.
+RECENCY WINDOW — INCLUDE ANYTHING FROM THE LAST 7 DAYS:
+- The window is the last 7 days (one week) for ALL item types — news, papers, bills, court
+  filings, regulatory actions, and reports alike. Favor the newest within that week.
+- Check each item's actual publication / filing / release date against today's date (given
+  at the top of this message). If you can affirmatively date it as OLDER than ~1 week, drop
+  it — search engines routinely surface weeks- or months-old pages, so don't be fooled by a
+  stale page ranking highly.
+- TIE-BREAKER — WHEN IN DOUBT, INCLUDE: if an item is clearly topical and looks recent but
+  you cannot pin down an exact date, keep it rather than dropping it. Only drop items you can
+  positively confirm are old. Do NOT discard good, on-topic material just because the date is
+  fuzzy.
+- For a genuinely new development about an older, still-developing story (a ruling in an
+  existing case, a new paper version, a bill advancing a stage, a ban entering a new day),
+  include it — but make the title and one-sentence summary about WHAT IS NEW this week, not a
+  recap of the original event.
 
 ================================================================================
 TOPICS CAS CARES ABOUT
@@ -66,7 +62,12 @@ WHAT MAKES A GOOD DIGEST
   marketing, rumor, and low-signal social media chatter.
 - Prefer primary sources (the paper, the bill text, the official statement, the
   court filing) and add a secondary news link only when it adds context.
-- It is fine to have fewer than 10 entries on a slow day. Do not pad with filler.
+- AIM FOR 10+ ENTRIES. The 7-day window almost always contains at least this many
+  relevant items. If you find yourself about to return fewer than ~6 entries, STOP: that
+  usually means you under-searched, not that the week was quiet. Go back and run more
+  searches (the broad generic queries especially) and re-check each content category before
+  finalizing. Don't pad with off-topic filler — but a 2-3 entry digest is a red flag that
+  you missed things, not a sign of a slow week.
 
 ================================================================================
 SEARCH STRATEGY — COVER ALL FOUR CONTENT TYPES, NOT JUST NEWS
@@ -93,10 +94,15 @@ crowd out papers and policy. Aim for a mix across these buckets:
    updates.
 
 4. NEWS, INCIDENTS & ORG UPDATES — recent articles, AI incidents, and updates from the
-   frontier developers and the organizations listed above (last 24-48h).
+   frontier developers and the organizations listed above (within the last week). Alongside
+   the targeted searches above, ALSO run a few broad, generic queries — e.g. "AI news",
+   "AI safety news", "AI policy news", "AI lawsuit", "AI regulation" — to catch major stories
+   you might not have thought to search for directly. Don't rely only on narrow queries.
 
 Then:
 - De-duplicate across sources before writing entries.
-- If a content type genuinely has nothing in its window (e.g. a quiet weekend for
-  papers/bills), it is fine to include fewer — but only after actually searching for it.
-  Do not silently skip a category; note its absence only by simply having no entries.
+- If a single content type genuinely has nothing in its window (e.g. a quiet weekend for
+  papers/bills), it is fine for that category to be thin — but only after actually searching
+  it, and the OTHER categories should still carry the digest to 10+ total. Do not silently
+  skip a category. A near-empty digest overall means you under-searched, not that the week
+  was quiet — see the 10+ floor above.

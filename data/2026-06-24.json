@@ -1,38 +1,155 @@
 {
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T13:56:29+00:00",
+  "generated_at": "2026-06-24T18:46:26+00:00",
   "entries": [
     {
       "tag": "News",
-      "title": "Waymo's Sixth AV Recall in Two Years: 3,871 Robotaxis for Freeway Construction-Zone Failures",
-      "summary": "Waymo filed its second voluntary NHTSA recall in just over a month after 13 incidents in April–May where its 5th-generation ADS drove into closed freeway construction zones in Phoenix and San Francisco, underscoring a growing pattern of real-world edge-case failures as the company aggressively expands to 20+ cities.",
+      "title": "OpenAI Expands Daybreak Cybersecurity Initiative, Releases Full GPT-5.5-Cyber",
+      "summary": "On June 22–23, OpenAI expanded its Daybreak platform — releasing GPT-5.5-Cyber (85.6% on CyberGym benchmark), the Patch the Planet open-source remediation program, and a new Cyber Partner Program integrating with IBM, Cisco, CrowdStrike and others — intensifying the AI-driven cybersecurity arms race against Anthropic's Glasswing/Mythos and raising dual-use governance questions OpenAI says it addresses via tiered access controls and CAISI pre-deployment coordination.",
       "links": [
         {
-          "title": "CBS News: Waymo recalls nearly 3,900 robotaxis after construction zone incidents",
-          "url": "https://www.cbsnews.com/news/waymo-recall-robotaxis-closed-freeway-construction-zone/"
+          "title": "OpenAI Daybreak (official)",
+          "url": "https://openai.com/daybreak/"
         },
         {
-          "title": "CNBC: Waymo recalls about 3,900 robotaxis after some drove into freeway construction zones",
-          "url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html"
+          "title": "SecurityWeek: OpenAI refocuses on patching over discovery",
+          "url": "https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/"
         },
         {
-          "title": "Engadget: Waymo recalls over 3,800 robotaxis that might drive onto closed freeways",
-          "url": "https://www.engadget.com/2197051/waymo-recalls-3800-robotaxis-that-might-drive-onto-closed-freeways/"
+          "title": "Cybernews: Experts warn AI finds flaws faster than defenders can fix",
+          "url": "https://cybernews.com/security/openai-daybreak-finds-flaws-faster-than-defenders-can-fix/"
         },
         {
-          "title": "Startup Fortune: Waymo's fourth recall in two years exposes a pattern the robotaxi industry can't ignore",
-          "url": "https://startupfortune.com/waymos-fourth-recall-in-two-years-exposes-a-pattern-the-robotaxi-industry-cant-afford-to-ignore/"
+          "title": "CybersecurityNews: GPT-5.5-Cyber benchmarks",
+          "url": "https://cybersecuritynews.com/gpt-5-5-cyber/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "FERC Unanimously Orders 6 US Grid Operators to Justify or Reform AI Data Center Power Rules Within 60 Days",
+      "summary": "On June 18, FERC issued tailored show-cause orders to PJM, MISO, Southwest Power Pool, CAISO, ISO-NE, and NYISO — covering roughly 200 million Americans — directing each to defend or rewrite tariffs for large-load customers within 60 days, marking the first binding federal regulatory action to treat AI infrastructure power demand as a national priority.",
+      "links": [
+        {
+          "title": "FERC press release (official)",
+          "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+        },
+        {
+          "title": "Data Center Knowledge: FERC targets grid rules for data centers",
+          "url": "https://www.datacenterknowledge.com/build-design/ferc-targets-grid-rules-for-data-centers-and-large-loads"
+        },
+        {
+          "title": "American Action Forum analysis",
+          "url": "https://www.americanactionforum.org/insight/ferc-data-center-orders-accelerate-grid-connection/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU Selects EUROPA Consortium to Build Open-Source 400B+ Parameter Frontier AI Model in All 24 EU Languages",
+      "summary": "On June 19, the European Commission chose the Domyn-led EUROPA consortium (with Fraunhofer-Gesellschaft) as winner of its Frontier AI Grand Challenge, awarding 2.5% of EuroHPC annual compute to train an open-source, 400B+ parameter model in all 24 official EU languages — the EU's clearest move to compete at the model layer rather than just regulate, raising open-weight governance and strategic-autonomy questions.",
+      "links": [
+        {
+          "title": "European Commission press release (official)",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open"
+        },
+        {
+          "title": "Agence Europe coverage",
+          "url": "https://agenceurope.eu/en/bulletin/article/13892/17/european-commission-selects-domyn-led-consortium-europa-to-develop-europes-cutting-edge-open-source-ai-model"
+        },
+        {
+          "title": "Bruno Digital analysis",
+          "url": "https://bruno.digital/news/europe-domyn-europa-frontier-ai-grande-challenge-24-languages"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI- and Anthropic-Backed Super PACs Spend $43M+ in 2026 Midterms, Waging Rival AI Regulation Wars",
+      "summary": "NPR reported June 22–24 that OpenAI-aligned 'Leading the Future' (funded by a16z and Greg Brockman, ~$23.5M spent) and Anthropic-backed 'Public First' (~$16.6M+) are running opposing campaigns in dozens of congressional races — OpenAI pushing deregulation, Anthropic opposing federal preemption of state AI safeguards — marking a new era of direct frontier-lab electoral intervention in AI governance.",
+      "links": [
+        {
+          "title": "NPR: Groups tied to OpenAI and Anthropic spending big on midterms",
+          "url": "https://www.npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "China Retaliates Against 56 US Firms with Export Controls and Procurement Bans After Pentagon AI-Related Blacklist",
+      "summary": "On June 22, China's Ministry of Commerce placed 10 US companies (including rare-earth miners MP Materials and USA Rare Earth) on its export control list and banned 46 others from Chinese government procurement, directly retaliating for the Pentagon's June 8 expansion of its military-linked blacklist (adding Alibaba, Baidu, BYD) — escalating US–China tech bifurcation with direct implications for AI chip and critical-minerals supply chains.",
+      "links": [
+        {
+          "title": "CNBC: China imposes trade curbs on dozens of US firms",
+          "url": "https://www.cnbc.com/2026/06/22/china-trade-curbs-us-companies-export-controls-procurement-exclusion-pentagon-list-.html"
+        },
+        {
+          "title": "Al Jazeera: China adds 10 US firms to export control list",
+          "url": "https://www.aljazeera.com/news/2026/6/22/china-adds-10-us-firms-including-rare-earth-miner-to-export-control-list"
+        },
+        {
+          "title": "The Next Web coverage",
+          "url": "https://thenextweb.com/news/china-trade-curbs-us-firms-pentagon-list"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "'Pickle in the Middle' — Unit 42 Discloses Bucket-Squatting Flaw Enabling Cross-Tenant RCE via Vertex AI Model Poisoning",
+      "summary": "Palo Alto Networks Unit 42 publicly disclosed (June 16) that Google's Vertex AI Python SDK (versions 1.139–1.140) used a predictable, ownership-unverified staging bucket name, letting an attacker with no victim access pre-register the bucket and swap model artifacts mid-upload — achieving remote code execution via pickle deserialization in Vertex AI's serving infrastructure; the bug is patched in v1.148.0 with no observed exploitation.",
+      "links": [
+        {
+          "title": "Unit 42 full disclosure (primary)",
+          "url": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/"
+        },
+        {
+          "title": "The Hacker News coverage",
+          "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html"
+        },
+        {
+          "title": "CSO Online coverage",
+          "url": "https://www.csoonline.com/article/4186193/googles-vertex-ai-sdk-could-allow-rce-through-bucket-squatting.html"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act Advisory Forum Holds Inaugural Session; AI Office Opens Call for GPAI External Evaluators",
+      "summary": "On June 19, the European Commission held the inaugural meeting of the AI Act Advisory Forum — the broad multi-stakeholder body advising on AI Act implementation — and the EU AI Office simultaneously published a call for participants in a July 15 workshop on qualification requirements for external evaluators of general-purpose AI models with systemic risk, marking the first concrete steps to operationalize third-party GPAI model evaluation under EU law.",
+      "links": [
+        {
+          "title": "EU AI Office (official, see press items for June 19)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+        },
+        {
+          "title": "EU AI Act standardisation page (Advisory Forum detail)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU Consultation on High-Risk AI Classification Guidelines Closes June 23; Final Guidelines Expected Ahead of August 2 Deadline",
+      "summary": "The European Commission's targeted stakeholder consultation on draft guidelines for classifying high-risk AI systems closed June 23, with feedback to be incorporated before official adoption — the finalized guidelines must be ready ahead of the EU AI Act's August 2, 2026 full-applicability date, creating an extremely compressed timeline for businesses in high-risk sectors.",
+      "links": [
+        {
+          "title": "EC guidelines page (official)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-high-risk-systems"
+        },
+        {
+          "title": "EU AI Act timeline (service desk)",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
         }
       ]
     },
     {
       "tag": "Paper",
-      "title": "MuPPET: Contextual Privacy Benchmark for LLM Assistants in Multi-Party Conversations (arXiv 2606.23217)",
-      "summary": "New benchmark (submitted June 23) evaluates whether LLM assistants respect contextual privacy norms — i.e., whether they appropriately gate information disclosure across participants — in multi-party conversation settings, a sociotechnical failure mode with direct relevance to enterprise and consumer AI deployment safety.",
+      "title": "arXiv 2605.24383 — Open-Weight AI Model License Restrictions Lose Traceability After ~7 Downstream Generations ('Governance Horizon')",
+      "summary": "Auditing 2.1 million Hugging Face repositories, this paper (submitted May 23) finds that restriction evidence in open-weight model lineages decays with a half-life of 1.31 derivation steps, and beyond 7 downstream generations at least 80% of models lack sufficient public evidence for a governance determination — a 'governance horizon' showing that disclosure-based policies alone cannot sustain ethical-use traceability at scale.",
       "links": [
         {
-          "title": "arXiv 2606.23217: MuPPET: A Benchmark for Contextual Privacy of LLM Assistants in Multi-Party Conversations",
-          "url": "https://arxiv.org/abs/2606.23217"
+          "title": "arXiv 2605.24383",
+          "url": "https://arxiv.org/abs/2605.24383"
         }
       ]
     }
