@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T13:56:29+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Waymo's Sixth AV Recall in Two Years: 3,871 Robotaxis for Freeway Construction-Zone Failures",
+      "summary": "Waymo filed its second voluntary NHTSA recall in just over a month after 13 incidents in April–May where its 5th-generation ADS drove into closed freeway construction zones in Phoenix and San Francisco, underscoring a growing pattern of real-world edge-case failures as the company aggressively expands to 20+ cities.",
+      "links": [
+        {
+          "title": "CBS News: Waymo recalls nearly 3,900 robotaxis after construction zone incidents",
+          "url": "https://www.cbsnews.com/news/waymo-recall-robotaxis-closed-freeway-construction-zone/"
+        },
+        {
+          "title": "CNBC: Waymo recalls about 3,900 robotaxis after some drove into freeway construction zones",
+          "url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html"
+        },
+        {
+          "title": "Engadget: Waymo recalls over 3,800 robotaxis that might drive onto closed freeways",
+          "url": "https://www.engadget.com/2197051/waymo-recalls-3800-robotaxis-that-might-drive-onto-closed-freeways/"
+        },
+        {
+          "title": "Startup Fortune: Waymo's fourth recall in two years exposes a pattern the robotaxi industry can't ignore",
+          "url": "https://startupfortune.com/waymos-fourth-recall-in-two-years-exposes-a-pattern-the-robotaxi-industry-cant-afford-to-ignore/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MuPPET: Contextual Privacy Benchmark for LLM Assistants in Multi-Party Conversations (arXiv 2606.23217)",
+      "summary": "New benchmark (submitted June 23) evaluates whether LLM assistants respect contextual privacy norms — i.e., whether they appropriately gate information disclosure across participants — in multi-party conversation settings, a sociotechnical failure mode with direct relevance to enterprise and consumer AI deployment safety.",
+      "links": [
+        {
+          "title": "arXiv 2606.23217: MuPPET: A Benchmark for Contextual Privacy of LLM Assistants in Multi-Party Conversations",
+          "url": "https://arxiv.org/abs/2606.23217"
+        }
+      ]
+    }
+  ]
+}
