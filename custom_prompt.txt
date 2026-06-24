@@ -78,7 +78,11 @@ crowd out papers and policy. Aim for a mix across these buckets:
 
 1. ACADEMIC PAPERS — recent arXiv work on the topics above (jailbreaks/red-teaming,
    evaluations/audits, robustness, open-weight model safety, frontier risks); check arXiv
-   listing/search pages directly. Aim for 2-4 paper entries when any exist in the window.
+   listing/search pages directly. As a starting point for surfacing recent on-topic papers,
+   use the redirect link https://vjunetxuuftofi.github.io/arxivredirect/ — it points to the
+   full list of CS papers submitted to arXiv the prior day (usually a few hundred), which you
+   should scan for on-topic work — and follow through to the underlying arXiv papers. Aim for
+   2-4 paper entries when any exist in the window.
 
 2. BILLS, LEGISLATION & REGULATION — new AI bills, executive actions, regulatory filings,
    and official guidance from the US (Congress, states, agencies, CAISI), EU (AI Act,
