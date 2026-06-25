@@ -1,0 +1,136 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T13:53:27+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Satya Nadella (WSJ): Frontier-Model Power Concentration 'The Political Economy Will Simply Not Tolerate'",
+      "summary": "In a June 21 Wall Street Journal interview, Microsoft CEO Satya Nadella — whose company backs OpenAI and Anthropic — publicly warned that concentrating all AI value in 'a few models that eat everything they see' is economically dangerous and politically unsustainable, calling on the AI industry to 'earn societal permission' rather than making job-loss predictions while demanding unchecked infrastructure expansion.",
+      "links": [
+        {
+          "title": "Business Today coverage of WSJ interview, June 22, 2026",
+          "url": "https://www.businesstoday.in/amp/technology/news/story/microsofts-satya-nadella-calls-for-an-ai-reset-warns-against-openai-anthropic-dominance-538392-2026-06-22"
+        },
+        {
+          "title": "AI Weekly analysis",
+          "url": "https://aiweekly.co/node/3384"
+        },
+        {
+          "title": "The Street, June 24, 2026",
+          "url": "https://www.thestreet.com/technology/microsofts-ceo-sends-the-ai-industry-a-strong-warning"
+        },
+        {
+          "title": "Tech Times coverage",
+          "url": "https://www.techtimes.com/articles/318809/20260621/nadella-names-openai-anthropic-ai-giants-must-earn-societal-permission.htm"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Loses Two More Senior Researchers (Adler, Pritzel) to Anthropic",
+      "summary": "Bloomberg reported June 24 that Jonas Adler (AI coding) and Alexander Pritzel (model training), both key Gemini contributors, are leaving Google for Anthropic — the fifth and sixth high-profile departures in weeks, following Noam Shazeer to OpenAI and Nobel laureate John Jumper to Anthropic, raising serious questions about Google's competitive position.",
+      "links": [
+        {
+          "title": "Bloomberg, June 24, 2026",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Reflection AI Raises at $25B Valuation as US Open-Weight Frontier Alternative; Signs $6.3B SpaceX Compute Deal",
+      "summary": "Reflection AI (co-founded by ex-DeepMind veterans, backed by Nvidia and Sequoia) announced a new funding round at a $25B valuation and a $6.3B compute lease with SpaceX Colossus on June 22, explicitly positioning itself as the 'American, open-weight, frontier-scale' option for governments and enterprises that won't use closed US labs or Chinese models — directly relevant to open-weight safety and AI power-concentration debates.",
+      "links": [
+        {
+          "title": "Build Fast With AI, June 24, 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "China's AI Sector Raises Record $7.4B in One Week, Accelerating Open-Weight Alternatives to US Frontier Models",
+      "summary": "Chinese AI developers raised $7.4 billion in a single week — their largest single-week total ever — partly in direct response to the US export ban on Anthropic's Fable 5, with Zhipu AI's MIT-licensed GLM-5.2 (744B parameters) already gaining enterprise adoption among organizations locked out of US frontier models.",
+      "links": [
+        {
+          "title": "Top 10 AI Stories June 24 (unrot.co)",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-june-24-2026"
+        },
+        {
+          "title": "Radical Data Science AI News Briefs, June 24, 2026",
+          "url": "https://radicaldatascience.wordpress.com/2026/06/24/ai-news-briefs-bulletin-board-for-june-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act Article 50 Transparency Obligations Take Effect August 2 — New Compliance Guidance Published",
+      "summary": "A June 24 Sidley client alert details that from August 2, 2026, all organizations must comply with EU AI Act Article 50 transparency rules — including AI system disclosure, chatbot identification, and synthetic-content labeling — and critically, these obligations are NOT delayed by the Digital Omnibus amendments that pushed back high-risk-system rules.",
+      "links": [
+        {
+          "title": "Sidley Data Matters, June 24, 2026",
+          "url": "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act Amendments Awaiting European Council Formal Adoption; Nudifier Ban Takes Effect December 2",
+      "summary": "A June 24 Morgan Lewis analysis confirms the European Council is now expected to formally adopt the Digital Omnibus amendments by August 2, completing their transition into law; the amendments introduce a new ban on nudifier AI applications (non-consensual intimate imagery / CSAM generators) effective December 2, 2026.",
+      "links": [
+        {
+          "title": "Morgan Lewis, June 24, 2026",
+          "url": "https://www.morganlewis.com/pubs/2026/06/eu-approves-delays-and-other-amendments-to-certain-eu-ai-act-obligations-what-businesses-should-know"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.19660 — Three-Layer Security Middleware Cuts Prompt-Injection ASR from 71% to 11% in RAG Chatbots",
+      "summary": "A new paper (June 18) proposes a model-agnostic three-layer security framework for RAG-based chatbots — combining input classification, semantic routing, and output auditing — that reduces attack success rates from 71.4% to 11.3% across GPT-4o, Llama 3, and Mistral 7B, outperforming published guardrail systems by 23.8 percentage points at 61ms latency overhead.",
+      "links": [
+        {
+          "title": "arXiv 2606.19660",
+          "url": "https://arxiv.org/abs/2606.19660v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.25973 — Human Study: LLM-Assisted Vulnerability Patching Raises Safety Tradeoffs",
+      "summary": "A June 25 arXiv paper (accepted at IEEE EuroS&P Workshop) reports a human-subject study evaluating LLM-assisted vulnerability patching, finding that AI-generated patches can introduce new security issues despite accelerating remediation — directly relevant to the governance debate around AI-augmented cybersecurity being pursued by programs like OpenAI Daybreak.",
+      "links": [
+        {
+          "title": "arXiv 2606.25973",
+          "url": "https://arxiv.org/abs/2606.25973"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Fable 5 Remains Offline Day 13 — NSA Testimony Reframes Ban as Autonomous-Capability Concern, Not Jailbreak",
+      "summary": "As of June 24, Anthropic's Fable 5 and Mythos 5 remain offline (day 12-13), and reporting this week clarifies that the government's core concern is not a software-patchable jailbreak but Mythos's demonstrated ability to autonomously breach classified systems — meaning restoration requires a policy negotiation, not a technical fix.",
+      "links": [
+        {
+          "title": "Top 10 AI Stories June 24 (unrot.co)",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-june-24-2026"
+        },
+        {
+          "title": "AI News June 24 (Build Fast With AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "Black Duck Security: 97% of Developers Use AI Coding Tools but Only One-Third Have AI Governance Frameworks",
+      "summary": "A June 2026 Black Duck Security study found 97% of developers now use AI coding tools (GitHub Copilot 83%, Claude Code 63%), but only one-third of organizations have governance frameworks covering AI-generated code — flagging a major sociotechnical safety gap as AI output enters production systems without IP, security, or review policies.",
+      "links": [
+        {
+          "title": "Build Fast With AI, June 21, 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026"
+        }
+      ]
+    }
+  ]
+}
