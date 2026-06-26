@@ -144,9 +144,13 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
     messages = [{"role": "user", "content": user_content}]
 
     for _ in range(15):  # safety cap on continuation rounds
-        response = client.messages.create(
+        # Stream the response. A web-search + thinking turn can run long, and the SDK
+        # refuses NON-streaming requests it estimates may exceed 10 minutes
+        # ("Streaming is required for operations that may take longer than 10 minutes").
+        # We don't need the incremental tokens, so we just collect the final message.
+        with client.messages.stream(
             model=MODEL,
-            max_tokens=16000,
+            max_tokens=24000,
             thinking={"type": "adaptive"},
             output_config={"effort": EFFORT},
             # Auto-cache the last block too, so accumulated search results carry over
@@ -154,7 +158,8 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
             cache_control={"type": "ephemeral"},
             tools=tools,
             messages=messages,
-        )
+        ) as stream:
+            response = stream.get_final_message()
 
         # Server-side tool loop hit its internal limit; re-send to continue. With the
         # basic web_search variant the response is self-contained, so resetting to
@@ -167,6 +172,14 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
             continue
 
         text = "".join(b.text for b in response.content if b.type == "text")
+        if not text.strip():
+            # No text block in the final turn. Surface why instead of returning ""
+            # (which downstream would hit as an unhelpful empty-JSON parse error).
+            block_types = sorted({b.type for b in response.content})
+            raise RuntimeError(
+                f"Web-search agent produced no text (stop_reason={response.stop_reason}, "
+                f"blocks={block_types}). Likely truncated before the JSON answer."
+            )
         return text
 
     raise RuntimeError("Web-search agent did not finish within the round limit.")
@@ -230,16 +243,28 @@ def main() -> int:
     date_str = datetime.now(EASTERN).strftime("%Y-%m-%d")
 
     print(f"Generating digest for {date_str} ...")
-    reply = run_agent(client, build_prompt())
+    prompt = build_prompt()
 
-    try:
-        data = extract_json(reply)
-        entries = data["entries"]
-        assert isinstance(entries, list) and entries
-    except (ValueError, KeyError, AssertionError) as e:
-        print("Failed to parse model output as JSON. Raw reply follows:\n")
-        print(reply)
-        sys.exit(f"Parse error: {e}")
+    entries = None
+    last_error = None
+    last_reply = ""
+    for attempt in range(1, 4):  # transient empty/truncated turns: retry the whole run
+        reply = ""
+        try:
+            reply = run_agent(client, prompt)
+            data = extract_json(reply)
+            entries = data["entries"]
+            assert isinstance(entries, list) and entries
+            break
+        except (ValueError, KeyError, AssertionError, RuntimeError) as e:
+            last_error = e
+            last_reply = reply
+            print(f"Attempt {attempt}/3 failed: {e}")
+
+    if entries is None:
+        print("\nGiving up. Last raw reply follows:\n")
+        print(last_reply)
+        sys.exit(f"Parse error: {last_error}")
 
     out = write_digest(date_str, entries)
     print(f"Wrote {len(entries)} entries to {out}")
