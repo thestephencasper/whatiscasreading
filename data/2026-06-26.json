@@ -1,0 +1,179 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T22:38:56+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Five Eyes Issues Rare Joint Warning: Frontier AI Cyberattacks Are 'Months, Not Years' Away",
+      "summary": "The US, UK, Canada, Australia, and New Zealand issued an unusual public joint statement on June 23 warning that frontier AI models are on track to enable devastating, large-scale cyberattacks against governments and businesses within months, and urged leaders to 'act now' to harden defenses — the statement explicitly cites the Anthropic Mythos 5 ban as context and notes AI already lowers barriers for malicious actors.",
+      "links": [
+        {
+          "title": "NSA — Five Eyes Cyber Security Agencies Statement (primary)",
+          "url": "https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/4523810/five-eyes-cyber-security-agencies-statement/"
+        },
+        {
+          "title": "CNN — AI could breach government and business defenses in months",
+          "url": "https://www.cnn.com/2026/06/23/world/ai-five-eyes-warning-cyber-threat-intl-hnk"
+        },
+        {
+          "title": "CBS News — AI on pace to bypass cybersecurity systems in months, not years",
+          "url": "https://www.cbsnews.com/news/ai-bypass-cybersecurity-systems-months-not-years-five-eyes/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Tells Senate Alibaba-Linked Operators Ran Record 28.8M-Exchange Distillation Attack on Claude",
+      "summary": "Anthropic's June 10 letter to Senate Banking Committee chairs Tim Scott and Elizabeth Warren — first reported by Bloomberg on June 24 — accuses operators affiliated with Alibaba's Qwen AI lab of using ~25,000 fraudulent accounts to generate 28.8 million unauthorized Claude exchanges over six weeks (April 22–June 5), targeting frontier agentic-reasoning and software-engineering capabilities, dwarfing all prior Chinese AI distillation campaigns combined; Anthropic urges Congress to impose penalties and strengthen AI IP-theft countermeasures.",
+      "links": [
+        {
+          "title": "CNBC — Anthropic accuses Alibaba of campaign to 'brazenly' and 'illicitly' extract AI capabilities",
+          "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html"
+        },
+        {
+          "title": "TechTimes — Alibaba Ran Largest Known AI Theft Campaign Against Claude, Anthropic Tells Senate",
+          "url": "https://www.techtimes.com/articles/319105/20260625/alibaba-ran-largest-known-ai-theft-campaign-against-claude-anthropic-tells-senate.htm"
+        },
+        {
+          "title": "Tom's Hardware — Anthropic claims Alibaba used 25,000 fake accounts and 28.8 million exchanges to illicitly 'distill' Claude",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act Omnibus: EU Council Formal Adoption Expected June 29, Cementing High-Risk Deadline Shift to 2027–28",
+      "summary": "With EU Council formal adoption now scheduled for June 29 (three days away), the AI Act Omnibus will become binding law before August 2, legally deferring standalone Annex III high-risk AI compliance from August 2026 to December 2027, product-embedded AI to August 2028, while preserving Article 50 transparency obligations on August 2, adding an explicit ban on 'nudifier' AI systems (effective December 2026), and leaving GPAI model rules entirely unchanged.",
+      "links": [
+        {
+          "title": "EU Council press release — Agreement to simplify and streamline AI rules (May 7)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+        },
+        {
+          "title": "Morgan Lewis — EU Approves Delays and Other Amendments (June 25)",
+          "url": "https://www.morganlewis.com/pubs/2026/06/eu-approves-delays-and-other-amendments-to-certain-eu-ai-act-obligations-what-businesses-should-know"
+        },
+        {
+          "title": "Dastra — Parliament Votes, Deadlines Redrawn; Council vote June 29",
+          "url": "https://www.dastra.eu/en/blog/digital-omnibus-on-ai-parliament-votes-deadlines-redrawn/60108"
+        },
+        {
+          "title": "iubenda — Parliament adopts AI Omnibus, Council sign-off next",
+          "url": "https://www.iubenda.com/en/blog/ai-omnibus-parliament-adoption-june-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Alibaba Sues Pentagon to Overturn 'Chinese Military Company' Section 1260H Blacklist Designation",
+      "summary": "Alibaba filed suit in federal court in San Jose on June 23 challenging the Pentagon's designation under Section 1260H — arguing no evidence or due process was provided — as a statutory ban on Pentagon contracting with listed entities and their shared lobbyists takes effect June 30, and the designation threatens to cut Alibaba off from US law firms and DC lobbyists it relies on to challenge the listing itself.",
+      "links": [
+        {
+          "title": "Bloomberg Law — Alibaba Sues the US, Seeking Removal From Pentagon's Blacklist (June 23)",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-23/alibaba-sues-the-us-seeking-removal-from-pentagon-s-blacklist"
+        },
+        {
+          "title": "CBS News — Alibaba sues Pentagon over blacklist designation",
+          "url": "https://www.cbsnews.com/news/alibaba-sues-pentagon-blacklist-designation/"
+        },
+        {
+          "title": "Al Jazeera — Alibaba sues US military over 'Chinese military company' label",
+          "url": "https://www.aljazeera.com/news/2026/6/23/alibaba-sues-us-military-over-labelling-it-a-chinese-military"
+        },
+        {
+          "title": "Edgen — Alibaba sues Pentagon over blacklist as 7 Chinese firms face ban",
+          "url": "https://www.edgen.tech/news/post/alibaba-sues-pentagon-over-blacklist-as-7-chinese-firms-face-ban"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Rhode Island Enacts Three AI Laws Including the Nation's Most Specific AI Therapy Ban",
+      "summary": "Governor Dan McKee signed three laws on June 22 banning unlicensed AI-delivered psychotherapy (framing it as practicing without a license), requiring chatbots to route users expressing self-harm to crisis services with up to $15,000/day fines for non-compliance, and mandating patient written consent before AI is used to record or transcribe clinical sessions — the most operationally specific package of AI healthcare laws yet enacted by a US state.",
+      "links": [
+        {
+          "title": "Transparency Coalition — Rhode Island enacts three new AI laws, including a therapy chatbot ban",
+          "url": "https://www.transparencycoalition.ai/news/rhode-island-enacts-four-new-ai-laws-including-a-therapy-chatbot-ban"
+        },
+        {
+          "title": "AI Weekly — Rhode Island Signs Three AI Laws Covering Mental Health Chatbots",
+          "url": "https://aiweekly.co/alerts/rhode-island-signs-three-ai-laws-covering-mental-health-chatbots"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Arizona Governor Hobbs Vetoes All Three AI Bills Passed by Legislature (June 19)",
+      "summary": "Governor Katie Hobbs vetoed all three AI-related bills the Arizona legislature passed this session on June 19 — including a chatbot safety/disclosure bill (HB 2311) and an AI governance mandate — dealing a setback to state-level AI consumer-protection efforts and reversing what had appeared to be bipartisan momentum.",
+      "links": [
+        {
+          "title": "Transparency Coalition — AI Legislative Update: June 26, 2026 (Arizona vetoes)",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Reportedly Weighing IPO Delay to 2027 After SpaceX's Weak Debut and AI Tech Selloff",
+      "summary": "A New York Times report (circulating June 26) says OpenAI is considering pushing its IPO from the planned fall 2026 window to 2027 after SpaceX's underperformance as a public company and a five-session Nasdaq selloff wiped 4.6% off the index this week, raising concern among analysts about sustainability of AI infrastructure spending if public-market capital dries up.",
+      "links": [
+        {
+          "title": "CNBC Markets Live — Nasdaq posts fifth losing session; OpenAI IPO delay reported (June 26)",
+          "url": "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Launches Gemini 2.5 Pro with 'Deep Think' Reasoning Mode; Tops GPQA at 82.4%, Beating Fable 5",
+      "summary": "Google launched Gemini 2.5 Pro with Deep Think on June 22, posting 82.4% on GPQA Diamond (vs. Fable 5's 79.1% and GPT-5.5's 76.3%) and 89.8% MMLU-Pro — the highest of any publicly available model — intensifying benchmark competition among frontier labs and offering a live comparison point for evaluating AI evals while Fable 5 remains offline.",
+      "links": [
+        {
+          "title": "Build Fast With AI — AI News Today June 25 2026: Gemini 2.5 Pro Deep Think benchmarks",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "California Legislature Sends Bill Banning AI as Primary Public School Teacher to Governor Newsom",
+      "summary": "California lawmakers this week passed and transmitted to Governor Gavin Newsom a bill prohibiting AI systems from serving as the primary instructor in public school classrooms, joining a wave of state legislation restricting AI in high-stakes educational settings; Newsom has until the fall to act.",
+      "links": [
+        {
+          "title": "Transparency Coalition — AI Legislative Update: June 26, 2026 (California AI teacher ban)",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Reaches First Operating Profit (~$559M Q2) as Claude Code Claims ~40% of Enterprise AI Coding Market",
+      "summary": "Reports this week indicate Anthropic became operationally profitable in Q2 2026 at an annualized $47B revenue run rate — driven primarily by Claude Code's estimated 40% share of the enterprise coding market — while OpenAI continues to project $14B in losses for 2026, a divergence that sharpens questions about power concentration and competitive dynamics at the frontier.",
+      "links": [
+        {
+          "title": "Build Fast With AI — AI News Today June 26 2026 (Anthropic Q2 profitability)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "New York State Legislature Passes Seven AI Bills This Session — Including FAIR News Act, Chatbot Safety, Surveillance Pricing Ban, and Data Center Moratorium — All Await Governor Hochul",
+      "summary": "The New York legislature adjourned in early June having passed a sweeping package of AI-related measures — including a first-of-its-kind requirement that news organizations disclose AI-generated content (NY FAIR News Act), a kids' companion chatbot safety bill (unanimous 137-0/60-0), an AI training data transparency act, a ban on AI-assisted surveillance pricing, and a one-year moratorium on hyperscale data center permitting — all now pending Governor Hochul's signature by December 31.",
+      "links": [
+        {
+          "title": "NY Senate — NY FAIR News Act passes both chambers",
+          "url": "https://www.nysenate.gov/newsroom/press-releases/2026/patricia-fahy/new-york-legislature-passes-landmark-bill-disclose-ai"
+        },
+        {
+          "title": "Transparency Coalition — New York lawmakers wrap up session passing AI bills",
+          "url": "https://www.transparencycoalition.ai/news/new-york-lawmakers-pass-kids-ai-chatbot-safety-bill-and-two-transparency-acts"
+        },
+        {
+          "title": "Multistate.ai — New York AI Legislation 2026: Chatbots, Transparency & Pricing",
+          "url": "https://www.multistate.ai/updates/vol-104-new-york-ai-legislation-companion-chatbot-regulation"
+        }
+      ]
+    }
+  ]
+}
