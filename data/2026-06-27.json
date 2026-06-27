@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T13:46:55+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "US Government Forces GPT-5.6 Into Customer-by-Customer Approval Mode — First Preemptive Frontier Model Gate",
+      "summary": "At the request of the White House's ONCD and OSTP—citing GPT-5.6's 'Mythos-like' cybersecurity capabilities—OpenAI limited the model's June 26 launch to roughly 20 government-vetted partners approved one by one, marking the first time the US government has preemptively asked a domestic AI company to restrict a model release and establishing what TechCrunch calls a 'new paradigm' in frontier governance.",
+      "links": [
+        {
+          "title": "Axios: Trump administration asks OpenAI to limit release of GPT-5.6",
+          "url": "https://www.axios.com/2026/06/25/trump-administration-openai-gpt-model-release"
+        },
+        {
+          "title": "Axios: OpenAI releases powerful new GPT-5.6 model under restrictions",
+          "url": "https://www.axios.com/2026/06/26/openai-gpt-sol-terra-luna-trump"
+        },
+        {
+          "title": "CNN: White House asks OpenAI to limit its next model release",
+          "url": "https://www.cnn.com/2026/06/25/tech/openai-limit-release-white-house"
+        },
+        {
+          "title": "Engadget: OpenAI will initially only release ChatGPT 5.6 to government-approved customers",
+          "url": "https://www.engadget.com/2202129/openai-will-initially-only-release-chatgpt-5-6-to-government-approved-customers/"
+        },
+        {
+          "title": "TechCrunch: It's not about Anthropic vs. OpenAI anymore",
+          "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+        },
+        {
+          "title": "Let's Data Science: OpenAI limits US rollout of new GPT-5.6 model",
+          "url": "https://letsdatascience.com/news/openai-limits-us-rollout-of-new-gpt-56-model-4cac209c"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google DeepMind AI Control Roadmap: Treat Deployed Agents as Insider Threats, Runtime Containment Is Not Optional",
+      "summary": "DeepMind's June 18 'AI Control Roadmap' (v0.1) applies MITRE ATT&CK threat modeling to autonomous agents, deploys trusted supervisor AIs for real-time behavioral monitoring, and uses cryptographic action signing—explicitly arguing that training-time alignment alone is insufficient and that structural runtime containment must be built before more capable models arrive.",
+      "links": [
+        {
+          "title": "Google DeepMind blog: Securing internal systems against increasingly capable AI agents",
+          "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
+        },
+        {
+          "title": "Axios: Google DeepMind readies safeguards for autonomous AI agents",
+          "url": "https://www.axios.com/2026/06/18/google-deepmind-prepares-for-rogue-ai-agents"
+        },
+        {
+          "title": "eWeek: Google DeepMind Roadmap Sets Security Controls for AI Agents",
+          "url": "https://www.eweek.com/news/deepmind-ai-agent-security-roadmap/"
+        },
+        {
+          "title": "Security Boulevard: Google DeepMind Treats Advanced AI as 'Insider Threats'",
+          "url": "https://securityboulevard.com/2026/06/google-deepmind-treats-advanced-ai-as-insider-threats-in-new-cybersecurity-roadmap/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "2025 AI Agent Index at FAccT 2026: 25/30 Deployed Agents Disclose No Safety Results, 23/30 Have No Third-Party Testing",
+      "summary": "Presented this week at FAccT 2026 in Montreal, this systematic survey of 30 leading deployed AI agents—co-authored by Casper, Bommasani, O'Keefe, Gabriel, and others—finds safety transparency is nearly absent across the industry, with only 3 systems having any third-party testing documentation and most skipping agent-specific evaluations entirely, suggesting voluntary reporting is insufficient.",
+      "links": [
+        {
+          "title": "arXiv 2602.17753: The 2025 AI Agent Index",
+          "url": "https://arxiv.org/abs/2602.17753"
+        },
+        {
+          "title": "MIT AI Agent Index (full PDF)",
+          "url": "https://aiagentindex.mit.edu/data/2025-AI-Agent-Index.pdf"
+        },
+        {
+          "title": "ACM FAccT 2026 proceedings",
+          "url": "https://dl.acm.org/doi/10.1145/3805689.3806728"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.19890 — 36 of 37 Open-Weight Model Families Fail All Proportional Evaluation Criteria",
+      "summary": "This systematic review of OWM releases from 2025 through April 2026 finds that virtually all families skip the four criteria critical for assessing open-weight model risks—evaluation without system-level safeguards, robustness to safeguard removal, selective capability amplification testing, and worst-case misuse proxying—and calls on policymakers, funders, and governance bodies to require proportional evaluation approaches.",
+      "links": [
+        {
+          "title": "arXiv 2606.19890: Open Weight AI Models Require Proportional Evaluation Approaches",
+          "url": "https://arxiv.org/abs/2606.19890"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.19464 — AgenticRei: Deontic Runtime Policy Engine for Real-Time AI Agent Governance",
+      "summary": "This paper argues that current production policy engines like XACML and Rego address only permit/prohibit constraints and proposes AgenticRei, a deontic logic engine running external to the LLM that enforces obligations (e.g., 'notify the CISO'), dispensations, and conflict resolution for AI agents in real time—directly governing both tool calls and agent-to-agent messages.",
+      "links": [
+        {
+          "title": "arXiv 2606.19464: Deontic Policies for Runtime Governance of Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2606.19464"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Enterprise Users Switching from Frontier Models to DeepSeek on Cost, Threatening OpenAI and Anthropic Pre-IPO Growth Narratives",
+      "summary": "A June 26 CNBC report documents AI startups moving 100% of traffic from Anthropic's Claude to DeepSeek's cheaper open-weight alternatives for cost survival, with analysts warning that current frontier-lab growth rates may have peaked precisely as OpenAI and Anthropic prepare for historic public market debuts—raising questions about whether power concentration in frontier AI is sustainable.",
+      "links": [
+        {
+          "title": "CNBC: OpenAI and Anthropic face new AI reality as users shift from 'tokenmaxxing' to efficiency",
+          "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Great American AI Act Discussion Draft: 3-Year State Preemption Provision Draws Bipartisan Opposition",
+      "summary": "The bipartisan 269-page Obernolte-Trahan federal AI governance draft (June 4) would codify CAISI, mandate frontier model audits and incident reporting, and establish AI testbeds—but its three-year preemption of state AI development laws has drawn condemnation from Public Citizen and Cato alike, with House AI commission co-chairs calling it 'not a basis for productive dialogue,' and co-chair Rep. Ted Lieu explicitly opposing the preemption.",
+      "links": [
+        {
+          "title": "TechPolicy.Press: Unpacking the Great American Artificial Intelligence Act of 2026",
+          "url": "https://www.techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026/"
+        },
+        {
+          "title": "FedScoop: Bipartisan 'Great American AI Act' draft proposes new federal AI governance framework",
+          "url": "https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/"
+        },
+        {
+          "title": "Cato: A Primer on the Great American Artificial Intelligence Act",
+          "url": "https://www.cato.org/blog/primer-great-american-artificial-intelligence-act"
+        },
+        {
+          "title": "Public Citizen: Obernolte-Trahan Bill Strips States Authority to Protect Consumers",
+          "url": "https://www.citizen.org/news/obernolte-trahan-bill-strips-states-authority-to-protect-consumers-workers-and-children/"
+        },
+        {
+          "title": "FPF: Frontier AI Goes Federal — How the Great American AI Act Compares to State Laws",
+          "url": "https://fpf.org/blog/frontier-ai-goes-federal-how-the-great-american-ai-act-compares-to-state-laws/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Claude Suffers Major Service Outage June 23 — Widespread Disruptions Across Platforms",
+      "summary": "Anthropic's Claude AI systems experienced a significant outage on June 23 causing widespread elevated error rates and blank responses across multiple platforms—a notable incident occurring during the period of heightened government scrutiny of Anthropic's models and ongoing access restrictions to Fable 5 and Mythos 5.",
+      "links": [
+        {
+          "title": "OECD AI Incidents and Hazards Monitor",
+          "url": "https://oecd.ai/en/incidents"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Baseten Raises $1.5B Series F at $13B Valuation for AI Inference Infrastructure, Handling 1B+ Daily Requests",
+      "summary": "Inference serving platform Baseten announced a $1.5 billion Series F (June 22) at valuations of $11–13 billion while running over one billion inference requests daily across 87 clusters—reflecting accelerating power concentration in the AI serving infrastructure layer that sits between frontier model makers and end users.",
+      "links": [
+        {
+          "title": "Asanify AI News Digest June 27: The AI Money Splits in Two Directions",
+          "url": "https://asanify.com/blog/news/inference-compute-funding-june-27-2026/"
+        }
+      ]
+    }
+  ]
+}
