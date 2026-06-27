@@ -22,6 +22,26 @@ RECENCY WINDOW — INCLUDE ANYTHING FROM THE LAST 7 DAYS:
   recap of the original event.
 
 ================================================================================
+ACCURACY — DO NOT HALLUCINATE (READ THIS)
+================================================================================
+A confident wrong detail is worse than a vague correct one. Web search returns
+short snippets, not full pages, and the temptation is to "fill in" specifics from
+memory or inference — especially for items you think you already recognize. DO NOT.
+Everything in a title or summary must come from text you ACTUALLY SAW in the search
+results for THAT item.
+
+- Do not guess. If you did not see a fact in the search results, do not state it.
+  Write a more general summary instead of inventing the missing specifics.
+- Use the source's OWN wording for titles and key facts. Prefer quoting or closely
+  paraphrasing what the page actually says over a slicker paraphrase that adds
+  detail the source didn't give you.
+- Watch out for items you think you already know (a paper, a company, an ongoing
+  case). Recognizing something is exactly when hallucination is most likely — verify
+  every name, number, date, venue, and quote against the search results anyway.
+- When unsure whether a detail is real, leave it out. A vaguer but correct sentence
+  always beats a specific but possibly false one.
+
+================================================================================
 TOPICS CAS CARES ABOUT
 ================================================================================
 - Frontier AI risks and harms
