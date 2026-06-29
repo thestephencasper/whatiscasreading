@@ -1,0 +1,180 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T14:36:43+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Claude Embedded in Palantir Maven Targeting System During Iran Operations — Amodei: Can't Confirm Role in Minab School Strike That Killed ~168, Including ~120 Children, but Use Case 'Doesn't Violate Our Red Lines'",
+      "summary": "Ongoing reporting (The Atlantic, The Next Web, multiple outlets) confirms a version of Claude is integrated into Palantir's Maven Smart System used for battlefield targeting during US operations in Iran; in a Bloomberg interview Anthropic CEO Amodei acknowledged he cannot confirm Claude's specific role in the February 28 Minab elementary school strike — which Amnesty International called an unlawful strike and Human Rights Watch said warrants war-crimes investigation — while asserting a human made the final decision, statements analysts note are logically difficult to reconcile and that expose the limits of AI developer visibility into deployed systems.",
+      "links": [
+        {
+          "title": "Anthropic CEO doesn't know if Claude hit Iran school (The Next Web)",
+          "url": "https://thenextweb.com/news/anthropic-amodei-claude-iran-school-strike-military-ai"
+        },
+        {
+          "title": "Claude Expresses Reservations About Military Targeting (Let's Data Science)",
+          "url": "https://letsdatascience.com/news/claude-expresses-reservations-about-military-targeting-483ae8cb"
+        },
+        {
+          "title": "Claude vs. the United States — Full Timeline (Handy AI Substack)",
+          "url": "https://handyai.substack.com/p/claude-vs-the-united-states"
+        },
+        {
+          "title": "Anthropic–United States Department of Defense Dispute (Wikipedia, updated 1 week ago)",
+          "url": "https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI and Broadcom Unveil Jalapeño: OpenAI's First Custom LLM Inference Chip, Designed in Nine Months with AI Assistance, Targeting End-2026 Deployment",
+      "summary": "On June 24 OpenAI and Broadcom jointly announced Jalapeño, an ASIC inference accelerator designed from scratch around OpenAI's LLM workloads, completed from initial design to tape-out in nine months — claimed to be the fastest high-performance ASIC development cycle on record — with initial deployment targeted by end of 2026 at gigawatt-scale data centers, deepening OpenAI's vertical integration across the AI stack and reducing its inference-cost dependence on Nvidia.",
+      "links": [
+        {
+          "title": "OpenAI and Broadcom Unveil LLM-Optimized Intelligence Processor (OpenAI)",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+        },
+        {
+          "title": "OpenAI and Broadcom reveal Jalapeño, first AI chip in partnership (CNBC)",
+          "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+        },
+        {
+          "title": "OpenAI unveils its first custom chip, built by Broadcom (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+        },
+        {
+          "title": "Jalapeño: development timeline and strategic context (VentureBeat)",
+          "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "NVIDIA Launches Halos for Robotics: Industry's First Full-Stack Open Safety Architecture for Physical AI (June 22)",
+      "summary": "NVIDIA announced Halos for Robotics on June 22, an open full-stack safety system for humanoid robots and physical AI spanning AI compute (IGX Thor), sensor connectivity, safety OS, and a certification inspection lab, with Agility Robotics — whose robots work in Amazon, GXO, and Toyota facilities — as the first commercial adopter, marking the first attempt to standardize safety architecture across the physical-AI stack.",
+      "links": [
+        {
+          "title": "NVIDIA Announces Halos for Robotics, the Industry's First Full-Stack Safety System for Physical AI (NVIDIA Newsroom)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2506.20702 — Singapore Consensus on Global AI Safety Research Priorities: 88 Authors Including Bengio and Casper Synthesize Expert Consensus Across Development, Assessment, and Control",
+      "summary": "Building on the International AI Safety Report, this consensus document from the 2025 Singapore Conference on AI (SCAI) — co-authored by 88 researchers from leading academic institutions and AI labs, organized under a defence-in-depth model across three research domains (Development, Assessment, Control) — aims to establish a shared evidence base and spur international collaboration on technical AI safety.",
+      "links": [
+        {
+          "title": "arXiv 2506.20702 — The Singapore Consensus on Global AI Safety Research Priorities",
+          "url": "https://arxiv.org/abs/2506.20702"
+        },
+        {
+          "title": "Singapore Consensus landing page (aisafetypriorities.org)",
+          "url": "https://aisafetypriorities.org/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act Omnibus Council Formal Adoption Misses June 29 — Now Expected July 2026 Before August 2 Deadline",
+      "summary": "As of June 29, the European Council has not formally adopted the AI Act Omnibus amendments (which shift high-risk AI compliance to December 2027/August 2028, ban nudifiers from December 2, and impose August 2 transparency obligations); adoption and Official Journal publication are now widely anticipated in July 2026, meaning the original August 2 high-risk deadlines remain technically live until the Omnibus is published.",
+      "links": [
+        {
+          "title": "EU AI Act 2026 Timeline and Omnibus Status (felloai.com)",
+          "url": "https://felloai.com/eu-ai-act/"
+        },
+        {
+          "title": "EU Lawmakers Reach Provisional Agreement to Delay Key EU AI Act Obligations (Sidley Data Matters)",
+          "url": "https://datamatters.sidley.com/2026/06/22/eu-lawmakers-reach-provisional-agreement-to-delay-key-eu-ai-act-obligations/"
+        },
+        {
+          "title": "EU Approves Delays and Other Amendments to Certain EU AI Act Obligations (Morgan Lewis)",
+          "url": "https://www.morganlewis.com/pubs/2026/06/eu-approves-delays-and-other-amendments-to-certain-eu-ai-act-obligations-what-businesses-should-know"
+        },
+        {
+          "title": "EU AI Act Omnibus: Postponed High-Risk Deadlines and Other Key Changes (Gibson Dunn)",
+          "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Fable 5 Access Still Blocked Day 17 — July 8 ID-Verification Rollout and August 1 EO Framework Deadline Now Key Milestones for Restoration",
+      "summary": "As of June 29 Fable 5 API calls continue to return errors; two structural markers have emerged for potential broader restoration: July 8 (Anthropic's updated privacy policy requiring government-issued ID verification takes effect, likely the mechanism for a US-citizen-first restoration without fully lifting the export directive) and August 1 (the 60-day deadline for NSA, Treasury, and CISA to complete the covered-frontier-model framework under Trump's June 2 EO).",
+      "links": [
+        {
+          "title": "AI News Today June 29 2026: 15 Biggest Stories (Build Fast with AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic June 2026 Economic Index: Automation Now Dominant in Professional API Workflows, Overtaking Augmentation — 'Automation Share' Strongest Predictor of Perceived AI Impact",
+      "summary": "Anthropic's June 2026 Economic Index finds that automation (fully delegating tasks to Claude) has overtaken augmentation (human-AI collaboration) as the primary usage mode in the professional API, while augmentation remains slightly dominant in consumer Claude.ai use; the report identifies 'automation share' as the single strongest predictor of whether users perceive significant AI impact on their work, with experienced users tending toward collaborative patterns that yield better outcomes.",
+      "links": [
+        {
+          "title": "AI News Today June 29 2026 — Anthropic Economic Index coverage (Build Fast with AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"
+        },
+        {
+          "title": "Anthropic Research (primary source)",
+          "url": "https://www.anthropic.com/research"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Trump EO June 2 Cyber-Hardening Deadlines Hit July 2 — AI Cybersecurity Clearinghouse, NSS Defense Prioritization, and OMB Grant Review All Due",
+      "summary": "The first tranche of 30-day deadlines from Trump's June 2 EO 'Promoting Advanced Artificial Intelligence Innovation and Security' falls on July 2, requiring the Committee on National Security Systems to prioritize defense of national security systems, Treasury/NSA/CISA to stand up the AI cybersecurity clearinghouse, and OMB to identify grant funding for advanced AI vulnerability detection — with the covered-frontier-model classified benchmarking process and voluntary pre-release framework due at the 60-day mark (August 1).",
+      "links": [
+        {
+          "title": "Promoting Advanced Artificial Intelligence Innovation and Security (White House, June 2, 2026)",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        },
+        {
+          "title": "New AI Executive Order Calls for Frontier Model Security, Early Government Access (Skadden)",
+          "url": "https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order"
+        },
+        {
+          "title": "Executive Order on AI Expands Cybersecurity, Federal Oversight (Holland & Knight)",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/06/executive-order-on-artificial-intelligence-expands-cybersecurity"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Great American AI Act Discussion Draft: New Details on CAISI Codification with $300M Budget, CISA Open-Source Security Grants, and AI Security Testbeds",
+      "summary": "Additional reporting on the draft Great American AI Act reveals that the 269-page bill would formally authorize NIST's Center for AI Standards and Innovation (CAISI) with a $300M fiscal 2027–2029 budget to certify independent audit organizations (IVOs) for frontier-model compliance, direct CISA to award grants to open-source maintainers for security and patching, and require NIST and DOE to build AI security testbeds with federal labs — significantly expanding the bill's third-party audit and open-source security infrastructure beyond what initial coverage described.",
+      "links": [
+        {
+          "title": "Sprawling new House AI bill includes frontier model oversight, open-source security grants (Cybersecurity Dive)",
+          "url": "https://www.cybersecuritydive.com/news/house-ai-bill-regulation-cisa-nist-open-source/822131/"
+        },
+        {
+          "title": "Unpacking the Great American Artificial Intelligence Act of 2026 (Tech Policy Press)",
+          "url": "https://www.techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Illinois SB 315 (AI Safety Measures Act) on Governor Pritzker's Desk — Signature Still Pending as June 29 Passes, 60-Day Window Closing",
+      "summary": "Illinois SB 315 — the first US law mandating annual independent third-party audits of frontier AI developers' safety protocols, passed unanimously 110-0 in the House on May 27 — remains unsigned by Governor Pritzker as of June 29, though he has publicly indicated intent to sign; the governor's 60-day window for action is approaching, and the White House has signaled opposition to provisions similar to SB 315.",
+      "links": [
+        {
+          "title": "Illinois legislature passes historic AI bill that would require third-party safety audits (NBC News)",
+          "url": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191"
+        },
+        {
+          "title": "Illinois SB 315 — A State Strategy for Enduring National AI Safety Standards (Akerman LLP)",
+          "url": "https://www.akerman.com/en/perspectives/illinois-sb-315-a-state-strategy-for-enduring-national-ai-safety-standards.html"
+        },
+        {
+          "title": "Illinois SB 315 Bill Status (Illinois General Assembly)",
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&LegId=157797&SessionID=114"
+        }
+      ]
+    }
+  ]
+}
