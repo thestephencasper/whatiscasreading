@@ -58,6 +58,7 @@
     letter-spacing: 0.04em;
     margin-right: 6px;
   }
+  .entry-date { color: var(--muted); font-size: 0.8rem; font-weight: 400; }
   .entry-summary { margin: 0 0 7px; color: var(--text); }
   .entry-links { margin: 0; padding: 0; list-style: none; font-size: 0.9rem; }
   .entry-links li { margin: 2px 0; }
@@ -121,6 +122,15 @@ function fmtDate(iso) {
   });
 }
 
+function fmtShortDate(iso) {
+  // "YYYY-MM-DD" -> "Jun 28, 2026"; returns "" if not a valid date string.
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || "").trim());
+  if (!m) return "";
+  const dt = new Date(+m[1], +m[2] - 1, +m[3]);
+  if (isNaN(dt)) return "";
+  return dt.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+}
+
 function el(tag, cls, html) {
   const e = document.createElement(tag);
   if (cls) e.className = cls;
@@ -143,7 +153,9 @@ function renderEntries(container, entries) {
     const tag = (entry.tag || "").trim();
     const titleHtml = (tag ? `<span class="entry-tag">${esc(tag)}:</span>` : "")
       + esc(entry.title || "");
-    wrap.appendChild(el("p", "entry-title", titleHtml));
+    const dateStr = fmtShortDate(entry.date);
+    const titleFull = titleHtml + (dateStr ? ` <span class="entry-date">· ${esc(dateStr)}</span>` : "");
+    wrap.appendChild(el("p", "entry-title", titleFull));
     if (entry.summary) wrap.appendChild(el("p", "entry-summary", esc(entry.summary)));
     if (entry.links && entry.links.length) {
       const ul = el("ul", "entry-links");

@@ -46,6 +46,7 @@ After you finish searching, respond with EXACTLY ONE JSON object and NOTHING els
       "tag": "Paper",
       "title": "Short specific headline for this topic",
       "summary": "One plain sentence: what happened and why it matters.",
+      "date": "2026-06-28",
       "links": [
         {"title": "Source or article title", "url": "https://..."}
       ]
@@ -55,6 +56,10 @@ After you finish searching, respond with EXACTLY ONE JSON object and NOTHING els
 
 Rules:
 - 10-20 entries on a normal day; fewer is fine on a slow day. One entry per story.
+- "date" is the item's actual publication/filing/release date as YYYY-MM-DD, taken from
+  the search results (NOT today's date, NOT a guess). It must be within the last 7 days.
+  If you genuinely could not find a date, use an empty string "" — never fabricate one.
+- Include only the 2-3 BEST links per entry (primary source first). Never more than 3.
 - Every entry MUST have a "tag" that is EXACTLY ONE of: "Paper", "Policy",
   "Lawsuit", "News", "Misc". Choose the best fit:
     - "Paper"   = academic papers / preprints (e.g. arXiv).
@@ -200,6 +205,22 @@ def extract_json(text: str) -> dict:
     return json.loads(cleaned)
 
 
+MAX_LINKS_PER_ENTRY = 3
+
+
+def normalize_entries(entries: list) -> list:
+    """Enforce the per-entry link cap and keep an optional ISO date field."""
+    for entry in entries:
+        links = entry.get("links")
+        if isinstance(links, list) and len(links) > MAX_LINKS_PER_ENTRY:
+            entry["links"] = links[:MAX_LINKS_PER_ENTRY]
+        # Keep "date" only if it's a non-empty string; drop anything malformed.
+        d = entry.get("date")
+        if not (isinstance(d, str) and d.strip()):
+            entry.pop("date", None)
+    return entries
+
+
 def write_digest(date_str: str, entries: list) -> Path:
     payload = {
         "date": date_str,
@@ -266,6 +287,7 @@ def main() -> int:
         print(last_reply)
         sys.exit(f"Parse error: {last_error}")
 
+    entries = normalize_entries(entries)
     out = write_digest(date_str, entries)
     print(f"Wrote {len(entries)} entries to {out}")
 

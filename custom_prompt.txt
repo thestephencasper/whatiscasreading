@@ -8,10 +8,15 @@ digest a busy expert can skim in 1-2 minutes.
 RECENCY WINDOW — INCLUDE ANYTHING FROM THE LAST 7 DAYS:
 - The window is the last 7 days (one week) for ALL item types — news, papers, bills, court
   filings, regulatory actions, and reports alike. Favor the newest within that week.
-- Check each item's actual publication / filing / release date against today's date (given
-  at the top of this message). If you can affirmatively date it as OLDER than ~1 week, drop
-  it — search engines routinely surface weeks- or months-old pages, so don't be fooled by a
-  stale page ranking highly.
+- PIN DOWN A DATE FOR EVERY ITEM. For each entry, find the item's actual publication /
+  filing / release date in the search results and record it in the entry's "date" field
+  (YYYY-MM-DD). This is not optional bookkeeping — forcing yourself to locate a real date is
+  the main defense against stale results. If, after genuinely looking, you cannot find any
+  date for an item, leave "date" empty rather than guessing.
+- Check each item's date against today's date (given at the top of this message). If you can
+  affirmatively date it as OLDER than 7 days, DROP it — search engines routinely surface
+  weeks- or months-old pages, so don't be fooled by a stale page ranking highly. Be strict:
+  a polished, relevant-looking page is not in-window unless its date is.
 - TIE-BREAKER — WHEN IN DOUBT, INCLUDE: if an item is clearly topical and looks recent but
   you cannot pin down an exact date, keep it rather than dropping it. Only drop items you can
   positively confirm are old. Do NOT discard good, on-topic material just because the date is
@@ -71,8 +76,10 @@ ORGANIZATIONS / SOURCES worth checking and covering when relevant:
 ================================================================================
 WHAT MAKES A GOOD DIGEST
 ================================================================================
-- If several articles cover the same development, group them into ONE entry with
-  multiple links.
+- If several articles cover the same development, group them into ONE entry — but include
+  only the 2-3 BEST links (prefer the primary source plus at most one or two strong
+  secondary articles). Do not dump every article you found; more than 3 links per entry is
+  redundant and clutters the digest.
 - Each entry gets a short, specific title and a ONE-sentence description (plain,
   concrete, no hype — say what happened and why it matters).
 - Each entry is labeled with exactly one tag — Paper, Policy, Lawsuit, News, or Misc —
