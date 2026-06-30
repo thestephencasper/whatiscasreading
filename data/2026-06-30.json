@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T13:50:52+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Wired Exposes Meta 'Cannes' Project: Hundreds of Contractors Secretly Posed as Minors to Red-Team Rival AI Chatbots",
+      "summary": "Wired reports Meta ran a covert safety-benchmarking project called 'Cannes,' run by contractor Covalen, in which hundreds of workers created fake under-18 accounts and sent 45,000+ sensitive prompts about suicide, sex, and drugs to ChatGPT, Gemini, and Character.AI without those companies' knowledge — revealing industry-wide gaps in minor-safety safeguards and raising questions about covert competitive red-teaming ethics.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Crypto Briefing: Meta contractors pose as teens to test rival chatbots",
+          "url": "https://cryptobriefing.com/meta-contractors-teens-test-rival-chatbots/"
+        },
+        {
+          "title": "Let's Data Science: Meta contractors test rival chatbots with sensitive prompts",
+          "url": "https://letsdatascience.com/news/meta-contractors-test-rival-chatbots-with-sensitive-prompts-a659d9f8"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Austria Formally Urges EU to Host Anthropic to Counter US Frontier AI Export Controls",
+      "summary": "Austrian State Secretary for Digitalization Alexander Pröll sent a formal letter to EU Commission EVP Henna Virkkunen urging member states to jointly explore establishing Anthropic within EU borders — the first institutional EU-level response to the June 12 Fable 5/Mythos 5 export ban — framing the shutdown as a US 'show of power' over European access to frontier AI.",
+      "date": "2026-06-28",
+      "links": [
+        {
+          "title": "Bank Info Security: Austria Urges Anthropic to Move to EU",
+          "url": "https://www.bankinfosecurity.com/austria-urges-anthropic-to-move-to-eu-to-avoid-us-controls-a-32106"
+        },
+        {
+          "title": "Crypto Briefing: Austria urges EU to host Anthropic",
+          "url": "https://cryptobriefing.com/austria-eu-host-anthropic-us-ai-restrictions/"
+        },
+        {
+          "title": "Reuters / Global Banking & Finance: Austria pushes EU to host Anthropic AI",
+          "url": "https://www.globalbankingandfinance.com/austria-lobbies-eu-host-anthropic-ai-us-curbs-bloomberg-news/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic 'AI for Science' Briefing (June 30): VirBench Shows AI Agents Drop to 16.9% Accuracy on Biology Without Deterministic Tools",
+      "summary": "Anthropic's today-held livestreamed event unveiled VirBench, a benchmark of 120 viral-sequence retrieval queries where AI models achieved as low as 16.9% accuracy; adding a single deterministic NCBI API tool drove all tested models above 92% — a stark demonstration of AI agent reliability failures in high-stakes scientific research and John Jumper's first public appearance since joining from Google DeepMind.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "AI Tools Recap: Anthropic's AI for Science Event — What Was Announced",
+          "url": "https://aitoolsrecap.com/Blog/ai-news-june-30-2026"
+        },
+        {
+          "title": "ByteIota: Anthropic's AI for Biology — The Accuracy Crisis Explained",
+          "url": "https://byteiota.com/anthropic-ai-for-science-biology-agents/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Month-End AI Frontier Access Crunch: Fable 5 Offline Day 18, Gemini 3.5 Pro Misses GA, Chinese Open-Weight Models Hit ~60% of OpenRouter Traffic",
+      "summary": "As June closes, Claude Fable 5 remains suspended for all general users (Polymarket pricing ~41.5% odds for June 30 restoration), Gemini 3.5 Pro missed its announced June 30 public GA target, GPT-5.6 is government-gated only — and with three anticipated frontier models simultaneously unavailable, Chinese open-weight models reportedly reached ~60% of OpenRouter usage, concretely testing the containment rationale behind US export controls.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "ExplainX: Is Fable 5 Back? Status June 29 update",
+          "url": "https://explainx.ai/blog/is-fable-5-back-2026"
+        },
+        {
+          "title": "Build Fast With AI: AI News Today June 30 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google DeepMind Talent Crisis: 5 Senior Researchers Depart in One Week, Alphabet Sheds ~$270B Market Cap",
+      "summary": "Nobel laureate John Jumper, Gemini co-lead Noam Shazeer, coding researcher Jonas Adler, pretraining specialist Alexander Pritzel, and Gemini 2.5 contributor Arthur Conmy all left Google DeepMind for Anthropic or OpenAI within a single week in June 2026, erasing ~$270B in Alphabet market value; Google responded June 25 by restructuring its AI coding 'strike team' to expand into midtraining, illustrating how concentrated frontier AI talent has become.",
+      "date": "2026-06-25",
+      "links": [
+        {
+          "title": "Memeburn: Google DeepMind Talent Exodus Hits Alphabet With $270B Loss",
+          "url": "https://memeburn.com/google-deepmind-talent-exodus-hits-alphabet-with-270b-loss/"
+        },
+        {
+          "title": "Bloomberg: Google Poised to Lose Two More High-Profile AI Staffers to Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic"
+        },
+        {
+          "title": "Neowin: Google Reshuffles Its AI Coding Team",
+          "url": "https://www.neowin.net/news/google-reshuffles-its-ai-coding-team-as-it-struggles-to-catch-anthropic/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.29406: Bayesian Framework for Dynamically Allocating Decision Authority Between Humans and AI Agents",
+      "summary": "Proposes a Bayesian governance policy for organizations to continuously update the allocation of decision authority between humans and AI agents in high-consequence settings as evidence quality, uncertainty, and objectives evolve, arguing that current governance frameworks emphasize compliance documentation but provide no quantitative guidance for dynamic delegation — directly relevant to agentic AI deployment governance.",
+      "date": "2026-06-28",
+      "links": [
+        {
+          "title": "arXiv 2606.29406",
+          "url": "https://arxiv.org/abs/2606.29406"
+        }
+      ]
+    }
+  ]
+}
