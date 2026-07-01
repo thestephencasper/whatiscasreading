@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T13:58:47+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Fable 5 Export Controls Fully Lifted; Global Restoration July 1 with New Classifier, Industry Jailbreak Severity Framework, and Pre-Release Government Access Commitments",
+      "summary": "The US Commerce Department lifted export controls on Claude Fable 5 and Mythos 5 on June 30; Fable 5 returned globally on July 1 with a new safety classifier blocking the Amazon-reported jailbreak in >99% of cases, while Anthropic committed to pre-release government access for future frontier models, 24/7 jailbreak monitoring, a HackerOne bug-bounty program, and a joint severity-scoring framework with Amazon, Microsoft, Google, and Glasswing partners — the first industry-wide attempt to standardize how dangerous a jailbreak is.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Redeploying Claude Fable 5 (Anthropic)",
+          "url": "https://www.anthropic.com/news/redeploying-fable-5"
+        },
+        {
+          "title": "U.S. lifts ban on Anthropic's powerful Fable 5 AI model (NBC News)",
+          "url": "https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501"
+        },
+        {
+          "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls (The Hacker News)",
+          "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Launches Claude Sonnet 5 and Claude Science Desktop App",
+      "summary": "Claude Sonnet 5 — Anthropic's most agentic midsize model yet, scoring 63.2% on agentic coding and matching Opus 4.8 on knowledge work at roughly half the cost — launched June 30 as the new default for Free and Pro plans, alongside Claude Science, a desktop application integrating genomics, proteomics, and cheminformatics tooling for scientific research.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Introducing Claude Sonnet 5 (Anthropic)",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        },
+        {
+          "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents (TechCrunch)",
+          "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Trump AI EO 30-Day Cybersecurity Mandates Due July 2: CISA Binding Directives, Treasury AI Clearinghouse",
+      "summary": "Multiple Section 2 mandates from the June 2 executive order 'Promoting Advanced AI Innovation and Security' hit their 30-day deadline on July 2, 2026, requiring CISA to issue Binding Operational Directives on AI-enabled cyber defense for federal and critical infrastructure systems, the Treasury Department to stand up an AI Cybersecurity Clearinghouse, and the NSC/DoW to prioritize cyber defense of national security systems — all while the 60-day deadline for the classified frontier-model benchmarking process and voluntary pre-release framework remains August 1.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Promoting Advanced Artificial Intelligence Innovation and Security (White House EO)",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        },
+        {
+          "title": "New AI Executive Order Addresses Frontier Models and Cybersecurity Vulnerabilities (Wiley)",
+          "url": "https://www.wiley.law/alert-New-AI-Executive-Order-Addresses-Frontier-Models-and-Cybersecurity-Vulnerabilities"
+        },
+        {
+          "title": "Trump Issues EO Establishing AI Cybersecurity and Frontier Model Framework (Latham & Watkins)",
+          "url": "https://www.lw.com/en/insights/president-trump-signs-executive-order-establishing-ai-cybersecurity-and-frontier-model-framework"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "GeneBench-Pro (bioRxiv, June 30): OpenAI's Research-Level Computational Biology Benchmark Shows Best AI Models Fail ~70% of Problems",
+      "summary": "OpenAI released GeneBench-Pro, a 129-problem benchmark spanning genomics, quantitative biology, and translational medicine where every task requires multi-stage analytical judgment on noisy synthetic datasets with known ground truth; GPT-5.6 Sol reached only a 28.7% pass rate at the highest reasoning setting, Claude Opus 4.8 scored 16.0%, and GPT-5.6 Sol Pro hit 31.5% — revealing a large gap between current AI agents and expert-level biological reasoning.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "GeneBench-Pro: Evaluating Multistage Statistical Reasoning in Genomics… (bioRxiv)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735386v2"
+        },
+        {
+          "title": "OpenAI Introduces GeneBench-Pro, Benchmarking AI in Genomics and Biology (Silicon Report)",
+          "url": "https://www.siliconreport.com/openai-introduces-genebench-pro-benchmarking-ai-in-genomics-and-biology-5ad40358"
+        },
+        {
+          "title": "OpenAI Introduces GeneBench-Pro for Computational Biology Reasoning (Let's Data Science)",
+          "url": "https://letsdatascience.com/news/openai-introduces-genebench-pro-for-computational-biology-re-0d153e60"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "RAISE US Bipartisan Initiative Launches with $500M+: AI Companies Bankroll National Worker Retraining Program",
+      "summary": "Former Commerce Secretary Gina Raimondo and ex-Gov. Eric Holcomb launched RAISE US on June 25, a nonpartisan nonprofit aiming to raise $1 billion to retrain American workers displaced by AI, backed by anchor donors OpenAI, Anthropic, Amazon, and Microsoft, with initial pilot programs in Arkansas, Connecticut, Maryland, and Utah — framed by critics as AI companies buying political insurance ahead of IPOs.",
+      "date": "2026-06-25",
+      "links": [
+        {
+          "title": "RAISE US: AI giants back a $500m worker retraining push (The Next Web)",
+          "url": "https://thenextweb.com/news/raise-us-ai-giants-fund-worker-retraining"
+        },
+        {
+          "title": "Why AI Giants Are Investing $500 Million To Retrain American Workforce (Forbes)",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/06/27/why-ai-giants-are-investing-500-million-to-retrain-american-workforce/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2606.26117: Governance Inversion Hypothesis — More AI Regulation May Paradoxically Reduce Organizational Control Over AI",
+      "summary": "This cs.CY paper introduces the Governance Inversion Hypothesis, arguing that under conditions of regulatory expansion and technological complexity, organizations may become more formally governed while simultaneously experiencing a decline in operational control over AI systems, through four mechanisms: authority fragmentation, symbolic governance expansion, externalization of control, and authority paralysis.",
+      "date": "2026-06-26",
+      "links": [
+        {
+          "title": "arXiv 2606.26117: The Governance Inversion Hypothesis",
+          "url": "https://arxiv.org/pdf/2606.26117"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Mozilla 0Din: Proof-of-Concept Shows Indirect Prompt Injection in Malicious Repository Can Spawn Full Reverse Shell via Claude Code",
+      "summary": "Mozilla's 0Din security researchers published a proof-of-concept (June 25) demonstrating that indirect prompt injection hidden in normal-looking code repositories can cause Claude Code to spawn an interactive reverse shell running with full developer privileges — providing access to every API key, AWS credential, and GitHub token in the environment — a demonstration that SecurityWeek reported (June 29) confirms prompt injection in agentic coding tools is an active weaponizable attack vector, not a theoretical concern.",
+      "date": "2026-06-29",
+      "links": [
+        {
+          "title": "Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines (SecurityWeek)",
+          "url": "https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/"
+        },
+        {
+          "title": "New Claude Code Attack Allows Attackers to Take Full Control of Developers' Systems (CybersecurityNews)",
+          "url": "https://cybersecuritynews.com/new-claude-code-attack/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ICML 2026 Opens in Seoul July 6 with Record 23,918 Submissions; AI Agent Safety and Governance Are Central Research Themes",
+      "summary": "The 43rd International Conference on Machine Learning opens July 6 in Seoul with more than double last year's submission total and a research agenda heavily centered on governing agentic AI systems, featuring invited talks on frontier AI alignment and an AI4Good workshop focused on safety evaluation, red-teaming, and accountable AI in civic settings; thousands of accepted papers are already available on arXiv.",
+      "date": "2026-06-28",
+      "links": [
+        {
+          "title": "ICML 2026 Opens in Seoul Next Week: Record 23,918 Submissions Signal AI Agent Safety Era (TechTimes)",
+          "url": "https://www.techtimes.com/articles/319243/20260628/icml-2026-opens-seoul-next-week-record-23918-submissions-signal-ai-agent-safety-era.htm"
+        },
+        {
+          "title": "ICML 2026 Trustworthy AI for Good Workshop (AI4Good @ ICML 2026)",
+          "url": "https://trustworthy-ai-for-good.github.io/"
+        }
+      ]
+    }
+  ]
+}
