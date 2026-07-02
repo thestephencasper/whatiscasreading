@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T13:49:15+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "California-Anthropic Statewide Partnership: Claude at 50% Discount for All CA Agencies and Local Governments",
+      "summary": "Governor Newsom announced June 29 that every California state agency, city, and county can access Claude at a 50% discount with free workforce training and Anthropic engineering support — making California the largest U.S. public-sector Claude deployment, even as the federal government maintains its 'supply-chain risk' designation on Anthropic.",
+      "date": "2026-06-29",
+      "links": [
+        {
+          "title": "Governor Newsom Press Release",
+          "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/"
+        },
+        {
+          "title": "TechCrunch: Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+          "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/"
+        },
+        {
+          "title": "CBS Sacramento: California signs deal to bring Claude AI tools to government workers",
+          "url": "https://www.cbsnews.com/sacramento/news/california-claude-deal-gavin-newsom/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "UN Independent Scientific Panel Releases AI Preliminary Report Warning Governance Window Is Closing; First-Ever UN Global Dialogue on AI Governance Opens July 6 in Geneva",
+      "summary": "The UN Independent International Scientific Panel on AI (40 experts, 193 member states, led by Bengio) released a preliminary report on July 2 warning that 'the window to establish effective global governance remains open but may not stay that way for long,' with findings feeding directly into the inaugural two-day UN Global Dialogue on AI Governance opening July 6 in Geneva alongside the WSIS Forum and ITU AI for Good Summit.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "UN News: AI explained — Why the world needs to act now",
+          "url": "https://news.un.org/en/story/2026/07/1167848"
+        },
+        {
+          "title": "UN Global Dialogue on AI Governance — Home",
+          "url": "https://www.un.org/global-dialogue-ai-governance/en"
+        },
+        {
+          "title": "ITU: Global Dialogue on AI Governance, Geneva, 6–7 July",
+          "url": "https://www.itu.int/en/mediacentre/Pages/MA-2026-06-02-UN-Dialogue.aspx"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "NAACP vs. xAI Clean Air Act Case: DOJ Dismissal Motion Still Before Judge as Turbine Count Grows to 59; Grok Iran War Role Central to National-Security Defense",
+      "summary": "As of July 2 the federal judge has not yet ruled on the DOJ's June 15 motion to dismiss the NAACP's Clean Air Act citizen suit, in which the DOJ argued Grok is a national-security asset — citing that it 'enabled U.S. forces to deploy over 2,000 munitions to 2,000 distinct targets within 96 hours' during the Iran war — while xAI's unpermitted turbine count at Colossus 2 has grown to 59 and residents have filed a separate class-action over 'near-constant noise, vibrations and other nuisance-level harms.'",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Word In Black: DOJ Defends xAI in Lawsuit Over Memphis Power Plant",
+          "url": "https://wordinblack.com/2026/07/doj-defends-xai-in-lawsuit-over-memphis-power-plant/"
+        },
+        {
+          "title": "CNBC: DOJ assists Musk's xAI in NAACP air pollution suit, asks court to toss case",
+          "url": "https://www.cnbc.com/2026/06/16/usdepartment-of-justice-calls-for-dismissal-of-naacp-xai-lawsuit-.html"
+        },
+        {
+          "title": "Earthjustice: Illegal Pollution from Data Center Power Plants — We're Suing xAI",
+          "url": "https://earthjustice.org/case/xai-illegal-gas-power-plant-data-center-colossus"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Fable 5 Still Offline July 1 Despite Announced Global Restoration; App Strings Reveal Identity-Verification as New Gating Mechanism",
+      "summary": "Despite reports of a July 1 global restoration, Claude Fable 5 remained offline on day 19 with the API endpoint still returning errors; leaked app build strings showed the message 'Your credits will be applied to Fable 5 usage, which requires identity verification,' contradicting Anthropic's earlier framing that Persona ID verification was a general account security measure rather than a Fable 5-specific requirement.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "unrot.co: Top 10 AI News July 1 2026",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-july-1-2026"
+        },
+        {
+          "title": "Build Fast with AI: AI News Today July 1 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Reflection AI's $6.3B Colossus 2 Compute Lease Activates July 1; Third U.S. Frontier-Scale AI Entrant Goes Compute-Live",
+      "summary": "Reflection AI began its $150M/month lease of SpaceX's Colossus 2 Nvidia GB300 chips on July 1, positioning the $25B-valued company — co-founded by ex-DeepMind researchers and backed by Nvidia, Sequoia, and Lightspeed — as an American, open-weight frontier alternative aimed at governments and enterprises that won't use closed U.S. labs or Chinese models for sovereignty reasons, even though it has not yet released a public frontier model.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "unrot.co: Top 10 AI News July 1 2026",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-july-1-2026"
+        },
+        {
+          "title": "Build Fast with AI: AI News Today June 24 2026 (SpaceX–Reflection deal background)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Gemini 3.5 Pro GA Still Delayed, Making It the Only Major 2026 Frontier Model Never Subject to Government Review or Export Restriction",
+      "summary": "A TechTimes analysis published July 1 found that Gemini 3.5 Pro is the only major frontier AI model in 2026 that has not been subject to any government restriction — Fable 5 is banned, GPT-5.6 is gated to ~20 government-vetted organizations — noting that if Google ships Gemini 3.5 Pro to GA in early July without a pre-release review requirement, it will be the first new frontier-tier model to reach general availability in 2026 without active government involvement in the release process.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "unrot.co: Top 10 AI News July 1 2026",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-july-1-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Plans to Launch Sol (GPT-5.6) on Cerebras at 750 Tokens Per Second for Select Customers in July",
+      "summary": "OpenAI plans to offer Sol on Cerebras infrastructure at up to 750 tokens per second for select customers in July 2026, addressing latency concerns for interactive agentic applications; Sol remains competitive with Claude Mythos on ExploitBench while using roughly one-third of the output tokens.",
+      "date": "2026-06-29",
+      "links": [
+        {
+          "title": "Build Fast with AI: AI News Today June 29 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Alphabet Closes $84.75B Equity Raise; Google AI Coding Team Pivots Internally to Midtraining Focus",
+      "summary": "Alphabet closed an $84.75B equity raise on June 30, even as Google's AI coding strike team restructured toward a midtraining focus — developments that together signal Alphabet's shifting competitive posture in the frontier AI infrastructure race.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Build Fast with AI: AI News Today June 30 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI IPO Risk Profile Deepens: $14B Projected 2026 Operating Losses and Government-Gated Distribution as S-1 Roadshow Approaches",
+      "summary": "As of July 1, OpenAI is projecting $14 billion in operating losses for 2026 while GPT-5.6 remains gated to government-vetted partners with no confirmed broad launch date, and the 42-state AG investigation — which entered its active subpoena phase — represents a required material disclosure in the IPO S-1 filing ahead of a potential September listing.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "Build Fast with AI: AI News Today July 1 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
+        }
+      ]
+    }
+  ]
+}
