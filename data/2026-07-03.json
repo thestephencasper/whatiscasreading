@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T13:42:52+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "OpenAI Pitches Trump Administration a 5% US Government Stake in All Major AI Labs",
+      "summary": "OpenAI has proposed giving the US government a ~$42.6B stake (5% of its $852B valuation) in a sovereign-fund vehicle modeled on the Alaska Permanent Fund, with Altman suggesting rival labs like Anthropic, Google, and Meta do the same — a significant concentration-of-power and AI-politics development that could reshape frontier AI governance.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "OpenAI proposes 5% stake to Trump administration (CNBC)",
+          "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
+        },
+        {
+          "title": "OpenAI reportedly pitches granting US government 5% stake (Forbes)",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/07/02/openai-reportedly-pitches-granting-us-government-5-stake/"
+        },
+        {
+          "title": "OpenAI in talks to give Trump administration a 5% stake (CNN)",
+          "url": "https://www.cnn.com/2026/07/02/business/openai-trump-stake-intl"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Claude Code Covert Steganographic Fingerprinting Discovered and Rolled Back",
+      "summary": "A developer reverse-engineered Claude Code (v2.1.91+, active since April 2, 2026) and found it had been silently embedding hidden Unicode markers in system prompts to flag users routing through Chinese proxies or timezones — without any disclosure — triggering major developer backlash; Anthropic called it a distillation-prevention 'experiment' and rolled it back July 1.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Anthropic is removing its covert code for catching Chinese competitors (The Register)",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366"
+        },
+        {
+          "title": "Claude Code hid proxy fingerprints in system prompts (TechTimes)",
+          "url": "https://www.techtimes.com/articles/319415/20260701/claude-code-hid-proxy-fingerprints-system-prompts-anthropic-promises-fix.htm"
+        },
+        {
+          "title": "Anthropic rolls back Claude Code steganographic fingerprinting (AI Weekly)",
+          "url": "https://aiweekly.co/node/4924"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ChatGPT Falls Below Majority of Generative AI Market for First Time; Anthropic Overtakes in Business Subscriptions",
+      "summary": "Fortune and Similarweb data show monthly ChatGPT visits fell below a majority of the generative AI market for the first time in May 2026, while Ramp data shows Anthropic overtook OpenAI in business subscriptions — marking a historic competitive shift at the frontier as both firms approach IPOs.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Sam Altman seeks new world order for AI as OpenAI slowly loses ground (Fortune)",
+          "url": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "White House in Advanced Talks with AI Companies to Finalize Voluntary Frontier Model Release Standards by August 1",
+      "summary": "The Financial Times reports the White House is negotiating a formal voluntary framework for pre-release government access to 'covered frontier models' — a key August 1 deadline under the June 2 EO — with AI companies, formalizing what has so far been handled ad hoc through export controls and government reviews.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "AI News Today July 3 2026 (Build Fast with AI, citing FT)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"
+        },
+        {
+          "title": "EO sets voluntary early access framework for AI models (Norton Rose Fulbright)",
+          "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/900af3cf/executive-order-establishes-voluntary-early-access-framework-to-frontier-ai-models"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Engineering Countermeasures to Block Chinese Firms (Ant, Others) from Accessing Claude via Cloud Workarounds",
+      "summary": "The Financial Times reports Anthropic engineers are actively closing loopholes that allow Chinese firms like Ant Group to access Claude models through cloud providers and overseas subsidiaries, a direct response to the Alibaba distillation campaign disclosed to the Senate last week.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "FT: Anthropic moves to close loopholes for Chinese firms (via LLM Stats)",
+          "url": "https://llm-stats.com/ai-news"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Stanford HAI AI Index Report 2026 (v3, June 29): Governance Frameworks and Evaluations 'Struggling to Match the Pace of the Technology'",
+      "summary": "The ninth edition of the Stanford AI Index, updated June 29 with new data and chapters on AI in science and medicine, finds that governance frameworks, evaluation methods, and data infrastructure are struggling to keep pace with AI capabilities — and introduces new estimates of AI's economic value alongside labor market effects.",
+      "date": "2026-06-29",
+      "links": [
+        {
+          "title": "Artificial Intelligence Index Report 2026 (arXiv 2606.15708)",
+          "url": "https://arxiv.org/abs/2606.15708"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.02510: Online Safety Monitoring for LLMs (ICML 2026 Hypothesis Testing Workshop)",
+      "summary": "A new conformal-prediction-based framework for real-time safety monitoring of LLMs at deployment without requiring access to model internals, accepted at the ICML 2026 Hypothesis Testing Workshop — addressing a key gap in runtime safety oversight for deployed models.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Online Safety Monitoring for LLMs (arXiv 2607.02510)",
+          "url": "https://arxiv.org/abs/2607.02510"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.00572: HARC — Coupling Harmfulness and Refusal Directions for More Robust Safety Alignment",
+      "summary": "A new mechanistic-interpretability approach to safety alignment that couples the model's internal 'harmfulness' and 'refusal' representation directions together, aiming to produce more robust refusal behavior than standard alignment methods.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment (arXiv 2607.00572)",
+          "url": "https://arxiv.org/abs/2607.00572"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.00402: Safety-Aligned Text-to-Image Models Have Hidden Utility Costs Not Captured by Standard Metrics",
+      "summary": "New work shows that standard coarse metrics (FID, CLIPScore) fail to detect substantial semantic fidelity losses in safety-aligned text-to-image diffusion models, attributing the degradation to 'semantic collapse' in the text encoder — with broad implications for how AI safety alignment is evaluated.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "The Illusion of High Utility in Safety Alignment of T2I Diffusion Models (arXiv 2607.00402)",
+          "url": "https://arxiv.org/abs/2607.00402"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "UN Global Dialogue on AI Governance Opens Today (July 6) in Geneva — First Session with All 193 UN Member States",
+      "summary": "The inaugural session of the UN General Assembly's Global Dialogue on AI Governance convenes July 6–7 at Geneva's Palexpo, bringing all 193 member states and stakeholders to discuss international cooperation on AI governance — marking the first time every country has a seat at an AI governance forum of this scope.",
+      "date": "2026-07-03",
+      "links": [
+        {
+          "title": "Global Dialogue on AI Governance — UN official page",
+          "url": "https://www.un.org/global-dialogue-ai-governance/en"
+        },
+        {
+          "title": "Inaugural Global Dialogue on AI Governance convenes in Geneva (UN)",
+          "url": "https://www.un.org/en/delegate-delegate-gva-delegate-nyc/inaugural-global-dialogue-ai-governance-convenes-geneva"
+        },
+        {
+          "title": "Understanding the AI Governance Dialogue and what it means for Africans (Research ICT Africa)",
+          "url": "https://researchictafrica.net/2026/07/02/understanding-the-ai-governance-dialogue-and-what-it-means-for-africans/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Fable 5 Post-Restoration: Pricing Structure, Classifier False-Positive Costs, and Broader Jailbreak Disclosure Timeline Published",
+      "summary": "Anthropic's July 3 retrospective on the 19-day Fable 5 suspension reveals that the Amazon-discovered jailbreak was matched by all other tested frontier models (GPT-5.4/5.5, Kimi K2.7), that the new classifier blocks the technique in 99%+ of attempts but at increased false-positive cost, and that Fable 5 moves to usage-credit pricing July 8.",
+      "date": "2026-07-03",
+      "links": [
+        {
+          "title": "AI News Today July 3 2026 (Build Fast with AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"
+        },
+        {
+          "title": "Anthropic Newsroom (Fable 5 redeployment)",
+          "url": "https://www.anthropic.com/news"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Tesla Caps Employee AI Spending at $200/Week Starting July 6 Due to Rising Token Costs",
+      "summary": "An internal Tesla memo (reported by The Information) imposes a $200/week AI token spending limit on employees beginning July 6, after software engineers were consuming thousands of dollars of tokens weekly — an early signal that AI cost management is becoming a major enterprise pressure even at committed AI-adopter firms.",
+      "date": "2026-07-03",
+      "links": [
+        {
+          "title": "The Information (Tesla AI spending cap)",
+          "url": "https://www.theinformation.com/"
+        }
+      ]
+    }
+  ]
+}
