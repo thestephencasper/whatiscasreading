@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T13:41:19+00:00",
+  "entries": [
+    {
+      "tag": "Lawsuit",
+      "title": "Anthropic v. DoD: Court Emails Unsealed Show Pentagon Called Deal 'Very Close' While Simultaneously Blacklisting Anthropic",
+      "summary": "Newly released court documents show DoD undersecretary Emil Michael told Dario Amodei the sides were 'very close' on autonomous-weapons contract terms around the same time the Pentagon finalized its supply-chain risk designation—a contradiction District Judge Rita Lin called 'exceedingly difficult to square' with the government's 'hostile' framing, and which strengthens Anthropic's First Amendment retaliation claim that the blacklisting punished the company for speaking to the press.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Read the Tense Emails Between the Pentagon and Anthropic (Gizmodo)",
+          "url": "https://gizmodo.com/read-the-tense-emails-between-the-pentagon-former-uber-exec-and-anthropic-dario-amodei-2000780849"
+        },
+        {
+          "title": "Anthropic-Pentagon Emails Reveal the Real Fight (The Next Web)",
+          "url": "https://thenextweb.com/news/anthropic-pentagon-emails-amodei-michael-guardrails"
+        },
+        {
+          "title": "Court Filing: Pentagon Said Deal 'Very Close' After Blacklist (AI Weekly)",
+          "url": "https://aiweekly.co/node/5155"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meituan LongCat-2.0: Frontier-Scale Open-Source AI Trained Entirely on Chinese Domestic Chips Tops OpenRouter",
+      "summary": "Chinese food-delivery giant Meituan unveiled LongCat-2.0, a 1.6-trillion-parameter open-source MoE model that scored 59.5 on SWE-bench Pro (beating GPT-5.5) and was trained end-to-end on 50,000+ domestic Chinese ASICs with no Nvidia hardware—having already topped OpenRouter developer charts anonymously for two months as 'Owl Alpha'—directly challenging the US export-control assumption that frontier-scale AI training requires Western chips.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Meituan Open-Sources LongCat-2.0, Trained Entirely on Chinese Chips (VentureBeat)",
+          "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"
+        },
+        {
+          "title": "LongCat-2.0: China's Most Unexpected AI Model (GeopolitEchs)",
+          "url": "https://www.geopolitechs.org/p/longcat-20-chinas-most-unexpected"
+        },
+        {
+          "title": "Meituan's LongCat 2.0 Runs on Chips the US Can't Export and Beat GPT-5.5 (Martin Cid)",
+          "url": "https://www.martincid.com/technology-sv/meituan-longcat-2-open-source-coding-ai/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Grok 4.5 Enters Private Beta at SpaceX and Tesla with No Independent Benchmarks or System Card Published",
+      "summary": "Elon Musk announced that xAI's Grok 4.5—built on a 1.5-trillion-parameter V9 foundation model with Cursor coding data—began private beta at SpaceX and Tesla with self-reported near-Claude-Opus performance, but xAI has not submitted the model to any independent benchmark, published a system card, or provided public API access, continuing a pattern of frontier releases without third-party evaluation.",
+      "date": "2026-06-28",
+      "links": [
+        {
+          "title": "Musk Says Grok 4.5 Enters Private Beta at SpaceX, Tesla (Let's Data Science)",
+          "url": "https://letsdatascience.com/news/musk-says-grok-45-enters-private-beta-at-spacex-tesla-1840769e"
+        },
+        {
+          "title": "Grok 4.5: No Public Access, No Independent Benchmark (TechTimes)",
+          "url": "https://www.techtimes.com/articles/319314/20260629/grok-45-enters-private-beta-spacex-tesla-no-public-access-no-independent-benchmark.htm"
+        },
+        {
+          "title": "Grok 4.5: SpaceX's 1.5T V9 Model Trained on Cursor (ExplainX)",
+          "url": "https://www.explainx.ai/blog/grok-4-5-private-beta-spacex-tesla-cursor-v9-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "UN Global Dialogue on AI Governance Convenes Today with All 193 Member States; Tech Executives Reported to Join Commission",
+      "summary": "The inaugural UN Global Dialogue on AI Governance opens July 6 in Geneva—the first time all 193 UN member states formally convene on AI governance at the same table—with Jensen Huang, Andy Jassy, and Brad Smith reported to have joined the UN's inaugural AI governance advisory body, a development that signals industry engagement with multilateral governance but also raises concentration-of-power concerns about who shapes global AI norms.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "Inaugural Global Dialogue on AI Governance Convenes in Geneva (UN)",
+          "url": "https://www.un.org/en/delegate-delegate-gva-delegate-nyc/inaugural-global-dialogue-ai-governance-convenes-geneva"
+        },
+        {
+          "title": "Global Dialogue on AI Governance, Geneva, 6-7 July (UNESCO)",
+          "url": "https://www.unesco.org/en/articles/global-dialogue-ai-governance-geneva-6-7-july"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Fable 5 Restoration Imposes New 30-Day Data Retention Requirement on All Users as Condition of Restored Access",
+      "summary": "Anthropic's July 1 global restoration of Claude Fable 5 came with a previously absent policy condition not present at the June 9 launch: all users are now subject to a 30-day data retention requirement, establishing a precedent that government model reviews can attach new data-access and surveillance-adjacent conditions to frontier AI models as the price of restored commercial availability.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "AI News Today July 3 2026: Top 10 Stories (Unrot)",
+          "url": "https://unrot.co/blogs/today-top-10-ai-news-july-3-2026"
+        },
+        {
+          "title": "AI News Today July 4 2026: 15 Biggest Stories (Build Fast With AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.01153: Adversarial Pragmatics — New Benchmark for AI Safety Evaluation Under Instruction Conflict and Embedded Commands",
+      "summary": "New preprint introduces a linguistically controlled adversarial-pragmatics benchmark and annotation protocol to test model behavior under instruction conflict, embedded commands, scope ambiguity, deixis, and multi-turn agent transcripts, arguing that existing pass/fail safety evaluations systematically obscure distinct failure modes—including scaffold failure, policy ambiguity, and unstable evaluator judgments—that matter for agentic deployment.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "Adversarial Pragmatics for AI Safety Evaluation (arXiv 2607.01153)",
+          "url": "https://arxiv.org/abs/2607.01153v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.00464: MolSafeEval — Structured Benchmark for CBRNE Safety Risks in AI-Generated Molecules",
+      "summary": "New preprint introduces MolSafeEval, which integrates heterogeneous toxicological databases and hazard rules into a molecular safety knowledge graph used by LLM-based reasoning to systematically detect CBRNE-relevant hazards in AI-generated compounds across four generative chemistry task types, filling a significant gap as generative chemistry models proliferate.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "MolSafeEval: A Benchmark for Uncovering Safety Risks in AI-Generated Molecules (arXiv 2607.00464)",
+          "url": "https://arxiv.org/abs/2607.00464v1"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "New York Legislature Passes AI Workforce Disclosure Bill (S8706-B) Requiring Businesses to Report AI's Impact on Workers",
+      "summary": "New York's Senate joined the Assembly in passing S8706-B, which requires covered businesses to disclose their use of AI technologies and the impact on their workforce—adding New York's economic weight to the growing state-level push for AI labor-impact transparency as Congress remains gridlocked on comprehensive federal AI legislation.",
+      "date": "2026-06-27",
+      "links": [
+        {
+          "title": "The Great American AI Act: What Businesses Need to Know (JD Supra)",
+          "url": "https://www.jdsupra.com/legalnews/the-great-american-ai-act-what-6866272/"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "arXiv Spins Out from Cornell University to Become Independent Nonprofit on Its 35th Anniversary",
+      "summary": "On July 1, 2026, arXiv formally became an independent nonprofit after 25 years hosted by Cornell University, a governance change with long-term implications for the funding model and editorial independence of the world's primary open-access preprint repository for AI safety, machine learning, and computer science research.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "arXiv's Next Chapter: Spin Out from Cornell University (arXiv Blog)",
+          "url": "https://blog.arxiv.org/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Five Eyes Alliance Issues Joint Warning That Frontier AI Will Surpass Cyber Defenses in Months, Not Years",
+      "summary": "The cybersecurity agencies of the US, UK, Australia, Canada, and New Zealand issued a rare joint statement warning that frontier AI models are 'rapidly transforming cyber risk' and will exceed current industry cyber-defense expectations 'in months, not years,' urging immediate hardening of critical systems—framed explicitly around the Fable 5 export-control episode as evidence of AI's offensive cyber potential.",
+      "date": "2026-06-23",
+      "links": [
+        {
+          "title": "Five Eyes Cyber Security Agencies Statement (NSA)",
+          "url": "https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/4523810/five-eyes-cyber-security-agencies-statement/"
+        },
+        {
+          "title": "AI Could Breach Government Defenses in Months, Five Eyes Warn (CNN)",
+          "url": "https://www.cnn.com/2026/06/23/world/ai-five-eyes-warning-cyber-threat-intl-hnk"
+        },
+        {
+          "title": "Looming AI-Fueled Threats Require Urgent Action, Five Eyes Say (Cybersecurity Dive)",
+          "url": "https://www.cybersecuritydive.com/news/ai-cyberattacks-five-eyes-frontier-models-warning/823526/"
+        }
+      ]
+    }
+  ]
+}
