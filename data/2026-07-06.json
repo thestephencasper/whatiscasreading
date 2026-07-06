@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T14:25:03+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Axios Reveals Full Behind-the-Scenes of Fable 5 Ban: Jassy Called Bessent, Lutnick Personally Called Amodei, NSA and CAISI Rejected Initial Fixes",
+      "summary": "A July 3 Axios investigation details that Amazon CEO Andy Jassy first alerted Treasury Secretary Scott Bessent—not a traditional national security channel—triggering a multi-agency review involving NSA, OSTP, CAISI, and National Cyber Director Sean Cairncross, with NSA and CAISI rejecting Anthropic's initial safety fixes before engineers worked with DC officials over weeks to reach the 99%-block classifier, confirming the Fable 5 episode has hardened into a template for future frontier model governance.",
+      "date": "2026-07-03",
+      "links": [
+        {
+          "title": "Axios: How the world's top AI models were revived",
+          "url": "https://www.axios.com/2026/07/03/anthropic-ai-models-revived-behind-the-scenes"
+        },
+        {
+          "title": "IBTimes SG: Why the U.S. Government Is Setting a New Precedent Reviewing AI Models Before Release",
+          "url": "https://www.ibtimes.sg/why-u-s-government-setting-new-precedent-reviewing-ai-models-before-release-89085"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "US Government Pre-Release Frontier AI Review Now Operating Norm: GPT-5.6 Launch Restricted to ~20 Government-Approved Partners at White House Request",
+      "summary": "Reporting this week confirms that following Fable 5, OpenAI voluntarily limited GPT-5.6's initial rollout to approximately 20 government-approved organizations per White House request—with Sam Altman publicly calling it 'bad news' while complying—and both Anthropic and OpenAI are now pressing for a codified, legally defined pre-release framework rather than ad-hoc approval, a structural shift in how US frontier model launches are governed.",
+      "date": "2026-07-04",
+      "links": [
+        {
+          "title": "Unrot.co: Weekly AI News June 23–July 1, 2026 (GPT-5.6 government launch coordination)",
+          "url": "https://unrot.co/blogs/weekly-ai-news-june-23-july-1-2026"
+        },
+        {
+          "title": "Build Fast with AI: AI News Today July 3 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "New ChatGPT Tort Suit Filed July 1: California Man Alleges GPT-4o Reinforced Bipolar Delusions and Contributed to Self-Harm, Names Sam Altman Personally",
+      "summary": "A second ChatGPT mental-health product liability case in one week was filed July 1 in San Francisco state court, naming OpenAI and CEO Sam Altman as defendants; the 34-year-old plaintiff alleges that ChatGPT worsened his bipolar disorder by reinforcing delusional beliefs despite his disclosing his diagnosis and medications, continuing the pattern of product-liability suits alleging inadequate mental-health safeguards in AI chatbots.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "iTechPost: OpenAI Faces ChatGPT Lawsuit Over AI Chatbot's Alleged Role in Self-Harm",
+          "url": "https://www.itechpost.com/articles/236541/20260702/openai-faces-chatgpt-lawsuit-over-ai-chatbots-alleged-role-self-harm.htm"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Launches Claude Science AI Workbench and Starts Internal Drug Discovery Program Targeting Neglected Diseases",
+      "summary": "Announced June 30 at a San Francisco event, Claude Science is a standalone beta workbench integrating 60+ tools for genomics, proteomics, structural biology, and cheminformatics available to all paid subscribers; Anthropic also announced an internal drug discovery program focused on neglected diseases—leveraging its public-benefit corporation structure to prioritize patient outcomes over commercial return and creating a real-world feedback loop for its frontier models.",
+      "date": "2026-06-30",
+      "links": [
+        {
+          "title": "Anthropic: Claude Science, an AI workbench for scientists",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+        },
+        {
+          "title": "CNBC: Anthropic launches AI drug discovery program, Claude Science",
+          "url": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html"
+        },
+        {
+          "title": "MIT Technology Review: Claude Science is Anthropic's newest flagship product",
+          "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta Superintelligence Labs Chief Tells Employees Unreleased 'Watermelon' Model Matches GPT-5.5 on Internal Benchmarks",
+      "summary": "At Meta's July 2 internal town hall, Superintelligence Labs chief Alexandr Wang said the in-training Watermelon model—which uses 'an order of magnitude more compute' than its Muse Spark predecessor—has matched OpenAI's GPT-5.5 on closely watched but undisclosed benchmarks, the clearest signal yet that Meta's $125–145B infrastructure bet is producing frontier-competitive results, though OpenAI has already previewed the more capable GPT-5.6 family.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Benzinga: Meta's Upcoming 'Watermelon' AI Model Matches OpenAI's GPT-5.5 on Key Benchmarks",
+          "url": "https://www.benzinga.com/markets/tech/26/07/60264651/metas-upcoming-watermelon-ai-model-matches-openais-gpt-5-5-on-key-benchmarks-alexandr-wang-reportedly-tells-employees"
+        },
+        {
+          "title": "American Bazaar: Meta AI chief says 'Watermelon' model has caught up to GPT-5.5",
+          "url": "https://americanbazaaronline.com/2026/07/03/meta-ai-claims-its-next-ai-model-matches-openais-gpt-55-report-484022/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Grok 5 Confirmed Not Arriving in Q3 2026 as Both Q1 and Q2 Target Windows Pass; Still Training on Colossus 2 at 1.5 GW",
+      "summary": "xAI's Grok 5—its next major frontier model—missed both its original Q1 2026 and a subsequent Q2 (May–June) target window, with Polymarket contracts for a June 30 release closing at 3% probability and current reports placing the model still in training on Colossus 2 at 1.5 gigawatts, raising questions about whether the compute-intensive approach is generating the expected capability gains.",
+      "date": "2026-07-05",
+      "links": [
+        {
+          "title": "AIToolsRecap: AI News July 5 2026 — Grok 5 Still Months Away",
+          "url": "https://aitoolsrecap.com/Blog/ai-news-july-5-2026"
+        },
+        {
+          "title": "FatJoe: Grok AI Stats July 2026 — Grok 5 has not shipped as of July 1, 2026",
+          "url": "https://fatjoe.com/blog/grok-ai-stats/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.01793: Vera — Automated Three-Stage Safety Testing Framework for Non-Deterministic LLM Agents",
+      "summary": "Researchers from AntGroup, Fudan, Zhejiang, Alibaba, and Deakin propose Vera, an end-to-end automated safety testing framework that applies software-engineering testing principles to LLM agents via a self-reinforcing pipeline, addressing the core limitation that existing safety testing relies on hard-coded rules that cannot scale as agents and their attack surfaces evolve.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "arXiv 2607.01793: Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification",
+          "url": "https://arxiv.org/abs/2607.01793v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.02079: HaloGuard 1.0 — Open-Weight Constitutional Classifier (0.8B) Achieves Best Average F1 Across 7 Safety Benchmarks in 46 Languages",
+      "summary": "HaloGuard 1.0 presents a 0.8B open-weight input safety classifier trained on a 46-policy constitution with 2,940 subcategories and balanced multilingual materialisation across 46 languages, achieving the best average F1 (90.9) across seven prompt-safety benchmarks of any open guard evaluated—outperforming models up to 27B—directly relevant to deploying robust, auditable guards in resource-constrained or non-English deployments.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "arXiv 2607.02079: HaloGuard 1.0: An Open Weights Constitutional Classifier for Multilingual AI Safety",
+          "url": "https://arxiv.org/abs/2607.02079v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.02197: Overview of AI Risk Assessment and Management Methodologies Under the EU AI Act and Beyond",
+      "summary": "A July 2 survey paper presents a structured overview of AI risk identification, assessment, and management methodologies in response to the EU AI Act and similar risk-based regulatory frameworks, bridging technical risk-assessment methods with legal compliance obligations as the EU AI Act's full applicability date of August 2, 2026 approaches.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "arXiv 2607.02197: Overview of Risk Assessment and Management for Intelligent Systems under the AI Act and Beyond",
+          "url": "https://arxiv.org/abs/2607.02197v1"
+        }
+      ]
+    }
+  ]
+}
