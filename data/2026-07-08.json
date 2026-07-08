@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T13:45:43+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "FLI AI Safety Index Summer 2026: No Lab Above C+, All Score D+ or Below for Existential Safety",
+      "summary": "The Future of Life Institute's biannual independent expert review found no frontier AI lab scoring better than Anthropic's C+ overall (OpenAI and Google DeepMind each earned C, Meta D+, xAI/DeepSeek/Mistral F), with reviewers finding all four leading labs have weakened or eliminated earlier commitments to pause development if systems approached specified danger thresholds — and no company scoring above a D in the existential safety domain.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "FLI: AI Safety Index — Summer 2026",
+          "url": "https://futureoflife.org/ai-safety-index-summer-2026/"
+        },
+        {
+          "title": "TIME: The Latest AI Safety Rankings Are In. Nobody Gets an A",
+          "url": "https://time.com/article/2026/07/07/ai-safety-rankings-openai-anthropic-meta/"
+        },
+        {
+          "title": "Axios: AI companies retreat from safety pledges",
+          "url": "https://www.axios.com/2026/07/07/report-ai-safety-pledges"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU Commission Releases Action Plan on Cybersecurity and AI: Pre-Market Evaluation Capacity, Structured Access Blueprint, JRC Testing Platform",
+      "summary": "Published July 7, the European Commission's five-action plan commits to building an EU evaluation capacity for advanced AI models before EU market placement (operational 2027), developing a European Blueprint for structured access to advanced AI with ENISA, and establishing a JRC secure testing platform for critical-sector organizations — all implemented through existing AI Act, Cyber Resilience Act, and NIS2 rules rather than new legislation.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "EU Commission: Action Plan on Cybersecurity and Artificial Intelligence (full document)",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence"
+        },
+        {
+          "title": "EU Commission press release",
+          "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en"
+        },
+        {
+          "title": "AI Weekly analysis: EU unveils AI cybersecurity plan with pre-market model testing",
+          "url": "https://aiweekly.co/alerts/eu-unveils-ai-cybersecurity-plan-with-pre-market-model-testing"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Names Alibaba as Perpetrator of Largest-Ever Distillation Attack on Claude; Alibaba Bans Claude for Employees",
+      "summary": "Anthropic told US senators that operators linked to Alibaba's Qwen lab used roughly 25,000 fraudulent accounts to run nearly 29 million Claude exchanges between April and June, targeting agentic reasoning and coding capabilities — its largest-ever distillation attack accusation naming a major Chinese tech conglomerate — and Alibaba responded by banning Claude Code for employees and placing it on a high-risk software list.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "CNBC: China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+          "url": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html"
+        },
+        {
+          "title": "The Next Web: Anthropic accuses Alibaba of running largest distillation campaign against Claude",
+          "url": "https://thenextweb.com/news/anthropic-accuses-alibaba-distillation-claude-qwen"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "China's First Anthropomorphic AI Companion Regulation Takes Effect July 15; ByteDance and Alibaba Shut Down Personalized Agents",
+      "summary": "China's Interim Measures for the Administration of AI Anthropomorphic Interactive Services (issued April 2026, effective July 15) require anti-addiction systems and instant-exit mechanisms for emotional AI, forcing ByteDance's Doubao and Alibaba's Qwen to shut down persistent-memory companion agents rather than rebuild to comply — the world's first national regulation specifically targeting AI emotional/companion interaction.",
+      "date": "2026-07-05",
+      "links": [
+        {
+          "title": "TechTimes: China AI Companion Law Arrives July 15: Doubao and Qwen Agent Data Will Be Deleted",
+          "url": "https://www.techtimes.com/articles/319703/20260704/china-ai-companion-law-arrives-july-15-doubao-qwen-agent-data-will-deleted.htm"
+        },
+        {
+          "title": "The Next Web: China's AI companion rules force Doubao, Qwen shutdowns",
+          "url": "https://thenextweb.com/news/china-humanlike-ai-agent-rules"
+        },
+        {
+          "title": "AI News: China's AI companion rules: what Beijing is really going after",
+          "url": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Crunchbase H1 2026: OpenAI and Anthropic Alone Absorbed 43% of Record $510B Global Startup Funding",
+      "summary": "Global venture funding hit an all-time H1 record of $510B in the first half of 2026 — already exceeding all of 2025's $440B — with OpenAI and Anthropic together raising $217B (43% of total global startup capital), representing unprecedented concentration of private capital in two frontier AI companies.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "Crunchbase: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+          "url": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.05163: Open Problems in AI Incident Governance",
+      "summary": "This paper systematically examines regulatory and independent AI incident governance frameworks, finding critical inconsistencies in how incidents are defined, classified, monitored, and reported — gaps that undermine the depth and accuracy of incident analysis needed to manage post-deployment AI failures that pre-deployment safety assessments fail to anticipate.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "arXiv 2607.05163: Open Problems in AI Incident Governance",
+          "url": "https://arxiv.org/abs/2607.05163"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Gemini 3.5 Pro Launch Pushed to July 17 After Full Architectural Rebuild, Scrapping Existing 2.5 Pro Architecture",
+      "summary": "Google DeepMind has set July 17 as the Gemini 3.5 Pro GA date after abandoning the existing Gemini 2.5 Pro architecture for a complete redesign targeting improvements in mathematical reasoning, SVG scene generation, and image quality — making it now the only major 2026 frontier model still not subject to government pre-release review under the White House voluntary framework.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "BigGo Finance: Google Delays Gemini 3.5 Pro Launch to July 17 for Full Architectural Rebuild",
+          "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "ITU Launches AI for Good Global Commission with 40+ Founding Members Including Heads of State and Frontier Lab CEOs",
+      "summary": "Rwanda's President Kagame and Salesforce CEO Marc Benioff co-chair a new ITU-backed commission of 40+ founding members — including Jensen Huang, Andy Jassy, Brad Smith, Jack Clark, and Aidan Gomez alongside multiple heads of state — to define practical governance pathways for trustworthy AI globally, holding its inaugural meeting at the AI for Good Summit concurrent with the UN Global Dialogue in Geneva.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "ITU: Global leaders launch AI for Good Global Commission",
+          "url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-07-02-AI-for-Good-Global-Commission.aspx"
+        }
+      ]
+    }
+  ]
+}
