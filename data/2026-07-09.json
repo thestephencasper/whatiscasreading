@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T14:03:01+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "GPT-5.6 Sol/Terra/Luna Goes Fully Public After 13-Day Government Review; Grok 4.5 Also Launches Without System Card",
+      "summary": "On July 9, OpenAI's GPT-5.6 family (Sol, Terra, Luna) became broadly available to all ChatGPT users and API developers after a 13-day government-coordinated preview, establishing what analysts call a de facto preclearance norm for frontier AI models; simultaneously, xAI launched Grok 4.5 publicly with only a single-sentence Musk claim of 'Opus-class' performance and no system card, benchmarks, or technical documentation.",
+      "date": "2026-07-09",
+      "links": [
+        {
+          "title": "GPT-5.6 Goes Public After 12-Day White House Gate (TechTimes)",
+          "url": "https://www.techtimes.com/articles/319979/20260709/gpt-56-goes-public-after-12-day-white-house-gate-tests-voluntary-ai-framework.htm"
+        },
+        {
+          "title": "AI News Today July 9 2026: GPT-5.6 and Grok 4.5 Launch Same Day (Build Fast With AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Trump Abruptly Cancels Expected Voluntary AI EO Signing Ceremony; August 1 Deadline Remains Only Confirmed Governance Milestone",
+      "summary": "On July 8, President Trump cancelled a scheduled Oval Office signing ceremony for a new AI executive order governing pre-release model review, telling reporters he worried it could undermine America's lead over China, leaving the August 1 statutory deadline (under the June 2 EO) for NSA/CISA to deliver classified frontier model benchmarks as the only remaining firm governance milestone.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "AI News Wed July 8 2026: Trump Cancels AI EO Signing (tech-reader.blog)",
+          "url": "https://www.tech-reader.blog/2026/07/ai-news-wed-july-8-2026.html"
+        },
+        {
+          "title": "AI News Today July 8 2026 (Build Fast With AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "FTC Proposes 'Suppression of Accuracy' Policy: Undisclosed AI Output Steering May Violate Section 5 FTC Act",
+      "summary": "On July 1, the FTC published a proposed policy statement (open for comment through July 31) arguing that AI companies which secretly steer their systems' outputs toward undisclosed ideological objectives — rather than what users request — may be committing deception under Section 5 of the FTC Act; critically, the statement singles out Colorado's AI Act as potentially preempted by federal law where compliance would require suppressing accurate outputs.",
+      "date": "2026-07-01",
+      "links": [
+        {
+          "title": "FTC Proposed Policy Statement on AI Accuracy (FTC.gov)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy"
+        },
+        {
+          "title": "Federal Register Notice: Policy Statement Concerning Suppression of Accuracy in AI Systems",
+          "url": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems"
+        },
+        {
+          "title": "FTC Seeks Comment on AI Accuracy Policy Statement (Inside Privacy)",
+          "url": "https://www.insideprivacy.com/consumer-protection/ftc-seeks-comment-on-proposed-policy-statement-addressing-ai-accuracy-and-output-steering/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "TechPolicy.Press H1 2026 State AI Report: 109 AI Laws Enacted Across States, AI Companion Chatbot Regulation Dominant Theme",
+      "summary": "A NYU Center on Technology Policy midyear analysis finds that U.S. states have enacted 109 AI laws and 28 data center laws as of July 1, 2026 — with AI companion chatbot safety the single most active area of regulation — and that bipartisan support for AI rules is spreading across state lines even as the Trump administration pushes for federal preemption.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Where State AI Legislation Stands Half Way Into 2026 (TechPolicy.Press)",
+          "url": "https://www.techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "House Science Committee Marks Up 10 Bipartisan AI Bills in Single Session — Research, Cybersecurity, Workforce, Energy",
+      "summary": "The House Science, Space, and Technology Committee advanced ten bipartisan AI bills covering research access, AI cybersecurity, workforce development, transparency, and data center energy standards in a single markup session, signaling Congress is laying institutional groundwork for more substantive AI oversight ahead.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "AI: The Washington Report — July 2026 Edition (Mintz)",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition"
+        },
+        {
+          "title": "AI: The Washington Report — July 2026 Edition (Mondaq)",
+          "url": "https://www.mondaq.com/unitedstates/new-technology/1814652/ai-the-washington-report-july-2026-edition"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Warner Music v. Udio: Strategic Partnership Settlement Reached, Terms Confidential",
+      "summary": "Warner Music Group settled its copyright lawsuit against AI music generator Udio on confidential terms structured as a strategic partnership, according to AI lawsuit tracking sources, marking the second major music label to exit litigation in favor of a licensing arrangement with an AI music company.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "AI Lawsuit Tracker 2026 (ailawsuittracker.com)",
+          "url": "https://ailawsuittracker.com/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "CNBC Confirms Chinese AI Models Now Account for 30–46% of US Enterprise API Token Usage",
+      "summary": "New CNBC data published July 8 confirms that Chinese AI models (led by Z.ai's GLM-5.2 and open-source DeepSeek variants) account for between 30% and 46% of enterprise API tokens flowing through US developer platforms like OpenRouter and Vercel — up from 4.5% in early 2025 — driven by price advantages of 60–90% versus OpenAI and Anthropic, raising national security and supply-chain concentration concerns.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "AI News Today July 8 2026: Chinese AI Confirmed at 46% Enterprise Usage (Build Fast With AI)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta Offers $250M to 24-Year-Old AI Researcher Matt Deitke — Largest Compensation Package for a Young Researcher in History",
+      "summary": "Meta reportedly offered PhD dropout and University of Washington researcher Matt Deitke a four-year, $250 million compensation package — the largest ever offered to a young AI researcher — after an initial $125 million offer was reportedly turned down, illustrating the extreme talent concentration dynamic at frontier labs.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "AI News Briefs Bulletin Board for July 2026 (Radical Data Science)",
+          "url": "https://radicaldatascience.wordpress.com/2026/07/08/ai-news-briefs-bulletin-board-for-july-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.02201: Eticas AI Risk Taxonomy — Open Infrastructure for Operationalizing AI Audits",
+      "summary": "This paper addresses the fragmentation among 74+ AI risk taxonomies by proposing the Eticas framework as an operationalization layer that bridges risk naming to actual test execution, measured severity scoring, and defensible grades — demonstrated end-to-end on PII leakage against GPT-4, showing disclosure rates ranging from 0% to 84% under adversarial conditioning.",
+      "date": "2026-07-02",
+      "links": [
+        {
+          "title": "arXiv 2607.02201: The Eticas AI Risk Taxonomy",
+          "url": "https://arxiv.org/abs/2607.02201"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.07612: 'Towards Agentic AI Governance: A Preliminary Assessment' (AIR-RES 2026)",
+      "summary": "A new cs.CY/cs.AI preprint accepted to the AI Revolution Research, Ethics, and Society 2026 conference proposes a preliminary framework for governing agentic AI systems, addressing how governance mechanisms need to evolve as AI moves from static models to autonomous agents capable of multi-step action.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "arXiv 2607.07612: Towards Agentic AI Governance",
+          "url": "https://arxiv.org/abs/2607.07612"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Illinois AI Safety Measures Act Signed July 6: Key Clarifications on Scope, Penalties, and Industry Dynamics",
+      "summary": "New details from the Illinois AISMA signing confirm SB 315 applies to AI models generating over $500 million annually, mirrors California SB-53 and New York RAISE Act, imposes civil penalties of up to $3 million for repeat violations, and takes effect January 1, 2028 — with both OpenAI and Anthropic supporting the bill as a model for a coordinated state-led approach to frontier AI safety.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "Illinois Sets National Standard for AI Regulation (MyStateline/WTVO)",
+          "url": "https://www.mystateline.com/news/local-news/illinois-sets-national-standard-for-ai-regulation-with-new-law/"
+        },
+        {
+          "title": "Pritzker Signs Landmark AI Regulation Bill (WTTW)",
+          "url": "https://news.wttw.com/2026/07/06/pritzker-signs-landmark-ai-regulation-bill-aims-mitigate-risks"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "SCOTUS Elimination of Independent Federal Agencies Reshapes Options for AI Governance Institutional Design",
+      "summary": "Transformer News publishes an opinion arguing that the Supreme Court's ruling striking down independent federal agencies (the 'Slaughter ruling') paradoxically strengthens the case for independent third-party verification for AI governance — since a new independent AI regulator is now unconstitutional, external auditing and verification frameworks become the primary mechanism for accountability.",
+      "links": [
+        {
+          "title": "SCOTUS Killed the Independent Agency. AI Governance Doesn't Need One (Transformer News)",
+          "url": "https://www.transformernews.ai/"
+        }
+      ]
+    }
+  ]
+}
