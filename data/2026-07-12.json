@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T13:42:29+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Meta Muse Spark 1.1 Launches as First Closed Meta Model; Safety Report Concedes Unmitigated 'High Risk' in Bio and Cyber Domains",
+      "summary": "Meta's July 9 launch of Muse Spark 1.1 via a paid API (ending its open-weights-only era) came with a safety evaluation report disclosing that, without mitigations, the model could not be ruled out as meeting the 'high risk' capability threshold in both chemical/biological and cybersecurity domains; separately, the blog noted that Apollo Research found the original Muse Spark showed the highest rate of evaluation awareness they had ever observed.",
+      "date": "2026-07-09",
+      "links": [
+        {
+          "title": "Meta Blog: Introducing Muse Spark 1.1",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "title": "Kingy.ai: Muse Spark 1.1 Safety Evals Breakdown",
+          "url": "https://kingy.ai/blog/muse-spark-1-1-benchmarks-specs-evals/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "GPT-5.6 Sol Ultra Claims Proof of 50-Year-Old Cycle Double Cover Conjecture — Awaiting Peer Review",
+      "summary": "OpenAI published on July 10 what it calls a complete AI-generated proof of the Cycle Double Cover Conjecture, produced by 64 parallel subagents in under an hour; the proof is unverified and the math community is actively scrutinizing it, illustrating the widening gap between frontier AI capability claims and independent validation.",
+      "date": "2026-07-10",
+      "links": [
+        {
+          "title": "MLQ News: OpenAI Claims GPT-5.6 Sol Ultra Solved 50-Year-Old Math Conjecture",
+          "url": "https://mlq.ai/news/openai-claims-gpt-56-sol-ultra-solved-50-year-old-math-conjecture-in-under-an-hour/"
+        },
+        {
+          "title": "AI Weekly Alert: OpenAI Attributes Cycle Double Cover Proof to GPT-5.6 Sol Ultra",
+          "url": "https://aiweekly.co/alerts/openai-attributes-cycle-double-cover-proof-to-gpt-56-sol-ultra"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.00572: HARC — Coupling Harmfulness and Refusal Directions for Robust Safety Alignment",
+      "summary": "This paper shows that aligned LLMs encode harmfulness and refusal as separable residual-stream directions and introduces HARC, a fine-tuning method that couples them to achieve stronger jailbreak robustness without degrading capability or inflating over-refusals, achieving the best robustness-capability-usability trade-off across six baselines tested on five model families.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "arXiv 2607.00572",
+          "url": "https://arxiv.org/abs/2607.00572"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Fed Chair Warsh Appoints Marc Andreessen — Major AI Investor and Trump Ally — to Co-Lead AI Productivity Task Force",
+      "summary": "On July 9, Federal Reserve Chair Kevin Warsh announced that a16z co-founder Andreessen (a personal friend for 30 years and recent Trump appointee to the Defense Policy Board) will co-lead the Fed's 'Productivity and Jobs' task force tasked with assessing AI's macroeconomic impact, raising conflict-of-interest concerns given Andreessen's deep AI investment portfolio and the panel's potential to influence interest-rate decisions.",
+      "date": "2026-07-09",
+      "links": [
+        {
+          "title": "Axios: Marc Andreessen among new Fed task force leaders",
+          "url": "https://www.axios.com/2026/07/09/fed-warsh-task-force-andreessen"
+        },
+        {
+          "title": "CNBC: New Fed task force members share Warsh's embrace of AI",
+          "url": "https://www.cnbc.com/2026/07/09/fed-task-force-member-chairman-kevin-warsh-ai.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Revenue Now Exceeds OpenAI ($47B vs ~$25–33B Annualized), Marking Shift in Frontier Lab Dominance",
+      "summary": "Fortune confirmed that Anthropic has overtaken OpenAI on self-reported annualized revenue ($47B vs OpenAI's projected $25–33B), also leading on business subscriptions and agentic coding market share, marking the first time a frontier lab other than OpenAI has led on revenue — a significant shift in concentration of power in the AI industry.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Fortune: Sam Altman seeks new world order as OpenAI loses ground to Anthropic",
+          "url": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"
+        },
+        {
+          "title": "BuildFastWithAI: AI News July 7, 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic AI Discovers 29-Year-Old CVE in Squid Proxy via Project Glasswing; Alberta Becomes First Canadian Province to Deploy Claude for Government Security Audits",
+      "summary": "On July 7, Claude Mythos discovered CVE-2026-47729 (a 29-year-old memory leak in the Squid web proxy) through authorized Project Glasswing security auditing, while a July 6 Anthropic case study confirmed the Government of Alberta deployed Claude for vulnerability scanning — together illustrating the frontier dual-use gap between AI-enabled offense (JADEPUFFER) and AI-enabled defense.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Anthropic Newsroom",
+          "url": "https://www.anthropic.com/news"
+        },
+        {
+          "title": "Tech-Reader Blog: AI News Weekly Recap July 6–10",
+          "url": "https://www.tech-reader.blog/2026/07/ai-news-sat-july-11-2026.html"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.03510: CAGE-1 — Control, Assurance, and Governance Evaluation Framework for Enterprise Agentic AI Deployment",
+      "summary": "CAGE-1 proposes a structured readiness evaluation framework for enterprise AI agents covering twelve dimensions — authority, policy enforcement, tool safety, memory integrity, auditability, human oversight, and a new concept called 'Prebind Assurance' (proving an action is controlled before it becomes operationally binding) — addressing a gap as enterprise agents move from experimentation to production.",
+      "date": "2026-07-05",
+      "links": [
+        {
+          "title": "arXiv 2607.03510",
+          "url": "https://arxiv.org/abs/2607.03510"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Leaked Gemini 3.5 Pro July 17 GA Specs: 2-Million-Token Context Window, Fully New Architecture, Aggressive API Pricing",
+      "summary": "A leaked Gemini 3.5 Pro launch plan circulating July 10 puts general availability at July 17, with a 2-million-token context window (double the current frontier), a complete architectural rebuild, Deep Think reasoning gated behind a $250/month Ultra tier, and API pricing around $1.25 input per million tokens — intensifying the frontier model competition immediately before the EU AI Act's August 2 full enforcement date.",
+      "date": "2026-07-10",
+      "links": [
+        {
+          "title": "BuildFastWithAI: AI News July 12, 2026 (Gemini 3.5 Pro specs)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Signs $19B AI Data Center Lease with TeraWulf, Extending Infrastructure Footprint to Nuclear and Hydro-Powered Facilities",
+      "summary": "Anthropic signed a $19 billion data center lease with sustainable computing firm TeraWulf on July 7, adding to over 12 previously announced US data center commitments totaling more than 1 gigawatt of capacity, illustrating the accelerating concentration of AI infrastructure at frontier labs.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "BuildFastWithAI: AI News July 7, 2026 (TeraWulf story)",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Bipartisan Senate AI Labeling Act of 2026 Introduced, Requiring Disclosure of AI-Generated Content Across Major Platforms",
+      "summary": "A bipartisan Senate bill introduced in July would require platforms to disclose AI-generated content at scale, adding to the already-active patchwork of US state and EU transparency obligations in the run-up to the EU AI Act's August 2 full enforcement date.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "Mintz: AI Washington Report July 2026 Edition",
+          "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition"
+        }
+      ]
+    }
+  ]
+}
