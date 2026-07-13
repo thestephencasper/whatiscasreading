@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T13:52:35+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "China Weighs Restricting Overseas Access to Its Frontier AI Models, Including Open-Weight Releases",
+      "summary": "Reuters reported that China's Ministry of Commerce has held meetings with Alibaba, ByteDance, and Z.ai about limiting foreign access to the country's top AI models — including unreleased ones and open-weight releases like Qwen, Doubao, and GLM — mirroring U.S. export controls and marking a potential end to the era of freely downloadable Chinese frontier AI.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Yahoo News: China weighs restrictions on overseas access to its most advanced AI models",
+          "url": "https://www.yahoo.com/news/world/articles/beijing-weighing-limits-overseas-access-131227550.html"
+        },
+        {
+          "title": "The Next Web: China weighs curbing overseas access to its top AI models",
+          "url": "https://thenextweb.com/news/china-curbing-overseas-access-top-ai-models"
+        },
+        {
+          "title": "Semafor: China mulls curbing foreign access to its AI models",
+          "url": "https://www.semafor.com/article/07/09/2026/china-mulls-curbing-foreign-access-to-its-ai-models"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Bank of England Financial Stability Report Flags AI as Growing Systemic Financial Risk",
+      "summary": "The BoE's half-yearly Financial Stability Report named AI a new systemic concern, citing leveraged investor speculation on AI valuations, increasingly opaque AI company debt structures, and advanced AI models' growing capacity to amplify cyberattacks against banks — and signaled that bespoke AI regulation may be needed.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Reuters via WIN Country: Bank of England sees growing risks to financial stability from AI",
+          "url": "https://wincountry.com/2026/07/07/bank-of-england-sees-growing-risks-to-financial-stability-from-ai/"
+        },
+        {
+          "title": "Resultsense: Bank of England flags AI as financial stability risk",
+          "url": "https://www.resultsense.com/news/2026-07-08-boe-ai-financial-stability-risk/"
+        },
+        {
+          "title": "Sky News / V2 Radio: Financial stability at risk from AI – Bank of England",
+          "url": "https://www.v2radio.co.uk/news/v2-radio-video-news/financial-stability-at-risk-from-artificial-intelligence-bank-of-england-says/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Lawfare: GAAIA Is the Best Federal Frontier AI Safety Framework Yet Proposed — But \"Net-Negative as Written\" Due to Sweeping State Preemption",
+      "summary": "A Lawfare analysis argues the bipartisan Great American AI Act would be the most substantive federal frontier AI safety legislation ever proposed, but that its three-year preemption of state AI development laws would lock in an inadequate 2026-era framework precisely when future capabilities gains will require more ambitious state-level responses.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "Lawfare: Congress Should Do Something — The Case for (Fixing) the Great American AI Act",
+          "url": "https://www.lawfaremedia.org/article/congress-should-do-something--the-case-for-(fixing)-the-great-american-ai-act"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.07695: Institutional Red-Teaming — Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+      "summary": "Introduces institutional red-teaming, a methodology that holds agents and tasks fixed while varying only deployment rules; using the IABench-CA benchmark (228 contexts, 5 canonical rules, 33,924 games), it finds that changing a single consequence rule shifts mean fatality rates 22–58 percentage points — showing that governance choices at the deployment layer dominate safety outcomes across every model population tested.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "arXiv 2607.07695: Institutional Red-Teaming",
+          "url": "https://arxiv.org/abs/2607.07695v1"
+        },
+        {
+          "title": "arXiv HTML version",
+          "url": "https://arxiv.org/html/2607.07695v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.07359: The AI Resilience Gap — AI Must Be Brought Inside the Operational Resilience Perimeter",
+      "summary": "Argues that AI adoption creates a distinct resilience obligation not covered by existing trustworthy-AI frameworks, and that UK financial regulators are already closing this gap via the FPC's systemic analysis, the Critical Third Parties regime, and the May 2026 joint statement on frontier AI and cyber resilience — with implications for how enterprise and financial-sector AI governance is structured globally.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "arXiv 2607.07359: The AI Resilience Gap",
+          "url": "https://arxiv.org/abs/2607.07359v1"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.07918: Latent Personality Alignment (LPA) — Near-Zero Jailbreak Success Rates Without Exposure to Harmful Content During Training",
+      "summary": "Proposes training jailbreak defenses on just 66 psychometric personality statements rather than harmful prompts, hypothesizing that personality-anchored latent representations share structure with harm avoidance; achieves near-zero attack success rates on HarmBench across direct requests and five jailbreak methods with no degradation on standard benchmarks.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "arXiv 2607.07918: Efficient Safety Alignment via Latent Personality Traits",
+          "url": "https://arxiv.org/abs/2607.07918v1"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Tesla Robotaxi Launches Fully Unsupervised in Miami — 5th City, No Safety Monitor, Amid Open NHTSA Probe into Camera-Only FSD in Rain and Glare",
+      "summary": "Tesla skipped its prior phased approach and launched fully driverless Robotaxi service in Miami on July 3 with no human safety monitor from day one — the first such immediate unsupervised launch in a new city — while NHTSA has an active engineering analysis flagging that the camera-only FSD system fails to detect hazards under degraded visibility conditions such as glare, presenting a live safety test during South Florida's hurricane season.",
+      "date": "2026-07-03",
+      "links": [
+        {
+          "title": "TechTimes: Tesla Robotaxi Arrives in Miami — Florida's Rain Is the Hardest Test Yet",
+          "url": "https://www.techtimes.com/articles/319711/20260704/tesla-robotaxi-arrives-miami-floridas-rain-hardest-test-yet-camera-only-fsd.htm"
+        },
+        {
+          "title": "HNGN: Tesla Launches Driverless Robotaxi In Miami, Skipping Safety-Monitor Phase",
+          "url": "https://www.hngn.com/articles/271934/20260706/tesla-launches-driverless-robotaxi-miami-skipping-safety-monitor-phase.htm"
+        },
+        {
+          "title": "iNews Zoombangla: Tesla Robotaxi Launches in Miami: No Safety Driver, Full Autonomy from Day One",
+          "url": "https://inews.zoombangla.com/tesla-robotaxi-miami-launch-july-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Implements Government-Issued ID Verification for Claude Fable 5 Access — First Frontier Lab to Require National Identity Checks for Model Use",
+      "summary": "As part of the conditions negotiated during the Fable 5 export-control redeployment, Anthropic's updated privacy policy requiring government-issued ID verification took effect July 8, making national identity verification a structural condition of frontier AI model access for the first time and setting a potential precedent for how governments regulate who can use which models.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "Build Fast With AI: AI News Today July 8, 2026",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026"
+        },
+        {
+          "title": "Build Fast With AI: Claude Fable 5 Is Back — What Changed",
+          "url": "https://www.buildfastwithai.com/blogs/claude-fable-5-returns-july-2026-what-changed"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU Mandates AI Driver Distraction Detection in All New Cars from July 7, 2026",
+      "summary": "All newly registered EU vehicles must now include an AI-powered driver distraction detection system analyzing gaze and head movements — without recording footage for authorities — marking a significant step in mandatory AI safety systems embedded in mass-market consumer products.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "Medium AI News Roundup July 6–12, 2026",
+          "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Waymo SF Fleet Partially Disabled on July 4 as Dozens of Vehicles Were Trapped in Gridlock with Drained Batteries — One Caught Fire",
+      "summary": "On July 4, 2026, Waymo's San Francisco fleet experienced a major operational disruption when dozens of Jaguar I-PACEs became stranded in holiday gridlock with depleted batteries, with one vehicle catching fire after a firework was allegedly placed inside — raising new questions about AV fleet resilience during mass-event scenarios.",
+      "date": "2026-07-04",
+      "links": [
+        {
+          "title": "BigGo Finance: Tesla's Miami Robotaxi Gamble, Waymo's July 4th Meltdown",
+          "url": "https://finance.biggo.com/news/356587987c0c76b0"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Anthropic, Amazon, Microsoft, and Google Developing Shared Jailbreak Severity Classification Framework as Part of Fable 5 Redeployment Conditions",
+      "summary": "As part of the government-negotiated conditions for restoring Fable 5 access, Anthropic and its cloud partners are jointly building a published framework to classify jailbreak severity — intended to prevent future disproportionate regulatory shutdowns triggered by borderline findings — marking the first cross-industry technical standard for AI vulnerability triage.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "Prompt Injection: AI News Roundup July 02–12, 2026",
+          "url": "https://www.promptinjection.net/p/ai-llm-news-roundup-july-02-july-12-2026"
+        },
+        {
+          "title": "AI Governance Weekly: Fable 5 Redeployment and Industry Jailbreak Framework",
+          "url": "https://aigovernance.com/news/ai-governance-weekly-july-3-2026"
+        }
+      ]
+    }
+  ]
+}
