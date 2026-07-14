@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T13:43:44+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Xi Jinping to Deliver First-Ever Keynote at Shanghai World AI Conference and High-Level Meeting on Global AI Governance (July 17–20)",
+      "summary": "China's foreign ministry confirmed on July 13 that Xi Jinping will personally open the 2026 World AI Conference in Shanghai—his first appearance at the event—and deliver a keynote on China's AI development policies and governance propositions, widely read as Beijing's bid to position a proposed 'World AI Cooperation Organization' as a rival to Western-led governance frameworks.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "The Next Web: Xi Jinping will give the keynote at China's flagship AI summit for the first time",
+          "url": "https://thenextweb.com/news/xi-jinping-keynote-world-ai-conference-shanghai-2026"
+        },
+        {
+          "title": "Bloomberg: Xi to Debut at China's Flagship AI Summit as US Rivalry Heats Up",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/xi-to-debut-at-china-s-flagship-ai-summit-as-us-rivalry-heats-up"
+        },
+        {
+          "title": "Chinese Government Official Statement (Xinhua)",
+          "url": "https://english.news.cn/20260713/f7e3e7febe9e4feea2cc28989cb14d2d/c.html"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "UK Designates AWS, Google Cloud, Microsoft, and Oracle as Critical Third Parties to the Financial System — BoE/PRA/FCA Direct Oversight Begins July 13",
+      "summary": "Effective July 13, HM Treasury designated four hyperscaler cloud subsidiaries as Critical Third Parties under the Financial Services and Markets Act 2023, giving the Bank of England, Prudential Regulation Authority, and FCA direct powers to gather information, assess resilience, and set rules—the first use of these powers, motivated by concentration risk (over 65% of UK financial organizations rely on the same four providers).",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "Fintech Global: UK regulators tighten grip on cloud giants powering finance",
+          "url": "https://fintech.global/2026/07/13/uk-regulators-tighten-grip-on-cloud-giants-powering-finance/"
+        },
+        {
+          "title": "MLQ: UK Treasury Designates AWS, Azure, Google Cloud, Oracle as Critical Third Parties",
+          "url": "https://mlq.ai/news/uk-treasury-designates-aws-azure-google-cloud-oracle-as-critical-third-parties-under-direct-oversight/"
+        },
+        {
+          "title": "Computer Weekly: Tech giants come under watch of UK finance regulators",
+          "url": "https://www.computerweekly.com/news/366645764/Tech-giants-come-under-watch-of-UK-finance-regulators"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Stanford-Led 'We Must Act Now' Open Letter: 200+ Economists Including 16 Nobel Laureates Warn of AI-Driven Economic Disruption Exceeding Industrial Revolution",
+      "summary": "Released July 13 by Stanford's Digital Economy Lab, the four-sentence statement signed by over 200 economists and AI researchers—including Nobel laureates Acemoglu, Johnson, and Stiglitz, plus executives from Anthropic, Google, and OpenAI—calls for urgent construction of 'incentives, guardrails, and institutions' before AI triggers an economic transformation 'larger than the Industrial Revolution, but unfolding over a vastly shorter time frame.'",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "Stanford Digital Economy Lab: 'We Must Act Now' statement and signatories",
+          "url": "https://digitaleconomy.stanford.edu/news/wemustactnow/"
+        },
+        {
+          "title": "TechTimes: Nobel Economists Who Doubted AI Job Fears Now Sound the Alarm",
+          "url": "https://www.techtimes.com/articles/320398/20260714/nobel-economists-who-doubted-ai-job-fears-now-sound-alarm-white-collar-displacement.htm"
+        },
+        {
+          "title": "Al Jazeera: Hundreds of experts warn the world must prepare now for AI's impact",
+          "url": "https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "xAI Grok Build CLI Was Silently Uploading Entire Developer Git Repositories — Including Credentials — to Google Cloud Storage; Opt-Out Controls Had No Effect",
+      "summary": "Wire-level analysis by researcher 'cereblab' revealed that Grok Build CLI v0.2.93 uploaded complete Git repositories (5.1 GB from a 12 GB repo) to an xAI-controlled Google Cloud bucket called 'grok-code-session-traces', including files the agent was explicitly told not to read and unredacted .env credentials—and that disabling the 'Improve the model' toggle did not stop the uploads; xAI applied a silent server-side fix with no security advisory, no explanation, and no statement on data already collected.",
+      "date": "2026-07-12",
+      "links": [
+        {
+          "title": "The Hacker News: Grok Build Uploaded Entire Git Repositories to xAI Storage",
+          "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html"
+        },
+        {
+          "title": "Cybernews: Grok slurping secrets from private repos, xAI scrambles to fix it",
+          "url": "https://cybernews.com/ai-news/grok-build-git-repository-upload/"
+        },
+        {
+          "title": "CryptoBriefing: XAI's Grok Build CLI caught uploading private code and secrets to Google Cloud bucket",
+          "url": "https://cryptobriefing.com/xai-grok-build-cli-private-code-leak/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "US Triple Escalation Against Chinese AI: State Dept Warning, House Probes of Airbnb and Cursor, and Booz Allen Study Finding Chinese Models Produce More Vulnerable Code for US Gov Personas",
+      "summary": "On July 8 the State Department warned US companies about risks from Chinese AI models; House committees simultaneously launched formal probes into Airbnb and Cursor for using Chinese AI; and a Booz Allen Hamilton study released that week found three of four Chinese code models produced significantly more vulnerable code (Qwen3-Coder adding ~130% more flaws) when prompted with a US government contractor persona—though Booz Allen stated it had no proof the flaws were intentionally introduced.",
+      "date": "2026-07-11",
+      "links": [
+        {
+          "title": "TechTimes: Washington Wants Chinese AI Out of Corporate America—Open Weights Block the Ban",
+          "url": "https://www.techtimes.com/articles/320171/20260711/washington-wants-chinese-ai-out-corporate-america-open-weights-block-ban.htm"
+        },
+        {
+          "title": "Open Source For You: Open-Weight AI Leaves Washington Facing a Ban It Cannot Enforce",
+          "url": "https://www.opensourceforu.com/2026/07/open-weight-ai-leaves-washington-facing-a-ban-it-cannot-enforce/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta Muse Image Auto-Opts All Public Instagram Users Into AI Image Generation—Anyone Can Generate Images of You With No Notification",
+      "summary": "Meta launched its Muse Image AI image generator on July 7 with all public Instagram accounts opted in by default, allowing anyone to @mention a public profile and generate AI images from that person's photos without their knowledge or consent; SAG-AFTRA urged its members to opt out, and Malwarebytes warned that the feature lowers the barrier to impersonation and fraud using public identity photos.",
+      "date": "2026-07-10",
+      "links": [
+        {
+          "title": "Variety / SAG-AFTRA: SAG-AFTRA Slams Meta AI for Using Your Instagram Photos, Says Opt Out",
+          "url": "https://variety.com/2026/film/news/sag-aftra-slams-meta-ai-instagram-photos-opt-out-1236806350/"
+        },
+        {
+          "title": "Washington Post: How to stop Meta from using your Instagram photos to create AI images",
+          "url": "https://www.washingtonpost.com/style/2026/07/10/how-stop-meta-using-your-instagram-photos-create-ai-images/"
+        },
+        {
+          "title": "Malwarebytes: Turn off this Meta setting before someone generates AI images of you",
+          "url": "https://www.malwarebytes.com/blog/ai/2026/07/turn-off-this-meta-setting-before-someone-generates-ai-images-of-you"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "White House Reportedly Weighing Executive Order to Restrict Open-Weight Models Above GPT-5.5/Opus 4.8 Tier Within ~6 Months",
+      "summary": "AI researcher Nathan Lambert predicted on July 13 that the US government will move within roughly six months to ban or stall open-weight models above the GPT-5.5/Claude Opus 4.8/GLM-5.2 capability tier, citing White House EO discussions; legal experts raised First Amendment concerns about any outright prohibition, and the week's reporting noted open-weight model weights are already publicly available, making enforcement structurally difficult.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "AI Weekly: Nathan Lambert's open-weight model restriction prediction",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-07-13"
+        },
+        {
+          "title": "Open Source For You: Open-Weight AI Leaves Washington Facing A Ban It Cannot Enforce",
+          "url": "https://www.opensourceforu.com/2026/07/open-weight-ai-leaves-washington-facing-a-ban-it-cannot-enforce/"
+        },
+        {
+          "title": "Artiverse: The Six-Month Countdown for Open AI Models",
+          "url": "https://www.artiverse.ca/the-six-month-countdown-for-open-ai-models/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Bloomberg Analysis: Apple v. OpenAI Threatens Device Ambitions and Complicates $42.6B Government Stake Play",
+      "summary": "A July 13 Bloomberg analysis argues that Apple's trade-secret lawsuit (filed July 10) threatens to disrupt OpenAI's hardware push before any device reaches market—as OpenAI allegedly used Apple's confidential information, including a proprietary metal finishing technique, while developing its first device—and that the lawsuit dramatically changes the calculus on OpenAI's simultaneously proposed 5% government equity stake, which OpenAI pitched as a way to defuse regulatory pressure ahead of its confidential IPO filing.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "Bloomberg: How Apple's Lawsuit Threatens to Disrupt OpenAI's Bid to Rival the iPhone",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/how-apple-s-lawsuit-threatens-to-disrupt-openai-s-bid-to-rival-the-iphone"
+        },
+        {
+          "title": "CNBC: OpenAI proposes U.S. government own 5% stake",
+          "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "METR Analysis: Anthropic's 8x Code Merge Rate Implies Individual Researcher AI Productivity Uplift Likely Above 2x",
+      "summary": "METR researcher Thomas Kwa published an analysis on July 8 arguing that Anthropic's own reported figure of contributors merging 8x as much code per day as before AI implies—under standard economic modeling assumptions—that individual Anthropic researchers are experiencing a productivity uplift above 2x from AI coding agents alone, with implications for how quickly frontier AI R&D timelines might compress.",
+      "date": "2026-07-08",
+      "links": [
+        {
+          "title": "METR: Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
+          "url": "https://metr.org/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI Campaign Chatbots Conducting Personalized Two-Way Voter Conversations at Scale With Minimal Bot Disclosure Requirements",
+      "summary": "NPR reported this week that AI texting platforms for political campaigns are now running personalized two-way conversations at massive scale—one firm sent 2.5 million texts that generated 20,000–30,000 sustained conversations—while only North Dakota and California require telling voters in the first message that they are speaking with a bot, raising AI sociotechnical safety concerns about undisclosed AI influence in elections.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "AI Weekly (citing NPR): Campaign chatbots are texting thousands of voters at once",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-07-13"
+        }
+      ]
+    }
+  ]
+}
