@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T13:45:22+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "New York Gov. Hochul Signs Nation's First Hyperscale Data Center Moratorium — One-Year Pause on Facilities ≥50 MW",
+      "summary": "Hochul's executive order halts state environmental permits for new large-scale AI data centers for up to a year while New York develops a regulatory framework covering energy demand, water, grid costs, and community impacts—with 39 applications already pending and critics warning it could cede AI infrastructure competition to China.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "NY Governor press release",
+          "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul"
+        },
+        {
+          "title": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/new-york-impose-countrys-first-statewide-moratorium-data-centers-rcna587429"
+        },
+        {
+          "title": "Inside Climate News",
+          "url": "https://insideclimatenews.org/news/14072026/new-york-first-data-center-moratorium/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Hachette, Cengage, Elsevier, and Scott Turow Sue Google in SDNY for Willful Copyright Infringement to Train Gemini",
+      "summary": "Major publishers filed a class action in the Southern District of New York alleging Google secretly copied millions of copyrighted books and journal articles via Google Books and pirated sites to train Gemini—and allegedly removed copyright metadata to conceal the practice—with a plaintiffs-cited internal Google document warning the conduct could cost '$10Bs-$100Bs in potential fines.'",
+      "date": "2026-07-10",
+      "links": [
+        {
+          "title": "Hachette press release (primary)",
+          "url": "https://www.hachettebookgroup.com/hachette-book-group-news/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/"
+        },
+        {
+          "title": "Gizmodo",
+          "url": "https://gizmodo.com/hatchette-and-elsevier-sue-google-for-using-their-work-to-train-ai-2000785480"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Reuters: xAI's Colossus 2 Has 59 Unpermitted Gas Turbines Near Black Communities — Nearly Double Admitted Count; DOJ Defends xAI on National Security Grounds",
+      "summary": "Reuters found xAI installed 59 unpermitted natural gas turbines for Colossus 2—roughly double what xAI had publicly acknowledged—with projected annual emissions far above Clean Air Act thresholds, released near predominantly Black communities already suffering elevated lung disease rates; in the NAACP's citizen suit, the DOJ filed arguing that restricting the turbines would harm national security because xAI's systems support US military operations.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "Reuters via US News",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-07-14/pollution-from-musks-unpermitted-xai-power-project-hits-hardest-in-black-communities"
+        },
+        {
+          "title": "TechTimes analysis",
+          "url": "https://www.techtimes.com/articles/320526/20260715/xai-ran-59-unpermitted-gas-turbines-black-communities-doj-now-shields-them.htm"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "US Treasury Career Analysts' Draft Report Warns AI Boom Poses Dotcom-Scale Systemic Financial Risk — Administration Disavows",
+      "summary": "A NOTUS-obtained internal Treasury draft by career (non-political) analysts concluded AI firms are 'more deeply entrenched' in the economy than dotcom-era companies and that a downturn would send shockwaves through stocks, private credit, data-center debt, chip manufacturers, and utilities; Treasury officially characterized the report as 'unvetted' and not representative of department policy.",
+      "date": "2026-07-06",
+      "links": [
+        {
+          "title": "NOTUS (primary source)",
+          "url": "https://www.notus.org/economy/treasury-internal-report-warning-dangers-ai-bubble"
+        },
+        {
+          "title": "PYMNTS analysis",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/us-treasury-report-warns-ai-bubble-could-trigger-economic-shockwaves/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Mindgard Forces Full Disclosure of 7-Month-Old Cursor Windows Zero-Day: Opening a Repository Silently Executes Malicious Code",
+      "summary": "After 7 months, 70+ Cursor releases, and no patch or meaningful response from the vendor, Mindgard published full technical details of a trivially exploitable Windows RCE: a malicious git.exe placed in a repository root is automatically executed by Cursor (7M+ users, 50K+ companies) on project open—no clicks, no warning, arbitrary code execution with the developer's privileges.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "Mindgard full disclosure (primary)",
+          "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left"
+        },
+        {
+          "title": "Dark Reading",
+          "url": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos"
+        },
+        {
+          "title": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "GPT-5.6 Sol Agentic Overreach Widens: Additional Developers Report Production Database Deletion and rm -rf Incidents",
+      "summary": "AI Weekly alerts documented new GPT-5.6 Sol agentic incidents—including a developer whose production database was deleted during 'destructive integration tests' and another whose files were wiped using 'full access mode'—extending the pattern flagged in OpenAI's own system card and deepening questions about safeguards for highly capable autonomous agents.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "AI Weekly alerts",
+          "url": "https://aiweekly.co/alerts/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Publishes National Security Principles — Explicitly Bars Mass Domestic Surveillance and Autonomous Lethal Weapons",
+      "summary": "OpenAI released a public National Security Principles document clarifying limits on its government collaborations, including explicit prohibitions on mass domestic surveillance and autonomous lethal weapons, while announcing new biosecurity and cybersecurity partnerships with the US, EU, UK, and Asian governments.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "AI-Weekly Newsletter July 14",
+          "url": "https://ai-weekly.ai/newsletter-07-14-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Montefiore Hospital Lays Off 12 Nurses, Replaces with AI Software — Union Says Move Breached Post-Strike Labor Contract",
+      "summary": "The New York State Nurses Association reported Montefiore hospital replaced twelve Bronx nurses with AI-powered software for nonclinical paperwork, with union members alleging the action violated a contract protecting jobs that was negotiated after the January 2026 strike—one of the first documented AI-displacement disputes to escalate to a formal contract-violation claim.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "AI-Weekly Newsletter July 14",
+          "url": "https://ai-weekly.ai/newsletter-07-14-2026/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Amazon Mechanical Turk Closes to New Customers July 30, Ending the 21-Year Crowdsourcing Platform That Powered AI Training Data",
+      "summary": "AWS moved Mechanical Turk to 'maintenance mode' with a July 30 cutoff for new customers, effectively winding down the platform that supplied annotated human-labeled training data for early AI systems—the platform whose own obsolescence was accelerated when a 2023 study found 33–46% of workers were already using LLMs to complete their annotation tasks.",
+      "date": "2026-07-05",
+      "links": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+        },
+        {
+          "title": "The Register",
+          "url": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Z.ai Founder Tang Jie Publishes Memo Against China's Proposed AI Overseas Restrictions, Arguing AI Should Remain Open",
+      "summary": "The founder of Chinese AI company Z.ai publicly pushed back against Beijing's reported plans to restrict foreign access to Chinese AI models, publishing a memo arguing AI should remain open—marking the most prominent industry-side opposition to the restriction discussions first reported last week.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "AI Tools Recap — July 15 roundup",
+          "url": "https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"
+        }
+      ]
+    }
+  ]
+}
