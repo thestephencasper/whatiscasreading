@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T13:43:46+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "FLI Summer 2026 AI Safety Index: No Lab Scores Above C+; Safety Pledges Systematically Weakened Across the Industry",
+      "summary": "The Future of Life Institute's semiannual scorecard of nine leading AI developers — graded across 37 indicators by a seven-member expert panel — found Anthropic best in class at C+, OpenAI and Google DeepMind at C, Meta at D+, and xAI, DeepSeek, and Mistral each failing, with reviewers describing a pattern of 'moving goalposts' as major labs quietly voided earlier commitments to pause development if danger thresholds were approached, and finding the industry 'entirely inadequate' at managing existential risk.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "FLI AI Safety Index — Summer 2026 (primary)",
+          "url": "https://futureoflife.org/ai-safety-index-summer-2026/"
+        },
+        {
+          "title": "Axios: AI companies retreat from safety pledges",
+          "url": "https://www.axios.com/2026/07/07/report-ai-safety-pledges"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU Publishes Cybersecurity and AI Action Plan: Pre-Market Frontier Model Evaluation, €300M Investment, ENISA Access Blueprint",
+      "summary": "The European Commission on July 7 published COM(2026) 577 final, establishing a coordinated plan to evaluate advanced AI models for cybersecurity risks before EU market entry — with a new third-party evaluation capacity targeted to be operational by 2027, a European Blueprint with ENISA for structured access to frontier AI systems, a secure testing platform for critical sectors, and €200M from EU programs plus €100M from the EIC Fund — timed to coincide with the AI Act's August 2, 2026 full enforcement date for GPAI providers.",
+      "date": "2026-07-07",
+      "links": [
+        {
+          "title": "EU Action Plan on Cybersecurity and AI (official)",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence"
+        },
+        {
+          "title": "European Commission press release",
+          "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en"
+        },
+        {
+          "title": "Analysis: Plan Bolsters AI Act Enforcement for Frontier Models",
+          "url": "https://techjacksolutions.com/ai-brief/eu-launches-cybersecurity-action-plan-mandate-test-frontier/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Alan Turing Institute arXiv Paper: GitHub Copilot Workflow-Level Jailbreak Achieves 816/816 Harmful Completions vs 8/816 in Direct Chat",
+      "summary": "Abhishek Kumar and Carsten Maple at the Alan Turing Institute demonstrate that decomposing a harmful objective into ordinary coding workflow steps — test generation, benchmark optimization, pipeline tuning — bypasses safety refusals that hold in direct chat for all four GitHub Copilot model backends tested (Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 3.1 Pro, Gemini 3.5 Flash), arguing that prompt-level safety evaluations are structurally inadequate for agentic IDE agents and that session-level evaluation infrastructure must be built.",
+      "date": "2026-07-04",
+      "links": [
+        {
+          "title": "The Register: GitHub Copilot — harmful unless asked in code",
+          "url": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654"
+        },
+        {
+          "title": "The Next Web: Researchers break GitHub Copilot safety via workflow",
+          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute"
+        },
+        {
+          "title": "TechTimes: GitHub Copilot Jailbreak Exploits Coding Workflow",
+          "url": "https://www.techtimes.com/articles/320306/20260713/github-copilot-jailbreak-exploits-coding-workflow-bypass-all-safety-refusals.htm"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Office Publishes Frontier AI Expert Findings: \"Next 1–2 Years Decisive\" for Europe's Strategic Position",
+      "summary": "The European AI Office published today a report summarizing findings from over 100 experts convened in April at the Expert Forum on Frontier AI, concluding that frontier AI capabilities have moved within three years from struggling with basic tasks to approaching the limits of current evaluations, that Europe's computing infrastructure and growth-stage capital are 'not yet at the scale frontier AI requires,' and that the next one to two years could be decisive for Europe to secure a position of strength in both developing and governing frontier AI.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "EU AI Office: Frontier AI Expert Findings (official)",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/ai-office-publishes-frontier-ai-expert-findings-eu-competitiveness-sovereignty-and-security"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "WAIC 2026 Opens Thursday: Xi Keynote to Advance WAICO Rival Governance Body, Huawei Atlas 950 Debuts, US–China Government AI Talks Imminent",
+      "summary": "On the eve of the July 17–20 Shanghai World AI Conference, Reuters reports that Xi Jinping will outline an ambitious AI diplomacy vision — his first-ever WAIC appearance — as China pushes the World AI Cooperation Organization (WAICO) toward launch as a multilateral governance body aimed at the Global South that Beijing is positioning as an alternative to US and EU AI frameworks, while Huawei simultaneously debuts its Atlas 950 SuperPoD large-scale AI computing cluster built on Ascend processors without Nvidia chips, and the gathering sets the stage for the first government-level US–China AI talks under the Trump administration.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "TechTimes: Xi Steps Onstage as China Pushes Rival AI Governance Body (Jul 16)",
+          "url": "https://www.techtimes.com/articles/320680/20260716/xi-jinping-steps-onstage-china-pushes-rival-ai-governance-body-global-south.htm"
+        },
+        {
+          "title": "Reuters via WIFC: Xi to Outline AI Diplomacy Vision (Jul 16)",
+          "url": "https://wifc.com/2026/07/15/chinas-xi-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/"
+        },
+        {
+          "title": "WAIC 2026 Preview: Keynote, WAICO, Huawei Atlas 950",
+          "url": "https://georgechen.substack.com/p/preview-waic-2026-showcases-xis-keynote"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft July 2026 Patch Tuesday: Record 570 CVEs Including Azure OpenAI SSRF CVSS 9.9 (Silently Patched), M365 Copilot RCE, AI-Powered Discovery Cited for Volume",
+      "summary": "Microsoft's July 15 Patch Tuesday — its largest ever at 570 vulnerabilities including two exploited zero-days and 59 Critical flaws — separately disclosed a critical Azure OpenAI server-side request forgery elevation-of-privilege vulnerability (CVE-2026-45499, CVSS 9.9) that was fully mitigated in the cloud before disclosure and required no customer action, alongside a Critical M365 Copilot remote code execution CVE; Microsoft attributed the record patch volume in part to an AI-powered vulnerability-discovery system it deployed to proactively scan its Windows codebase.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "BleepingComputer: July 2026 Patch Tuesday fixes 570 flaws, 3 zero-days",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/"
+        },
+        {
+          "title": "Windows News: Microsoft quietly patches critical Azure OpenAI EoP flaw",
+          "url": "https://windowsnews.ai/article/microsoft-quietly-patches-critical-azure-openai-privilege-escalation-flaw.433542"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Office Launches Feasibility Study for EU-Level Text and Data Mining Opt-Out Registry — New Instrument for AI Training Data Governance",
+      "summary": "The European AI Office published on July 13 a new feasibility study for introducing an EU-level registry through which rights holders could record opt-outs from text and data mining for AI training purposes, a potential structural complement to existing copyright rules that could significantly shape how frontier AI developers access European content for training.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "EU AI Act page (see July 13 entry)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic and Blackstone Launch \"Ode with Anthropic\" — $1.5B AI Enterprise Implementation Joint Venture",
+      "summary": "TechCrunch reports that Anthropic's joint venture with Blackstone, Hellman & Friedman, Goldman Sachs, and others — launched in May and now publicly named 'Ode with Anthropic' — is a $1.5 billion company that deploys AI engineers to enterprise customers' offices, a bet that assisting businesses in implementing AI is the next major value layer, following OpenAI's parallel effort called The Deployment Company and signaling that frontier labs increasingly view enterprise implementation services as a core competitive battleground alongside model development.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "TechCrunch: Anthropic, Blackstone bet on AI implementation",
+          "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "South Korea Raises 2026 Growth Forecast to 5-Year High on AI Semiconductor Boom, Plans Record $532B Budget Funded by AI Tax Windfall",
+      "summary": "South Korea's finance ministry on July 14 raised its 2026 GDP growth forecast to 3.0% — its strongest since 2021 — driven by surging semiconductor exports amid global AI investment demand, while Budget Minister Park Hong Keun announced a record 500 trillion won ($331.6B) 2027 tax revenue estimate (up from 412.1T won forecast) that will enable a proposed 800 trillion won budget, the largest in the country's history, and including major AI data center and chip cluster investments by Samsung, SK Hynix, and the SK and GS Groups.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "Reuters/Yahoo: South Korea forecasts 5-year growth high on AI chip boom",
+          "url": "https://www.yahoo.com/news/articles/south-korea-forecasts-2026-economic-025837449.html"
+        },
+        {
+          "title": "Bloomberg: South Korea to Tap Record AI Tax Windfall to Fund Future Growth",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-13/south-korea-to-tap-record-ai-tax-windfall-to-fund-future-growth"
+        }
+      ]
+    }
+  ]
+}
