@@ -23,6 +23,7 @@ import anthropic
 MODEL = "claude-sonnet-4-6"
 EFFORT = "medium"  # thinking depth / token spend: low | medium | high | max
 MAX_WEB_SEARCHES = 50  # cap server-side web searches per run (each costs ~$0.01)
+MAX_WEB_FETCHES = 12  # cap page fetches per run (the trackers in custom_prompt.txt)
 RETENTION_DAYS = 60
 DEDUP_LOOKBACK_DAYS = 7  # how many prior days of digests to show Claude to avoid repeats
 EASTERN = ZoneInfo("America/New_York")
@@ -138,8 +139,18 @@ def run_agent(client: anthropic.Anthropic, prompt: str) -> str:
     # so it gains nothing from dynamic filtering. The basic variant does no code
     # execution, so pause_turn resumes cleanly with the documented [user, assistant]
     # pattern below.
+    # web_fetch lets Claude open the bill/lawsuit trackers named in custom_prompt.txt
+    # instead of hoping a search engine surfaces them. It only fetches URLs already
+    # present in the conversation, which the prompt's tracker list satisfies. Basic
+    # variant here too, for the same pause_turn reason as web_search above.
     tools = [
-        {"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_WEB_SEARCHES}
+        {"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_WEB_SEARCHES},
+        {
+            "type": "web_fetch_20250910",
+            "name": "web_fetch",
+            "max_uses": MAX_WEB_FETCHES,
+            "max_content_tokens": 20000,  # tracker pages are long; keep context bounded
+        },
     ]
     # Cache the (large, stable) editorial brief so each continuation round reads it
     # from cache (~0.1x cost) instead of reprocessing it at full price.
