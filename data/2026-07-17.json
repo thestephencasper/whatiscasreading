@@ -1,51 +1,31 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T13:47:22+00:00",
+  "generated_at": "2026-07-17T15:05:32+00:00",
   "entries": [
     {
       "tag": "News",
-      "title": "Xi Jinping Delivers First-Ever WAIC Keynote; 29 Countries Sign China-Led WAICO AI Governance Treaty",
-      "summary": "Xi called AI 'a symphony of international cooperation,' explicitly criticized US export-control framing of national security, and pledged AI capacity-building for the Global South, while Wang Yi and 29 nations (including Russia and Pakistan) signed the World AI Cooperation Organization agreement July 16—formalizing a rival governance architecture to the G7/EU frameworks and challenging the assumption that Western institutions alone will set AI rules.",
+      "title": "WAICO Formally Launched at WAIC 2026: Xi Delivers First Keynote, 29 Nations Sign China-Led AI Governance Body",
+      "summary": "On July 16 twenty-nine countries—including Russia, Indonesia, Brazil, and Pakistan—signed the founding agreement for the World Artificial Intelligence Cooperation Organization (headquartered in Shanghai), and Xi's July 17 keynote called AI 'a symphony of international cooperation,' urged human oversight, and pledged 5,000 AI-training slots to developing nations, directly challenging the US-EU governance architecture.",
       "date": "2026-07-17",
       "links": [
+        {
+          "title": "Xi pitches China as AI partner to developing world — CNBC",
+          "url": "https://www.cnbc.com/2026/07/17/x-china-ai-summit-risks-security.html"
+        },
         {
           "title": "Xi tells World AI Conference no single country should monopolise AI — The Next Web",
           "url": "https://thenextweb.com/news/xi-jinping-waic-2026-shanghai-ai-speech"
         },
         {
-          "title": "China's Xi urges global cooperation on AI, warns against single-country dominance — France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260717-china-s-xi-urges-global-cooperation-on-ai-warns-against-single-country-dominance"
-        },
-        {
-          "title": "29 countries sign WAICO agreement (July 16) — Wikipedia WAIC entry",
-          "url": "https://en.wikipedia.org/wiki/World_Artificial_Intelligence_Conference"
-        }
-      ]
-    },
-    {
-      "tag": "News",
-      "title": "Moonshot AI Releases Kimi K3 at WAIC: World's Largest Open-Weight Model Claims Frontier Parity With US Labs",
-      "summary": "Moonshot AI unveiled Kimi K3 (2.8 trillion parameters, 1M-token context window) on July 16 at WAIC; Arena.ai's CEO declared it 'the moment that OSS Chinese models have surpassed US models' on code benchmarks, with full weights dropping July 27—though Anthropic had previously accused Moonshot of large-scale Claude distillation, and the capabilities K3 markets closely track those allegedly extracted.",
-      "date": "2026-07-16",
-      "links": [
-        {
-          "title": "Moonshot's Kimi K3 pushes Chinese AI into Fable-level territory — Fortune",
-          "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
-        },
-        {
-          "title": "China's Moonshot releases Kimi K3, the largest open-source model ever — VentureBeat",
-          "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
-        },
-        {
-          "title": "China Just Dropped Another Bomb on America's Frontier AI Companies — Gizmodo",
-          "url": "https://gizmodo.com/china-just-dropped-another-bomb-on-americas-frontier-ai-companies-2000786670"
+          "title": "China's Xi Jinping brings 29 countries together to reshape global AI — IBTimes SG",
+          "url": "https://www.ibtimes.sg/chinas-biggest-ai-move-yet-xi-jinping-brings-29-countries-together-reshape-global-ai-89980"
         }
       ]
     },
     {
       "tag": "Policy",
-      "title": "China's Triple AI Regulatory Package Took Effect July 15: World's First Dedicated AI-Agent and Companion Frameworks Now Binding",
-      "summary": "China's Anthropomorphic AI Interaction Measures (mandating anti-addiction features, banning virtual-companion services for minors, requiring crisis-exit pathways) and the Implementation Opinions on Intelligent Agents—the world's first dedicated regulatory category for AI agents, requiring a three-tier decision-authorization framework and mandatory filing for high-risk sectors—became enforceable July 15, forcing ByteDance's Doubao and Alibaba's Qwen to shut down their companion agent features entirely.",
+      "title": "China's Anthropomorphic AI (Companion) Rules Take Effect July 15: Doubao and Qwen Companion Features Shut Down for Hundreds of Millions",
+      "summary": "The world's first dedicated regulatory framework for AI emotional-interaction services became enforceable on July 15, immediately forcing ByteDance's Doubao and Alibaba's Qwen to discontinue personalized companion AI features—affecting hundreds of millions of users—because no platform's persistent-memory architecture could pass the framework's addiction-safety requirements.",
       "date": "2026-07-15",
       "links": [
         {
@@ -53,112 +33,123 @@
           "url": "https://iapp.org/news/a/chinas-regulation-on-ai-companions-takes-force"
         },
         {
-          "title": "China's new AI rules: Ethics, AI agents and anthropomorphic AI — IAPP",
-          "url": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai"
+          "title": "China AI companion law takes effect: Doubao and Qwen shut down — TechTimes",
+          "url": "https://www.techtimes.com/articles/320525/20260715/china-ai-companion-law-takes-effect-doubao-qwen-shut-down-millions-lose-chat-data.htm"
         },
         {
-          "title": "China AI Regulatory Developments July 2026 — Rimon Law",
+          "title": "China's anthropomorphic AI rules tracker entry — AI Governance Institute",
+          "url": "https://aigovernance.com/news/chinas-anthropomorphic-ai-rules-take-effect-july-2026-setting-new-bar-for-companion-and-interaction-services"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "China's AI Agent Framework Takes Effect July 15: First Dedicated Global Regulatory Category for Intelligent Agents",
+      "summary": "The Implementation Opinions on the Standardized Application and Innovative Development of Intelligent Agents—jointly issued by the CAC, NDRC, and MIIT—became enforceable on July 15, defining AI agents as a distinct regulatory class, establishing a three-tier decision-authorization framework, and requiring mandatory filing and compliance testing for agents deployed in healthcare, transportation, media, and public safety.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "China AI Regulatory Developments: July 2026 Analysis — Rimon Law",
           "url": "https://www.rimonlaw.com/china-ai-law-brief/"
-        }
-      ]
-    },
-    {
-      "tag": "Paper",
-      "title": "arXiv 2607.14006: Rethinking AI Penetration Testing Around Behavioral Objective Violations, Not Infrastructure Compromise",
-      "summary": "This paper proposes redefining successful AI pen-test outcomes as the feasible induction of AI-governed behavior that violates a defined operational objective—via prompt injection through normal interfaces such as prompts, webpages, retrieved documents, and tool responses—arguing that behavioral manipulation is now a first-class security concern for agentic systems operating in critical infrastructure.",
-      "date": "2026-07-15",
-      "links": [
-        {
-          "title": "arXiv 2607.14006",
-          "url": "https://arxiv.org/abs/2607.14006"
         },
         {
-          "title": "AI Penetration Testing Expands to Retrieval Poisoning, Memory Attacks, and Sensor Manipulation — Cyber Security News",
-          "url": "https://cybersecuritynews.com/ai-penetration-testing-expands/"
-        }
-      ]
-    },
-    {
-      "tag": "Paper",
-      "title": "arXiv 2607.13987: Agent Skill Security — Threat Models, Attacks, Defenses, and Evaluation for AI Skill Ecosystems",
-      "summary": "A systematic treatment of security threats arising from AI agent skill/plugin ecosystems—covering how malicious skills can hijack agent behavior, relevant threat models for skill injection and supply-chain poisoning, proposed defenses, and an evaluation methodology, directly relevant to deployed agentic systems in enterprise and critical-infrastructure settings.",
-      "date": "2026-07-15",
-      "links": [
-        {
-          "title": "arXiv 2607.13987",
-          "url": "https://arxiv.org/abs/2607.13987"
+          "title": "China's agent rules and Illinois audits: Dual compliance deadlines — AI Governance Institute",
+          "url": "https://aigovernance.com/news/chinas-agent-rules-take-effect-july-15-and-illinois-mandates-third-party-safety-audits"
         }
       ]
     },
     {
       "tag": "News",
-      "title": "Gemini 3.5 Pro Targets Today's GA Launch After Google Scrapped and Rebuilt the Entire Base Model",
-      "summary": "Multiple outlets report Google DeepMind is targeting July 17 for Gemini 3.5 Pro general availability—featuring a rumored 2M-token context window, a new 'Deep Think' reasoning layer, and autonomous coding capabilities—after engineers reportedly scrapped the original architecture to fix math and recursive tool-calling failures; Google has not officially confirmed the date or specs.",
-      "date": "2026-07-17",
+      "title": "Thinking Machines Lab (Mira Murati) Releases Inkling: 975B Open-Weight MoE with Self-Fine-Tuning Capability",
+      "summary": "Thinking Machines Lab released Inkling on July 15—a 975B-parameter Mixture-of-Experts model (41B active), Apache 2.0 licensed, trained on 45 trillion tokens with a 1M-token context window—and demonstrated a self-fine-tuning capability in which the model autonomously wrote and executed its own fine-tuning job, introducing governance questions about agentic model modification and change provenance.",
+      "date": "2026-07-15",
       "links": [
         {
-          "title": "Google Gemini 3.5 Pro: What to Expect From Today's Big AI Launch — CentralJersey.com",
-          "url": "https://centraljersey.com/2026/07/17/google-gemini-3-5-pro-launch-what-to-expect/"
+          "title": "Inkling: Our open-weights model — Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
         },
         {
-          "title": "Gemini 3.5 Pro Delay: Why Google Postponed Its AI Again — Geeky Gadgets",
-          "url": "https://www.geeky-gadgets.com/gemini-3-5-pro-delayed-again/"
-        }
-      ]
-    },
-    {
-      "tag": "News",
-      "title": "Apple Intelligence Cleared by China's CAC as of July 15, Powered by Alibaba Qwen Models",
-      "summary": "Apple Intelligence was registered and approved by China's Cyberspace Administration as of July 15, with Alibaba's Qwen (and Baidu) powering the features in the mainland—a development that illustrates how AI governance is fragmenting product architectures by jurisdiction and how domestic Chinese model providers benefit from regulatory gatekeeping of foreign AI.",
-      "date": "2026-07-15",
-      "links": [
+          "title": "Thinking Machines amps up its bet with its first open model, Inkling — TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
+        },
         {
-          "title": "AI News Today July 16 2026 — Build Fast with AI",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026"
+          "title": "Inkling: Murati's first open-weight model — The Next Web",
+          "url": "https://thenextweb.com/news/thinking-machines-inkling-open-weight-model"
         }
       ]
     },
     {
       "tag": "News",
-      "title": "Anthropic July Talent Surge: YC Co-Founder Tom Blomfield and Berkeley CS Chair Jelani Nelson Join",
-      "summary": "Tom Blomfield (Monzo/GoCardless co-founder, YC general partner) announced July 13 he is joining Anthropic's compute team, and Jelani Nelson (UC Berkeley Computer Science Division chair, leading theoretical CS figure) joined July 1—the latest additions in an aggressive 2026 talent sweep that already includes Karpathy, Jumper, and Boyd, intensifying Anthropic's power-concentration trajectory as it heads toward an expected October IPO.",
-      "date": "2026-07-13",
-      "links": [
-        {
-          "title": "Anthropic 2026 Hiring Spree — ExplainX.ai (updated July 14)",
-          "url": "https://explainx.ai/blog/anthropic-hiring-spree-2026-john-jumper-karpathy-talent-2026"
-        }
-      ]
-    },
-    {
-      "tag": "News",
-      "title": "AI Governance Weekly July 16: DHS-CISA Urges Mandatory Prompt Injection Protections for Agentic AI in Critical Infrastructure",
-      "summary": "The July 2026 DHS-CISA analysis on agentic AI security calls for mandatory prompt injection protections, human-override documentation, and least-privilege access for AI agents deployed in critical infrastructure, coinciding with the Cloud Security Alliance's cataloging of ten agent security incidents across seven weeks and a documented data-poisoning attack on a financial trading agent—signaling that agentic AI incidents have moved from theoretical to operational harm at scale.",
+      "title": "Gemini 3.5 Pro Misses Third Consecutive Launch Deadline as Google Pivots to Stopgap Releases",
+      "summary": "The rebuilt Gemini 3.5 Pro missed its July 17 target—its third consecutive slip since June—with reporting citing persistent hallucinations and inconsistent outputs that prevent it from clearing basic reliability standards, and prediction markets now place July 31 or later delivery at 73–81% probability.",
       "date": "2026-07-16",
       "links": [
         {
-          "title": "AI Governance Weekly July 16, 2026 — AI Governance Institute",
-          "url": "https://aigovernance.com/news/ai-governance-weekly-july-16-2026"
-        },
+          "title": "Rebuilt Gemini 3.5 Pro misses third deadline: Google eyes stopgap release — TechTimes",
+          "url": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.14353: Unsafe at Any AUC — Sociotechnical Disaster Analysis Applied to AI Risk Evaluation",
+      "summary": "Kroll et al. argue that lessons from Chernobyl, Bhopal, and the Challenger disaster—where risks were known but not acted on due to social, political, and economic pressures—apply directly to AI, and that responsible AI evaluation must transcend technical component metrics to analyze full sociotechnical systems.",
+      "date": "2026-07-15",
+      "links": [
         {
-          "title": "CISA: Careful Adoption of Agentic AI Services (May 2026 guidance)",
-          "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services"
+          "title": "Unsafe at any AUC: Unlearned Lessons from Sociotechnical Disasters for Responsible AI — arXiv",
+          "url": "https://arxiv.org/abs/2607.14353"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.14585: Cross-National Survey Finds Public Demand for AI Safety Systematically Misaligned with Dominant Regulatory Approaches",
+      "summary": "Lundgren and Tallberg's survey of public preferences across multiple countries finds that citizens—especially those who perceive AI as risky and personally consequential—prefer safety-first governance frameworks that existing regulatory approaches systematically fail to provide, revealing a structural gap between democratic preferences and policy design.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "Governing Artificial Intelligence: Public Preferences and Regulatory Options — arXiv",
+          "url": "https://arxiv.org/abs/2607.14585"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.14037: Large-Scale Study of Early Adoption of Agentic Coding Tools Across GitHub Projects",
+      "summary": "Raida and Hou study how GitHub projects have adopted agentic coding tools, examining adoption patterns and the sociotechnical dynamics of integrating autonomous coding agents into open-source software development workflows—an area directly relevant to AI sociotechnical safety at scale.",
+      "links": [
+        {
+          "title": "Early Adoption of Agentic Coding Tools by GitHub Projects — arXiv",
+          "url": "https://arxiv.org/abs/2607.14037"
         }
       ]
     },
     {
       "tag": "News",
-      "title": "Kimi K3 / Anthropic Distillation Controversy: K3's Capabilities Align With Capabilities Anthropic Previously Said Moonshot Illegally Extracted From Claude",
-      "summary": "SiliconANGLE and other outlets note that K3's marketed strengths—agentic reasoning, tool use, and coding—precisely match the domains Anthropic accused Moonshot AI of harvesting via 3.4 million fraudulent Claude queries in February 2026, raising governance questions about how open-weight frontier parity is being achieved and whether US export controls are having any effect on Chinese model development.",
-      "date": "2026-07-17",
+      "title": "Cloud Security Alliance Documents 10 AI Agent Security Incidents in 7 Weeks, Including Financial Trading Agent Data Poisoning",
+      "summary": "A CSA research report compiling 10 AI agent security incidents from January to March 2026—including a documented data-poisoning attack that caused an autonomous financial trading agent to recommend fabricated securities products to customers—concludes that enterprises lack the foundational controls for safe agentic deployment, specifically citing failures in identity binding, audit log integrity, and shadow traffic detection.",
+      "date": "2026-07-15",
       "links": [
         {
-          "title": "China's Moonshot throws down the gauntlet with Kimi K3 — SiliconANGLE",
-          "url": "https://siliconangle.com/2026/07/16/chinas-moonshot-throws-gauntlet-kimi-k3-worlds-largest-open-weights-model/"
+          "title": "Ten real incidents in seven weeks expose critical gaps in AI agent governance — AI Governance Institute",
+          "url": "https://aigovernance.com/news/ten-real-incidents-in-seven-weeks-expose-critical-gaps-in-ai-agent-governance-controls"
         },
         {
-          "title": "Kimi K3 Moonshot Beta — Explainx.ai (July 17 tracker)",
-          "url": "https://explainx.ai/blog/kimi-k3-moonshot-beta-leaks-july-2026"
+          "title": "Data poisoning attack forces financial AI agent to recommend fabricated securities — AI Governance Institute",
+          "url": "https://aigovernance.com/news/data-poisoning-attack-forces-financial-ai-agent-to-recommend-fabricated-securities"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Tom Blomfield (Monzo Co-Founder, YC Partner) Joins Anthropic Compute Team, Citing Recursive Self-Improvement as Binding Constraint",
+      "summary": "Blomfield announced on July 13 that he is taking a leave of absence from Y Combinator to join Anthropic's compute team under Chief Compute Officer Tom Brown, saying compute availability is becoming the key constraint as the industry enters the early stages of recursive self-improvement—extending a sustained pattern of top-tier talent migrating to Anthropic ahead of its expected IPO.",
+      "date": "2026-07-13",
+      "links": [
+        {
+          "title": "Anthropic hiring spree 2026: Karpathy, Jumper, Blomfield — ExplainX",
+          "url": "https://explainx.ai/blog/anthropic-hiring-spree-2026-john-jumper-karpathy-talent-2026"
         }
       ]
     }
