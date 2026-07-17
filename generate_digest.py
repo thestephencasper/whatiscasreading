@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 import anthropic
 
 MODEL = "claude-sonnet-4-6"
-EFFORT = "medium"  # thinking depth / token spend: low | medium | high | max
+EFFORT = "high"  # thinking depth / token spend: low | medium | high | max
 MAX_WEB_SEARCHES = 50  # cap server-side web searches per run (each costs ~$0.01)
 MAX_WEB_FETCHES = 12  # cap page fetches per run (the trackers in custom_prompt.txt)
 RETENTION_DAYS = 60

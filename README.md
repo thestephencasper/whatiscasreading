@@ -82,10 +82,10 @@ branch `main`, folder `/ (root)`, then **Save**. After a minute your site is liv
 The workflow runs every morning on its own. To test it now: **Actions → Daily digest →
 Run workflow**. It generates a digest, commits it, and the commit redeploys Pages.
 
-> **Daylight-saving note:** GitHub cron is UTC-only. `0 13 * * *` lands at **9am during
-> EDT (summer)** and **8am during EST (winter)**. If you want it pinned to exactly 9am ET
-> year-round, add a second schedule line `- cron: "0 14 * * *"` and have the script no-op
-> when it's not ~9am ET — but for a morning reading list, an hour's drift is harmless.
+> **Daylight-saving note:** GitHub cron is UTC-only. `0 10 * * *` lands at **6am during
+> EDT (summer)** and **5am during EST (winter)**. If you want it pinned to exactly 6am ET
+> year-round, add a second schedule line `- cron: "0 11 * * *"` and have the script no-op
+> when it's not ~6am ET — but for a morning reading list, an hour's drift is harmless.
 
 ---
 

@@ -2,10 +2,10 @@ name: Daily digest
 
 on:
   schedule:
-    # 13:00 UTC = 9am EDT (8am EST). Runs every morning. GitHub cron is UTC-only
+    # 10:00 UTC = 6am EDT (5am EST). Runs every morning. GitHub cron is UTC-only
     # and does not follow US daylight-saving time, so the local hour shifts by one
-    # between EDT and EST — see README if you want it pinned to exactly 9am ET.
-    - cron: "0 13 * * *"
+    # between EDT and EST — see README if you want it pinned to exactly 6am ET.
+    - cron: "0 10 * * *"
   workflow_dispatch: {}   # lets you trigger a run by hand from the Actions tab
 
 # Allow the workflow to commit the new digest back to the repo.
