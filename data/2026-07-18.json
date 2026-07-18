@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T10:37:26+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "Demis Hassabis Publishes Manifesto Calling for FINRA-Style US Frontier AI Standards Body with Pre-Release Model Review and Industry Slowdown Power",
+      "summary": "Google DeepMind CEO Demis Hassabis published a personal manifesto on July 14 proposing a US-led, industry-funded AI standards body modeled on FINRA that would screen frontier models up to 30 days before release for cyber, bio, and deception risks — and could coordinate an industry-wide development slowdown if dangers escalate — with Hassabis stating AGI is 'probably only a few short years away' and that other major lab leaders broadly agree on the need for such a body.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "Google's Hassabis calls for new US-led global AI watchdog 'before year end' (Axios)",
+          "url": "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind"
+        },
+        {
+          "title": "Hassabis wants a FINRA-style referee for frontier AI (The Next Web)",
+          "url": "https://thenextweb.com/news/demis-hassabis-frontier-ai-standards-body-finra"
+        },
+        {
+          "title": "Demis Hassabis calls for U.S.-led AI standards body like FINRA (Yahoo/Quartz)",
+          "url": "https://www.yahoo.com/news/politics/articles/demis-hassabis-calls-u-led-170739732.html"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Releases GPT-Red: Internal Automated Prompt Injection Red-Teaming Model That Outperforms Human Teams 84% to 13% and Is Now Used to Train GPT-5.6",
+      "summary": "OpenAI disclosed GPT-Red, an internal self-play reinforcement-learning red-teaming model that autonomously discovers prompt injection vulnerabilities in AI agents — achieving 84% success on novel scenarios versus 13% for human red-teamers — and whose discovered attacks are used as adversarial training data for GPT-5.6 Sol, with OpenAI keeping the model separate from production to prevent misuse of its deliberately trained offensive capabilities.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "OpenAI's GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol (The Hacker News)",
+          "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html"
+        },
+        {
+          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer (MIT Technology Review)",
+          "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/"
+        },
+        {
+          "title": "GPT-Red beat human red teamers on a prompt injection test (Help Net Security)",
+          "url": "https://www.helpnetsecurity.com/2026/07/16/openai-gpt-red-prompt-injection-test/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "OpenAI Submits Formal Proposal for Mandatory CAISI Pre-Release Evaluations and Annual Third-Party Audits for Frontier Models — but Opposes Deployment-Blocking Authority",
+      "summary": "OpenAI submitted a formal response to the White House AI governance executive order proposing that CAISI conduct mandatory pre-release evaluations of the most capable frontier models, with annual third-party audits and mandatory critical incident reporting, while explicitly arguing that regulators should not have authority to block deployments outright.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "OpenAI Proposes Mandatory Federal Pre-Release Evaluations for Frontier Models via CAISI (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/openai-proposes-mandatory-federal-pre-release-evaluations-for-frontier-models-via-caisi"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Kimi K3: Moonshot AI Releases 2.8 Trillion-Parameter Open-Weight Model — Largest Ever — Ranking Fourth Globally, Above Opus 4.8",
+      "summary": "Moonshot AI launched Kimi K3 on July 16, a 2.8-trillion-parameter sparse mixture-of-experts open-weight model with a 1-million-token context window and native multimodality that ranks fourth globally on independent benchmarks — above Claude Opus 4.8 but below Fable 5 and GPT-5.6 Sol — with full weights scheduled for public release by July 27, 2026.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "Kimi K3 Tech Blog: Open Frontier Intelligence (Moonshot AI)",
+          "url": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "title": "Kimi's open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super-cheap Chinese AI (The Decoder)",
+          "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/"
+        },
+        {
+          "title": "Moonshot's upcoming Kimi 3 expected to close gap with Anthropic's Opus 4.8 (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Suno Hack Exposes Source Code Documenting Large-Scale Scraping of YouTube Music, Deezer, and Genius — November 2025 Breach Concealed Until Now",
+      "summary": "A hacker who breached Suno via a November 2025 supply chain attack shared source code with 404 Media confirming the AI music generator scraped over 113,000 hours of YouTube Music, 17,000 hours of Genius, and 12,000 hours of Deezer using proxy firm Bright Data — directly contradicting Suno's 'limited incident' claims — and also accessing customer emails, phone numbers, and partial payment data that users were never notified about.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "Hack Reveals Suno AI Music Generator Scraped YouTube, Deezer, and Genius (404 Media)",
+          "url": "https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/"
+        },
+        {
+          "title": "Hack suggests AI music generator Suno scraped YouTube for training data (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/"
+        },
+        {
+          "title": "A hacker accessed Suno source code detailing how the company scraped millions of songs (Engadget)",
+          "url": "https://www.engadget.com/2215772/a-hacker-accessed-suno-source-code-that-reportedly-details-how-the-company-scraped-millions-of-songs/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "WSJ Investigation: AI Backlash Escalates to Physical Violence — Altman Home Firebombed, Sevenfold Spike in Threats, Labs Hire Armed Security",
+      "summary": "A Wall Street Journal investigation documents an escalating wave of physical threats against AI executives: a Texas man charged with attempted murder after firebombing OpenAI CEO Sam Altman's home in April, a threat-bearing intruder at Anthropic's lobby five days later, and a sevenfold increase in digital threats against AI leaders and data centers between late February and May 2026 — driving round-the-clock armed security and travel restrictions across multiple labs.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "AI Backlash: Tech Executives Fear Rising Threat of Violence, Invest in Armed Security (Breitbart Tech)",
+          "url": "https://www.breitbart.com/tech/2026/07/17/ai-executives-fear-rising-threat-of-violence-invest-in-armed-security/"
+        },
+        {
+          "title": "Body Bags Found Outside OpenAI HQ as Execs Increasingly Fear for Their Lives (Gizmodo)",
+          "url": "https://gizmodo.com/body-bags-found-outside-openai-hq-as-execs-increasingly-fear-for-their-lives-2000786605"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "IBM Falls Record 25% — Worst Day Since 1968 — as CEO Admits AI Infrastructure Spending Cannibalized Software Budgets; Software Sector Sells Off",
+      "summary": "IBM CEO Arvind Krishna disclosed on July 14 that clients shifted Q2 capital expenditure to AI-related servers, storage, and memory ahead of expected price increases, causing revenue to miss estimates by 6% and triggering IBM's worst single-day stock decline on record — with contagion selling hitting Salesforce, ServiceNow, Workday, and Accenture as investors repriced the risk of AI infrastructure spend crowding out traditional software budgets.",
+      "date": "2026-07-14",
+      "links": [
+        {
+          "title": "IBM stock craters 25%, the worst day on record, after second-quarter earnings warning (CNBC)",
+          "url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html"
+        },
+        {
+          "title": "IBM shares plunge 25% after CEO admits company fell behind (Fortune)",
+          "url": "https://fortune.com/2026/07/15/ibm-stock-price-crash-25-percent-analyst-reaction/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Apple Intelligence Receives Chinese Regulatory Approval via Alibaba's Qwen Model After 22-Month Wait — Establishing Domestic-Model Mandate Precedent",
+      "summary": "China's Cyberspace Administration cleared Apple Intelligence on July 15, 2026, with Alibaba's Qwen powering language AI and Baidu handling visual search — ending a 22-month regulatory wait — and setting a template in which any company offering generative AI to Chinese users must route through domestically approved models, with geopolitical complications arising from both Alibaba and Baidu being on the US DoD's Chinese Military Companies list.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "Apple Intelligence approved for launch in China with Alibaba's Qwen AI (TechCrunch)",
+          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+        },
+        {
+          "title": "Apple Intelligence approved in China with Alibaba Qwen AI model (Quartz/Yahoo Finance)",
+          "url": "https://qz.com/apple-intelligence-china-approval-alibaba-qwen-071526"
+        },
+        {
+          "title": "Apple Intelligence finally gets regulatory approval in China (Engadget)",
+          "url": "https://www.engadget.com/2215606/apple-intelligence-finally-gets-regulatory-approval-in-china/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "DeepSeek Raises Fresh Capital Weeks After Record $7B Round and Plans Late 2026 or Early 2027 IPO While Founder Pledges Open-Source and AGI Priority Over Revenue",
+      "summary": "DeepSeek is in talks with advisors for a 2026–2027 IPO and raising additional capital, with founder Liang Wenfeng telling investors the company will prioritize open-source research and AGI over monetization — with continued heavy investment from Tencent, CATL, and China's national AI fund signaling an accelerating push to match US frontier labs on compute despite export controls.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "AI News - Fri July 17 2026 (Tech-Reader Blog)",
+          "url": "https://www.tech-reader.blog/2026/07/ai-news-fri-july-17-2026.html"
+        },
+        {
+          "title": "AI to ROI News & Analysis: July 17, 2026 (Substack)",
+          "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-july-103"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft Project Perception: Multi-Model AI Security Tool Routing Across Anthropic, OpenAI, and Microsoft Models — Positioned as Cheaper Mythos 5 Alternative",
+      "summary": "Microsoft is reportedly preparing to launch Project Perception this month, a multi-model AI security routing tool that sends vulnerability analysis, code review, threat detection, and incident response workloads to whichever of Anthropic, OpenAI, or Microsoft's own models offers the best performance-cost balance — directly competing with Anthropic's growing cybersecurity market share using Microsoft's Azure and enterprise distribution advantages.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "Top Tech News Today, July 17, 2026 (Tech Startups)",
+          "url": "https://techstartups.com/2026/07/17/top-tech-news-today-july-17-2026-anthropic-apple-google-meta-moonshot-ai-nvidia-more/"
+        },
+        {
+          "title": "AI News July 18 2026 (AI Tools Recap)",
+          "url": "https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"
+        }
+      ]
+    }
+  ]
+}
