@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T10:43:23+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "DHS-CISA July 2026 Analysis Calls for Mandatory Minimum Security Requirements for AI Agents in Critical Infrastructure",
+      "summary": "A July 2026 DHS-CISA analysis urges federal regulators to move beyond voluntary guidance and mandate minimum security requirements for AI agents in critical infrastructure, specifically calling for prompt injection protections, documented human-override mechanisms, blast-radius isolation architectures, and comprehensive audit logging of autonomous actions.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "DHS and CISA Push Mandatory Minimum Security Rules for AI Agents in Critical Infrastructure — AI Governance Institute",
+          "url": "https://aigovernance.com/news/dhs-and-cisa-push-mandatory-minimum-security-rules-for-ai-agents-in-critical"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "xAI v. Harwood: xAI Files One of First AI Company-vs-User Misuse Suits for Grok CSAM Deepfakes",
+      "summary": "xAI filed suit on July 15 in the US District Court for the Northern District of Texas against Terry Wayne Harwood, accusing him of using Grok to generate CSAM deepfakes by tailoring prompts to sidestep Grok's safety guardrails — one of the first instances of an AI company suing its own user for criminal misuse of the tool.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "xAI Sues Man for Using Grok to Create CSAM Deepfakes — PetaPixel",
+          "url": "https://petapixel.com/2026/07/16/xai-sues-man-for-using-grok-to-create-csam-deepfakes/"
+        },
+        {
+          "title": "Elon Musk's xAI Sues User Over Allegedly Creating CSAM With Grok — NewsNation",
+          "url": "https://www.newsnationnow.com/business/tech/musk-xai-csam-grok-lawsuit/"
+        },
+        {
+          "title": "Elon Musk's xAI, Which Is Being Sued Over AI-Generated Sexual Deepfakes, Sues Grok User Over AI-Generated Sexual Deepfakes — Futurism",
+          "url": "https://futurism.com/artificial-intelligence/elon-musk-sues-grok-user-deepfakes"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Publishes \"Zero Risk Isn't the Job\" — CISO Playbook for Agentic AI Deployment",
+      "summary": "Anthropic released a practitioner guide on July 19 titled \"Zero risk isn't the job: a CISO's guide to agentic AI\" that frames agent risk around four operational questions covering ingested content trust, permitted actions, blast radius, and observability, and positions pre-deployment scope restriction and guardrails as the core risk mitigation mechanism.",
+      "date": "2026-07-19",
+      "links": [
+        {
+          "title": "Anthropic's CISO Playbook for Agentic AI Names Four Questions Every Security Team Must Answer Before Deployment — AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropics-ciso-playbook-for-agentic-ai-names-four-questions-every-security-team-must"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.15218: PRISM — When Words Are Safe But Actions Kill: Physical Safety Gap in AI Agent Actions",
+      "summary": "This paper introduces PRISM, a hidden-state detector for physical danger in AI agent actions that achieves 86–87% accuracy on SafeAgentBench (vs. LLM judges that over-block safe tasks at 24–39% FPR), and presents PhysicalSafetyBench-1K, a 1,000-pair contrastive benchmark of physical-risk scenarios without direct harm keywords — exposing a critical gap between text-level safety evaluation and action-level risk in agentic AI deployment.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "arXiv 2607.15218: When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+          "url": "https://arxiv.org/abs/2607.15218"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "WAICO Governance Fallout: No Western Democracies Among 29 Founding Members; France Says Body Threatens Hiroshima Process",
+      "summary": "As the China-backed WAICO founding agreement was signed on July 16–17 with 29 members from the Global South but no major Western democracy, France publicly described it as an attempt to undermine the Hiroshima Process, and analysts warned countries aligning with WAICO will develop AI regulations incompatible with the EU AI Act and OECD AI Principles — hardening a split in global AI governance architecture.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "China Launches Rival AI Governance Bloc as WAIC 2026 Opens With 300 Product Debuts — TechTimes",
+          "url": "https://www.techtimes.com/articles/320812/20260717/china-launches-rival-ai-governance-bloc-waic-2026-opens-300-product-debuts.htm"
+        },
+        {
+          "title": "China's Xi Jinping Launches New AI Alliance: What Is It? — Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta Implements Parental Alert System for Teen AI Chatbot Crisis Conversations",
+      "summary": "Meta launched a feature on July 16 that notifies parents when a teen user discusses suicide or self-harm with Meta's AI chatbot, as the company faces growing regulatory pressure and parental scrutiny over AI chatbot safety for minors.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "Meta Now Alerts Parents if Their Teen Discussed Suicide or Self-Harm with Its AI Chatbot — TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Alphabet Workers Union Delivers 4,500-Signature Petition to CEO Sundar Pichai Demanding AI-Layoff Protections",
+      "summary": "The Alphabet Workers Union delivered a petition signed by over 4,500 Google employees to Sundar Pichai's office on July 16, demanding guaranteed severance, voluntary exit options before mandatory layoffs, and an end to quota-based performance reviews — the largest known employee-feedback action on job security at Google, coinciding with AI-driven workforce cuts across major tech.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "Thousands of Google Workers Sign Petition Calling for Layoff Protections — Silicon Republic",
+          "url": "https://www.siliconrepublic.com/business/thousands-of-google-workers-sign-petition-calling-for-layoff-protections"
+        },
+        {
+          "title": "Thousands of Google Workers Demand Layoff Protections Amid AI Boom in Petition to CEO — AOL/Guardian",
+          "url": "https://www.aol.com/articles/thousands-google-workers-demand-layoff-222206000.html"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NACD Publishes Board AI Governance Guide, Setting Reference Standard for Director Competency and ERM Integration",
+      "summary": "The National Association of Corporate Directors published \"Director Essentials: Implementing AI Governance\" on July 18, establishing what boards must do to govern AI — including integrating AI risk into enterprise risk management and setting AI-specific KPIs — creating a benchmark that regulators, investors, and plaintiffs' counsel may use to assess board oversight adequacy in AI-related litigation.",
+      "date": "2026-07-18",
+      "links": [
+        {
+          "title": "NACD Board Governance Guide Raises the Bar on Director AI Competency and ERM Integration — AI Governance Institute",
+          "url": "https://aigovernance.com/news/nacd-board-governance-guide-raises-the-bar-on-director-ai-competency-and-erm-integration"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "TSMC Q2 2026 Earnings: AI Chips Reach 66% of Revenue as Net Income Surges 77% Year-on-Year",
+      "summary": "TSMC reported Q2 2026 net income up 77.4% year-on-year with HPC/AI chips hitting 66% of quarterly revenue and raised full-year guidance to 40%+ growth — documenting the rapid concentration of frontier AI compute through a single foundry and adding $100 billion more to its Arizona buildout.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "AI News July 17 2026: TSMC Record Profit +77%, Gemini 3.5 Pro Delayed Again — AIToolsRecap",
+          "url": "https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"
+        }
+      ]
+    }
+  ]
+}
