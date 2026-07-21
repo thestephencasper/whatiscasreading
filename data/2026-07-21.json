@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T11:01:23+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "EU Commission Publishes Binding Article 50 AI Transparency Guidelines — 12 Days Before August 2 Enforcement Begins",
+      "summary": "The European Commission issued its final, binding guidelines on AI Act Article 50 transparency obligations effective August 2, 2026 — specifying which chatbots, deepfake deployers, and AI-content generators must disclose their AI nature and embed machine-readable marks, leaving providers under 12 days to reach compliance.",
+      "date": "2026-07-20",
+      "links": [
+        {
+          "title": "EU Commission press release",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+        },
+        {
+          "title": "EU Commission guidelines document",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        },
+        {
+          "title": "EU News coverage",
+          "url": "https://www.eunews.it/en/2026/07/20/greater-transparency-for-ai-system-suppliers-new-eu-guidelines/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "NYT v. OpenAI: Judge Stein Issues New Ruling Denying OpenAI's Objection to Discovery Order",
+      "summary": "Judge Sidney Stein issued a fresh ruling today (per the AI Lawsuit Tracker, ~2 hours ago) denying OpenAI's latest objection to a discovery order in the flagship AI copyright MDL, extending a consistent pattern of rulings against OpenAI's attempts to limit evidence production ahead of summary judgment.",
+      "date": "2026-07-21",
+      "links": [
+        {
+          "title": "AI Lawsuit Tracker — NYT v. OpenAI case page",
+          "url": "https://ailawsuittracker.com/cases/new-york-times-v-openai/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.15143: AI Coding Agents Weaponized via Ordinary Project Setup Documentation",
+      "summary": "A Microsoft researcher's first systematic evaluation shows that editing only a README, requirements file, or Makefile can redirect GitHub Copilot, Claude Code, and Cursor to install malicious packages during project setup — and whether an attack is caught depends as much on the agent harness as on the model, meaning model-level safety certifications cannot speak to install-time risk.",
+      "date": "2026-07-16",
+      "links": [
+        {
+          "title": "arXiv 2607.15143",
+          "url": "https://arxiv.org/abs/2607.15143"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Begins IPO Investor Roadshow, Targeting October 2026 Nasdaq Debut at $1T+ Valuation",
+      "summary": "Bloomberg and CNBC reported that Anthropic's underwriters (Goldman Sachs, Morgan Stanley, JPMorgan) are scheduling investor meetings ahead of a potential October 2026 Nasdaq IPO, positioning Anthropic to go public before OpenAI — which has now shifted its own IPO target to 2027 — and before DeepSeek.",
+      "date": "2026-07-15",
+      "links": [
+        {
+          "title": "CNBC: Anthropic moves closer to mega-IPO",
+          "url": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html"
+        },
+        {
+          "title": "Bloomberg/Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-said-plan-ipo-investor-152850812.html"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.14782: GIRAI 2026 — 35 Governments Deploying Unacceptable-Risk AI, Most Without Redress Mechanisms",
+      "summary": "The Global Index on Responsible AI's 2026 report, covering 135 countries and 68,138 data points across 38 indicators, finds credible evidence of unacceptable-risk AI deployment in 35 nations, with 78% of Global South governance frameworks remaining non-binding and only 18% of countries requiring public disclosure of government algorithms.",
+      "date": "2026-07-17",
+      "links": [
+        {
+          "title": "arXiv 2607.14782",
+          "url": "https://arxiv.org/abs/2607.14782"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "arXiv 2607.16010: AI Watermark Evidence Fails Forensic Readiness Standards",
+      "summary": "An empirical evaluation submitted to AIES 2026 finds that current AI watermarking methods fail key forensic readiness criteria — reliability, integrity, and admissibility standards — undermining their viability as a regulatory compliance tool for detecting and attributing AI-generated content.",
+      "date": "2026-07-20",
+      "links": [
+        {
+          "title": "arXiv 2607.16010",
+          "url": "https://arxiv.org/abs/2607.16010"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "WAIC 2026 Closes: China's NDRC Releases 8-Initiative AI International Cooperation Action Plan",
+      "summary": "At the close of WAIC 2026 in Shanghai, China's National Development and Reform Commission released a formal AI Cooperation and Development Action Plan covering high-quality data supply, inclusive compute access, open-source ecosystems, international AI safety standards, and ethical development — the state-level policy counterpart to the simultaneously launched WAICO governance body.",
+      "date": "2026-07-20",
+      "links": [
+        {
+          "title": "CGTN: New coordinates for global AI governance and China's contributions",
+          "url": "https://news.cgtn.com/news/2026-07-20/New-coordinates-for-global-AI-governance-and-China-s-contributions-1OW4UqtQrQc/p.html"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Rhode Island Governor Signs Therapy Chatbot Ban, Chatbot Self-Harm Safety Law, and Clinical AI Session Disclosure Requirement",
+      "summary": "Rhode Island enacted three AI-specific measures this week — banning AI systems from providing mental health therapy, requiring chatbot self-harm and crisis safety features, and mandating disclosure when AI records or transcribes clinical sessions — among the first US state laws directly restricting AI in healthcare mental health contexts.",
+      "links": [
+        {
+          "title": "Transparency Coalition AI Legislative Update July 17, 2026",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-july17-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Kimi K3 2.8T Open Weights Confirmed for July 27; DeepSeek V4 Stable Release July 24 — Open-Weight Governance Wave Imminent",
+      "summary": "Confirmed release dates reported July 21 mean that DeepSeek V4's stable build (July 24) and Kimi K3's full public weights (July 27) will enter the open ecosystem within days of each other, putting two of the most capable open-weight models ever into anyone's hands just as the White House deliberates on open-weight access restrictions.",
+      "date": "2026-07-21",
+      "links": [
+        {
+          "title": "Tech-Reader: AI News July 21, 2026",
+          "url": "https://www.tech-reader.blog/2026/07/ai-news.html"
+        },
+        {
+          "title": "AI Governance Institute: Kimi K3 governance obligations",
+          "url": "https://aigovernance.com/news/kimi-k3-open-weight-model-agentic-governance-compliance"
+        }
+      ]
+    }
+  ]
+}
