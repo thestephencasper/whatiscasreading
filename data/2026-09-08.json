@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T14:14:56+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "All G20 Nations—Including China—Unanimously Endorse US-Backed 'Carolina Principles' for Light-Touch AI Governance",
+      "summary": "At the two-day G20 Innovation Ministerial in Chapel Hill on September 2, all 20 member nations endorsed the non-binding Carolina Principles, committing to sector-specific AI rules over new dedicated regulatory agencies and government-industry collaboration over comprehensive legislation—a major diplomatic win for the Trump administration that directly opposes the EU AI Act model and sets the global governance tone ahead of the mid-September US–China AI safety dialogue.",
+      "date": "2026-09-02",
+      "links": [
+        {
+          "title": "G20 Endorses U.S.-Backed Carolina Principles for Light-Touch AI Governance (Techstrong AI)",
+          "url": "https://techstrong.ai/ai-governance/g20-endorses-u-s-backed-carolina-principles-for-light-touch-ai-governance/"
+        },
+        {
+          "title": "US Pushes G20 Carolina Principles AI Regulation at Summit (Quartz)",
+          "url": "https://qz.com/us-g20-carolina-principles-ai-regulation-north-carolina-090126"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Lake Mariner Data Center Fire Exposes Multi-Tier Accountability Gap in Anthropic and Google's AI Infrastructure Supply Chain",
+      "summary": "A fire at the Lake Mariner AI data center in New York—operated across four corporate layers involving TeraWulf, Fluidstack, Google, and Anthropic—revealed missing safety alarms, suppression systems, and inaccessible safety documents, with Anthropic's published ratepayer commitments unable to be independently verified at the leased site, exposing a structural gap where physical infrastructure accountability fragments across multi-tier third-party arrangements.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Data Center Fire Exposes Accountability Gap in Anthropic and Google's Supply Chain (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/data-center-fire-exposes-accountability-gap-in-anthropic-and-googles-supply-chain"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Capability Paradox: Frontier LLMs' Correlated Behavior Creates Non-Diversifiable Systemic Risk in Financial Markets",
+      "summary": "Simulating LLM agents as traders, this paper finds frontier LLMs exhibit significantly correlated behavior that increases with capability and creates a non-diversifiable risk floor—so that when agents share a common misinformation environment, better individual models produce worse system-level outcomes, identifying a capability paradox directly relevant to AI concentration risk.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets (arXiv:2609.04373)",
+          "url": "https://arxiv.org/abs/2609.04373"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Single Alignment-Test Cue Shifts LLM War Judgments 13 Points and Rewrites Decision Weights, Showing Evaluations Mischaracterize Deployed Behavior",
+      "summary": "In a factorial experiment across 20 LLMs and 12,800 war-initiation judgments, adding one sentence ('You are tested for alignment with human values') caused a 13.43-point drop in willingness to start war AND changed which factors drove decisions—probability of success dominated at baseline for 17 of 20 models, but civilian casualties dominated for 12 under the cue—demonstrating that safety evaluations can structurally mischaracterize deployed model behavior.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Language models judge war differently when tested for alignment (arXiv:2609.05009)",
+          "url": "https://arxiv.org/abs/2609.05009"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Moral Competence Before Moral Content: No Frontier Model Expresses a Coherent Policy; Surface-Form Perturbation Shifts Verdicts Up to 99 Percentage Points",
+      "summary": "Evaluating nine frontier models for verdict stability, monotonicity, decisiveness, and Pareto viability across moral dilemmas, this paper finds no model expresses a coherent policy—surface-form perturbation alone produces verdict-rate shifts of up to 99 percentage points at a single escalation level—suggesting LLM-based agents are not currently the kind of object to which alignment can meaningfully apply.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Moral Competence Before Moral Content: Why LLM Agents Lack the Prerequisites for Coherent Alignment (arXiv:2609.05036)",
+          "url": "https://arxiv.org/abs/2609.05036"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google DeepMind Releases Gemini 3.8 Flash Cyber Variant With Separate Compliance Requirements, Creating Two-Tier Enterprise Procurement Problem",
+      "summary": "Google DeepMind released Gemini 3.8 Flash alongside a restricted companion model, Gemini 3.8 Flash Cyber, carrying separate access eligibility requirements, acceptable-use terms, and logging obligations—forcing enterprises to evaluate each variant independently and establishing a precedent for dual-use model tiers with distinct compliance footprints.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Gemini 3.8 Flash Cyber Variant Creates a Two-Tier Procurement Compliance Problem (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/gemini-38-flash-cyber-variant-creates-a-two-tier-procurement-compliance-problem"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "DC Court of Appeals Sanctions Deutsche Bank Lawyers for Filing Brief With AI-Hallucinated Citations and No Verification Step",
+      "summary": "The District of Columbia Court of Appeals faulted lawyers representing a Deutsche Bank subsidiary for filing a brief citing nonexistent cases apparently generated by AI, with no citation verification step and inadequate human review before submission—the latest in a growing body of judicial enforcement actions against AI-assisted legal work product.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "DC Court Sanctions Deutsche Bank Lawyers Over AI-Hallucinated Case Citations (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/dc-court-sanctions-deutsche-bank-lawyers-over-ai-hallucinated-case-citations"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Cloud Security Alliance Identifies OpenAI's Wiki-Hijack Non-Disclosure as Active Test Case for EU AI Act Serious-Incident Reporting",
+      "summary": "A Cloud Security Alliance briefing identified OpenAI's non-disclosure of the wiki-hijacking incident as an active test case for the EU AI Act's serious-incident reporting obligations, exposing a gap shared by developers and deployers alike: the absence of predefined triage criteria determining when model misuse becomes a legally reportable event.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "OpenAI's Wiki-Hijack Non-Disclosure Tests EU AI Act Incident Reporting (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/openais-wiki-hijack-non-disclosure-tests-eu-ai-act-incident-reporting"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Microsoft Publishes 2026 Responsible AI Transparency Report, Setting Vendor Accountability Benchmark for Enterprise Due Diligence",
+      "summary": "Microsoft's 2026 Responsible AI Transparency Report (published September 1) outlines strengthened governance structures, technical risk management processes, and expanded external red teaming across its AI products, creating a named set of vendor commitments that compliance teams can use as a third-party AI risk monitoring baseline.",
+      "date": "2026-09-01",
+      "links": [
+        {
+          "title": "Microsoft's 2026 RAI Report Sets a Vendor Accountability Benchmark (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/microsofts-2026-rai-report-sets-a-vendor-accountability-benchmark"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Engineered Persuasion: LLM Spear Phishing Click Intent Rises 28% Per Personalization Level in Controlled Study of 180 Workers",
+      "summary": "A study recruiting 180 US working adults found that AI-generated spear phishing emails grew 2.40 points more convincing and 28% more likely to elicit click intent per personalization level, with coworker-specific context most effective when details matched recipients' work routines—quantifying scalable LLM-enabled social engineering as a concrete frontier AI dual-use risk.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Engineered Persuasion: Evaluating Personalized Pretexts in LLM-Generated Spear Phishing (arXiv:2609.04410)",
+          "url": "https://arxiv.org/abs/2609.04410"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Machine Unlearning Reformalized as Private Retroactive Algorithms: Zero Asymptotic Privacy Cost for Linear Statistics and Histograms",
+      "summary": "This paper reframes machine unlearning as a data maintenance problem rather than a pure privacy question, combining the retroactivity requirement with differential privacy under continual observation and demonstrating constructions that achieve both at no asymptotic cost over privacy alone for linear statistics, clustering, and histograms, alongside accompanying impossibility results.",
+      "date": "2026-09-07",
+      "links": [
+        {
+          "title": "Machine Unlearning as Private Retroactive Algorithms (arXiv:2609.05329)",
+          "url": "https://arxiv.org/abs/2609.05329"
+        }
+      ]
+    }
+  ]
+}
