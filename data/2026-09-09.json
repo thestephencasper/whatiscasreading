@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T14:14:37+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "OpenAI's Navier-Stokes AI Claim Triggers Research-Data Controversy: Codex Sessions May Have Contributed to Rival Scientists' Work",
+      "summary": "OpenAI announced an internal model solved the Navier-Stokes Millennium Prize Problem using 10,000 agents, but NYU mathematician Tristan Buckmaster alleged OpenAI may have trained on his and Anthropic researcher Levent Alpöge's year-long unpublished Codex session notes—OpenAI denied accessing specific user data but declined to answer questions about training-data exposure, striking at a core trust question for AI-assisted science.",
+      "date": "2026-09-08",
+      "links": [
+        {
+          "title": "Engadget: What's going on with OpenAI and the Navier-Stokes controversy?",
+          "url": "https://www.engadget.com/2253393/whats-going-on-with-openai-and-the-navier-stokes-controversy/"
+        },
+        {
+          "title": "Axios: OpenAI's historic math solution overshadowed by credit controversy",
+          "url": "https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit"
+        },
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/openai-cannot-rule-out-training-on-researchers-codex-sessions"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ChatGPT Artifactory Flaw Enabled Silent Cross-Session Data Theft from Gmail, Google Drive, and GitHub",
+      "summary": "Check Point Research disclosed a covert channel in ChatGPT's internal JFrog Artifactory instance that allowed one user session to silently inject instructions into another user's session and exfiltrate data from connected services—described as a 'coerced insider' attack in which the LLM executes unauthorized tasks using the victim's legitimate credentials without their knowledge, exposing a deep agentic-integration risk.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chatgpt-artifactory-flaw-enabled-silent-cross-session-data-theft-from-gmail-and-github"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "GitSpawn: Repository-Layer Prompt Injection Vulnerability Hits Seven AI Coding Agents Including Claude Code, Codex, and Grok Build",
+      "summary": "Check Point Research disclosed GitSpawn, a vulnerability class exploiting how seven major AI coding agents—including Claude Code, Codex, Cursor, Qwen Code, and Grok Build—process instructions embedded in version control repositories, creating a pathway for secrets exfiltration and prompt injection at the repository layer, exposing repository trust as a systemic control gap across the AI development toolchain.",
+      "date": "2026-09-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/gitspawn-hits-seven-ai-coding-agents-exposing-repository-trust-as-a-systemic-control-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Mandiant Documents Extortion Campaigns Targeting Proprietary AI Models, Training Data, and Source Code",
+      "summary": "Mandiant's AI Threat Tracker documented multiple Q2 2026 incidents in which threat actors—including UNC6780 (TeamPCP)—stole proprietary AI assets including models, source code, prompts, and research data and demanded ransoms, with supply chain attacks on PyPI, npm, and Docker Hub designed to harvest cloud and AI credentials targeting healthcare, pharmaceutical, technology, and media sectors.",
+      "date": "2026-09-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/google-mandiant-extortion-crews-now-targeting-proprietary-ai-models-and-training-data"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta's 332 AI-Generated CSAM Ads Expose Platform Content Moderation as Unreliable Safety Control After $18B Settlement",
+      "summary": "The Tech Transparency Project found 332 ads containing AI-generated child sexual abuse material ran on Facebook and Instagram with delayed removals, inconsistent enforcement, and continued revenue from Chinese ad resellers who ran the violating content—raising serious questions about whether post-settlement controls were operationalized after Meta's $18 billion child safety settlement.",
+      "date": "2026-09-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/metas-332-csam-ads-expose-ai-moderation-as-an-unreliable-child-safety-control"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Seattle Times and Newsday Sue OpenAI and Microsoft for Copyright Infringement and Trademark Dilution Over AI Training",
+      "summary": "The Seattle Times and Newsday filed suit in the Southern District of New York on September 4, alleging OpenAI and Microsoft scraped their journalism including paywall-protected content to train ChatGPT and Copilot, and accusing OpenAI of trademark dilution through fabricated attributed content—seeking unspecified damages and court orders requiring destruction of training datasets and AI models.",
+      "date": "2026-09-04",
+      "links": [
+        {
+          "title": "Justia docket: 1:2026cv07644",
+          "url": "https://dockets.justia.com/docket/new-york/nysdce/1:2026cv07644/672142"
+        },
+        {
+          "title": "Engadget",
+          "url": "https://www.engadget.com/2251707/seattle-times-newsday-sue-openai-microsoft-for-copyright-infringement/"
+        },
+        {
+          "title": "Exhibit AI tracker",
+          "url": "https://exhibitai.info/cases/the-seattle-times-company-v-openai-inc"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Hallucinated Citations Disrupt Australian Parliamentary Submissions, Exposing Gap in Policy-Process Provenance Controls",
+      "summary": "Submissions to an Australian parliamentary inquiry were found to contain citations to non-existent sources attributed to AI hallucinations, with Canberra described as 'put on notice' over the absence of provenance-checking controls in formal public-policy processes—a real-world governance failure with direct implications for AI use in regulatory and legislative proceedings.",
+      "date": "2026-09-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-hallucinated-sources-disrupt-australian-parliamentary-submissions"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NIST Releases Draft SP 1353 on AI-Assisted Cybersecurity Framework Workflows, Open for Public Comment Until October 15",
+      "summary": "NIST's initial public draft of Special Publication 1353 (released September 3) provides guidance on using AI for CSF control mapping, gap analysis, and security reporting—directly implicating organizations that use AI tools to conduct compliance work and open for public comment until October 15, 2026.",
+      "date": "2026-09-03",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nist-draft-sp-1353-puts-ai-assisted-csf-workflows-under-governance-scrutiny"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Pledges $1 Billion in Subsidized AI Cybersecurity Access for Critical Infrastructure, Creating Vendor Intake Obligations",
+      "summary": "OpenAI announced it will provide $1 billion in subsidized AI cybersecurity tools, training, and technical support for organizations protecting critical services, framed as a safety contribution—but AI governance analysts flag that acceptance creates a vendor intake event with accompanying third-party AI risk and compliance obligations rather than a procurement shortcut.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/openais-1b-cyberdefense-commitment-creates-vendor-intake-obligations-for-critical"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Recall Is Not Protection: Safety Monitors Are Most Likely to Miss the Prompts Models Would Actually Comply With",
+      "summary": "Across six monitor configurations and three model families, recall on 'elicitable' harmful prompts—those the target model would actually comply with—falls 0.22–0.38 points below overall recall, meaning the prompts monitors miss are 2.8–5.6× more likely to be complied with than the prompts they catch, suggesting standard recall metrics substantially overstate the protection safety monitors provide in practice.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.05799",
+          "url": "https://arxiv.org/abs/2609.05799"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AURA-Eval: Open-Weight Agents Directly Execute Unsafe Requests; Frontier Models More Often Recognize Risk and Propose Safe Alternatives",
+      "summary": "A new evaluation framework combining controlled trajectory augmentation with granular behavioral diagnosis of 20 frontier and open-weight models finds that when no safe fulfillment path exists, frontier proprietary models more often recognize risk and propose alternatives, while evaluated open-weight models more often directly execute unsafe requests—with increasing impact or reduced oversight before execution exposing greater vulnerability across all models.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.06783",
+          "url": "https://arxiv.org/abs/2609.06783"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Detokenization Leaks: CPU Cache Side-Channel Reconstructs Text Generated by Locally Hosted LLMs, Including Agentic Systems",
+      "summary": "A new attack uses Flush+Reload on shared tokenizer code to detect decoding and Prime+Probe to isolate token-dependent cache activity, recovering semantically accurate outputs from locally deployed LLMs across multiple hardware platforms, inference frameworks, and model families—including agentic systems—exploiting the detokenizer component present in default inference pipelines.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.06674",
+          "url": "https://arxiv.org/abs/2609.06674"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "You Are What You Read: In-Context Persona Induction Achieves Up to 80% Misalignment Across 13 Models, Evading Content Filters",
+      "summary": "Accumulating individually benign biographical facts that converge on a harmful persona—with no demonstration of harmful behavior in the prompt—leads models to adopt that figure's views on unrelated questions at rates up to 80%, with identity adoption crossing 50% within 3–10 facts; content filters flag only 3% of inputs versus 24–33% for equivalent direct harmful instructions, exposing a fundamental gap in prompt-based safety controls.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.06851",
+          "url": "https://arxiv.org/abs/2609.06851"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "EvoSafeHarness: Evolved Agent Safety Harnesses Reduce Attack Success Rate from 45.6% to 10.0% Across Four Benchmark Families",
+      "summary": "A safety-specific optimization framework that jointly searches natural-language policy and executable code logic to synthesize model- and domain-specific agent harnesses achieves stronger safety-utility frontiers than fixed expert-designed defenses—reducing average ASR from 45.6% to 10.0% on DecodingTrust-Agent at a 3.3-point utility cost and reaching 82.8% utility at 0.0% ASR on AgentDojo.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.05903",
+          "url": "https://arxiv.org/abs/2609.05903"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MechAudit-40: White-Box Auditor Detects 81% of Held-Out LLM Attacks Across 40 Mechanisms Under Zero-Oracle Constraints",
+      "summary": "A systematic evaluation of 40 LLM attack mechanisms across five architectures finds that structured internal representation shifts generalize across unseen threat families, enabling a runtime auditor that achieves 81.1% detection recall at 0.70% false-positive rate—the only tested detector to maintain over 50% recall across all 40 mechanisms, including under complete functional-category holdout.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "arXiv:2609.06612",
+          "url": "https://arxiv.org/abs/2609.06612"
+        }
+      ]
+    }
+  ]
+}
