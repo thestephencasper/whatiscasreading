@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T13:24:49+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "Newsom Signs California SB 813 + AB 1405: First U.S. State Framework for Independent AI Verification Organizations and Auditor Registry",
+      "summary": "Governor Newsom signed SB 813 (creating a state certification program for Independent Verification Organizations that can assess AI systems for compliance) and AB 1405 (establishing a registry for AI auditors with independence and integrity standards) on September 9, making California the first US jurisdiction to regulate the profession of AI auditing — both Anthropic and OpenAI endorsed the package before signing, though critics note mandatory audits don't begin until 2029.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "Official Governor's Office Announcement",
+          "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/"
+        },
+        {
+          "title": "TechTimes — Frontier Labs, Hiring Tools Now in Scope",
+          "url": "https://www.techtimes.com/articles/327159/20260910/california-signs-first-us-ai-audit-law-frontier-labs-hiring-tools-now-scope.htm"
+        },
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/california-sb-813-ab-1405-ai-verification-auditor-framework"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Sam Altman Tells Employees OpenAI Is Open to Coordinating a Slower AI Development Pace; Chief Scientist Pachocki Calls for Voluntary Slowdowns Until Shared Safety Bars Are Set",
+      "summary": "Bloomberg reported that Altman told an all-hands meeting OpenAI would consider aligning its development tempo with peer labs amid recent agent containment incidents, while OpenAI chief scientist Jakub Pachocki separately wrote that he hopes 'voluntary slowdowns to become commonplace until shared safety bars are established' — marking the most significant public safety-pacing signal from a frontier AI CEO in years.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "Slashdot / Bloomberg summary",
+          "url": "https://slashdot.org/story/26/09/11/1746211/altman-considers-slowing-down-ai-development"
+        },
+        {
+          "title": "Inside AI News",
+          "url": "https://insideai.news/news/ai-safety/openai-slowing-ai-development/10248/"
+        },
+        {
+          "title": "Breitbart Tech (Pachocki quote sourced)",
+          "url": "https://www.breitbart.com/tech/2026/09/11/sam-altmans-openai-claims-to-consider-slowing-ai-development-as-safety-concerns-mount/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Trusted AI Platform Domains Now Host Active Malware Across 29 Organizations: Claude Artifacts, ChatGPT Share Links, and Grok Exploited by Threat Actors",
+      "summary": "Huntress Labs SOC researchers documented three attack patterns in which threat actors weaponized legitimate features of Claude, ChatGPT, and Grok — including Claude Artifacts and shareable conversation URLs — to distribute SectopRAT and the AMOS stealer to at least 29 organizations, exploiting the established trust reputations of AI platform domains to bypass domain-reputation-based phishing defenses entirely.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/trusted-ai-platform-domains-now-host-active-malware-across-29-organizations"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Reset Tech: Foreign Network Deepfaked Dozens of Australian Politicians on Facebook; Platform Controls Failed to Label or Remove Most Posts",
+      "summary": "A Reset Tech report, covered by ABC News, found that a foreign influence operation used AI to deepfake dozens of Australian politicians in coordinated Facebook posts, but platform enforcement was highly inconsistent — only a minority of posts were labeled AI-generated and very few removed — exposing a structural gap between platform content-detection policies and their actual enforcement at scale for synthetic political media.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/reset-tech-report-finds-platform-deepfake-controls-failed-across-australian-political"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta AI Generated Prompts That Identified Children in Users' Videos and Aggregated Personal Data From Family Members' Accounts",
+      "summary": "Meta's AI assistant surfaced suggested prompts that identified children in a user's video and aggregated personal information from historical posts and family accounts; Meta acknowledged the failure and applied fixes, but the incident illustrates a structural gap between data minimization policies and what AI systems actually do with available contextual data at runtime.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/metas-invasive-prompt-incident-exposes-runtime-data-minimization-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "DeepSeek Retains CITIC Securities for Shanghai STAR Market IPO, Founder Personally Screening Investors to Preserve Governance Control",
+      "summary": "Reuters confirmed that DeepSeek has engaged CITIC Securities for pre-IPO tutoring ahead of a potential Shanghai STAR Market listing, with founder Liang Wenfeng personally vetting investors to limit outside governance influence — a development with direct implications for concentration of power in the open-weight AI ecosystem and for data-law compliance in cross-border deployments.",
+      "date": "2026-09-09",
+      "links": [
+        {
+          "title": "Quartz — Reuters confirms CITIC engagement",
+          "url": "https://qz.com/deepseek-ipo-citic-securities-shanghai-star-market-090926"
+        },
+        {
+          "title": "TechTimes — China Data Law Governance Implications",
+          "url": "https://www.techtimes.com/articles/327106/20260909/deepseek-ipo-milestone-chinas-data-law-follows-every-user-wherever-shares-trade.htm"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "68 MCP Server CVEs in One Month: Adversa AI Finds SQL Injection, SSRF, Prompt Injection, and Path Traversal Across Enterprise Agent Deployments",
+      "summary": "Adversa AI's September 2026 security roundup documented 68 reportable vulnerabilities across audited MCP server implementations — including SQL injection, SSRF targeting cloud metadata services, prompt template injection, and path traversal — in a single month, reinforcing a pattern of systemic insecurity in the agentic AI supply chain that enterprise due-diligence programs largely do not yet reach.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/68-mcp-server-cves-in-one-month-expose-a-systemic-agent-supply-chain-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Anthropic Publishes Formal Age Assurance Policy for Claude, Shifting Minor-Access Compliance Obligations Directly Onto Enterprise Deployers",
+      "summary": "Anthropic's new age assurance policy restricts Claude's availability to minors and explicitly places the compliance burden on enterprise operators and platform builders who embed Claude in products that could reach underage users — creating direct obligations for any organization without independent age-verification controls and potential exposure under COPPA and the EU Digital Services Act.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropics-age-assurance-policy-shifts-minor-access-compliance-onto-deployers"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "25 Fields Medal Recipients Warn That AI Math Benchmarks Erode Attribution Norms and Disrupt Knowledge Transmission in Research",
+      "summary": "A declaration signed by 25 Fields Medal winners and published at mathandai.org argues that AI companies using mathematical problem-solving as a capability benchmark are fundamentally misaligned with the mathematical community's norms: AI-generated proofs are rapid and unreferenced, threatening attribution and the knowledge transmission chains that make research traceable and reproducible — framed as a governance signal for any knowledge-intensive domain.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/25-fields-medalists-warn-ai-math-benchmarks-erode-attribution-and-auditability"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Subgroup Membership Inference Audits of Differentially Private Synthetic Text: DP Is Effective on Average But Concentrates Remaining Leakage in Vulnerable Subgroups",
+      "summary": "A new subgroup-targeted membership inference framework audited 32 proxy attacks across four datasets and multiple DP generators, finding that while DP substantially reduces average leakage, the remaining risk is concentrated rather than distributed — roughly 10% of records carry ~40% of measured leakage — and DP removes proportionally less leakage from high-risk records than from random ones, showing that average-case DP guarantees can systematically under-protect the most vulnerable individuals.",
+      "date": "2026-09-10",
+      "links": [
+        {
+          "title": "arXiv:2609.09848",
+          "url": "https://arxiv.org/abs/2609.09848"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Work, Wellbeing, and Choice: Empirical Lessons for AI Futures — Three Mediating Factors From Unemployment, Retirement, and Lottery-Winner Literatures",
+      "summary": "Google DeepMind researchers (including Iason Gabriel) survey psychological, sociological, and economic evidence on work and wellbeing from unemployed workers, retirees, lottery winners, and financially dependent spouses to identify three mediating factors — agency/voluntariness of exit, availability of alternative sources of work's latent benefits, and social/institutional context — that should anchor AI automation policy design.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "arXiv:2609.11019",
+          "url": "https://arxiv.org/abs/2609.11019"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "First Large-Scale Audit of Bluesky Moderation Service: High Precision (0.837) but Very Low Recall (0.222); Human Annotators Find 4.5× More Harmful Content",
+      "summary": "An audit of Bluesky's default moderation system across 10.6 million labels from 2025 reveals a human-AI collaborative architecture where automated labels for sexual/graphic content are applied in seconds while high-stakes labels take hours or days — but overall the system operates with high precision and sharply low recall, with manual annotators identifying 4.5 times more harmful content than the moderation system in a random sample, demonstrating that low false-positive rates do not imply adequate harm coverage.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "arXiv:2609.11373",
+          "url": "https://arxiv.org/abs/2609.11373"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Fragility Spectrum: Model Collapse Resistance Under Recursive Training Is a Stable Checkpoint-Specific Property, Predictable in 2–3 Generations",
+      "summary": "A controlled study fixing a shared recursive contamination protocol and running 13 open checkpoints for five generations finds that collapse resistance varies nearly 5× across models, is stable across pool compositions and seeds (Spearman ρ 0.91–0.98), and can be predicted cheaply from 2–3 generations of self-training — making collapse fragility a measurable and deployable evaluation dimension for open-weight model safety.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "arXiv:2609.11149",
+          "url": "https://arxiv.org/abs/2609.11149"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Security Boundary of Obfuscation-Based On-Device LLM Protection: A Unified 'Collapse' Attack Breaks ArrowCloak, TSQP, and LoRO via Shared Primitive Boundary",
+      "summary": "By formalizing TEE-shielded LLM partition (TSLP) methods as compositions of obfuscation primitives, the paper shows that ArrowCloak (Security'25), TSQP (S&P'25), and LoRO (NeurIPS'25) all share a common security boundary exploitable by a single primitive-guided attack called Collapse — and proposes extended primitives (O_ext) that push past the existing frontier, directly relevant to IP protection of deployed open-weight models.",
+      "date": "2026-09-10",
+      "links": [
+        {
+          "title": "arXiv:2609.10117",
+          "url": "https://arxiv.org/abs/2609.10117"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "terms.txt: A Consent and Compensation Protocol for Agentic Web Access — Proposes Machine-Readable Per-Path, Per-Purpose Access Terms With Signed Receipts",
+      "summary": "As AI crawlers now make up most web requests and the implicit web bargain between sites and search engines has broken down, this paper proposes terms.txt — a robots.txt-style machine-readable file for per-path, per-purpose access terms — combined with Web Bot Auth signatures, delegation tokens, HTTP 402 price negotiation, and signed receipts, adding only 0.20–0.65 ms overhead per request, offering a concrete governance mechanism for agentic web access.",
+      "date": "2026-09-11",
+      "links": [
+        {
+          "title": "arXiv:2609.11152",
+          "url": "https://arxiv.org/abs/2609.11152"
+        }
+      ]
+    }
+  ]
+}
