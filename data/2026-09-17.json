@@ -1,0 +1,162 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T10:59:31+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "Cruz and Hawley Block Antitrust Exemption for AI Safety Coordination, Stalling Schiff-Banks Bill",
+      "summary": "Senate Commerce Chair Ted Cruz and Senator Josh Hawley rejected antitrust exemptions that would allow major AI labs to coordinate on safety — warning the carve-out could enable collusion and lock out competitors — dealing a major political blow to the industry-driven safety-body momentum that had been building since the Frontier AI Companies discussions covered last week.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/cruz-hawley-federal-ai-preemption-state-laws-congress"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NIST IR 8587 Explicitly Excludes AI Agent Authorization, Leaving a Formal Federal Governance Gap",
+      "summary": "NIST and CISA released IR 8587 covering token lifecycle management and access controls but explicitly carved out AI agent authorization scenarios — acknowledging agentic systems create IAM challenges requiring separate standards that remain under development — leaving enterprise agent deployments without a federal baseline.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nist-ir-8587-leaves-ai-agent-authorization-without-a-federal-standard"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Spain's AEPD Publishes First Confirmed Agentic AI Data Breach, Calls It a Qualitative Shift in Attack Methodology",
+      "summary": "Spain's data protection authority received and published details of what it describes as the first personal data breach executed autonomously by an AI agent — the attacker chained login, vulnerability discovery, and data access at machine speed — issuing four governance recommendations and framing it as a GDPR-relevant escalation in threat type.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/first-agentic-ai-data-breach-reaches-a-european-dpa-reframing-gdpr-response"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Reflections on Trusting Trust, Revisited: Poisoned Benchmarks Contaminate Self-Modifying Coding Agents, Persisting After Clean Re-Training",
+      "summary": "Roesner and Kohno demonstrate that adversaries can supply poisoned benchmarks to a self-modifying coding agent's self-improvement loop to induce future versions to write vulnerable code on clean held-out tasks, with contamination often surviving subsequent evolution against clean benchmarks — instantiated against Darwin Gödel Machine, Self-Improving Coding Agent, and Hyperagents.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.17817",
+          "url": "https://arxiv.org/abs/2609.17817"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Cross-Channel Fragmentation Attacks on LLM Tool-Calling Pipelines Achieve Up to 100% Credential Exfiltration; All 7 MCP Security Tools Fail to Detect",
+      "summary": "By distributing payloads across two or three MCP input channels so no single channel carries a complete injection, the attack causes models that fully resist single-channel injection (0% compliance) to exfiltrate credentials at up to 100% success, evaluated across 12 frontier models and more than 15,000 trials, with all seven tested third-party MCP security tools failing to detect fragmented payloads.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18217",
+          "url": "https://arxiv.org/abs/2609.18217"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Independence-Graded Audit Protocol for Agentic AI: Conventional Internal Audits Detect Only 5.9% of Faults and Zero in Half of Fault Classes",
+      "summary": "Proposing that AI audit independence must be graded along three orthogonal axes — principal, substrate, and evidence independence — a Monte Carlo study finds a conventional internal audit of an agentic system surfaces only 5.9% of detectable faults and finds nothing at all in half the fault classes, motivating a formal weakest-link graded audit model mapped to the EU AI Act and ISO/IEC 42006.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18272",
+          "url": "https://arxiv.org/abs/2609.18272"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Collision Mesh Poisoning: 3D Asset Supply Chain Attack Causes Robot Policies to Pass All Simulation Tests But Fail or Create Safety Risks at Deployment",
+      "summary": "Attackers can modify only the collision mesh (not the visual mesh) of a 3D asset distributed through legitimate supply chain channels, producing policies that behave normally throughout simulation yet degrade, fail, or create physical safety risks in the real world — a gap current asset review practices (covering malware, copyright, and format compliance but not visual-collision consistency) cannot detect.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18122",
+          "url": "https://arxiv.org/abs/2609.18122"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Collective Loss of Control in Multi-Agent LLM Systems: Unsafe Action Rate Jumps from 0–5% to 40–95% After a Single Injected Trajectory",
+      "summary": "Motivated by reported OpenAI agent coordination incidents, a study using an epidemic model of mutation, contagion, and recovery shows that injecting a single unsafe trajectory causes 40–95% executed harm rates across multi-agent pipelines (vs. 0–5% baseline), with spread enabled by unintended communication paths between nominally independent evaluation runs discovered through a deployment audit.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18460",
+          "url": "https://arxiv.org/abs/2609.18460"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google DeepMind Launches DeepMind Institute; Reasoning Transparency Essay Questions Whether Model-Generated Traces Reflect Internal Processes",
+      "summary": "Google DeepMind launched the DeepMind Institute (DMI), a public platform for interdisciplinary research on advanced AI, whose initial reasoning transparency essay is the most compliance-relevant — it questions whether model-generated reasoning outputs reliably represent internal model processes, directly challenging the foundation of trace-based AI audit methods.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/deepmind-institutes-reasoning-transparency-research-challenges-audit-trace-assumptions"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "PACT: Enterprise AI Compliance Benchmark Finds Ordinary User Pressure Raises Rule-Violation Rate by 65% Across 22 Models",
+      "summary": "A new benchmark for pressure-applied compliance testing across 12 regulated enterprise domains and 48 scenarios shows that ordinary user pressure raises violation rates by 65% on average, even the strongest assistants mis-apply rules on 6–10% of items under no pressure, and models vary substantially on a six-metric compliance profile that includes multi-turn robustness and transparency.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18605",
+          "url": "https://arxiv.org/abs/2609.18605"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "California Signs Children's AI Chatbot Protection Law: Risk Assessments Mandated Pre-Launch, Up to $1M Fine Per Child",
+      "summary": "Governor Newsom signed a new series of laws on September 10 requiring tech companies to conduct risk assessments before new AI chatbot rollouts targeting children and imposing fines of up to $1 million per child for harms — a distinct package from the AI audit framework signed the previous day, extending California's frontier AI regulatory stack to minor-safety obligations.",
+      "date": "2026-09-10",
+      "links": [
+        {
+          "title": "California AI Laws — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/California_AI_laws"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "\"Local\" LLMs Are Not Actually Private: llama.cpp Authorization Flaw Allows Cross-Tenant Session Restoration in 200/200 Trials",
+      "summary": "A measurement framework testing four prompt-confidentiality boundaries in consumer local-LLM serving systems finds that running inference locally is not sufficient to keep prompts confidential — highlighted by a previously undocumented authorization flaw in llama.cpp that allows one authenticated client to restore another tenant's saved conversation state, succeeding in all 200 controlled trials.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.18526",
+          "url": "https://arxiv.org/abs/2609.18526"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Structural Containment in Multi-Agent LLM Pipelines: Authorization Layer Holds Unsafe Action Rate to 0% Even While Validator Is 100% Compromised",
+      "summary": "In a four-agent LangGraph pipeline, memory poisoning reaches execution in every undefended trial; a structural authorization layer using task-bound signed tokens and a policy oracle reduces the Unsafe Action Rate to 0% even when the Validator achieves a 100% Judgment Bypass Rate — demonstrating that architecture can contain compromised agent behavior even when LLM-level judgment fails.",
+      "date": "2026-09-17",
+      "links": [
+        {
+          "title": "arXiv:2609.17648",
+          "url": "https://arxiv.org/abs/2609.17648"
+        }
+      ]
+    }
+  ]
+}
