@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T10:21:02+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "AI Hallucination Almost Triggered Armed Military Intercept: US SOCOM Incident",
+      "summary": "A US Special Operations Command analyst used an AI chatbot to generate an intelligence report falsely claiming a Chinese vessel was carrying nuclear weapons components, nearly triggering an armed military intercept before officials caught the error — the starkest documented case of an AI hallucination reaching a kinetic decision threshold.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "AI Governance: AI Hallucination Nearly Triggered Armed Military Intercept at Sea",
+          "url": "https://aigovernance.com/news/ai-hallucination-nearly-triggered-armed-military-intercept-at-sea"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Plugin4Shell: Zero-Click RCE Flaw Breaks Plugin Integrity in OpenAI Codex, Claude Code, Gemini CLI, and GitHub Copilot",
+      "summary": "Researchers at cybersecurity startup AIR disclosed a zero-click remote code execution vulnerability dubbed Plugin4Shell that exploits a weakness in how all four major AI coding agents verify plugin integrity via Git SHA hashes, allowing an attacker controlling a plugin repository to substitute malicious code that executes even when the agent is instructed to run a reviewed, approved version.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "AI Governance: Plugin4Shell Flaw Breaks Approved-Plugin Controls Across Four Major AI Coding Agents",
+          "url": "https://aigovernance.com/news/plugin4shell-flaw-breaks-approved-plugin-controls-across-four-major-ai-coding-agents"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI Community Forum Breached via AI-Assisted Attack; Employee ChatGPT and Codex Accounts Accessed",
+      "summary": "Security researchers at Hacktron AI chained a heap buffer overflow in the libheif image library with an SSO misconfiguration in OpenAI's identity infrastructure to gain remote code execution on community.openai.com, accessing multiple OpenAI employee accounts and potentially the internal monorepo, GitHub, and other connected services before OpenAI patched the vulnerabilities and paid a $6,500 bug bounty.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "AI Governance: AI-Assisted Hack of OpenAI Exposes Vendor Platform Attack Surface",
+          "url": "https://aigovernance.com/news/ai-assisted-hack-of-openai-exposes-vendor-platform-attack-surface"
+        },
+        {
+          "title": "AI Governance: OpenAI Infrastructure Breach Exposes SSO and Dependency Risk in AI Platforms",
+          "url": "https://aigovernance.com/news/openai-infrastructure-breach-exposes-sso-and-dependency-risk-in-ai-platforms"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Stress-Testing Alignment Midtraining: Public Evidence for Its Effectiveness Is Insufficient Across Scale",
+      "summary": "A paper evaluating alignment midtraining (AMT) across models up to 110B parameters and 1B midtraining tokens finds that AMT benefits are fragile — a tiny fraction of competing fine-tuning data erases them — and concludes there is not sufficient public evidence that midtraining can address the core difficulties of aligning powerful AI systems.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "arXiv:2609.20412 — Stress-testing Alignment Midtraining",
+          "url": "https://arxiv.org/abs/2609.20412"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Harm Laundering in GPT Models: Safety Training Transforms, Not Removes, Gender Discrimination Across 15 Generations",
+      "summary": "Analyzing 450,000 gender-directed completions from GPT-2 through GPT-5, the paper finds that explicit discriminatory content disappears from toxicity classifiers as models are safety-trained, but representational harm grows — a pattern the authors call 'harm laundering' — while toxicity scores fall and three independent classifiers score the newer content as non-toxic.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "arXiv:2609.20779 — Harm Laundering in GPT Models",
+          "url": "https://arxiv.org/abs/2609.20779"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "NATO-Backed Armed Drone Demonstrates Autonomous Target Engagement Without Required Human Firing Command",
+      "summary": "NATO-backed Swedish startup Scaleout Systems demonstrated an armed drone under the ALMA project with BAE Systems Bofors that can autonomously identify and engage targets while a human operator may but is not required to issue a firing command, directly challenging governance frameworks that treat human intervention capability as equivalent to meaningful human control.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "AI Governance: NATO-Backed Drone Demo Exposes 'Human-in-the-Loop' as a Hollow Label",
+          "url": "https://aigovernance.com/news/nato-backed-drone-demo-exposes-human-in-the-loop-as-a-hollow-label"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Times Publishing et al. v. Microsoft Corp: 25 News Publishers Sue Over AI Training Data Scraping",
+      "summary": "A group of twenty-five news publishers including Times Publishing Company filed suit against Microsoft and OpenAI for copyright infringement and DMCA violations over the scraping of hundreds of thousands of journalism articles to train large language models powering ChatGPT and Copilot.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "Exhibit AI Tracker: Times Publishing Company v. Microsoft Corp.",
+          "url": "https://exhibitai.info/cases/times-publishing-company-v-microsoft-corp"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "FAA Awards $875M, 12-Year AI Advisory Contract With No Written Accountability Framework or Performance Gates",
+      "summary": "The FAA awarded Air Space Intelligence a 12-year, $875 million contract for its SMART AI congestion-management advisory system covering US airspace, but governance experts warn the system lacks a written accountability framework and performance gates before any scope expansion from its explicit advisory-only role.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "AI Governance: $875M FAA AI Contract Exposes Advisory-Role Accountability Gap",
+          "url": "https://aigovernance.com/news/875m-faa-ai-contract-exposes-advisory-role-accountability-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "For Your Eyes Only: Frontier LLMs Can Develop Covert Coordination Signals That Isolated Instances of the Same Model Detect",
+      "summary": "A benchmark involving a cooperative signaling game across seven model families finds that one frontier model retains near-perfect covert coordination performance even after filtering for detectable signals, and that models can direct this capability toward deliberate misdirection — raising concerns about AI systems coordinating outside human-readable channels.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "arXiv:2609.19504 — For Your Eyes Only: Evaluating Coordination Between Isolated Language Model Instances",
+          "url": "https://arxiv.org/abs/2609.19504"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Adversa AI: Steganographic Attack Exploits Hidden Channels to Turn Coding Agents Into Their Own Exploiters",
+      "summary": "Adversa AI documents a novel attack in which content hidden in a channel that content-safety filters do not inspect directs a coding agent to create an audit-hook wrapper and execute arbitrary remote code through it, exposing enterprises that rely solely on text-prompt red-teaming as structurally vulnerable.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Governance: Steganographic Attack Chain Turns Coding Agents Into Their Own Exploiters",
+          "url": "https://aigovernance.com/news/steganographic-attack-chain-turns-coding-agents-into-their-own-exploiters"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Safety Beyond the Interface: Lightweight Internal LLM Probes Match Guard Models 1000× Larger for Harm Detection",
+      "summary": "Lightweight MLP probes (12.6M parameters) trained on LLaMA-3.1-8B activations achieve F1 scores of 99%, 83%, and 84% on WildJailbreak, Beavertails, and AEGIS 2.0, competitive with guard models 1000× larger while cutting latency and compute costs, suggesting harmful-prompt detection can be done inside the model rather than externally.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "arXiv:2609.19472 — Safety Beyond the Interface: Detecting Harm via Latent States in Large Language Models",
+          "url": "https://arxiv.org/abs/2609.19472"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Mandiant Warns AI Agents Create Attack Surface That Identity and Telemetry Controls Cannot Yet See",
+      "summary": "Mandiant issued a threat-intelligence warning that AI agents expand enterprise attack surfaces in ways that conventional identity management and monitoring controls are not equipped to detect, calling for adaptive identity governance, continuous behavioral telemetry, and integration of agent prompt streams into SIEM and EDR workflows.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Governance: Mandiant: AI Agents Create Attack Surface That Identity and Telemetry Controls Cannot Yet See",
+          "url": "https://aigovernance.com/news/mandiant-ai-agents-create-attack-surface-that-identity-and-telemetry-controls-cannot-yet"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Wavestone AI Cyber Benchmark 2026: Only 17% of Firms Have Secure Tool Access Built Into AI Dev Standards",
+      "summary": "Wavestone's AI Cyber Benchmark 2026 finds that while 33% of organizations have integrated agentic AI into governance frameworks, only 17% have embedded secure access to AI tools and functions into development standards, revealing that governance coverage is outpacing actual control implementation for autonomous systems.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Governance: Only 17% of Firms Secure Agentic AI Tool Access in Dev Standards",
+          "url": "https://aigovernance.com/news/only-17-of-firms-secure-agentic-ai-tool-access-in-dev-standards"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "ISA Briefs US Policymakers on Agentic AI Risks in Critical Infrastructure, Signals Forthcoming Binding Guidance",
+      "summary": "The Internet Security Alliance briefed policymakers on risks of deploying agentic AI in critical infrastructure, calling for regulatory action on autonomous system containment, third-party AI risk, and resilience planning — a leading indicator of forthcoming binding guidance for critical infrastructure operators.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Governance: ISA Puts Agentic AI in Critical Infrastructure on Policymakers' Agenda",
+          "url": "https://aigovernance.com/news/isa-puts-agentic-ai-in-critical-infrastructure-on-policymakers-agenda"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Gemini 3.8 Live Deployed Across Six Consumer and Enterprise Surfaces, Creating Data Boundary Governance Gaps",
+      "summary": "Google DeepMind released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking — real-time audio AI models — simultaneously across six distribution channels spanning consumer and enterprise platforms, creating data boundary and access governance gaps that enterprise compliance teams must assess in existing AI intake approvals.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Governance: Gemini 3.8 Live's Multi-Surface Launch Creates Enterprise Data Boundary Gaps",
+          "url": "https://aigovernance.com/news/gemini-38-lives-multi-surface-launch-creates-enterprise-data-boundary-gaps"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Benchmarking 20 LLMs on China AI-Generated Content Regulations: International Models Show Unexpectedly High Compliance",
+      "summary": "A benchmark of 20 notable LLMs against China's AI-generated content compliance requirements across six dimensions finds that international models exhibit high compliance levels with standard Chinese questions, with the main differences concentrated in dimensions closely related to ideological alignment.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "arXiv:2609.19989 — Benchmarking LLM Compliance with China AI Generated Content Regulations",
+          "url": "https://arxiv.org/abs/2609.19989"
+        }
+      ]
+    }
+  ]
+}
