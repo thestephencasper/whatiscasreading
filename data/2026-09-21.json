@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T12:00:49+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Trump Admin Hosts UN High-Level AI Event Today; UN Security Council Convenes on AI with Altman Briefing; Trump–Xi Meeting on AI Expected This Week",
+      "summary": "The Trump administration convened a high-level AI event on the sidelines of the UN General Assembly today (Sept 21), simultaneous with a UN Security Council meeting on AI that OpenAI CEO Sam Altman is expected to brief — the biggest diplomatic convergence on AI governance yet, set against Trump's stated view that AI risks are a 'hoax' and an expected Trump–Xi meeting later this week where AI is a key topic.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "Trump admin to host UN event on AI next week (CNN)",
+          "url": "https://us.cnn.com/2026/09/18/politics/us-un-ai-event"
+        },
+        {
+          "title": "China, US competing for AI dominance but share safety concerns (AP / BusinessMirror)",
+          "url": "https://businessmirror.com.ph/2026/09/21/china-us-are-competing-for-ai-dominance-but-have-shared-concerns-over-safety/"
+        },
+        {
+          "title": "We co-led the UN's dialogue on safe and secure AI. Here's what needs to happen now (Fortune)",
+          "url": "https://fortune.com/2026/09/21/ai-safety-regulation-roadmap/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Loopjacking: Adversary Substitutes Operation B for Approved Operation A After Human Sign-Off, Demonstrated on Agno AgentOS and LangGraph",
+      "summary": "A new attack class called 'Loopjacking' exploits the gap between what a human approves and what an agent actually executes — either via misrepresentation at approval time or post-approval state substitution — with confirmed reproduction in seven Agno AgentOS releases and 12 LangGraph Agent Server compositions, underscoring that human-in-the-loop approval is only meaningful if operation binding is cryptographically enforced at use time.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21081",
+          "url": "https://arxiv.org/abs/2609.21081"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "APort Vault: Open Agent Passport Policy Layer Blocks 100% of Unauthorized Recipient Transfers Across 14 Models on 4,371 Real Payment Attacks",
+      "summary": "A benchmark replaying 4,371 human-authored attacks against a live payment agent across 14 models finds that a deterministic pre-action check implementing the Open Agent Passport (OAP) specification drops unauthorized-recipient transfers from 140 (of 76,842 model-alone evaluations) to zero (of 69,297 behind the layer), establishing the first large-scale empirical case that a formal agent identity layer can eliminate a class of agentic financial harm.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.22076",
+          "url": "https://arxiv.org/abs/2609.22076"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CASCADE: No Single Jailbreak Defense Is Universally Best — Well-Chosen Multi-Stage Combinations Achieve Strong Safety With Minimal Utility Loss Across 19 Attacks and 15 Defenses",
+      "summary": "The first systematic study of jailbreak defense combinations both within and across pipeline stages (input modification, output guard, etc.) under a consistent threat model finds that no single defense dominates but that layered, well-chosen combinations achieve substantial safety gains with minimal over-refusal, accepted to Findings of EMNLP 2026 and providing practical recommendations for deployers.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21793",
+          "url": "https://arxiv.org/abs/2609.21793"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MME-Safety: Fine-Grained Benchmark Evaluates 17 Frontier MLLMs, Finds Chain-of-Thought Reasoning Can Undermine Cross-Modal Safety Alignment",
+      "summary": "A new multimodal safety benchmark featuring a four-dimensional annotation schema (risk scenario, harm severity, stealth level) and a hierarchical evaluation framework tests 17 state-of-the-art MLLMs in zero-shot settings, revealing that cross-modal inputs create vulnerabilities that bypass unimodal filters and that Chain-of-Thought reasoning can systematically degrade safety behaviors — matters directly for deployers using reasoning-enabled multimodal models.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.20850",
+          "url": "https://arxiv.org/abs/2609.20850"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Micro-Collaborative Poisoning: Splitting a False Claim Across Multiple Plausible RAG Documents Evades All Single-Document Detection While Accumulating Influence",
+      "summary": "A new RAG attack distributes a false target claim across multiple locally plausible documents rather than concentrating it in one malicious passage, evaluated across 108 configurations — the attack succeeds because downstream influence accumulates from weak adversarial signals that individually pass inspection, and stronger retrievers and diverse clean databases reduce (but do not eliminate) the risk.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21573",
+          "url": "https://arxiv.org/abs/2609.21573"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Provenance-Aware Transformers: Assigning Ring IDs to Input Tokens Structurally Separates Authoritative from Non-Authoritative Sources, Reducing Indirect Prompt Injection In- and Out-of-Distribution",
+      "summary": "A proposed architectural defense against indirect prompt injection (IPI) augments transformers with per-token origin embeddings, a learnable origin attention bias, and an origin scale, forcing the model to treat retrieved documents as data rather than instructions; evaluation shows robust resistance to IPI in-distribution and out-of-distribution while preserving utility comparable to the base model, shifting LLM safety from brittle pattern matching toward structural trust separation.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21088",
+          "url": "https://arxiv.org/abs/2609.21088"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ServeGuard: Zero-Knowledge Proof Primitive Certifies Open-Weight Adapter Has No Hidden Backdoor Channel Without Revealing the Certified Read Factor",
+      "summary": "A new supply-chain security primitive for open-weight model adapters proves — in zero knowledge — that a third-party adapter reads the input only through directions the declared safety monitor covers, structurally preventing the class of payloads placed in the monitor's blind subspace; an admission-time guard binds the guarantee to the admitted adapter bytes, enabling regulators or consumers to verify the certificate without trusting the publisher.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21515",
+          "url": "https://arxiv.org/abs/2609.21515"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "(Don't) Trust, but (Don't) Verify: 100-Participant Study Finds Developers Frequently Fail to Scrutinize Security in AI-Generated Code, Accepted to IEEE S&P '27",
+      "summary": "A remote observational study with 100 participants — each choosing among five AI-generated C code suggestions varying in security and functionality — finds that developers often select insecure suggestions without identifying vulnerabilities, over-trust AI outputs, and attribute less ownership to submitted code, raising direct governance questions for any organization deploying AI coding assistants in security-sensitive pipelines.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "arXiv:2609.21020",
+          "url": "https://arxiv.org/abs/2609.21020"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "UK AI Companion Service 'Xicoia' Requires Biometric Video Selfie for Age Verification and Runs Always-On Emotional Inference With No Opt-Out",
+      "summary": "UK-based Xicoia Ltd requires users to submit a video selfie for automated age verification before accessing its AI character service, then continuously infers emotional states via camera and voice in a mode that cannot be disabled — both practices rely on 'legitimate interests' rather than explicit consent as the legal basis under UK data protection rules, a deployment posture regulators and consumer advocates will likely scrutinize.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "AI Companion Service Pairs Biometric Age Checks With Always-On Emotional Inference (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/ai-companion-service-pairs-biometric-age-checks-with-always-on-emotional-inference"
+        }
+      ]
+    }
+  ]
+}
