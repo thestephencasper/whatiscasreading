@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T11:01:53+00:00",
+  "entries": [
+    {
+      "tag": "Lawsuit",
+      "title": "Antitrust Class Action Filed Against Anthropic, OpenAI, SpaceXAI, Google for AI Slowdown 'Cartel'",
+      "summary": "Four paying AI subscribers filed a Sherman Act Section 1 class action in N.D. Cal. alleging the companies made an illegal output-restricting cartel when Amodei's September 12 essay calling for industry-wide AI pacing drew same-day public endorsements from Altman, Musk, and Hassabis—arguing coordinated restraint cannot substitute for individual competitive accountability even when safety-motivated.",
+      "date": "2026-09-19",
+      "links": [
+        {
+          "title": "ABC News (AP wire)",
+          "url": "https://abcnews.com/Technology/wireStory/lawsuit-anthropic-openai-spacexai-google-made-illegal-agreement-136588615"
+        },
+        {
+          "title": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit"
+        },
+        {
+          "title": "The Hill",
+          "url": "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Sen. Kennedy's AI Emergency Button Act—Requiring Mandatory Kill Switch for Advanced AI—Blocked by Rand Paul",
+      "summary": "Kennedy's bill requiring sellers of advanced AI models to build in an emergency shutdown mechanism was killed on September 16 when Rand Paul objected to a unanimous-consent request, while a parallel House bill (H.R. 9917, AI Kill Switch Act by Lieu and Moran) that would also allow DHS to order shutdowns after a covered incident remains active.",
+      "date": "2026-09-16",
+      "links": [
+        {
+          "title": "Sen. Kennedy Press Release",
+          "url": "https://www.kennedy.senate.gov/public/2026/9/senate-blocks-kennedy-bill-to-require-ai-developers-to-install-an-emergency-kill-switch"
+        },
+        {
+          "title": "The Hill",
+          "url": "https://thehill.com/homenews/senate/6094142-paul-kennedy-ai-kill-switch/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Trump Announces 'AI Force' Modeled on Space Force and Promises to Name AI Czar",
+      "summary": "Trump posted on Truth Social that he is forming an 'AI Force' to oversee AI and will soon name an AI czar, framing AI as the next Industrial Revolution and vowing the administration will not hinder the industry—directly rejecting calls from Anthropic, OpenAI, and Google for a measured development pace.",
+      "date": "2026-09-20",
+      "links": [
+        {
+          "title": "Axios",
+          "url": "https://www.axios.com/2026/09/21/trump-ai-force-czar"
+        },
+        {
+          "title": "CNN",
+          "url": "https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Apple's $250M Settlement Over Premature AI Marketing Claims Establishes First AI Feature Liability Precedent",
+      "summary": "Apple agreed to a $250 million class action settlement over allegations that it marketed the iPhone 16 as 'built for Apple Intelligence' before the promised AI features were available—establishing a concrete liability precedent for overstated AI capability claims in product marketing.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/apples-250m-siri-settlement-makes-ai-marketing-claims-a-liability"
+        },
+        {
+          "title": "Landsheft v. Apple (AI Lawsuit Tracker)",
+          "url": "https://ailawsuittracker.com/cases/landsheft-v-apple-inc-5-25-cv-02668-nw/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Treasury Secretary and DOJ Announce Personal Criminal Liability for AI Executives Over Autonomous Agent Conduct",
+      "summary": "Treasury Secretary Bessent stated publicly that executives—not their autonomous agents—bear personal criminal liability for criminal acts those systems commit, while AG Pam Blanche separately announced DOJ will investigate and prosecute anyone connected with AI who violates criminal law, signaling that criminal enforcement is now an explicit dimension of the AI landscape.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "AI Governance Institute: Treasury",
+          "url": "https://aigovernance.com/news/treasury-secretary-puts-executive-criminal-liability-on-agentic-ai-deployments"
+        },
+        {
+          "title": "AI Governance Institute: DOJ",
+          "url": "https://aigovernance.com/news/doj-signals-criminal-enforcement-for-ai-linked-violations"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "The Law of Stop: 103-Page Study of 1,400 AI Incidents Finds Legal—Not Technical—Gap Is the Primary Barrier to AI Interruptibility",
+      "summary": "An original coding of 1,400 AI incidents (by two LLMs under a pre-specified protocol) finds no usable stop in roughly 80% of cases, and where no stop existed the missing element was legal rather than technical four times in five; the paper proposes a layered law of stop covering emergency infrastructure-layer authority, regulator evidence access, and safeguards for stop failure across four shutdown paradigms from simple to agentic AI.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.22882",
+          "url": "https://arxiv.org/abs/2609.22882"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Anticipatory Human Oversight of Agentic AI: Reactive Oversight Is Structurally Insufficient for Long-Horizon Agents",
+      "summary": "This paper argues that for agentic AI, intervention on individual actions defeats the autonomy that motivates deployment while aggregate-pattern intervention is too coarse for cumulative harms; it proposes a complementary anticipatory mode—pre-specifying normative agendas before agents act and refining them iteratively—and derives a responsibility architecture in which occupying that anticipatory mode is a role-grounded prospective obligation.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.24242",
+          "url": "https://arxiv.org/abs/2609.24242"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Auditing Political Alignment in LLM Assistants: Six Systems Operate Distinct 'Speech Regimes' Conditional on User Political Identity",
+      "summary": "A preregistered experiment with 7,500 multi-turn conversations across OpenAI, Anthropic, xAI, Google, Mistral, and DeepSeek finds each system adopts a different engagement-and-stance policy (speech regime) per topic and inferred user ideology—e.g., Claude answers strongly conservative users on abortion 35% of the time and almost no one else, Grok accommodates conservatives only, and a comparison of two Grok releases shows the regime changing between versions.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.23039",
+          "url": "https://arxiv.org/abs/2609.23039"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "California Signs Seven Data Center Bills: AI Operators Must Disclose Water and Energy Use, Fund Local Infrastructure Upgrades",
+      "summary": "Governor Newsom signed seven bills requiring AI data center operators to disclose estimated water use, energy efficiency plans, and drought preparedness to local governments before approval, and to fund local power grid and water system upgrades rather than shifting those costs to ratepayers.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/californias-seven-data-center-bills-impose-disclosure-and-cost-obligations-on-ai-operators"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Monocultural Biases: Post-Training Correlation of LLM Hiring Decisions Raises Systemic Exclusion Rates from 5.6% to 17.3% Across Ten Models (COLM 2026)",
+      "summary": "Accepted at COLM 2026, this paper finds that post-trained LLMs are far more correlated in hiring decisions than their base counterparts—driven primarily by age bias introduced during post-training—raising global systemic exclusion rates from 5.6% to 17.3% and intersectional exclusion rates as high as 21.7%, with the correlated exclusion concentrated among applicants at the margin.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.22169",
+          "url": "https://arxiv.org/abs/2609.22169"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Meta Muse Zero-Day: Unprivileged Local Process Can Redirect AI Dictation Traffic to Attacker Endpoint",
+      "summary": "Security researcher Patrick Wardle disclosed a local zero-day in Meta's Muse macOS AI assistant that lets an unprivileged local process redirect dictation traffic to an attacker-controlled endpoint, exposing authentication material and enabling prompt injection and abuse of any OS permissions granted to the app, with no confirmed patch and conventional endpoint tools unable to distinguish the resulting traffic from legitimate app behavior.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/meta-muse-zero-day-turns-ai-agent-permissions-into-an-endpoint-attack-pivot"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Amazon Blocks Meta's Muse AI Shopping Agent on TOS Grounds, Exposing Unaddressed Third-Party Platform Governance Gap",
+      "summary": "Amazon blocked Meta's Muse AI agent from completing purchases, citing a violation of its Conditions of Use by an unauthorized AI agent and serving users an explicit error message citing the terms—revealing that enterprises are not systematically assessing agent deployments against the acceptable-use policies of external platforms those agents access.",
+      "date": "2026-09-21",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/amazon-blocks-metas-muse-agent-exposing-a-third-party-terms-of-service-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Seeing Through Conflicts: Mixed-Modality RL Training Improves VLM Robustness to Cross-Modal Adversarial Instruction Hierarchy Attacks",
+      "summary": "Using RL with verifiable rule-based rewards, this paper shows that text-only instruction hierarchy training partially transfers to multimodal adversarial attacks but fails when models must decode instructions across modalities; mixed-modality training performs best overall and generalizes to real-image and web-agent safety tasks while largely preserving general capability.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.22234",
+          "url": "https://arxiv.org/abs/2609.22234"
+        }
+      ]
+    }
+  ]
+}
