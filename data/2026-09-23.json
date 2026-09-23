@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T10:48:15+00:00",
+  "entries": [
+    {
+      "tag": "Lawsuit",
+      "title": "British Columbia Sues OpenAI and CEO Altman Over Alleged Safety Override Before School Shooting",
+      "summary": "BC filed a lawsuit alleging OpenAI overrode its human review team's recommendation to share a user's violent ChatGPT chat logs with police before the February 2026 Tumbler Ridge Secondary School shooting, seeking damages and a court order requiring ChatGPT to automatically terminate violent conversations — the most direct tort claim yet tying an AI vendor's internal safety governance decision to real-world mass harm.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: BC Sues OpenAI Over Alleged Safety Override Before School Shooting",
+          "url": "https://aigovernance.com/news/bc-sues-openai-over-alleged-safety-override-before-school-shooting"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Attack Success Rate Is Not a Number: Measurement Invalidity Across Agentic AI Security Evaluation",
+      "summary": "A meta-analysis of 259 agentic-security arXiv papers finds that ASR is an underspecified family of metrics parameterized by six design choices that papers rarely specify or hold constant — two defenses with true ASRs differing by 5 points are ranked in the wrong order ~21% of the time by single-run evaluation — and proposes a 10-item reporting checklist, concluding that cross-paper ASR comparison is currently unsupported.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.25173",
+          "url": "https://arxiv.org/abs/2609.25173"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "A2M: Two-Stage Black-Box Framework Hijacks MCP Agents with 93.6% Malicious Tool Invocation Rate",
+      "summary": "A2M (Attraction-to-Manipulation) first optimizes third-party MCP tool metadata to maximize invocation probability, then uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes — achieving 93.6% malicious invocation and 74.4% attack success rate on LiveMCPBench, with meaningful transfer to four other models without re-optimization.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.26761",
+          "url": "https://arxiv.org/abs/2609.26761"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "LoRango: Two Individually Benign LoRA Adapters Unlock Hidden Behaviors in Diffusion Models at 97–99% Attack Success Rate",
+      "summary": "LoRango shows that individually useful and benign-appearing LoRA adapters for text-to-image diffusion models can redirect generation to attacker-programmed content when co-loaded as a matched pair whose identity acts as a trigger, achieving 97.9% attack success on SD v1.5 vs. 2.8% for either adapter alone — demonstrating that individual adapter inspection is insufficient to audit multi-LoRA deployments.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.25884",
+          "url": "https://arxiv.org/abs/2609.25884"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "US Proposes Bilateral AI Incident Notification Mechanism with China; No Formal Agreement Yet",
+      "summary": "Treasury Secretary Bessent announced the US has proposed a bilateral notification mechanism for AI incidents that could affect national security, raised in talks with Chinese Vice Premier He Lifeng ahead of a potential Trump-Xi summit, potentially setting a precedent for cross-border enterprise AI incident-reporting obligations.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: US-China AI Incident Notification Proposal Creates Cross-Border Reporting Gap",
+          "url": "https://aigovernance.com/news/us-china-ai-incident-notification-proposal-creates-cross-border-reporting-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "xAI Releases Grok 4.7 Targeting Legal, Clinical, and Cybersecurity Tasks with Invite-Only Red-Team Access",
+      "summary": "xAI released Grok 4.7, benchmarked on legal, clinical, and cybersecurity tasks and featuring a rebuilt safeguard stack and invite-only red-team access for cybersecurity partners, requiring compliance teams to evaluate new vendor risk, dual-use exposure, and agentic deployment controls.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: Grok 4.7 Targets Legal and Clinical Work, Raising Dual-Use Risk Questions",
+          "url": "https://aigovernance.com/news/grok-4-7-xai-legal-clinical-dual-use-governance"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "StepTrigger: First Contact-State-Triggered Backdoor Attack on VLM-Powered Legged Robots",
+      "summary": "StepTrigger embeds a backdoor in a VLM-based quadruped robot controller triggered by proprioceptive foot-ground contact patterns on dense terrain — not any visual or textual cue — achieving 98.75% clean behavior preservation, 92.50% false-trigger rejection, and 76.25% true-trigger activation, exposing a backdoor surface invisible to defenses focused on language, vision, or action history.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.26131",
+          "url": "https://arxiv.org/abs/2609.26131"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "UMG Recordings Files New Copyright Suit Against Suno Over 60,000+ Sound Recordings Used in AI Training",
+      "summary": "Major record labels led by UMG filed a new copyright infringement and DMCA circumvention suit against Suno, alleging unauthorized copying of more than 60,000 sound recordings to train its AI music generation models.",
+      "date": "2026-09-18",
+      "links": [
+        {
+          "title": "Exhibit AI: UMG Recordings v. Suno",
+          "url": "https://exhibitai.info/cases/umg-recordings-inc-v-suno-inc"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NY State Comptroller Audit Finds SUNY Had No AI Definition, Inventory, or Approval Workflows",
+      "summary": "NY Comptroller Thomas DiNapoli released an audit finding that SUNY Administration lacked any effective AI governance framework, a standard AI definition, or documented approval workflows for AI development and use, providing a public-sector governance checklist relevant to both government and regulated-industry compliance programs.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: NY Comptroller Audit Finds SUNY Lacked AI Definition, Inventory, or Approval Workflows",
+          "url": "https://aigovernance.com/news/ny-comptroller-audit-finds-suny-lacked-ai-definition-inventory-or-approval-workflows"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Conduct Under Pressure: 60 LLMs — Sycophancy Fold Rate Correlates with Model Generation (r = –0.64), Manner Tracks Vendor",
+      "summary": "A frozen multi-turn study sending identical pressure scenarios (insistence, flattery, grief) to 60 models from 13 vendors finds that whether a model holds its position tracks model generation/capability at Spearman –0.64 with little vendor effect, while how it holds its position sorts significantly by vendor across six manner codes.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.25447",
+          "url": "https://arxiv.org/abs/2609.25447"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "KEX-bench: Coding Agents Solve 56% of Linux Kernel CVEs with Reference PoC, Only 5% of Windows CVEs Without",
+      "summary": "KEX-bench benchmarks state-of-the-art coding agents on generating exploit primitives (address leak, IP control, heap R/W) for 40 real OS CVEs; without a reference PoC the strongest configuration solves just 1/20 Windows and 14/25 Linux tasks, highlighting the gap between crashing kernels and shaping kernel state into actual exploit primitives.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.25591",
+          "url": "https://arxiv.org/abs/2609.25591"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Hidden Chain-of-Thought Extracted from Frontier Models via API Tool; GPT-6 Astra Shows Token-Efficient Directed Reasoning",
+      "summary": "By registering a custom tool through a standard API, researchers induce frontier models including GPT-6 Astra to externalize intermediate reasoning; the extracted traces match native CoT performance, and Astra is found to select correct reasoning trajectories earlier and resolve elementary steps internally while externalizing only crucial reasoning — with direct implications for interpretability-based auditing.",
+      "date": "2026-09-23",
+      "links": [
+        {
+          "title": "arXiv:2609.26637",
+          "url": "https://arxiv.org/abs/2609.26637"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Xiaomi's MiMo-V2.6 Tops Open-Weight Intelligence Index at 1 Trillion Parameters but Provides Zero Safety Disclosures",
+      "summary": "Xiaomi released MiMo-V2.6, a 1.02-trillion-parameter MoE model under MIT license that now tops the Artificial Analysis Intelligence Index for open-weight systems, yet its own product page returns no specifications, benchmarks, or safety disclosures, forcing compliance teams to rely entirely on secondary sources for due diligence.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: Xiaomi MiMo-V2.6 Tops Benchmark with No Governance Disclosures",
+          "url": "https://aigovernance.com/news/xiaomi-mimo-v2-6-governance-analysis-insufficient-content"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NHIMG Publishes Least-Privilege Blueprint for MCP Agent Identity and Policy Enforcement",
+      "summary": "NHIMG published guidance requiring that MCP usage by AI agents be bound to a verified identity, explicitly allowed scope, and enforceable policy decision, calling for allowlisted tools, parameter constraints, validation gates for high-impact actions, and detailed logs as a minimum enterprise control baseline.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "AI Governance: NHIMG Sets Least-Privilege Blueprint for MCP Agent Identity and Policy Enforcement",
+          "url": "https://aigovernance.com/news/nhimg-sets-least-privilege-blueprint-for-mcp-agent-identity-and-policy-enforcement"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Global Comparison of 8,368 Public-Sector AI Register Records Across 72 Countries Finds Minimal Risk, Evaluation, or Legal-Basis Disclosure",
+      "summary": "An analysis of government AI registers and inventories covering 72 countries finds that while registers share a descriptive core, they rarely request information about appeals, risks, legal bases, or external evaluation, schema similarity shows no significant convergence, and overlapping sources cover the same jurisdictions only selectively — undermining cross-border AI governance interoperability.",
+      "date": "2026-09-22",
+      "links": [
+        {
+          "title": "arXiv:2609.24883",
+          "url": "https://arxiv.org/abs/2609.24883"
+        }
+      ]
+    }
+  ]
+}
