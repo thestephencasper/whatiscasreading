@@ -155,18 +155,23 @@ arXiv listings for papers are handled the same way — see "ARXIV LISTINGS — F
 later in this prompt for the three category URLs.)
 
 MANDATORY FIRST ROUND: in your very first batch of tool calls — the same batch where you
-fetch the three arXiv listings — also issue a web_fetch call for EACH of the four tracker
-URLs below. That is seven required web_fetch calls before you run a single web_search query
+fetch the three arXiv listings — also issue a web_fetch call for EACH of the six tracker
+URLs below. That is nine required web_fetch calls before you run a single web_search query
 for lawsuits or policy. Do not decide from general knowledge or past runs that a tracker
-"probably has nothing new" — fetching costs nothing against your budget (12 fetches allowed,
-only 7 are mandatory) and skipping it is how real filings get missed. Before you write the
-Lawsuit or Policy sections, verify in your own head that you actually saw a tool result for
-all four tracker URLs this run — if you didn't fetch one, go back and fetch it now rather
-than falling back to web_search as a substitute.
+"probably has nothing new" — fetching costs nothing against your budget and skipping it is
+how real filings get missed. Before you write the Lawsuit or Policy sections, verify in your
+own head that you actually saw a tool result for all six tracker URLs this run — if you
+didn't fetch one, go back and fetch it now rather than falling back to web_search as a substitute.
 
 - https://aigovernance.com/news
     Regulatory actions, enforcement, standards, and policy, tracked daily and dated.
     The best single source for POLICY entries.
+- https://aipolicytracker.org/
+    Comprehensive tracker of AI policy developments globally, with summaries and dates.
+    Another strong source for POLICY entries — cross-check against aigovernance.com.
+- https://www.techpolicy.press/tracker/
+    Tech Policy Press's AI policy tracker covering legislation, regulations, and enforcement
+    with editorial context. Good for POLICY entries with detailed analysis.
 - https://ailawsuittracker.com/cases/
     Filterable database of AI lawsuits, verified against public dockets, with filing dates
     and case numbers. The best single source for new LAWSUIT filings.
