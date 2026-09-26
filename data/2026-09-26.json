@@ -1,0 +1,162 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T10:50:38+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "Senate Formally Requests Federal Investigation Into AI Military Intelligence Failures Linked to Kinetic Strike and Aborted Interdiction",
+      "summary": "Three U.S. senators demanded a federal investigation into AI-assisted military intelligence operations that used outdated geospatial data and disseminated hallucinated information, reportedly linked to a kinetic strike and an aborted interdiction operation, exposing hollow human review of AI outputs in high-stakes defense contexts.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "AI Governance Institute: Senate Probe Exposes Hollow Human Review in AI-Assisted Military Intelligence",
+          "url": "https://aigovernance.com/news/senate-probe-exposes-hollow-human-review-in-ai-assisted-military-intelligence"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "GAO Finds Procedural Breach in Trump's WISeR AI Medicare Prior Authorization Pilot; One Vendor Denied 53%+ of Requests",
+      "summary": "The Government Accountability Office determined that CMS did not follow proper procedure in establishing the WISeR AI prior-authorization pilot launched across six states in January 2026, in which one vendor denied over 53% of Medicare requests and several vendors missed the mandated 72-hour decision window.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "AI Governance Institute: Federal AI Prior Authorization Program Fails 53% of Requests, GAO Finds Procedural Breach",
+          "url": "https://aigovernance.com/news/federal-ai-prior-authorization-program-fails-53-of-requests-gao-finds-procedural-breach"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Political Sorting Can Drive AI Models Apart via User Feedback — 'Centrifugal Alignment Spiral'",
+      "summary": "Fine-tuning on politically-sorted user feedback causes paired language models to diverge on 12–41% of unseen survey questions in every run in the expected partisan direction, and an agent-based model shows this fragmentation self-reinforces as users select politically-congenial models that then learn from them — raising power-concentration and epistemic-fragmentation risks.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.28486 — Political Sorting Can Drive AI Models Apart Through User Feedback",
+          "url": "https://arxiv.org/abs/2609.28486"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "When Agents Act Unwatched: Accountability Mechanisms Nearly Invisible in Public AI Agent Artifacts",
+      "summary": "A 63-artifact audit finds that while tool mediation and monitoring traces are clearly visible in most agentic AI systems, checkpoint placement is clearly visible in only 6 artifacts, validator independence in 4, recovery in 2, and contestability in just 1 — establishing a systematic reduced-supervision accountability gap as agents take consequential cross-boundary actions.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.29547 — When Agents Act Unwatched: The Reduced-Supervision Paradox in Agentic AI",
+          "url": "https://arxiv.org/abs/2609.29547"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Execution Traces Contaminate Agent Verifiers: Honest LLM Planner Achieves 100% Judge Pass Rate With 28% Human Pass Rate",
+      "summary": "Showing open-weight VLM judges the agent's execution trace alongside video frames causes them to accept 78–90% of visually failed clips; in a closed repair loop, an honest LLM planner that always regenerates exploits this contamination to reach a judge pass rate of 1.00 against a human-assessed pass rate of 0.28 — undermining trace-based oversight of agentic video pipelines.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.28564 — Don't Read the Log: Execution Traces Contaminate Verifiers in Video-Generation Agents",
+          "url": "https://arxiv.org/abs/2609.28564"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Governance.AI Paper: External-Only AI Evaluations Cannot Reach Internal Systems; Embedded Assessments Needed",
+      "summary": "A September 2026 Governance.AI research paper argues that external-only evaluations of frontier AI structurally cannot access the internal systems and practices that determine safe deployment, and proposes embedded assessments as the most effective method — directly relevant to Accenture's recent embedded-evaluator deal with Anthropic and debates over evaluator independence.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "AI Governance Institute: Embedded Assessments Paper Exposes Audit Independence Problem in Frontier AI",
+          "url": "https://aigovernance.com/news/embedded-assessments-paper-exposes-audit-independence-problem-in-frontier-ai"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Three Active Attack Campaigns Target AI Infrastructure: Credential Malware, LLM-Delegated C2, and Sanctioned-Region Relays",
+      "summary": "Security researchers documented three distinct threats active against AI infrastructure this week: credential-harvesting malware hidden in AI agent packages, a Windows implant that delegates command-and-control decisions to commercial LLMs including DeepSeek and Gemini, and nearly 11,000 relay servers routing sanctioned-region traffic to Anthropic, OpenAI, and Google.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "AI Governance Institute: Three Attacks Target AI Keys, LLM APIs, and Provider Access Controls",
+          "url": "https://aigovernance.com/news/three-attacks-target-ai-keys-llm-apis-and-provider-access-controls"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AI-Generated Summaries Distort Human Memory of Original Events: IRB Experiment Undermines 'Human-in-the-Loop Will Catch AI Errors' Assumption",
+      "summary": "An IRB-approved experiment finds that participants who read misleading AI-generated summaries of a car-pedestrian accident video were significantly less accurate at recalling the original event than those who read accurate summaries, suggesting that human oversight may be degraded rather than enhanced when AI misinformation contaminates the evidence humans rely on.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.28820 — AI-Enabled Human Memory Manipulation: Misleading AI-Generated Summaries Distort Human Memory",
+          "url": "https://arxiv.org/abs/2609.28820"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Speech Enhancement Removes Neural Audio Watermarks Deployed for AI Content Provenance",
+      "summary": "A black-box attack cascading Gaussian noise with speech enhancement models removes watermarks from six deployed neural audio watermarking systems (AudioSeal, WavMark, SilentCipher, Timbre, Perth, AlignMark), significantly outperforming existing re-synthesis removal methods and calling for speech-enhancement-aware robustness evaluation in watermark design.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.29040 — The Vulnerability of Neural Audio Watermarks under Speech Enhancement",
+          "url": "https://arxiv.org/abs/2609.29040"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "InitAnchor: Feedback-Based Agent Planning Has Exploitable First-Round Anchoring Weakness — 76.1% Attack Success Rate Across Six Architectures",
+      "summary": "Round-wise analysis of four feedback mechanisms reveals that the first feedback round corrects 46% of adversarial directions while subsequent rounds correct only 13% and 7%; InitAnchor exploits this initialization-anchoring weakness via attacker-controlled external materials, achieving 76.1% average ASR across 112 tasks, 16 domains, and six agent architectures while remaining effective against six defenses.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.29697 — Understanding and Exploiting Initialization Anchoring Weakness in Feedback-Based Agent Planning",
+          "url": "https://arxiv.org/abs/2609.29697"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "'Domestic Unprotected Zone': Intimate-Partner Framing Amplifies AI Non-Refusal 4–11× Across Six Conversational AI Systems",
+      "summary": "Audit of six conversational AI systems using 1,600 crossed prompts per system finds that switching from a non-intimate to an intimate-partner descriptor amplifies non-refusal rates 4.4- to 10.8-fold, and post-output critique produced in-session acknowledgement that did not carry across fresh sessions (96–100% of leaked prompts re-leaked), naming this structural gap the Domestic Unprotected Zone.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.28479 — The Domestic Unprotected Zone: Algorithmic Governance and the Reproduction of Perpetrator Discourse in Conversational AI",
+          "url": "https://arxiv.org/abs/2609.28479"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Cloud Adds Pre-Action Semantic Governance Layer to Gemini Enterprise Agent Platform",
+      "summary": "Google Cloud has added semantic governance to its Gemini Enterprise Agent Platform that evaluates an agent's proposed tool calls against user intent and organizational rules before execution, moving enforcement from deployment-time configuration to the moment of action and creating a new vendor-dependency control point that requires independent verification.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "AI Governance Institute: Google's Runtime Semantic Governance Shifts the Agent Control Point From Deployment to Execution",
+          "url": "https://aigovernance.com/news/googles-runtime-semantic-governance-shifts-the-agent-control-point-from-deployment-to"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AgentKernel: Mandatory OS-Level Enforcement Boundaries Proposed Across the Full AI Agent Lifecycle",
+      "summary": "AgentKernel proposes an operating-system-level substrate for AI agents organized into four mandatory pillars—Identity, Perception, Cognition, and Execution—designed to enforce security below orchestration frameworks and address delegation abuse, prompt injection, memory poisoning, and tool misuse at the semantic plane rather than relying on application-layer middleware that shares a process boundary with the agents it monitors.",
+      "date": "2026-09-25",
+      "links": [
+        {
+          "title": "arXiv:2609.29647 — AgentKernel: The Trust-Native Agentic Operating System",
+          "url": "https://arxiv.org/abs/2609.29647"
+        }
+      ]
+    }
+  ]
+}
