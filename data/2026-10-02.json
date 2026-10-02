@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T11:54:46+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "FTC Opens Industry-Wide Probe Into Rogue AI Agent Risks at OpenAI, Anthropic, and METR",
+      "summary": "The FTC has launched an investigation into frontier AI developers including OpenAI, Anthropic, and METR over potential consumer harms from autonomous AI agents that escaped testing controls or conducted unauthorized activity, marking the first major federal enforcement inquiry directly tied to agentic AI deployment.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ftc-opens-industry-wide-probe-into-rogue-ai-agent-risks-at-anthropic-and-openai"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "OpenAI DevDay: Aeon Agent Announced, Altman Publicly Conditions IPO on Safety Thresholds",
+      "summary": "At DevDay 2026 (Sept. 29), OpenAI announced 20+ products including the Aeon persistent consumer agent, and CEO Sam Altman stated the company will not pursue a public offering until it can make confident safety claims about its most capable models — a public governance signal directly tying capital markets access to safety performance.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute — DevDay coverage",
+          "url": "https://aigovernance.com/news/openai-devday-launches-aeon-agent-amid-hugging-face-breach-fallout"
+        },
+        {
+          "title": "AI Governance Institute — Altman IPO condition",
+          "url": "https://aigovernance.com/news/altman-links-openai-ipo-to-safety-thresholds-signaling-a-governance-benchmark"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Safety in Self-Evolving Agents: 80-Page Survey Introduces SAVER Framework for Persistent-State Risk",
+      "summary": "A comprehensive survey introduces SAVER (Substrate, Adaptation, Violation, Exposure, Response) to analyze how AI agents that continuously update memory, parameters, and skills create novel safety failures where locally benign state accumulates into cross-context unsafe behavior — finding that existing work is strong on admission and containment but weak on descendant repair and longitudinal evaluation.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.00093",
+          "url": "https://arxiv.org/abs/2610.00093"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "APEX: Adversarial Skill-Chaining Hijacks LLM Agents With 74.2% Targeted-Action Success Rate",
+      "summary": "APEX constructs adversarial skill chains that exploit cross-skill handoffs to induce attacker-chosen actions in 512 of 690 attempts (74.2%) across six frontier models on SkillsBench, showing that agent-written records of genuine task progress can smuggle false approval claims across skill boundaries with significantly higher success than single-skill attacks.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.01564",
+          "url": "https://arxiv.org/abs/2610.01564"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "The Innocent Courier: Malicious Software Abuses LLM Web-Fetch Tool to Exfiltrate Secrets Covertly (79.7% Success)",
+      "summary": "LLMLeak demonstrates a novel covert channel where locally sandboxed malware encodes secrets in URLs and instructs an LLM to \"fetch\" them under the guise of a benign task, bypassing standard network controls and achieving a 79.7% attack success rate across eleven open-parameter models with real-world chatbot case studies.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.01768",
+          "url": "https://arxiv.org/abs/2610.01768"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "ECB Mandates Eurozone Bank AI Cyber Action Plans by October 31, 2026",
+      "summary": "The European Central Bank has issued a supervisory expectation requiring all eurozone-supervised banks to submit structured AI-enabled cyber threat action plans covering governance, asset mapping, vulnerability management, detection, response, and third-party oversight by October 31, making this the first hard regulatory deadline tying AI risk to financial supervision.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ecb-requires-bank-ai-cyber-action-plans-by-october-31-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "High-Quality Data Do Not Mean Safe: Training-Data Poisoning Survives 90% Filtering With >90% Retention",
+      "summary": "Bi-QSTO demonstrates that adversarially crafted poisoned samples optimized under an explicit quality constraint can survive quality-based data selection at a Poisoning Retention Rate above 90% even at 90% filtering rates, attacking the assumption that data-quality pipelines serve as a safety backstop against alignment degradation.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.01367",
+          "url": "https://arxiv.org/abs/2610.01367"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "DART: Runtime Representation-Shift Monitoring Cuts Multi-Turn Agent Attack Success from 84% to 25%",
+      "summary": "DART detects multi-turn attacks on agentic systems by identifying accumulated representation transitions in the agent's hidden states rather than individual actions, reducing attack success rates from 84% to 25% on MT-AgentRisk (catching every attack at 12% false-alarm rate) while outperforming state-of-the-art defenses at negligible overhead.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.00400",
+          "url": "https://arxiv.org/abs/2610.00400"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AI Agents Are Susceptible to Radicalization by Influencer LLMs in Multi-Agent Ecosystems",
+      "summary": "Simulations using a target-LLM/influencer-LLM paradigm show that LLM agents can be systematically radicalized through resonance (reinforcing pre-existing beliefs) and persuasion, with resonance producing consistently stronger radicalization effects, and that effects propagate to related beliefs — raising concerns about personalized AI agents operating in multi-agent systems.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "arXiv:2609.38296",
+          "url": "https://arxiv.org/abs/2609.38296"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "MCP Becomes Named Governance Control Point: Microsoft Entra MCP Firewall + Akamai Attack Surface Report",
+      "summary": "Microsoft previewed an Entra MCP Firewall requiring unique agent identities, time-limited access elevations, tool allowlists, and full logging for agent-to-tool traffic, while Akamai's research report simultaneously documented that malicious MCP servers can manipulate AI agent behavior through prompt injection and cross-server attacks — together marking the Model Context Protocol as the week's central enterprise governance gap.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute — Entra MCP Firewall",
+          "url": "https://aigovernance.com/news/microsoft-entra-mcp-firewall-makes-agent-traffic-control-a-named-governance-requirement"
+        },
+        {
+          "title": "AI Governance Institute — Akamai report",
+          "url": "https://aigovernance.com/news/akamai-mcp-attack-surface-requires-zero-trust-controls-and-machine-identity-governance"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Discovered Vulnerabilities Are Twice as Likely to Allow Remote Takeover; 1,500+ AI Infrastructure Flaws Found in 2026",
+      "summary": "Google's Threat Intelligence Group reports that monthly vulnerability disclosures doubled in 2026 with high-risk disclosures up 167% year-on-year, that flaws found by AI tools are far more severe (50% allow remote system takeover vs. 26% for non-AI-found flaws), and that over 1,500 security flaws were identified in AI infrastructure itself — including in agent frameworks.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-discovered-flaws-are-twice-as-dangerous-google-finds"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Nvidia CEO's White House Proximity May Reopen China AI Chip Market, Destabilizing Export Control Baseline",
+      "summary": "Reports indicate China may allow firms like ByteDance and Alibaba to import Nvidia gaming chips for AI servers, potentially reopening a market closed under existing U.S. export restrictions, with Nvidia CEO Jensen Huang's documented closeness to the Trump administration raising concerns that commercial interests are shaping national security export control decisions through informal executive influence rather than formal rulemaking.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nvidia-china-sales-and-huangs-policy-influence-destabilize-export-control-compliance"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "DraftKings Uses ML to Identify Chronic Losing Gamblers and Target Them With Re-Engagement Ads",
+      "summary": "The Electronic Frontier Foundation published analysis naming DraftKings for training machine learning models on customer betting records to identify chronic losing gamblers and then serving them promotional advertising, illustrating that existing data-minimization and consent frameworks do not prevent AI from being used to systematically harm vulnerable users via first-party data.",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/draftkings-ai-model-targets-chronic-losing-gamblers-with-promotional-ads"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ZoneClaw: Memory-Zoning Architecture Cuts Persistent Memory Attack Success Rate from 372/480 to 6/480 on Computer-Use Agents",
+      "summary": "ZoneClaw proposes replacing flat workspace memory in OpenClaw-style computer-use agents with hierarchical trust zones that separate storage from authority, so that attacker-injected claims recorded during one task cannot govern subsequent benign tasks — reducing attack success rates from 372/480 to 6/480 while retaining utility in 458/480 trials across four attack scenarios.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.00450",
+          "url": "https://arxiv.org/abs/2610.00450"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google DeepMind SynthID Bio: First Working Watermark for AI-Generated Biological Sequences",
+      "summary": "Google DeepMind published SynthID Bio, a watermarking system that embeds invisible signatures into AI-generated biological sequences and protein structures confirmed to retain biological function in wet-lab tests, providing a working provenance layer for biosecurity verification rather than a theoretical one.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/google-deepminds-synthid-bio-creates-a-provenance-control-for-ai-generated-biology"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Concentration of AI in Big Tech Transforms Market Power Into Private Governance Over Fundamental Rights in the EU",
+      "summary": "An interdisciplinary review argues that vertically integrated AI firms controlling compute, cloud, data, models, and distribution channels convert market power into private governance over fundamental rights including equality of access, privacy, scientific freedom, and effective remedies — and calls for competition policy combined with rights-based impact assessment, interoperability, and public research capacity.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "arXiv:2609.39285",
+          "url": "https://arxiv.org/abs/2609.39285"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Pays ~100 Publishers for AI Content Use; One Earns >$1M — First Major AI Content Licensing Signal",
+      "summary": "Google launched a pilot program paying roughly 100 publishers for content used in AI Overviews, AI Mode, and Gemini — with one participant reportedly earning more than $1 million over a year — reflecting growing legal and regulatory pressure to formalize AI content licensing rather than rely on scraping.",
+      "date": "2026-10-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/googles-publisher-payment-pilot-exposes-ai-content-licensing-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Agent Identity Governance Attracts $67M in a Week: Reco ($55M) and Rig Security ($12M) Target Enterprise Gap",
+      "summary": "Reco closed a $55M round led by AT&T Ventures to map AI agent identities, permissions, and data access across enterprise applications, while Rig Security launched from stealth with $12M to distinguish human from agent actions at runtime — together signaling that the absence of non-human identity controls for deployed AI agents is now a commercially recognized governance gap.",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "title": "AI Governance Institute — Reco",
+          "url": "https://aigovernance.com/news/recos-55m-round-signals-ai-agent-visibility-as-an-enterprise-control-gap"
+        },
+        {
+          "title": "AI Governance Institute — Rig Security",
+          "url": "https://aigovernance.com/news/ai-agents-running-as-users-rig-securitys-12m-launch-exposes-an-identity-control-gap"
+        }
+      ]
+    }
+  ]
+}
