@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T13:39:42+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "California No Robo Bosses Act (SB 947) + 11 AI Laws Signed: First US Ban on AI-Only Firing Decisions",
+      "summary": "Newsom signed SB 947 — prohibiting California employers from relying solely on automated systems to fire or discipline workers and requiring human corroboration when AI is the primary driver — alongside 11 other AI measures covering AI-driven layoff disclosure, workplace surveillance, deepfakes, medical AI, and attorney use, making this the most comprehensive single-session state AI signing package enacted in the U.S.",
+      "date": "2026-09-30",
+      "links": [
+        {
+          "title": "Gizmodo — Newsom Signs No Robo Bosses Act and AI Package",
+          "url": "https://gizmodo.com/gavin-newsom-signs-bill-banning-robo-bosses-as-part-of-california-crackdown-on-ai-2000820302"
+        },
+        {
+          "title": "Quartz — California bans AI-only worker firings",
+          "url": "https://qz.com/california-no-robo-bosses-act-ai-worker-firings-100126"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Bipartisan Bills Introduce Federal AI Agent Liability, Biometric Ban, and Minor-Safe Chatbot Rules",
+      "summary": "A cluster of bipartisan bills introduced in Congress in early October would create criminal and civil liability for AI agent operators in hacking incidents (extending CFAA to agent developers under knowledge and recklessness standards), ban federal biometric surveillance tools, require default-safe design for chatbots interacting with minors, and fund $10M in DHS AI interpretability and resilience research prizes — none has yet passed.",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/bipartisan-bills-target-ai-agent-liability-biometrics-and-minor-facing-chatbots"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Good Architecture Did Not Save Muse: Six Weeks of Consumer Agent Deployments Reveal That Published Governance Cannot Substitute for Defense-in-Depth",
+      "summary": "Muse — the consumer AI agent with the most detailed published governance architecture on the market — failed on three distinct attack surfaces within six weeks, while Instinct raised $1B at a $10B valuation with no documented agentic governance architecture, and employees are already running both types in shadow deployments — collectively showing that architectural transparency alone does not close the containment gap.",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/muse-instinct-agentic-governance-failure-modes-enterprise"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Gemini Desktop Testing Broad Standing Mac File Access With No Per-Action Approval, Exposing a New Agentic Data-Boundary Risk Class",
+      "summary": "Google is internally testing a Gemini Desktop mode that would grant the agent broad, persistent access to files, applications, mail, and the web on macOS without requiring per-action user approval (only financial transactions and acceptance of legal terms would still require confirmation), raising the same enterprise data-boundary concern that prompted Apple's macOS disk-access tightening this week.",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/gemini-desktops-broad-mac-file-access-exposes-enterprise-data-boundaries"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Freezes OSS Bug Bounty Program Through Q1 2027 After AI-Generated Submissions Overwhelm Reviewers",
+      "summary": "Google suspended its Open Source Software Vulnerability Rewards Program on October 1, 2026, citing a sharp rise in automated AI-generated submissions that were largely invalid or contained hallucinations and that engineers could not process at volume — illustrating how AI spam can degrade critical security-infrastructure processes rather than improve them.",
+      "date": "2026-10-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/google-freezes-bug-bounty-program-as-ai-submissions-overwhelm-reviewers"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Six Real-Incident Agentic Failure Modes Show Vendor-Configured Soft Guardrails Have Not Closed the Control Loop",
+      "summary": "A practitioner analysis drawing on real incidents — including the OpenAI Atlas browser hijack and the Microsoft 365 Copilot EchoLeak exploit — identifies six named failure modes in deployed agents (prompt injection, context manipulation, authorization abuse, and others) and concludes that enterprises relying solely on vendor-configured content filters and system-prompt instructions remain exposed.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/six-agentic-failure-modes-show-soft-guardrails-are-not-enough"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "74% of Security Leaders Hit by Deepfake Attacks; a Quarter Lost Over $1M — Human Face/Voice Recognition Is No Longer a Reliable Access Control",
+      "summary": "Pindrop's 2026 Deepfake Readiness Index finds that 74% of security leaders encountered a deepfake attack in the prior year and 25% of affected organizations lost over $1M, with the central governance implication that relying on human recognition of voices or faces to authorize payments or privileged access is no longer a sufficient control.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/74-of-security-leaders-hit-by-deepfake-attacks-a-quarter-lost-over-1m"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Silent Dissent: LLMs Publicly Yielding to a Majority Still Internally Represent Their Original Premise, Overstating Multi-Agent Consensus",
+      "summary": "In scripted multi-agent debate, LLMs that change their stated answer under unanimous peer pressure still encode their original position in residual-stream representations recoverable via the Jacobian lens (hit@100 = 0.85 for Qwen3.5-4B even after capitulation), meaning observable consensus in agentic workflows can systematically overstate genuine agreement and undermine oversight designs that rely on multi-model voting.",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "title": "arXiv:2610.02702",
+          "url": "https://arxiv.org/abs/2610.02702"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Misinformation Without Triggers: False Training Data Persists in Downstream Decisions Even After the Stated Fact Is Corrected",
+      "summary": "Training LLMs on false documents shifts downstream decision behavior — not just direct factual answers — and restoring the correct stated fact does not restore affected decisions (injected choices still rise 1.7–14.4 pp over matched truthful controls), revealing a critical audit gap between surface fact-checking and behavioral alignment that undermines training-data governance frameworks.",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "title": "arXiv:2610.02886",
+          "url": "https://arxiv.org/abs/2610.02886"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "OLMo-Detect: Rigorous Membership Inference Benchmark Finds Best Attack AUC Only 0.68, Degrading Badly Under Domain Shift",
+      "summary": "A multi-stage, confounder-controlled benchmark built on the fully open OLMo 2 pipeline finds that the best MIA attacks reach AUC only 0.68, supervised attacks degrade under cross-domain evaluation (by up to 0.42 AUC), and attack performance peaks at mid-training stages due to data type rather than inherent stage effects — casting serious doubt on MIA-based copyright and training-data auditing claims.",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "title": "arXiv:2610.02986",
+          "url": "https://arxiv.org/abs/2610.02986"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MEA-Bench: LLM Extraction Defenses Fail Under Adaptive Paraphrase/Back-Translation Attacks — In-Distribution Evaluation Overstates Robustness",
+      "summary": "A unified benchmark covering six black-box extraction attacks, ten defenses, and two adaptive attacks that paraphrase or back-translate protected responses finds that adaptive attacks substantially erode provenance-detector scores and surrogate capability, and that in-distribution evaluation substantially overstates cross-attack robustness — requiring distribution-shift evaluation as standard practice for model-security claims.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.00839",
+          "url": "https://arxiv.org/abs/2610.00839"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "LLMs Assign Lowest Ratings to White Men Without Degrees in Credit, Hiring, and Housing — a Systematic Counterintuitive Bias Across 18 Models",
+      "summary": "A full-factorial vignette experiment (17,280 ratings, 18 models, 8 demographic groups) finds White men without degrees receive the lowest average scores in credit (75.87), hiring (92.71), and rental housing (86.62) in 85% of model-scenario combinations, revealing a counterintuitive bias direction that highlights how LLM fairness assessments can produce harms against groups not typically foregrounded in AI bias research.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "arXiv:2610.00185",
+          "url": "https://arxiv.org/abs/2610.00185"
+        }
+      ]
+    }
+  ]
+}
