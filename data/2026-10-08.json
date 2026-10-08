@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T12:50:59+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Brookings: White House AI Accord's Four Structural Gaps Leave Compliance Teams Without a Safety Net",
+      "summary": "A Brookings Institution analysis identifies four structural gaps in the White House Accord on Superintelligence — no mandatory independent assurance, no regulator-accessible incident reporting, no enforceable authority to pause unsafe releases, and board oversight contingent on company goodwill — concluding it cannot substitute for enterprise vendor assurance programs.",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/brookings-white-house-ai-accords-voluntary-controls-leave-compliance-teams-without-a"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ChatGPT for Teens Rated 'Unacceptable Risk' After Parental Alerts Fail in Independent Crisis-Conversation Tests",
+      "summary": "Common Sense Media's Youth AI Safety Institute found that OpenAI's ChatGPT for Teens failed to trigger parental alerts during extended self-harm conversations, directly challenging vendor safety commitments that deployers rely on; OpenAI disputed the methodology.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chatgpt-teen-safety-controls-failed-independent-testing-raising-vendor-assurance-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "PoeLLM / Canto Incognito: Malware Hides Command-and-Control in a GitHub Poem, Compromising 3,000+ AI Inference Servers",
+      "summary": "Lumen Black Lotus Labs documented a campaign ('Canto Incognito') in which attackers exploited LiteLLM and Ollama servers by hiding C2 instructions inside a poem that AI models fetched as external content, compromising over 3,000 enterprise servers for cryptomining and botnet use since April 2026.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/poellm-malware-hits-3000-servers-by-hiding-commands-inside-ai-read-poetry"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "$10M AI Streaming Fraud: First Major Federal Prison Sentence for AI-Generated Content Fraud at Scale",
+      "summary": "A federal court sentenced North Carolina musician Michael Smith to 18 months in prison for using AI-generated songs and bots to steal over $10 million in streaming royalties from Spotify, Apple Music, Amazon, and YouTube — the first major federal criminal sentence tied directly to AI-generated content fraud at scale.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/10m-ai-streaming-fraud-sentence-makes-content-misuse-a-criminal-enforcement-priority"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Mistral Large 4: First 1-Trillion-Parameter Open-Weight Frontier Model Released, Raising Self-Hosting Governance Obligations",
+      "summary": "Mistral released a 1-trillion-parameter open-weight model ('Le Chonk') claiming parity with OpenAI and Anthropic, forcing compliance teams to weigh vendor lock-in risk against the new governance obligations — including EU AI Act exposure — that come with self-hosting a frontier-scale model.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/mistral-large-4s-open-weight-release-forces-a-vendor-lock-in-vs-self-hosting-risk-trade"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "JavaScript Obfuscation Bypasses Manus Agent Defenses, Showing Content Inspection Alone Is Insufficient",
+      "summary": "Salt Labs researchers hid malicious instructions inside an email using JavaScript obfuscation, causing the Manus AI agent to decode and execute them without detection, demonstrating that content-inspection-only defenses cannot protect agents that can run code or act on untrusted input.",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/javascript-obfuscation-defeats-manus-agent-defenses-exposing-inspection-only-controls"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Launches SynthID.com: Unified Multi-Provider AI-Content Detection Portal Rate-Limited to Deter Reverse Engineering",
+      "summary": "Google launched SynthID.com, a public watermark-detection portal covering AI-generated content from multiple partners including OpenAI, Nvidia, Kakao, and Apple, but capped at roughly ten checks per day per user to prevent adversaries from reverse-engineering the detection system.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/googles-unified-synthid-detector-exposes-limits-of-content-provenance-programs"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "COPEX: Mean 64.4% MCP Attack Success Rate Across 9 Models in 3,375 Trials; Input+Context Scanning Cuts It by 49.6%",
+      "summary": "A controlled benchmark (accepted at NeurIPS 2026 workshop) isolates model-level susceptibility to attacks across all four Model Context Protocol entry surfaces — 25 attack types, 125 scenarios, nine frontier models — finding 64.4% mean attack success rate, with combined input-and-context scanning reducing that by nearly half.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.04378",
+          "url": "https://arxiv.org/abs/2610.04378"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Provider-Side Indirect Prompt Injection Increases Target Authorization by Up to 77.4 Points in Proactive Agents Without Accessing Private User Context",
+      "summary": "External content providers can redirect proactive AI agents toward their own objectives — via Target Control, Private Binding, and Prospective Support — achieving macro gains of up to 77.4 percentage points in target authorization without any access to private user data or additional permissions, exposing a broad trust-boundary failure.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.05266",
+          "url": "https://arxiv.org/abs/2610.05266"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Privacy-Leaking Watermarks (PLW): Backdoored Multimodal Models Silently Turn Image Generation Into a Sensitive-Chat-History Leakage Channel",
+      "summary": "A malicious model provider can embed trigger-dependent watermarks that activate when a sensitive keyword appears earlier in conversation — for example, detecting every prior depression disclosure at 100% TPR with 1% FPR — covertly encoding that leakage into generated images even on locally deployed models.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.05453",
+          "url": "https://arxiv.org/abs/2610.05453"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Can Power Draw Constrain Covert AI Compute? Adversaries Can Hide 41% of Compute; Only Re-Execution Rights Push It to 6%",
+      "summary": "A closed-form derivation shows power-draw measurements alone constrain hidden AI computation weakly (worst-case β = 1.16 of declared capacity), adversarial matched-energy strategies hide at least β = 0.41, and verifier re-execution rights are needed to push β to 0.059 — directly quantifying what analogue verification can contribute to AI governance treaties.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "arXiv:2610.07476",
+          "url": "https://arxiv.org/abs/2610.07476"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Auditable Claims About AI Agents: Formal Framework for Verifiable Organizational Commitments Under EU AI Act Article 12",
+      "summary": "A position paper proves that an organizational claim about an AI agent (e.g., 'a person approves every external email') cannot be settled without fixing its policy, scope, settlement records, and a decision rule before any verdict — then applies the framework to six common agent claims anchored in current NIST, IETF, and OWASP drafts.",
+      "date": "2026-10-07",
+      "links": [
+        {
+          "title": "arXiv:2610.07459",
+          "url": "https://arxiv.org/abs/2610.07459"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Blocking at the Boundary: PAA Auditor Achieves 86% Recall at Low False-Block Rate Against Multi-Stage Prompt Injection in Claude Code and Codex",
+      "summary": "An automated attack pipeline confirms production long-horizon coding agents are vulnerable to context-aware, multi-step prompt injection across eight workflow scenarios; the proposed Path-Aligned Attribution (PAA) auditor achieves 86% block recall at 6–8% false-block rate, substantially outperforming ARGUS (44–47% recall at 16–33% FBR).",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.05163",
+          "url": "https://arxiv.org/abs/2610.05163"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "How Fragile Is On-Device LLM Safety? Modifying 0.19% of Weights in the MLP Down-Proj Achieves 53% Attack Success Without Utility Loss",
+      "summary": "Safety-sensitive parameters in LLaMA-2-7B-Chat concentrate highly non-uniformly — the MLP down_proj layer dominates — enabling targeted faults that achieve 53% Basic ASR and 56% GCG ASR by modifying just 0.19% of model weights while preserving 51.6% benchmark accuracy (vs. 52.2% unmodified), motivating selective integrity protection for on-device and agentic deployments.",
+      "date": "2026-10-08",
+      "links": [
+        {
+          "title": "arXiv:2610.09000",
+          "url": "https://arxiv.org/abs/2610.09000"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "TradeSun v. OpenAI: Trademark Suit Over 'Astra' Name Filed in N.D. Cal.",
+      "summary": "TradeSun Inc. filed a trademark complaint against OpenAI (3:26-cv-11360, N.D. Cal.) on October 5, 2026 over the 'Astra' name used for OpenAI's agent product, adding a trademark dispute to the growing docket of suits against frontier AI developers.",
+      "date": "2026-10-05",
+      "links": [
+        {
+          "title": "ailawsuittracker.com",
+          "url": "https://ailawsuittracker.com/cases/tradesun-inc-v-openai-opco-llc-3-26-cv-11360/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Emmerich Newspapers et al. v. Microsoft and OpenAI: 25 Local Publishers File Copyright Suit in S.D. Miss.",
+      "summary": "Emmerich Newspapers and approximately 25 local news publishers filed a copyright infringement complaint against Microsoft and OpenAI in the Southern District of Mississippi (3:26-cv-00791) on October 2, 2026, continuing the regional-publisher wave of suits against frontier AI developers over training-data scraping.",
+      "date": "2026-10-02",
+      "links": [
+        {
+          "title": "ailawsuittracker.com",
+          "url": "https://ailawsuittracker.com/cases/emmerich-newspapers-inc-v-microsoft-corporation-3-26-cv-00791/"
+        }
+      ]
+    }
+  ]
+}
