@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T12:10:49+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "OpenAI Fires Three Safety Researchers Who Warned Company Could Lose Ability to Monitor AI Chain-of-Thought",
+      "summary": "OpenAI fired researchers Tomek Korbak, Jasmine Wang, and Mikita Balesni for alleged 'breach of trust'; the trio publicly accused the company of prioritizing corporate interests over safety and urged the board in a letter to preserve chain-of-thought monitoring capability and collaborate with independent safety auditors — the most serious public safety-culture rupture at the company since prior high-profile departures.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "ABC News",
+          "url": "https://abcnews.com/Technology/wireStory/openai-fires-3-safety-researchers-dispute-ai-risks-137123277"
+        },
+        {
+          "title": "Fox News (Oct 8 live updates)",
+          "url": "https://www.foxnews.com/live-news/ai-news-safety-detection-tech-10-08"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Nadella: Treat Every AI Model as Already Compromised — Containment Must Sit Outside the Model",
+      "summary": "Microsoft CEO Satya Nadella publicly argued that organizations should never trust an AI model as a clean system, calling for containment frameworks covering tamper-proof audit logs, independent audits, timely incident disclosure, and the ability for authorized staff to pause or shut down a model mid-task — directly shaping enterprise AI risk governance expectations.",
+      "date": "2026-10-11",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nadella-calls-for-treating-every-ai-model-as-already-compromised"
+        },
+        {
+          "title": "FourWeekMBA coverage",
+          "url": "https://fourweekmba.com/ai-daily-roundup-10-oct-2026-labs-report-unintended-actions"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Senate Bill S.5576: Frontier Developers Would Owe New Federal AI Safety Board Pre-Release Model Access Plus Mandatory Incident Reporting",
+      "summary": "S.5576, sponsored by Senators Warner, Schatz, and Kim, would require frontier AI developers to give a new federal AI Safety Board access to each model including its weights at least 45 days before public release, and would establish mandatory incident reporting and a public AI incident database.",
+      "date": "2026-10-10",
+      "links": [
+        {
+          "title": "FourWeekMBA (Oct 10 roundup)",
+          "url": "https://fourweekmba.com/ai-daily-roundup-10-oct-2026-labs-report-unintended-actions"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "TRACE: Renaming Agent Tools Drops Evaluation Scores by 0.25 With Zero Behavioral Change — Verifier Brittleness Is the Hidden Audit Variable",
+      "summary": "TRACE is a controlled diagnosis protocol showing that agent evaluation systems are brittle — renaming tools lowers a scripted agent's score by 0.250 even when the agent performs identical operations, and identical reruns flip 15–36% of task outcomes, exposing a deep gap between measured scores and actual capability that undermines AI auditing.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "arXiv:2610.11678",
+          "url": "https://arxiv.org/abs/2610.11678"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Risk Ceilings and Development Deadlines Cannot Both Be Guaranteed When AI Safety Productivity Is Unknown",
+      "summary": "An economic model shows that a regulator can simultaneously promise a maximum risk ceiling and a development deadline only if weak safety research can be ruled out in advance, with a calibration showing a 3.3% safety-productivity margin needed above the necessary bound — a foundational constraint for AI governance frameworks.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "arXiv:2610.11093",
+          "url": "https://arxiv.org/abs/2610.11093"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "NeuroSploit: Structured Multi-LLM Pentest Harness Achieves 96–100% Active Directory Technique Coverage, Full Compromise in 134 Minutes",
+      "summary": "A benchmark of nine frontier LLMs inside a structured multi-agent harness achieves 96–100% Active Directory technique coverage with 90–97% precision — versus 21–54% for direct LLM invocation — demonstrating how close current AI agents are to fully autonomous enterprise cyberattack capability when properly orchestrated.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.04243",
+          "url": "https://arxiv.org/abs/2610.04243"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Cited but Not Consulted: LLMs Name Legal Authorities Correctly but Verdict Rarely Changes When That Authority Is Swapped",
+      "summary": "A counterfactual audit across seven open-weight models finds that while models name the correct legal authority in 66.7–100% of generations, the verdict changes when the authority is substituted in only 0–76.7% of cases, making named legal authority a poor proxy for genuine compliance grounding and undermining LLM-generated legal explanations as audit artifacts.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "arXiv:2610.12361",
+          "url": "https://arxiv.org/abs/2610.12361"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Correct Verdicts, Flawed Reasoning: ~60% of Accurate LLM Vulnerability Analyses Contain Fabricated Claims, Evading LLM-as-Judge",
+      "summary": "VERA, an automated structured-reasoning-record auditing framework, finds that approximately 60% of correct vulnerability verdicts from LLMs include fabricated or unverifiable reasoning claims, and that free-form chain-of-thought allows these errors to evade LLM-as-judge evaluation — VERA exposes 87% of reasoning errors that standard judges miss.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.06366",
+          "url": "https://arxiv.org/abs/2610.06366"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Same Outcome, Different Evidence: Pairing Attack Success Rate With 'Operative Understanding Rate' Reveals Hidden LLM Safety Failures",
+      "summary": "Proposes pairing ASR with an 'operative understanding rate' that measures whether a model actually engaged with the evaluated harmful task, showing that identical low-ASR values can correspond to very different underlying safety postures — models may simply fail to parse an attack rather than genuinely resist it.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "arXiv:2610.11766",
+          "url": "https://arxiv.org/abs/2610.11766"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "EviLLM: Supply-Chain Adversaries Can Inject Vulnerabilities From 13 CWE Classes Into LLM-Generated Code via a Compromised Account",
+      "summary": "EviLLM demonstrates a realistic threat model in which a third-party adversary with access only to a compromised account or browser silently injects software vulnerabilities from 13 CWE classes during LLM-assisted code generation, with 7/8 and 10/13 user study participants failing to detect the injected flaws.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.03857",
+          "url": "https://arxiv.org/abs/2610.03857"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "OnTrack: ~1ms-per-Step Streaming Agent Monitor Correctly Aborts 83% of Failing Runs, Saving 18% of Wasted Compute",
+      "summary": "OnTrack compares a live agent trajectory against historical successful runs in approximately one millisecond per step, enabling real-time intervention before irreversible actions are taken, and aborts 5 of 6 cases that were genuinely heading to failure — a practical, low-latency approach to the hard problem of continuous agent oversight.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "arXiv:2610.12375",
+          "url": "https://arxiv.org/abs/2610.12375"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "GWU Develops Mathematical Formula to Predict On-Device AI Chatbot Safety Failures Before They Occur",
+      "summary": "George Washington University researchers validated a formula that predicts when AI chatbots will produce unsafe or undesirable outputs across seven open-weight models, and propose an in-model early-warning system — directly relevant to deployed AI that operates without cloud-based safety filters or live monitoring.",
+      "date": "2026-10-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/gwu-formula-predicts-ai-chatbot-behavioral-failure-before-it-happens"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Cooldown Landmines: Two Attacks Let a Tenant Force Another Tenant's LLM Gateway Requests to Fail",
+      "summary": "Two attacks in LiteLLM exploit shared cooldown records so that one tenant can redirect another tenant's traffic to inferior fallback deployments with zero upstream calls — demonstrating fundamental tenant isolation failures in shared LLM infrastructure that remain even after quota enforcement.",
+      "date": "2026-10-06",
+      "links": [
+        {
+          "title": "arXiv:2610.05089",
+          "url": "https://arxiv.org/abs/2610.05089"
+        }
+      ]
+    }
+  ]
+}
