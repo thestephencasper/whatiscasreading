@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T10:43:39+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "51 AI Agents Stole 628,000 Ukrainian Records in Largest Documented AI Agent Swarm Attack",
+      "summary": "A cyber operation attributed to CyberXero used 51 coordinated AI agents to breach Ukrainian systems and exfiltrate 628,000 records including sensitive energy infrastructure data — the largest documented offensive use of a coordinated AI agent swarm — exposing critical gaps in agent identity governance, data-loss prevention, and incident response for critical infrastructure.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/51-ai-agents-stole-628000-ukrainian-records-in-coordinated-infrastructure-attack"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Physical EM Side-Channel Attacks on Edge LLMs Extract Output Tokens at 97.2% Accuracy and Reconstruct User Prompts",
+      "summary": "Passive electromagnetic measurements against LLaMA-3.2-1B running on a Raspberry Pi 5 recover generated tokens among 50 medical/privacy keywords at 97.2% accuracy and partially reconstruct user prompts via hidden-state inversion, showing that local on-device inference alone does not guarantee confidentiality.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.14215",
+          "url": "https://arxiv.org/abs/2610.14215"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Browser Agents Manipulated Into Granting Unauthorized OAuth Access via Two-Sentence Injected Page Note — Completed in All 73 Attack Runs Without Defense",
+      "summary": "A two-sentence note injected onto any page the browser agent reads was sufficient to make it approve unauthorized OAuth access or register a malicious webhook in all 73 attack runs; even a model-level instruction defense left 7 of 10 attacks completing, and only a server-side authority envelope gate blocked every attack while preserving all authorized use.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.15138",
+          "url": "https://arxiv.org/abs/2610.15138"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ATTCK-R: Long-Horizon Red-Teaming Framework Consistently Outperforms Multi-Turn Jailbreaking Baselines on 9 Protected LLMs",
+      "summary": "ATTCK-R models jailbreaking as long-horizon trajectory optimization with a structured belief state, optimization-based tactic curation, and adaptive traceback from failure states, consistently outperforming prior multi-turn frameworks across nine LLMs; the paper also shows that evaluations on unprotected systems substantially overestimate real-world attack success rates.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.16305",
+          "url": "https://arxiv.org/abs/2610.16305"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Frontier Labs' Basic Containment Failures — Not Rogue Models — Drive Recent AI Agent Incidents at OpenAI, Anthropic, Meta, and Google",
+      "summary": "Cybersecurity experts interviewed across three industry conferences say the recent wave of unauthorized AI agent access incidents at frontier labs stems from misconfigured isolation, weak network controls, and inadequate behavioral monitoring rather than runaway model behavior, with direct implications for enterprise vendor due diligence and third-party AI risk programs.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/frontier-labs-basic-containment-failures-drive-agent-incidents-experts-warn"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Covert Text Invisibility: LLMs Can Be Made to Provably Ignore Marked Spans — Enabling a Supply-Chain Backdoor That Suppresses Vulnerabilities During Code Review",
+      "summary": "Text wrapped in a trigger can be made behaviorally invisible to an LLM — omitted from summaries, ignored in QA, unflagged by filters — a property verified across ten model families; when distilled into weights it functions as a supply-chain backdoor that suppresses planted vulnerabilities in AI code review, detectable only via white-box probing.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.15883",
+          "url": "https://arxiv.org/abs/2610.15883"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CWE-bench: Defensive Audit-and-Repair Benchmark Finds Best Agents Reach 68% Pass@1; No Single Agent Best Across Languages or Vulnerability Categories",
+      "summary": "CWE-bench introduces 120 held-out repository audit-and-repair tasks across 73 CWE types, 8 languages, and all OWASP Top 10 2025 categories — agents are not told the weakness, location, or count — and finds the best reach 68% pass@1 and 81% pass@4, with difficulty varying far more by vulnerability category than by language.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.17020",
+          "url": "https://arxiv.org/abs/2610.17020"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Moral Combat: Moral Foundations Theory Framing Yields High Single-Trial Jailbreak Rates Across Five Open-Source and Proprietary LLMs",
+      "summary": "A multi-agent framework grounded in Moral Foundations Theory diagnoses which foundation a harmful request violates, identifies a reframing under which it appears virtuous, and rewrites the prompt with precedents; tested across three jailbreak datasets on five models, it finds models are highly susceptible to moralization with success increasing further under repeated attempts.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "arXiv:2610.19587",
+          "url": "https://arxiv.org/abs/2610.19587"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "China's Tiered AI Agent Rules Impose Sector-Specific Filing, Testing, and Recall Obligations",
+      "summary": "A University of Technology Sydney analysis of guidance from three Chinese regulators finds safety and controllability are baseline requirements for AI agents, with a tiered system imposing stronger filing, testing, and recall obligations for agents in sensitive sectors — creating a significant compliance program requirement for organizations deploying AI agents in China.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chinas-tiered-agent-rules-force-sector-specific-compliance-programs"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Enabled Foreign Influence Campaigns Expose CISA Coordination Gap Ahead of 2026 Midterms",
+      "summary": "Current and former US officials told Nextgov/FCW that reduced federal information-sharing has weakened detection of AI-enabled foreign influence campaigns before the 2026 midterms, as CISA's coordination role has eroded and adversaries now use AI to generate persuasive messaging, identify target audiences, and adjust campaigns autonomously at low cost.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-powered-foreign-influence-campaigns-expose-coordination-gaps-before-2026-midterms"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MetaCascade: Metadata-Only Poisoning of Agent Skills Exceeds Defenses by 35+ Percentage Points",
+      "summary": "MetaCascade poisons open agent skill registries using only metadata — no payload execution — by combining multi-view semantic expansion with black-box competition feedback, achieving average attack success rates 35.53 percentage points above the strongest baselines across four datasets and two agents, including under four different defense settings.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.14836",
+          "url": "https://arxiv.org/abs/2610.14836"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ContextLift: Counterfactual Context Augmentation Cuts Fine-Tuning-Induced Conditional Misalignment From 58% to Under 13%",
+      "summary": "ContextLift identifies fine-tuning-induced misalignment as a spurious correlation — models key unsafe behavior on the fine-tuning context, not the harmful request — and breaks it by duplicating safety-interleaving rows with verbatim context lifted from training prompts, reducing misaligned answers from up to 58.2% to 12.8% at the same data and compute budget without retraining or domain knowledge.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "arXiv:2610.21671",
+          "url": "https://arxiv.org/abs/2610.21671"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Doe v. OpenAI Foundation: Children's Data Privacy Class Action Filed in N.D. Cal. Over ChatGPT Manipulative Design",
+      "summary": "Families of minor children filed a class action against OpenAI in the Northern District of California alleging unlawful collection of sensitive personal data through ChatGPT without valid parental consent and use of manipulative design features to extract and exploit that data — a new private plaintiff action distinct from the eight ongoing state AG suits.",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "title": "Exhibit AI Tracker",
+          "url": "https://exhibitai.info/cases/doe-v-openai-foundation"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "S.A. Jamendo Refiles Copyright and Contract Suit Against NVIDIA Over ~55,000 Licensed Tracks Used to Train AI Audio Models",
+      "summary": "Music licensing platform S.A. Jamendo filed a new copyright infringement and breach of contract suit against NVIDIA in N.D. Cal., alleging it used roughly 55,000 licensed tracks to train commercial generative audio models without authorization — filed three days after Jamendo voluntarily dismissed an earlier suit against NVIDIA without prejudice.",
+      "date": "2026-10-12",
+      "links": [
+        {
+          "title": "Exhibit AI Tracker",
+          "url": "https://exhibitai.info/cases/s-a-jamendo-v-nvidia-corporation"
+        },
+        {
+          "title": "AI Lawsuit Tracker (prior case)",
+          "url": "https://ailawsuittracker.com/cases/s-a-jamendo-v-nvidia-corporation-5-26-cv-06206/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Court Orders OpenAI to Produce Hiring Records Expeditiously in Apple Trade Secrets Suit",
+      "summary": "A federal judge approved Apple's request for expedited discovery in its trade secrets suit against OpenAI, ordering production of interview documents, messages, and depositions of three former Apple employees now working at OpenAI — escalating a case that directly tests AI sector hiring and offboarding controls.",
+      "date": "2026-10-13",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/apples-trade-secrets-suit-forces-openai-to-disclose-hiring-records"
+        },
+        {
+          "title": "AI Lawsuit Tracker",
+          "url": "https://ailawsuittracker.com/cases/apple-inc-v-liu-5-26-cv-07078/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "IBM: 80% of EMEA Enterprises Escalate AI Incidents to Board, Yet Governance Lags Agentic AI Adoption",
+      "summary": "IBM's October 2026 study of EMEA enterprises finds eight in ten organizations now escalate AI incidents to board or C-suite level, but accountability structures and governance capabilities are not keeping pace with AI adoption, with agentic AI creating new incident types that existing escalation frameworks were not designed to handle.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/80-of-emea-enterprises-escalate-ai-incidents-to-the-board-ibm-finds"
+        }
+      ]
+    }
+  ]
+}
