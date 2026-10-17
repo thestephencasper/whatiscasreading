@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T10:11:21+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "487 AI Researchers — Including Hinton and Bengio — Demand Physical Isolation of Cyber-Capable AI Training Environments and New International Oversight Body",
+      "summary": "An open letter signed by 487 AI researchers, including Turing Award winners Geoffrey Hinton and Yoshua Bengio, calls for mandatory physical isolation of training environments for cyber-capable AI models and a new international oversight body with incident-reporting authority — the highest-profile collective demand yet for binding containment standards.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/487-ai-researchers-declare-cyber-ai-containment-controls-inadequate"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "APT29 Used Claude Agents to Auto-Rebuild Malware Five Times in 25 Days",
+      "summary": "ReversingLabs research shows Russian state-linked APT29 used Claude-powered agentic workflows to automatically rebuild malware each time security tools detected it, producing five distinct variants over 25 days — though behavior-based detection caught every iteration because the malware's core actions remained unchanged.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/apt29-used-claude-agents-to-auto-rebuild-malware-5-times-in-25-days"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "$40K AI Run Found Critical Chained Chrome Vulnerability Affecting 1 Billion Windows Machines — Offensive AI Risk Is Now a Board Issue",
+      "summary": "Security firm Xbow used GPT-5.6 Sol over six days at a cost of roughly $40,000 to discover a chained Chrome vulnerability, earning a $250,000 bug bounty from Google after a patch — demonstrating that critical vulnerability discovery with publicly available AI is now within reach of small, modestly funded teams.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/a-40k-ai-run-cracked-chrome-offensive-ai-risk-is-now-a-board-issue"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Embeds Six METR Researchers Inside Company With Veto-Free Publication Rights, as Part of Multi-Lab White House Accord",
+      "summary": "Anthropic is embedding six researchers from METR with access equivalent to its own internal risk teams and the explicit right to publish safety findings without Anthropic approval, as part of a White House accord also signed by OpenAI, Google, Meta, Nvidia, and xAI — the most concrete independent-audit commitment by frontier labs to date.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropic-gives-metr-researchers-full-internal-access-with-veto-free-publication-rights"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Brookings: US and China Both Require Frontier AI Safety Testing but Frameworks Are Mutually Incompatible, Creating Dual-Market Compliance Gap",
+      "summary": "A Brookings Institution analysis published October 15, 2026 finds that the US and China both mandate pre-deployment safety testing for advanced AI models on biological, chemical, and critical-infrastructure threats, but with distinct and mutually incompatible requirements, leaving organizations in both markets with conflicting obligations and no shared standard to satisfy both at once.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/us-china-model-safety-divergence-creates-a-compliance-planning-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ZTAC: Object-Bound Kernel Sandbox for AI Coding Agents Blocks 72 of 74 Attacks — Including Replays of 10 Publicly Disclosed Incidents",
+      "summary": "Zero-Trust Agent Cells (ZTAC) runs AI coding agents in a kernel sandbox that resolves every resource name to its actual object before granting access, preventing the name-to-object rebinding exploits common to disclosed agent incidents; a macOS prototype defeats 72 of 74 tested attacks while completing 43 of 46 benign operations at ~4 ms broker latency per request.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.14488",
+          "url": "https://arxiv.org/abs/2610.14488"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Meta's October 30 Terms Update Claims AI Training Rights Over Business-Linked Websites, Potentially Overriding robots.txt",
+      "summary": "Meta updated its commercial terms effective October 30, 2026 to authorize automated crawling and AI training on content at websites linked to business accounts, with legal experts warning the terms may allow Meta to argue they override robots.txt blocking instructions and existing content licensing agreements.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/metas-october-30-terms-shift-training-data-liability-to-publishers"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Singapore CSA Establishes Agentic AI Security Baseline: Runtime Monitoring, Hardened Environments, Verifiable Agent Identity",
+      "summary": "Singapore's Cyber Security Agency published an outcome statement from an agentic AI security tabletop exercise at Singapore International Cyber Week 2026, establishing runtime monitoring, hardened execution environments, strict access controls, verifiable agent identities, and mandatory human oversight of consequential actions as the security baseline for agentic AI.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/singapore-csas-agentic-ai-tabletop-sets-runtime-controls-as-the-security-baseline"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Natural Code Transformations From Real Development History Substantially Cut Frontier Agents' Vulnerability-Discovery Success",
+      "summary": "Study finds frontier agents produce dramatically different results across real-world code commits with identical functionality and the same vulnerability, and that natural, functionality-preserving transformations mined from real commits can effectively confuse frontier agents in vulnerability analysis — proposing code transformation as a practical, asymmetric defense against attacker agents.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.14350",
+          "url": "https://arxiv.org/abs/2610.14350"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "When Agents Talk, Secrets Travel: Multi-Agent LLM Topology Changes Raise Unauthorized Disclosure From 0% to 52%",
+      "summary": "Evaluation of 485 multi-agent LLM scenarios finds that topology shifts alone raise information disclosure to topology-introduced unauthorized recipients from 0% to 52.2% while surface leakage stays nearly flat; the proposed RECONS recipient-conditioned sanitizer reduces residual disclosure from 96.7% to 29.25% while preserving 94.1% of authorized disclosures, with detection coverage identified as the dominant remaining bottleneck.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.16039",
+          "url": "https://arxiv.org/abs/2610.16039"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Logit Leakage via Floating-Point Bias Addition: LLM API Side Channel Recovers Full Model Output Representations in ≤52 Queries",
+      "summary": "A numerical side channel in floating-point bias addition on LLM APIs leaks model score distributions through token identities alone; the attack recovers a full logit vector in at most 52 token queries and in end-to-end experiments extracts a model's complete output-head representation, succeeding on all tested inputs across vLLM, SGLang, and llama.cpp deployments.",
+      "date": "2026-10-14",
+      "links": [
+        {
+          "title": "arXiv:2610.16790",
+          "url": "https://arxiv.org/abs/2610.16790"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "DOT's Undisclosed AI Vetting Tool Exposes Systemic Shadow AI Inventory Gap in Federal Agencies",
+      "summary": "The US Department of Transportation built an AI tool to screen research grant recipients for financial ties to foreign adversaries but omitted it from the agency's published AI inventory, illustrating a systemic gap between AI tools federal agencies deploy and their official disclosure obligations under federal governance requirements.",
+      "date": "2026-10-15",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/dots-undisclosed-ai-vetting-tool-exposes-a-shadow-ai-inventory-problem"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Generated Proposals Overwhelm Federal RFPs — DOT Reports Jump From ~10 to ~500 Responses per Solicitation",
+      "summary": "Federal agencies are receiving AI-generated RFP responses at volumes that overwhelm human review, with the Department of Transportation reporting proposals rising from roughly 10 to 500 per solicitation, prompting the Defense Department to consider AI-assisted review and ICE to request vendor advice on distinguishing genuine capability from AI-generated content.",
+      "date": "2026-10-16",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-generated-proposals-flood-federal-rfps-threatening-procurement-integrity"
+        }
+      ]
+    }
+  ]
+}
