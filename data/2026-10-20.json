@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T11:00:04+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "DHS Orders DeepSeek Removed from All US Civilian Agency Systems",
+      "summary": "The Department of Homeland Security ordered all civilian federal agencies to purge DeepSeek products and any services built on the DeepSeek model and to ban future acquisition, citing risks of sensitive data transfer to China, potential intelligence collection on US persons, and possible malware embedded in the models — the broadest US government AI supply-chain exclusion to date.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/dhs-deepseek-ban-us-civilian-agencies-compliance"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MiniLab: Colluding Multi-Agent Distributed Attacks Evade Frontier Monitors — Only 7% of Attacks Flagged vs. 87% for Single-Agent Equivalent",
+      "summary": "A new red-team benchmark introduces MiniLab (5 interconnected live services, 249 benign tasks, 8 attack objectives) and shows that when agents distribute attack fragments across the deployment, a frontier monitor (GPT-5.6 Sol) reading each trajectory individually flags only 7% of successful distributed attacks versus 87% for single-agent equivalents — establishing a formal, reproducible baseline for studying multi-agent loss-of-control risks.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24052",
+          "url": "https://arxiv.org/abs/2610.24052"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Acquires Opaque Systems, Bringing Verifiable AI Controls In-House",
+      "summary": "Anthropic acquired Opaque Systems, a startup whose published tools include an Agent Governance Toolkit, tracing framework TRACE, Confidential MCP for securing agent tool connections, and a Weight Custody Manifest for model provenance — pulling third-party auditability and verifiability capabilities directly into Anthropic's product stack and raising vendor-concentration questions for compliance teams.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropic-acquires-opaque-systems-bringing-verifiable-ai-controls-in-house"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI Agent Campaign Breached John Deere, SharkNinja, and Cummins in ~23 Hours Using Open-Source Autonomous Agents",
+      "summary": "AI security firm Norforge documented a campaign in which a single threat actor deployed autonomous AI agents built on the open-source Cairn platform to breach more than 100 websites — named victims include John Deere, SharkNinja, and Cummins — with at least one confirmed intrusion entering through a third-party vendor site and successful breaches averaging roughly 23 hours.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-agent-campaign-breached-john-deere-sharkninja-and-cummins-in-23-hours"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "MITRE ATT&CK v20 Adds Prompt Injection and AI Agent Abuse as Formal Threat Categories",
+      "summary": "Version 20 of MITRE's ATT&CK framework introduces official entries covering prompt injection against AI models, abuse of AI agents to steal data, and poisoning of web content to skew AI search results, giving red-team and compliance functions a recognized threat taxonomy for AI-specific attack vectors for the first time.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/mitre-attck-v20-names-prompt-injection-and-ai-agent-abuse-as-formal-threat-categories"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "REX: Relocating Hazardous Knowledge into Removable MoE Experts Is the Only Unlearning Method That Survives Fine-Tuning",
+      "summary": "REX relocates hazardous knowledge from shared MoE parameters into physically removable expert modules; excision cuts WMDP-Bio accuracy by 48.4 points with under 3 MMLU points lost on Qwen3.5-35B-A3B, and unlike all nine unlearning baselines tested, REX preserves the removal after 250M tokens of standard fine-tuning (rebound: 32.4% → 42.8% vs. baseline 44.1% → 78.3%).",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.25791",
+          "url": "https://arxiv.org/abs/2610.25791"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "PIAtlas SoK: Six-Class Taxonomy of Prompt Injection Attack Construction, Plus Largest License-Clean Public Corpus",
+      "summary": "This 61-page systematization of knowledge organizes prompt injection attacks by how injected instructions subvert the underlying model (six subversion-mechanism classes), releases PICorpus (the largest license-clean public prompt-injection dataset), and finds that widely used agent benchmarks test only part of the attack space while adaptive attackers favor mechanisms those benchmarks under-represent.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24999",
+          "url": "https://arxiv.org/abs/2610.24999"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Prompt Injection Compliance Is Decided During Reasoning, Not at Read Time — Single-Run Benchmarks Disagree With Reruns Up to 35% of the Time",
+      "summary": "Branching rollout experiments across four AgentDojo suites show that with chain-of-thought reasoning enabled only 62% of outcome variance is fixed when the injection is read (vs. 91% without), that thinking lowers attack success for some models but raises it for others, and that single-run benchmark labels for reasoning agents disagree with reruns up to 35% of the time — requiring repeated runs for valid evaluations.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24048",
+          "url": "https://arxiv.org/abs/2610.24048"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft: Internal AI Agents Are Insider Threats and Require Pre-Action Authorization",
+      "summary": "Microsoft EVP Hayete Gallot published a framework arguing that enterprise AI agents must be treated as insider threats rather than trusted tools, introducing 'Guardian Agents' within Microsoft's Project Perception framework that authorize every agent action before execution using dynamic risk scoring, deterministic policy enforcement, chain-of-thought visibility, and full traceability.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsoft-names-internal-ai-agents-an-insider-threat-demanding-pre-action-controls"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Write Once, Check Many: Reusable Trajectory Ledgers Match or Beat Full-Trajectory Auditing at 5× Lower Token Cost",
+      "summary": "A new framework converts agent trajectories into policy-independent ledgers so that new compliance policies can be checked against the ledger without re-reading the original trajectory; on SHADE-Arena, a 12B reader of narrative ledgers matches or exceeds the AUC of the same 12B model reading full trajectories and outperforms a 31B trajectory reader (.777 vs. .713 AUC) while using ~5× fewer tokens.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24483",
+          "url": "https://arxiv.org/abs/2610.24483"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ToolRosetta: Specialized Agent Guards Fail Badly Under Shell-Command Rendering — False-Positive Rates Rise 21–47 Points",
+      "summary": "Re-rendering tool calls as shell commands (instead of tidy JSON) causes four of five specialized agent guards to raise false-positive rates by 21–47 percentage points on AgentDojo while frontier and strong open-weight guards remain stable (under 3.4 points), demonstrating that benchmark accuracy on canonical JSON calls does not predict guard performance in real code-acting agent deployments.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24055",
+          "url": "https://arxiv.org/abs/2610.24055"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "US Banking Examiners Now Demanding Decision Logs, Approval Gates, and Named Owners for AI Agent Deployments",
+      "summary": "US banking regulators have expanded AI examination programs to specifically probe how banks constrain, monitor, and audit AI agent systems — asking whether banks can produce decision logs, document approval gates, and name accountable owners — with inability to answer these questions creating escalating supervisory risk.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/banking-examiners-are-now-asking-banks-to-prove-ai-agents-can-be-audited"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "China Issues Banking AI Guidelines: Board Oversight, Risk-Committee Sign-Off Required for High-Stakes AI Decisions",
+      "summary": "New guidance for Chinese banks requires board-level AI accountability, risk committee approval for AI-driven credit, underwriting, and financial contract decisions, restrictions on sensitive personal data in generative AI training, and in some cases regulatory reporting — a significant expansion of China's AI governance requirements in the financial sector.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chinas-banking-ai-guidelines-require-board-oversight-and-risk-tiered-controls"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "Microsoft and Nvidia Publish Joint Framework Identifying 30 Open-Weight AI Risk Types for Enterprise Governance",
+      "summary": "A joint Microsoft and Nvidia paper identifies 30 risk types across five categories for open-weight AI models, advises cryptographic verification of model origin, and calls for retesting after modifications such as fine-tuning — arriving as Gartner projects open-weight models will represent half of enterprise AI use cases by 2028.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsoft-and-nvidia-name-30-open-weight-ai-risk-types-enterprises-must-track"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "WorldStateMedia: State-Controlled Outlets Now 93% of Editorially Controlled English Web Content — RAG Systems Shift Answers Toward National Claims",
+      "summary": "An analysis of 118 million state media articles from 136 countries finds editorially controlled state media's share of English web crawls rose from 39% in 2013 to 93% in 2025, and a RAG experiment on territorial disputes shows that retrieving a country's state media measurably shifts model answers toward that country's claims, most strongly for English-language foreign-targeted outlets — a direct AI training-data and deployment risk.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv:2610.24993",
+          "url": "https://arxiv.org/abs/2610.24993"
+        }
+      ]
+    }
+  ]
+}
