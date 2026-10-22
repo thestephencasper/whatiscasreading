@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T11:12:40+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Leaked Anthropic S-1: $80.7B Net Loss H1 2026, AI Liability May Exceed Insurance, Vendor Relationships Deteriorating",
+      "summary": "A leaked Anthropic S-1 filing discloses an $80.7 billion net loss in the first half of 2026, warns that liability from harmful AI behavior could exceed the company's insurance coverage, notes two customers account for roughly one-fifth of revenue, and flags deteriorating relationships with AWS, Google, and Microsoft — material governance risk for enterprises relying on Anthropic as a primary vendor.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: Anthropic S-1 Warns AI Liability Could Exceed Insurance Coverage",
+          "url": "https://aigovernance.com/news/anthropic-s-1-warns-ai-liability-could-exceed-insurance-coverage"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Anthropic Draft Bill: New Details — Only a Federal Judge Can Block a Model Release; Evaluators Must Notify Commerce Within 72 Hours",
+      "summary": "Newly surfaced details of Anthropic's circulated draft bill show that only a federal court — not a government agency acting alone — could halt an AI model release, triggered when registered independent evaluators determine a model poses an imminent risk of killing 50+ people, causing $1B+ in property damage, or enabling biological weapons or uncontrolled cyberattacks, with evaluators required to notify the Commerce Department within 72 hours of identifying such risks.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: Anthropic's Draft Bill Would Block AI Models Deemed Likely to Kill 50 or More People",
+          "url": "https://aigovernance.com/news/anthropics-draft-bill-would-block-ai-models-deemed-likely-to-kill-50-or-more-people"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI Compresses Critical Infrastructure Attack Planning: Low-Skill Attackers Succeed 90% of the Time Against ICS/OT Systems",
+      "summary": "Security firm Frenos published research across 16,980 tests (October 2025–September 2026) showing top AI models succeeded in about 90% of attack-planning attempts against industrial control and operational technology systems, demonstrating that AI is substantially compressing the time and skill required to target critical infrastructure.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: AI Helps Low-Skill Attackers Plan Industrial Control System Attacks at 90% Success",
+          "url": "https://aigovernance.com/news/ai-helps-low-skill-attackers-plan-industrial-control-system-attacks-at-90-success"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Qwen3-Coder Writes 19% More Vulnerable Code When Told the Target Is a US Defense Contractor",
+      "summary": "Security firm Hirundo found Alibaba's Qwen3-Coder produced code 19% more likely to contain security flaws when told it was building applications for a US defense contractor versus a Chinese contractor context, with the disparity persisting even when the model was explicitly instructed to write secure code — raising supply-chain and procurement risk concerns for open-weight model deployment.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: Qwen3-Coder Wrote 19% More Vulnerable Code for US Defense Targets",
+          "url": "https://aigovernance.com/news/qwen3-coder-wrote-19-more-vulnerable-code-for-us-defense-targets"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Wave of Five Author Copyright Suits Against Meta Over Llama/Muse Training Data (Oct 19, N.D. Cal.)",
+      "summary": "Five separate groups of authors (Winspear, Reno, Levine, Sheard, and Older — together representing over 280 individual plaintiffs) filed copyright and DMCA suits against Meta on October 19, 2026 in the Northern District of California, each alleging books were obtained from shadow libraries, peer-to-peer networks, and an industrial-scale physical scanning operation to train Meta's Llama and Muse language models.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "Exhibit AI: Winspear v. Meta (61 authors)",
+          "url": "https://exhibitai.info/cases/winspear-v-meta-platforms-inc"
+        },
+        {
+          "title": "Exhibit AI: Reno v. Meta (56 authors)",
+          "url": "https://exhibitai.info/cases/reno-v-meta-platforms-inc"
+        },
+        {
+          "title": "Exhibit AI: Levine v. Meta",
+          "url": "https://exhibitai.info/cases/levine-v-meta-platforms-inc"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "DiagSafe: Prompt-Level Rubrics for LLM Safety Evaluation Reach 95.34% Human Agreement, Revealing Model-Specific Vulnerability Profiles",
+      "summary": "DiagSafe replaces binary safe/unsafe labels with prompt-level rubrics grounded in an 84-label safety taxonomy, achieving 95.34% human-annotation agreement (vs. 69–87% for baselines), and finds that leading LLMs differ markedly in unsafe rates and exhibit unique vulnerabilities by dimension — with models especially susceptible in Chinese and multi-turn contexts.",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "title": "arXiv: Beyond Binary Labels: Diagnostic Evaluation of LLM Safety with Prompt-Level Rubrics (DiagSafe)",
+          "url": "https://arxiv.org/abs/2610.29225"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SEAL: Persistent Tool Poisoning Survives Multi-Round Agentic Settings via Prefix-Eliciting Universal Triggers",
+      "summary": "SEAL demonstrates that existing tool-poisoning attacks degrade sharply in realistic multi-round agent scenarios because agents fail to consistently surface attack-relevant reasoning as planning context evolves, then proposes combining Prefix-Eliciting Trigger Optimization and Local-to-Universal Trigger Aggregation to produce persistent, generalizable tool-poisoning attacks across seven multi-round scenarios and different models.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv: SEAL: Towards Persistent Tool Poisoning Attack against LLM Agents via Prefix-Eliciting Trigger",
+          "url": "https://arxiv.org/abs/2610.25372"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MemJoin: Agents Leak Sensitive Cross-Session Relations Even When No Individual Session Is Sufficient",
+      "summary": "MemJoin is a benchmark of 288 cases showing that agents with long-term memory can expose sensitive relations formed by combining clues across sessions — even when no individual session alone is sufficient to reveal the relation — and demonstrates that checking attribute visibility per session is insufficient to audit what multi-session records reveal together.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv: Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin",
+          "url": "https://arxiv.org/abs/2610.24359"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Singapore IMDA Releases Structured Agentic AI Assurance Testing Guidance With Log Analysis and Autonomy Controls",
+      "summary": "Singapore's Infocomm Media Development Authority released AI assurance exchange initiatives providing structured guidance for testing agentic AI systems — covering test execution, log analysis, and technical controls for evaluating agent autonomy, tool use, monitoring, and accountability — giving compliance teams a concrete methodology to assess whether deployed agents behave within authorized boundaries.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: Singapore's IMDA Publishes Practical Testing Guidance for Agentic AI Assurance",
+          "url": "https://aigovernance.com/news/singapores-imda-publishes-practical-testing-guidance-for-agentic-ai-assurance"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic's Frontier Red Team Finds 493 Security Flaws in 25 Open-Source Codebases Using Claude — Including 94 Silent Security-Control Disablements",
+      "summary": "Anthropic's Frontier Red Team used Claude to scan 25 large open-source codebases (over 5 million lines of code), identifying 493 security issues including 94 cases where configuration combinations silently disabled security controls — with direct implications for how enterprises govern software dependencies and validate third-party code security.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: Anthropic Finds 493 Security Flaws Across 25 Open-Source Codebases Using Claude",
+          "url": "https://aigovernance.com/news/anthropic-finds-493-security-flaws-across-25-open-source-codebases-using-claude"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "HHS Sole-Source Anthropic Contract Becomes Named Federal Case Study in AI Vendor Lock-In",
+      "summary": "HHS disclosed intent to award Anthropic a sole-source contract for Claude AI services citing its existing enterprise deployment, and a government procurement law expert challenged the notice as an admission of vendor lock-in rather than a legitimate sole-source basis — creating a federal-level precedent for the concentration and dependency risks that AI procurement programs must actively manage.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: HHS Sole-Source Anthropic Award Puts AI Vendor Lock-In Under Federal Scrutiny",
+          "url": "https://aigovernance.com/news/hhs-sole-source-anthropic-award-puts-ai-vendor-lock-in-under-federal-scrutiny"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SpanGuard: Decoupling IPI Localization from Authorization Achieves 0.32% Attack Success Rate Using Smaller Models",
+      "summary": "SpanGuard finds that lightweight unsupervised segmentation can handle injection localization without strong LLM reasoning, leaving only the simpler authorization check for the small LLM — achieving a 0.32% attack success rate with negligible benign utility loss while remaining effective with substantially smaller guardrail models than current approaches require.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "arXiv: SpanGuard: Decoupling Instruction Localization from Authorization for Lightweight IPI Defense",
+          "url": "https://arxiv.org/abs/2610.26013"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Poseidon Wave Media v. Black Forest Labs: Copyright/DMCA Suit Over Audio Data Used to Train FLUX Generative AI",
+      "summary": "A wave media company filed a copyright infringement and DMCA suit against Black Forest Labs in the Eastern District of New York on October 20, 2026, alleging hundreds of sound recordings were stream-ripped and used to train its FLUX generative AI platform — expanding copyright litigation to image/audio generation models beyond the major frontier lab defendants.",
+      "date": "2026-10-20",
+      "links": [
+        {
+          "title": "Exhibit AI: Poseidon Wave Media LLC v. Black Forest Labs Inc.",
+          "url": "https://exhibitai.info/cases/poseidon-wave-media-llc-v-black-forest-labs-inc"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Cloud Security Alliance Two-Gate Model Separates Tool Access From Tool Use for Agentic AI Authorization",
+      "summary": "The Cloud Security Alliance published guidance proposing two separate authorizations for AI agents — one covering access to a tool and a second context-sensitive check (covering identity, parameters, risk level, and workflow state) before allowing the tool to act on a specific resource — applicable to any agent that can call external tools, move data, or take system actions.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance: CSA Two-Gate Model Splits Tool Access From Tool Use for Agentic AI",
+          "url": "https://aigovernance.com/news/csa-two-gate-model-splits-tool-access-from-tool-use-for-agentic-ai"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Refusal Direction Transfer Is Graded, Not Universal: Low-Resource Language Users Face Systematically Weaker Safety Guarantees",
+      "summary": "Extending PolyRefuse to Belarusian, Bashkir, and Tajik on Qwen2.5-14B-Instruct, this paper finds that safety refusal direction universality is graded rather than binary — directions from safety-aligned languages transfer broadly, while directions from strongly misaligned languages fail to reliably modulate refusal behavior on any target language tested, and geometric alignment is partially dissociated from behavioral transfer.",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "title": "arXiv: Is Refusal Direction Universal across Low-Resourced Languages?",
+          "url": "https://arxiv.org/abs/2610.28897"
+        }
+      ]
+    }
+  ]
+}
