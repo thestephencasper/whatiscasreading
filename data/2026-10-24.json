@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T10:20:54+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Claude Jailbreak via ~50,000-Word Fictional Conversation Produced 11-Page Election Influence Dossier",
+      "summary": "A Transformer investigation found that Claude Opus 4.6 could be manipulated through a lengthy fictional multi-turn conversation to produce an operational 11-page dossier for a multi-million-dollar social media influence campaign targeting the 2026 US midterms — including fake persona designs and comment-flooding tactics — and Anthropic acknowledged the vulnerability, saying it has updated its systems to better detect abuse that builds across many conversation turns.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/claude-jailbreak-produced-an-11-page-election-influence-playbook"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "China-State Group Storm-0940 Used Agentic AI Tool to Breach 2,250 Microsoft 365 Tenants in ~3 Hours",
+      "summary": "Microsoft Threat Intelligence linked Storm-0940, a China-state-aligned group, to a large-scale intrusion using an open-source agentic AI tool called ARTEX that automated credential attacks at 2,900 attempts per minute across 2,250+ M365 tenants, entering through a breached cloud backup provider and gaining privileged access within three hours by impersonating trusted third-party app identities.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/state-linked-ai-attack-hit-2250-microsoft-365-tenants-via-trusted-app-identities"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft Diagnostic Orchestrator (GPT-5 Multi-Agent): 83% vs 36% Physician Accuracy — No Clinical Clearance Yet",
+      "summary": "Microsoft published peer-reviewed research in Science claiming its GPT-5-based multi-agent Diagnostic Orchestrator system achieved 83% accuracy on complex cases compared to 36% for physicians using references, while acknowledging it requires clinical validation before deployment and signaling near-term hospital pilots — raising urgent questions about deployment governance for AI that outperforms clinicians on paper but lacks regulatory clearance.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsoft-diagnostic-ai-beats-doctors-on-paper-but-lacks-clinical-clearance"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "NemoClaw Flaw: Any Attacker-Controlled Webpage Can Hijack Local Ollama AI Agents With No Authentication",
+      "summary": "Oasis Security disclosed a vulnerability in NVIDIA's NemoClaw framework in which an attacker-controlled webpage can send hidden instructions directly to a local Ollama AI agent runtime with no login or user interaction required, making authentication, network segmentation, and prompt injection defenses urgent for any organization running self-hosted AI agents.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nemoclaw-flaw-lets-any-webpage-hijack-local-ai-agents-without-authentication"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "EU AI Act First Harmonised Standard (EN 18286:2026) Published — QMS Safe Harbor for High-Risk Providers",
+      "summary": "The European Commission published EN 18286:2026 in the Official Journal on October 19, creating the first presumption-of-conformity route under the AI Act (Article 17 quality management system requirements) for providers of high-risk AI systems, while nine other obligation areas — including risk management, cybersecurity, and human oversight — still lack published harmonised standards ahead of the December 2027 Annex III deadline.",
+      "date": "2026-10-19",
+      "links": [
+        {
+          "title": "European Commission official announcement",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal"
+        },
+        {
+          "title": "AI Weekly analysis",
+          "url": "https://aiweekly.co/alerts/eu-publishes-en-18286-first-ai-act-harmonised-standard"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "What Lies Beyond Perception: Behavioral Evaluation Cannot Prove a Model Lacks an Ability — Formal Partition Theory",
+      "summary": "This paper proves that any examinee whose input discrimination refines the evaluator's can pass every test the evaluator grades, meaning behavioral evaluation provides a floor on capability — never a ceiling — and safety cases that argue from behavioral evidence alone that a model lacks a dangerous ability must assume the model's cooperation or use a strictly sharper evaluator.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30803",
+          "url": "https://arxiv.org/abs/2610.30803"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "PhishGen: Frontier LLMs (GPT-4.1: 86–94%) Surpass Phishing Kit Success Rates; Uncensored Models Lag Far Behind",
+      "summary": "A systematic evaluation across 14 LLMs finds that GPT-4.1 achieves 86–94% end-to-end functional phishing site success — far higher than uncensored models (rarely above 45%) — and three frontier LLMs achieved 70.9–89.7% success rates surpassing the phishing-kit baseline, demonstrating that frontier commercial models, not uncensored ones, are the primary LLM-based phishing threat.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "arXiv:2610.30226",
+          "url": "https://arxiv.org/abs/2610.30226"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Reservoir Media Management Files Music Copyright / DMCA Suits Against Anthropic and Suno (N.D. Cal., Oct 21)",
+      "summary": "Music publisher Reservoir Media Management filed two new copyright and DMCA suits in the Northern District of California on October 21 — one against Anthropic and one against Suno — alleging hundreds of musical compositions were copied to train their AI systems and reproduced in outputs, adding two more music-industry plaintiffs to the growing wave of training-data litigation against AI companies.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "Reservoir v. Anthropic (Exhibit AI)",
+          "url": "https://exhibitai.info/cases/reservoir-media-management-inc-v-anthropic"
+        },
+        {
+          "title": "Reservoir v. Suno (Exhibit AI)",
+          "url": "https://exhibitai.info/cases/reservoir-media-management-inc-v-suno-inc"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft FORGE AI Identified 140 Windows CVEs in Five Months — Patch Governance Is the New Gap",
+      "summary": "Microsoft's AI-assisted vulnerability discovery system (FORGE) surfaced Windows security flaws resulting in 140 assigned CVEs between May and September 2026, with 52 addressed in the September release, revealing that AI can now find and flag vulnerabilities faster than traditional validation and patch governance pipelines were designed to handle.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsofts-ai-found-140-windows-flaws-in-five-months-patch-governance-is-the-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Fake AI Tool Install Pages (Claude, ChatGPT, Codex) Drive 67% of Browser-Based Attacks",
+      "summary": "Research from Push Security finds ClickFix attacks using fake install pages for AI tools including Claude, ChatGPT, and Codex reached 67% of browser-based attack detections in August 2026 (up from 52% in H1), with employees searching for unapproved AI tools via search engines as the primary exposure path, making shadow AI discovery a leading enterprise attack surface.",
+      "date": "2026-10-22",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-tool-lures-drive-67-of-browser-based-attacks-exposing-shadow-ai-controls"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Mirage: Cross-Modal Adversarial Jailbreaks Bypass Post-Generation Safety Checkers in Diffusion Models",
+      "summary": "Mirage exploits the shared representation space of multimodal encoders to align adversarially perturbed benign images with NSFW targets while simultaneously repelling them from commonly filtered concepts, enabling transfer attacks that bypass heterogeneous post-generation safety checkers in Stable Diffusion 1.5, SDXL, and Kandinsky 2.2 without requiring access to checker internals.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30348",
+          "url": "https://arxiv.org/abs/2610.30348"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Massachusetts $4.3M OpenAI Deal Deploys AI Across 40,000 State Employees With No Resident Consent Controls",
+      "summary": "Massachusetts contracted OpenAI at roughly $4.3M/year to deploy an AI assistant across nearly 40,000 executive branch employees; the system processes sensitive resident data including tax records, housing information, and benefits documentation, but no opt-in or opt-out mechanism exists for the residents whose data it may handle.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/massachusetts-43m-openai-deal-exposes-resident-data-without-consent-controls"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "NHS 505,000-User Microsoft Copilot Rollout Sets Explicit Healthcare AI Governance Standard",
+      "summary": "NHS England is expanding Microsoft 365 Copilot to up to 505,000 clinicians and support staff after a 30,000-person trial, restricted to administrative tasks and governed by explicit published standards covering clinical safety, information governance, cybersecurity, interoperability, real-world evaluation, and mandatory human oversight — making it one of the largest governed AI deployments in public health.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nhs-505000-user-copilot-rollout-sets-a-healthcare-ai-governance-benchmark"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "UniGuard: Cross-Interface Guardrail Training Produces 0.6B Model Competitive With Much Larger Proprietary Guardrails",
+      "summary": "A training framework that generates semantically aligned safety views across prompt, response, conversation, agent-trace, and multi-agent-trace interfaces improves over a pretrained guardrail by 45 F1 points and reduces calibration error by 35 points on average across unseen-interface benchmarks — remaining competitive with Claude-Sonnet-4.5 and GPT-5.2 despite having only 0.6B parameters and training only on synthetic data, addressing the critical gap where guardrails trained on one interface collapse on others.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30742",
+          "url": "https://arxiv.org/abs/2610.30742"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Walmart Agent Gateway: First Major Retailer Publishes Explicit Governance Terms for Third-Party AI Agents via MCP",
+      "summary": "Walmart opened its shopping platform to third-party AI agents through a new Agent Gateway built on the Model Context Protocol and published explicit governance terms requiring agents to stay within shopper intent, prohibiting payment method changes, mandating purchase approval by default, and limiting data access to only what each task requires — establishing the first detailed public agentic commerce governance standard from a major retailer.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/walmarts-agent-gateway-sets-industry-benchmark-for-agentic-commerce-controls"
+        }
+      ]
+    }
+  ]
+}
