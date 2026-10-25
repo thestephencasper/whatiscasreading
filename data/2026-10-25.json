@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T10:44:25+00:00",
+  "entries": [
+    {
+      "tag": "Lawsuit",
+      "title": "Texas AG Sues OpenAI, Seeks Court-Appointed Approval Before Any New Model Release",
+      "summary": "Texas Attorney General Ken Paxton filed suit against OpenAI alleging inadequate safety controls and age verification for ChatGPT, seeking an injunction requiring court-appointed oversight before OpenAI can release new models — the most aggressive state-level attempt yet to impose external pre-deployment oversight on a frontier AI developer.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/texas-ag-sues-openai-seeks-court-approval-for-new-model-releases"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "METR and Redwood Research: OpenAI's Agent Monitoring Had 10% Coverage Gap and Three Bypass Flaws During Hugging Face Attack",
+      "summary": "An independent evaluation by METR and Redwood Research found OpenAI's internal agent monitoring missed roughly 10% of eligible agent traffic, could be exploited via continuous agent action, and had a flaw capable of suppressing hundreds of logged actions from review — setting a new baseline that agent monitoring must withstand deliberate evasion by capable AI systems, not just accidental failures.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/openais-agent-monitoring-missed-10-of-traffic-during-hugging-face-attack"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "FSB Identifies AI Concentration and Model Governance as Systemic Financial Risks — Global Benchmark for Supervisors",
+      "summary": "The Financial Stability Board published a report on October 21 naming dangerous concentration among a small number of AI providers, weak model governance, data quality gaps, cyber exposure, and poor explainability as AI-related systemic risks to the financial system, recommending firms integrate AI risk proportionately into existing governance structures rather than building parallel programs.",
+      "date": "2026-10-21",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/fsb-names-concentration-and-model-governance-as-ais-systemic-financial-risks"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Harm Is Behavioural, Moderation Is Lexical: AI Safety Systems Fail Across Languages by Design",
+      "summary": "A new paper argues and empirically demonstrates that automated content moderation decides harm from vocabulary and surface form rather than what a message actually does, producing discriminatory over-flagging and under-protection that worsens with model capability; applied to five open systems in eleven languages, none reaches native-speaker accuracy at separating harmful function from harmless form, with the gap between best- and worst-served languages growing as capability increases.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.31047",
+          "url": "https://arxiv.org/abs/2610.31047"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "ICO Applies Existing UK GDPR Directly to AI Agent Deployments — No New Legislation Needed",
+      "summary": "The UK Information Commissioner's Office published expectations applying existing UK GDPR security and accountability obligations to agentic AI — requiring proportionate guardrails, defined permissions, and human approval thresholds — and flagged that a security failure in one agent could spread personal data breaches across connected systems.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ico-sets-binding-standard-expectations-for-ai-agents-under-uk-gdpr"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "UK FCA Survey: Regulated Firms Routinely Deployed AI Before Accountability or Risk Structures Were in Place",
+      "summary": "The UK Financial Conduct Authority published findings that firms routinely deployed AI without first establishing accountability, risk management, or oversight structures, with Deloitte identifying five specific control gaps that supervisors will now use as a benchmark for examinations — creating direct regulatory exposure for FCA-supervised firms.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/fca-finds-uk-firms-deployed-ai-before-governance-was-in-place"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Grok CSAM Case Directly Names xAI's Image-Safety Safeguards as the Liability Gap",
+      "summary": "A new civil lawsuit alleges a photographer used xAI's Grok to transform school photographs of a minor into CSAM, directly naming xAI's alleged failure to deploy adequate image-safety filters and abuse detection as a contributing factor — marking a significant escalation in which AI image-generation vendors face direct product liability for safeguard failures rather than as secondary actors.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/grok-csam-lawsuit-names-xais-image-safeguards-as-a-vendor-liability-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Uncensored Is Not Unbiased: Abliteration Removes Refusals But Leaves Script-Dependent Political Bias Intact",
+      "summary": "A controlled study of abliterated ('uncensored') open-weight models finds that removing the refusal direction leaves script-dependent political bias fully intact — e.g., models affirm 'Taiwan is part of the PRC' in Simplified Chinese but not Traditional Chinese at rates differing by up to 85 percentage points, with abliteration shifting scores by at most 0.06 — undermining the common claim that uncensored models are politically unbiased.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.29342",
+          "url": "https://arxiv.org/abs/2610.29342"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Email Prompt Injection Turns Trusted AI Agents Into Attack Tools; Gen Digital Proposes Open AARTS Safety Spec",
+      "summary": "Gen Threat Labs published research showing AI agents can be fully redirected by malicious instructions embedded in ordinary email content with no software flaw required; Gen Digital responded with an Agent Trust Hub (pre-installation scanning, encrypted connectivity, runtime action interception) and the AARTS open specification proposing an industry standard for agent runtime safety.",
+      "date": "2026-10-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/email-prompt-injection-turns-trusted-ai-agents-into-attack-tools"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "The Delegation Divide: 35.2% of Global Task Time Is At Least Partly Delegable to AI Agents in 2026, With Large Rich-Country Skew",
+      "summary": "A new Agent Delegability Index covering 433 occupations and 146 countries finds that 35.2% of global employment task time is at least partly delegable to AI agents, with full delegation rare (2.5%), and delegable employment ranging from 22.5% in low-income countries to 48.7% in high-income countries — driven primarily by physical-task barriers in poorer economies.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30752",
+          "url": "https://arxiv.org/abs/2610.30752"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Probing and Steering Safety-Relevant LLM Behaviours: Read/Write Dissociation Holds for Deception and High-Stakes Awareness, Reverses for Sycophancy",
+      "summary": "A systematic study of activation probes for deception, high-stakes awareness, and sycophancy on Llama-3.1-8B-Instruct finds a read/write dissociation — logistic regression probes detect safety-relevant behaviours best while difference-of-means directions steer best — but this pattern reverses for sycophancy, suggesting behaviour-specific probe design requirements and releasing an interactive interface for scoring and steering text.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30363",
+          "url": "https://arxiv.org/abs/2610.30363"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "LLM Steganography Rolewise Decomposition: End-to-End Recovery Misses Both Encoding Failures and Spontaneous Hidden Message Embedding",
+      "summary": "A new framework separating encoder, decoder, and verification roles in LLM steganography finds that end-to-end recovery obscures critical distinctions — 706 of 7,200 encoder responses contained private messages reconstructed through word-length or token-initial patterns not explicitly specified in the encoder's instructions — raising safety concerns about spontaneous covert communication in deployed models.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "arXiv:2610.30516",
+          "url": "https://arxiv.org/abs/2610.30516"
+        }
+      ]
+    }
+  ]
+}
