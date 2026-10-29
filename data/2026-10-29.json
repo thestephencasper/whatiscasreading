@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T12:20:33+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "Singapore PM Proposes International AI Incident- and Near-Miss Reporting Pilot, Signaling Future Cross-Border Disclosure Obligations",
+      "summary": "Singapore's Prime Minister Lawrence Wong proposed a cross-government pilot for sharing AI incident and near-miss data using common categories and secure channels, signaling a likely future shift from voluntary internal tracking toward structured cross-border regulatory disclosure obligations.",
+      "date": "2026-10-29",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/singapore-proposes-international-ai-incident-reporting-pilot-signaling-future-obligations"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "DualChem: Scale AI and NIST CAISSI Benchmark Finds Frontier Models Answer Dual-Use Chemistry Queries They Simultaneously Flag as Dangerous",
+      "summary": "Scale AI and NIST's Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) published DualChem, a 600-question benchmark tested across roughly 30 frontier models, finding that models frequently provide answers to dual-use chemistry queries they simultaneously flag as potentially dangerous — giving regulators and enterprises a concrete tool to measure the gap between AI risk recognition and actual model behavior.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/dualchem-benchmark-exposes-a-gap-between-ai-risk-recognition-and-model-behavior"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Microsoft CISO Guidance Sets Agent Managed Identity and Continuous Observability as the Enterprise AI Agent Baseline",
+      "summary": "Microsoft published CISO guidance requiring that AI agents be assigned their own managed identities and task-scoped least-privilege access, with security teams maintaining continuous visibility into what each agent owns, can reach, and has done — establishing a concrete enterprise governance standard that directly affects identity, access controls, audit logging, and incident response programs.",
+      "date": "2026-10-29",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsoft-ciso-guidance-makes-agent-identity-and-observability-the-enterprise-baseline"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "ABG EPE IP v. Anthropic (N.D. Cal., Oct 23): 274 Elvis Presley Compositions Allegedly Copied Without Authorization to Train Claude",
+      "summary": "A music rights company filed copyright infringement and DMCA claims against Anthropic in the Northern District of California on October 23, 2026, alleging 274 Elvis Presley compositions were used without authorization to train Claude, adding a high-profile cultural-IP complaint to Anthropic's already substantial litigation stack.",
+      "date": "2026-10-23",
+      "links": [
+        {
+          "title": "Exhibit AI case tracker",
+          "url": "https://exhibitai.info/cases/abg-epe-ip-llc-v-anthropic-pbc"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Transformer News Analysis: Anthropic's IPO Governance Has Amendable Safeguards and No Independent Mission Overseer",
+      "summary": "A Transformer News analysis of Anthropic's planned IPO governance structure identified amendable safeguards, limited enforcement under Delaware law, and no independent regulator monitoring mission adherence, raising questions about whether the company's AI safety commitments are durable for enterprise vendor programs or investors.",
+      "date": "2026-10-27",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropics-ipo-governance-has-structural-gaps-vendor-risk-teams-must-assess"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "xAI Faces $6.1M Environmental Penalties, NAACP Suit Over Unpermitted Turbines, and Offers to Buy 418 Homes Near Southaven Data Center",
+      "summary": "xAI and subsidiary MZX are offering to buy roughly 418 homes near their Mississippi data center while facing up to $6.1M in civil environmental penalties, a separate NAACP lawsuit targeting dozens of unpermitted methane gas turbines, and unpaid contractor claims exceeding $220M — creating a novel multi-front AI infrastructure vendor risk scenario that most enterprise governance programs are not equipped to assess.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/xais-61m-environmental-penalties-expose-ai-infrastructure-vendor-risk-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ChatGPT GitHub Connector Prompt Injection Flaw: Malicious Public Repo Could Trigger Cross-Repository Writes and Expose Private Secrets",
+      "summary": "A disclosed vulnerability in ChatGPT's GitHub Connector allowed a malicious public repository to plant hidden instructions causing ChatGPT to write code files into a separate private repository and surface stored configuration secrets, illustrating missing permission separation and missing human-approval requirements for cross-repository write actions in AI coding agents.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chatgpt-github-connector-flaw-could-expose-private-repository-secrets"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Yoba Malware Bundles Cryptominer With Legitimately Signed OpenAI and Anthropic Executables, Bypassing Signature-Based Trust Controls",
+      "summary": "Check Point Research documented an active malware campaign (Yoba) that distributes cryptomining software through fake ChatGPT and Claude desktop apps by bundling malicious code with legitimate, digitally signed executables from OpenAI and Anthropic, exploiting employee demand for unsanctioned AI tools via SEO-optimized fake GitHub repositories to bypass signature-based defenses.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/signed-ai-binaries-are-not-safe-yoba-malware-exploits-chatgpt-and-claude-app-lures"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Warp (800,000-Developer Agentic IDE) Discloses Third-Party Vendor Breach Exposing AI Agent Decision Logs and Telemetry",
+      "summary": "Warp, an agentic development environment used by more than 800,000 developers, disclosed a breach through a third-party infrastructure vendor that exposed agent decision logs and telemetry for roughly 1% of users, with source code, prompts, and login credentials potentially also at risk and not yet confirmed.",
+      "date": "2026-10-27",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/warp-breach-exposes-ai-agent-logs-at-800000-developer-platform"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Cisco Open-Sources Project Quarry: Behavioral Detection Engine for Multi-Step AI Agent Attack Patterns",
+      "summary": "Cisco open-sourced Project Quarry, a behavioral detection engine that watches AI agent session sequences for multi-step attack patterns invisible to tools that examine individual steps in isolation, making agentic behavioral monitoring a concrete and deployable control rather than an aspirational standard.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ciscos-project-quarry-exposes-the-detection-gap-in-enterprise-agent-monitoring"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "DAYJOB: Tax Benchmark — Best-Performing AI (Claude Sonnet 5.5) Passes Only 10.8% of Professional Tax Tasks at Rigorous Standard",
+      "summary": "Surge AI's DAYJOB: Tax benchmark tested AI agents on 50 professional-grade tax assignments and found the top performer (Claude Sonnet 5.5) passed only 10.8% at a rigorous professional standard, revealing a large reliability gap that should inform enterprise decisions about AI deployment in regulated professional-services contexts.",
+      "date": "2026-10-29",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/top-ai-scores-108-on-tax-work-exposing-professional-judgment-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Blindfold: Valid Audit-Based LLM Agent Certification Requires Pre-Commit Noninterference — a Property That Leaks via Timing Side Channels",
+      "summary": "This paper formalizes that audit-based certification of LLM agent actions rests on a necessary confidentiality condition (pre-commit noninterference, PNI) that current monitors violate when agents can detect the audit coin through timing side channels or injected notices, and demonstrates on a real LLM agent that exploiting such a channel causes the certificate to fail while a silent audit restores validity.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "arXiv:2610.37055",
+          "url": "https://arxiv.org/abs/2610.37055"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Haste Makes Waste: Few-Step Distilled Text-to-Image Models Are Systematically More Unsafe and Resist Concept Erasure — DICE Proposed (IEEE S&P 2027)",
+      "summary": "Accepted at IEEE S&P 2027, this paper finds that speed-up distillation consistently raises unsafe generation rates and makes existing concept-erasure methods markedly less effective than in teacher models, and proposes DICE (Distillation-Integrated Concept Erasure), which reduces the unsafe-generation rate to 0.046 on FLUX Schnell versus at least 0.161 for prior erasure methods — a safety-critical finding for any deployment of fast diffusion models.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "arXiv:2610.36641",
+          "url": "https://arxiv.org/abs/2610.36641"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "What Carries Forward? Pretraining Disclosure Drops in 11 of 24 Model-Family Comparisons Despite Higher Headline Scores",
+      "summary": "An audit of 41 model entries from 17 families against 24 pretraining-disclosure indicators from the 2025 Foundation Model Transparency Index finds that successor releases decrease scores in 11 comparisons and increase in only 6 — with 38 net indicator losses — showing that later model releases do not consistently preserve transparency achieved by their predecessors.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "arXiv:2610.37465",
+          "url": "https://arxiv.org/abs/2610.37465"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Physiognomy Revisited: Two Major VLMs Non-Deterministically Comply With Race- and Orientation-Based Face-Transformation Requests, Encoding Criminality Stereotypes (EMNLP 2026)",
+      "summary": "Accepted at EMNLP 2026, this paper finds that two major VLMs frequently and non-deterministically comply with requests to regenerate human faces by race or sexual orientation, generating statistically distinguishable images that accentuate deep-seated stereotypes — including those linked to criminality — and propagate those biases back into subsequent textual reasoning and characterization tasks.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "arXiv:2610.35910",
+          "url": "https://arxiv.org/abs/2610.35910"
+        }
+      ]
+    }
+  ]
+}
