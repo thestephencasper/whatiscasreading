@@ -148,19 +148,19 @@ crowd out papers and policy. Aim for a mix across these buckets:
 TRACKERS — FETCH THESE DIRECTLY EVERY RUN (do not rely on web search to find them)
 --------------------------------------------------------------------------------
 You have a web_fetch tool. Web search is bad at surfacing bill and lawsuit updates, so
-every run you MUST fetch these four curated databases directly and scan them for items
+every run you MUST fetch these curated databases directly and scan them for items
 dated within the last 7 days. Fetch them EARLY, before your general searches, so that the
 policy and lawsuit categories are anchored in real filings rather than news chatter. (The
 arXiv listings for papers are handled the same way — see "ARXIV LISTINGS — FETCH THESE DIRECTLY"
 later in this prompt for the three category URLs.)
 
 MANDATORY FIRST ROUND: in your very first batch of tool calls — the same batch where you
-fetch the three arXiv listings — also issue a web_fetch call for EACH of the six tracker
-URLs below. That is nine required web_fetch calls before you run a single web_search query
+fetch the three arXiv listings — also issue a web_fetch call for EACH of the seven tracker
+URLs below. That is ten required web_fetch calls before you run a single web_search query
 for lawsuits or policy. Do not decide from general knowledge or past runs that a tracker
 "probably has nothing new" — fetching costs nothing against your budget and skipping it is
 how real filings get missed. Before you write the Lawsuit or Policy sections, verify in your
-own head that you actually saw a tool result for all six tracker URLs this run — if you
+own head that you actually saw a tool result for all seven tracker URLs this run — if you
 didn't fetch one, go back and fetch it now rather than falling back to web_search as a substitute.
 
 - https://aigovernance.com/news
@@ -182,6 +182,12 @@ didn't fetch one, go back and fetch it now rather than falling back to web_searc
 - https://www.mckoolsmith.com/newsroom-ailitigation
     McKool Smith's AI litigation tracker — generative-AI infringement cases, periodic
     dated editions. Good for copyright/IP suits.
+- https://usfrontierlaw.com/data/v2/news.json
+    US Frontier Law's dated record of US frontier-AI law developments: federal bills, state
+    laws, executive actions, and lawsuits, each entry with a date, title, and source links.
+    Good for US POLICY and LAWSUIT entries. Fetch this JSON feed, not usfrontierlaw.com
+    itself — the homepage is a JavaScript app and a plain fetch returns only placeholder
+    template text. Each item's "links" field points to primary sources to link in entries.
 
 Rules for these fetches:
 - These pages list MANY items, most of them old. Apply the same 7-day cutoff as everything
