@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T11:43:34+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Anthropic's Unreleased Claude Research Model Achieved Root Access in 53 Minutes via Chained Linux Kernel Exploit",
+      "summary": "Anthropic disclosed that an unreleased Claude research model developed a working attack against CVE-2026-98432, a critical Linux kernel networking flaw, and achieved full root access in approximately 53 minutes without any human click required, raising urgent questions about whether enterprise patch cycles and dual-use AI research controls can keep pace with AI-assisted attack speed.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropic-ai-reached-root-access-in-53-minutes-breaking-patch-governance-timelines"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Cathedral (Former-DOGE-Founded Startup) Claims Its AI Agents Breached Anthropic's Internal Systems in Under 12 Hours",
+      "summary": "A startup called Cathedral, founded by former DOGE staffers, claims its AI agents accessed Anthropic's internal systems in under 12 hours by exploiting weaknesses in third-party business software; Anthropic acknowledges the bug bounty submission but disputes the scope, saying only limited sales, HR, and IT systems were reached and accusing Cathedral of violating bug bounty disclosure rules.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-agents-breached-anthropics-business-systems-in-12-hours-via-third-party-software"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Fake Anthropic Claude Extension on Cursor Backdoored ~5,000 Developer Machines With Persistent SSH Access for 11 Hours",
+      "summary": "A malicious extension impersonating Anthropic's Claude Code tool circulated in Cursor's AI developer marketplace for roughly 11 hours on October 29, installing persistent remote access tools and collecting environment details linked to sensitive credentials on affected machines; Cursor removed it and shut down its marketplace for auditing, but how attackers published under Anthropic's name remains unexplained.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/fake-anthropic-extension-on-cursor-hit-5000-developers-with-ssh-backdoors"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Congress Formally Demands Grok Records Under the Presidential Records Act After Reports of Oval Office Use for Foreign Policy",
+      "summary": "Two House ranking members formally requested a classified briefing on White House use of xAI's Grok for foreign policy decisions, targeting Presidential Records Act compliance, vendor contracts, and cybersecurity safeguards after reports citing a U.S. military strike on an Iranian school and a near-miss armed intercept of a misidentified ship.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/congress-demands-grok-records-under-presidential-records-act-exposing-ai-retention-gap-2"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Government Appeals Anthropic's N.D. Cal. Victory Over Supply-Chain-Risk Designation to the Ninth Circuit",
+      "summary": "The federal defendants filed a notice of appeal to the Ninth Circuit challenging Judge Rita Lin's August 2026 order that largely ruled for Anthropic in Anthropic PBC v. U.S. Department of War, meaning the N.D. Cal. win (which vacated the supply-chain designation) will now face appellate review alongside the D.C. Circuit's 2–1 ruling against Anthropic on a related designation.",
+      "date": "2026-10-26",
+      "links": [
+        {
+          "title": "CourtListener Docket (Dkt. 253)",
+          "url": "https://www.courtlistener.com/docket/72379655/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "DOJ Arrests Five in AI-Powered Ghost Student Scheme: 830,000 Fraudulent FAFSAs, ~$130M in Suspected Losses",
+      "summary": "The DOJ announced five arrests in a federal crackdown on a scheme that used AI to impersonate students, complete coursework, and collect federal financial aid fraudulently; investigators identified over 830,000 potentially fraudulent FAFSA applications, with confirmed losses tied to arrested subjects exceeding $32 million and suspected total losses approaching $130 million.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/dojs-ghost-student-arrests-put-ai-identity-fraud-controls-on-notice"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "France's CeSIA Calls for EU AI Act Enforcement on Models With Offensive Cyber Capabilities and Independent Evaluations",
+      "summary": "France's Centre for Strategic and International Affairs published emergency policy recommendations linking AI-powered cyberattacks to gaps in EU AI governance, calling for enforcing EU AI Act risk controls on models with offensive cyber capabilities, independent evaluations of those models, deployment restrictions where risks cannot be managed, and faster NIS2 transposition.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/cesia-calls-for-ai-act-enforcement-on-offensive-capable-models"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "CrowdStrike Identifies the AI Agent Planning Layer as a Major Untested Attack Surface for Prompt Injection",
+      "summary": "CrowdStrike published a taxonomy of prompt injection techniques that target the intermediate planning decisions of autonomous AI agents rather than just their inputs or outputs, finding that attackers can manipulate multi-step reasoning mid-task—meaning enterprises that have tested only input and output layers may have a significant assurance gap in deployed agent systems.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/crowdstrike-taxonomy-exposes-agent-planning-layer-as-an-untested-attack-surface"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Security Researchers Disclose Exploitable Flaws in Five Major AI Coding Tools; OpenAI Codex and Microsoft VS Code Remain Unpatched",
+      "summary": "Forever Security researchers disclosed exploitable vulnerabilities in Cursor, GitHub Copilot, Anthropic Claude Desktop, Microsoft VS Code, and OpenAI Codex that allow attackers to run unauthorized code on developer machines or read sensitive files, with flaws in OpenAI Codex and Microsoft VS Code still unpatched as of the disclosure date.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/five-ai-coding-tools-found-vulnerable-two-still-unpatched"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft Discloses 50 Million Deployed Agents and Launches 'Perception' Governance Layer With Identity, Permissions, and Containment Outside the AI Model",
+      "summary": "Microsoft CEO Satya Nadella disclosed over 50 million agents in Agent 365 (up 30% quarter-on-quarter) alongside a new governance layer called Perception that enforces identity, permissions, monitoring, and containment outside the AI model, and a companion secure on-device boundary (MXC) for agents running OpenAI, Anthropic, and Meta models within Microsoft infrastructure.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/microsofts-50-million-agent-scale-exposes-the-vendor-control-vs-enterprise-accountability"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Wikimedia's NYT v. OpenAI Amicus Brief Proposes Two-Part Test: Pre-Training May Be Fair Use, But Verbatim Output Reproduction Requires a License",
+      "summary": "The Wikimedia Foundation filed an amicus brief in NYT v. OpenAI arguing that training AI on copyrighted works may qualify as fair use but that AI systems reproducing content verbatim in outputs require a license—a two-part framework with direct implications for how enterprises assess AI procurement risk and how courts may ultimately bound AI copyright liability.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/wikimedias-nyt-v-openai-brief-draws-a-copyright-line-ai-buyers-must-track"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "OpenAI, Google, Microsoft, and Anthropic Commit to IETF Unified Web Scraping Opt-Out Signal via robots.txt",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic committed to a shared IETF technical signal letting website publishers opt out of AI training data collection with a single robots.txt instruction; Anthropic has already adopted it, while Microsoft will additionally allow publishers to distinguish between AI training opt-out and AI grounding opt-out.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/major-labs-back-unified-scraping-opt-out-creating-new-vendor-due-diligence-obligations"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Dartmouth Provost Resignation After Undisclosed AI Use Exposes Structural Gap Between AI Disclosure Policy and Enforcement",
+      "summary": "Dartmouth College provost Santiago Schnell resigned after an advisory committee found he failed to disclose AI use in a published academic paper and a Washington Post op-ed, revealing that having an AI use policy is insufficient without audit mechanisms capable of detecting violations—a governance gap with direct implications for institutional AI deployment.",
+      "date": "2026-10-31",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/dartmouth-provost-resignation-exposes-ai-disclosure-policy-enforcement-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "What Hallucinations Have We Measured? Taxonomy Proposes Semantic Illusion vs. Confabulation vs. Expressed Uncertainty — Current Detectors Mostly Flag the Least Dangerous Type",
+      "summary": "A 29-author team argues that 'hallucination' conflates three distinct failure modes—expressed uncertainty (model signals doubt), semantic illusion (knowledge is accessible but inconsistently applied), and confabulation (knowledge is absent)—and shows empirically that today's detection methods mostly flag expressed uncertainty rather than true hallucinations, while mitigation methods only work for semantic illusions.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38520",
+          "url": "https://arxiv.org/abs/2610.38520"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "IFAAB: Counterfactual Audit of GPT-4o Financial Advice Finds Male-Labeled Indian Profiles Receive 60% More Resources, Large Caste Gaps Persist",
+      "summary": "A counterfactual audit of 31,734 GPT-4o financial-advice responses for synthetic Indian personas varying by gender, caste, education, and region found that male-labeled profiles received 60.1% higher initial total resources and 46.8% higher post-advice total resources than female-labeled ones, with caste gaps remaining significant and geographic conditioning dramatically reshaping bias patterns.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38239",
+          "url": "https://arxiv.org/abs/2610.38239"
+        }
+      ]
+    }
+  ]
+}
