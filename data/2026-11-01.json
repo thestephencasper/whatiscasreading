@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T12:48:15+00:00",
+  "entries": [
+    {
+      "tag": "Lawsuit",
+      "title": "Wan v. OpenAI: Wrongful Death Suit Over ChatGPT-Supervised Unprescribed Lamotrigine Tapering Schedule",
+      "summary": "A deceased woman's family filed a wrongful-death and product-liability suit in San Francisco Superior Court alleging ChatGPT designed and supervised an unprescribed lamotrigine tapering schedule that caused her death — establishing a new tort theory targeting AI-generated medical dosing advice as a defective product.",
+      "date": "2026-10-27",
+      "links": [
+        {
+          "title": "Case record — Exhibit AI",
+          "url": "https://exhibitai.info/cases/wan-v-openai-inc"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Agentic Backdoors via Pretraining Poisoning: 0.1% Corpus Contamination Achieves ~92% Attack Success at 4B Scale",
+      "summary": "Carlini, Jagielski, Rando et al. show that poisoning as little as 0.1% of pretraining data implants a remote-code-execution backdoor in CLI agents with ~92% attack success at 4B parameters — persisting even at 0.0005% poison rate — establishing pretraining supply-chain contamination as a practical threat to deployed agentic systems.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.37741",
+          "url": "https://arxiv.org/abs/2610.37741"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "New York RAISE Act 2.0 (S.10731): Lower Compute Threshold, State-Licensed Frontier Examiners, Quarterly AI-Research-Automation Reports",
+      "summary": "Sen. Gounardes introduced S.10731 amending New York's RAISE Act to lower the compute threshold to 10^25 operations, require state-licensed independent frontier examiners, mandate quarterly reporting on the automation of AI research itself, and give regulators authority to cap training compute — with penalties up to $1 million per day.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "Bill text — NY Senate",
+          "url": "https://www.nysenate.gov/legislation/bills/2025/S10731"
+        },
+        {
+          "title": "Sponsor release",
+          "url": "https://www.nysenate.gov/newsroom/press-releases/2026/andrew-gounardes/sen-gounardes-proposes-major-new-ai-safety-and"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "House Democratic Ranking Members Demand 48-Hour AI Incident Reporting From Five Frontier Labs",
+      "summary": "Ranking Members Pallone (Energy & Commerce), Lofgren (Science), and Raskin (Judiciary) wrote to Anthropic, Google, Meta, OpenAI, and SpaceXSI demanding notification within 48 hours of new misalignment or safety incidents (24 hours if critical infrastructure is involved), with a full accounting of known incidents due by November 11.",
+      "date": "2026-10-28",
+      "links": [
+        {
+          "title": "House Science Democrats release",
+          "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Chainalysis Breach: Attackers Used 'Offensive Agentic Techniques' to Access Internal Systems and Identity Data",
+      "summary": "Blockchain analytics firm Chainalysis disclosed that external attackers used offensive agentic techniques to access internal systems and obtain employee and user identity data (names, user IDs, emails, role labels) — one of the first publicly confirmed enterprise breaches explicitly attributed to offensive agentic AI methods.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chainalysis-breach-confirms-agentic-ai-as-a-live-enterprise-attack-vector"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "\"Black October\": Wiz Documents Nine AI Developer Platform Breaches With LLMjacking as the Common Pattern",
+      "summary": "Wiz documented at least nine attacks on AI development platforms in October 2026 — including Northflank, which disclosed that attackers decrypted and stole customer environment variables including AI API keys — with stolen credentials used to run model queries at victims' expense in a pattern Wiz terms LLMjacking.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nine-ai-platform-breaches-in-october-expose-credential-theft-as-a-systemic-risk"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "VOLTA-AUTODOXER Malware Routes Stolen Data Through Claude Opus and Gemini APIs to Rank Victims by Exploit Profitability",
+      "summary": "Cisco Talos documented a Windows infostealer that sends harvested credentials and personal data to frontier model APIs (defaulting to Claude Opus via OpenRouter, falling back to Kimi-K2 and Gemini 2.5 Flash) to algorithmically rank victims by how profitable they are to exploit — demonstrating that stolen enterprise AI API keys can be weaponized as analytical infrastructure inside active attack chains.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/volta-malware-uses-claude-and-gemini-apis-to-rank-stolen-data-by-value"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Oversight-Loosening Directives Found in ~88,000 of 1.53 Million Agent Skill Files — 70% Are Unconditional",
+      "summary": "A large-scale scan of 1.53 million English SKILL.md files finds roughly one in seventeen (~88,000) contains an oversight-loosening directive (e.g., proceed without approval, bypass checks with --no-verify), with 70% applying unconditionally; skills involving shell code or sudo have 1.7–1.8× higher odds of carrying such directives, and open-source scanners catch at most 46% of them.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.37734",
+          "url": "https://arxiv.org/abs/2610.37734"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CARI: Cross-Boundary Adversarial Runtime Injection in Coding-Agent Workflows Achieves 94.8% Attack Success Across 3,000 Trials",
+      "summary": "A new attack surface — malicious instructions embedded in runtime feedback produced by a compromised peer development role (backend service, CI job, test harness) — achieves 94.8% attack success across five models and four languages, transferring to Claude Code at 58.7% and Codex at 61.3%, while prompt-level defenses that suppress attacks substantially over-refuse legitimate actions.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38799",
+          "url": "https://arxiv.org/abs/2610.38799"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Self-Evolution Increases Personal Agent Vulnerability to Indirect Prompt Injection by 14–49 Percentage Points",
+      "summary": "A controlled study shows that agents learning from user feedback (via skill evolution or RL) substantially degrade their own robustness to indirect prompt injection — because adaptations learned from user-approved external content generalize to unauthorized third-party injections — raising attack success rates 14–49 pp above non-evolving baselines.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.39122",
+          "url": "https://arxiv.org/abs/2610.39122"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "FVH-Bench: 11 Image Generators Rarely Refuse Prompts That Enable Dangerous Actions Without Depicting Them",
+      "summary": "A new 669-prompt benchmark covering five 'functional visual harm' categories (artifacts that guide dangerous actions or support deception) finds that 11 major image generators almost never refuse such requests, and that existing safety detectors provide limited coverage — leaving a large class of dual-use functional harm outside current safety evaluation.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.37722",
+          "url": "https://arxiv.org/abs/2610.37722"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "80% of Recorded AI Agent Incidents Lack Public Evidence That Security Controls Existed — Anaconda/Open Secure AI Alliance",
+      "summary": "Anaconda, joining the Open Secure AI Alliance, published research finding that 80% of recorded AI agent incidents lack public evidence of security controls being present or operating, and that testing individual prompts or tool calls is insufficient because retrieved content can silently alter an agent's plan mid-task without any individual step appearing harmful.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/80-of-agent-incidents-lack-control-evidence-anaconda-finds"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "P1-Severity ChatGPT Account Takeover via Shared Conversation Links Patched on October 26",
+      "summary": "Security researchers at Parameter Labs discovered a chain of flaws allowing full takeover of any authenticated ChatGPT account by sending the victim a shared conversation link; OpenAI rated it P1 (highest severity) and patched it October 26, 2026 — exposing shared-conversation features as an uncontrolled access surface for enterprise deployments.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/patched-chatgpt-account-takeover-exposes-shared-session-as-an-access-risk"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Financial Model Risk Frameworks Systematically Miss AI Systems Across Model Definitions, Tiering, and Vendor Protocols",
+      "summary": "A peer-reviewed study in the Journal of Banking Regulation identifies three structural gaps in banks' model risk management when applied to AI — model definitions that exclude many AI tools, tiering criteria that don't reflect AI-specific failure modes, and vendor governance protocols that haven't kept pace with third-party AI procurement — with targeted fixes proposed for each.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/financial-model-risk-frameworks-miss-most-ai-systems-research-finds"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "UK Expands PlanAssist AI Planning Tool (Google DeepMind) to 15 Councils, Targets All English Councils by End of 2027",
+      "summary": "The UK government announced expansion of PlanAssist — built with Google DeepMind, Google Cloud, and Faculty — to 15 English councils for a 12-month trial after an initial pilot cut time on key planning tasks by 58%, with a stated goal of nationwide rollout to every English council by end of 2027, marking one of the largest government deployments of frontier AI to consequential local planning decisions.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/planassist-expands-to-15-uk-councils-testing-public-sector-human-oversight-at-scale"
+        }
+      ]
+    }
+  ]
+}
