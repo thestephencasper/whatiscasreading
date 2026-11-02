@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T14:49:11+00:00",
+  "entries": [
+    {
+      "tag": "Paper",
+      "title": "Role Spoofing in LLMs: Combining Fake Structure and Content Defeats Adversarial Training; Linear Probes Can Detect It",
+      "summary": "New research formalizes 'role spoofing'—where malicious tool output impersonates users by pairing fake control tokens and formatting with fake content—and shows that adversarial training against content-based injections leaves structure-based attacks fully intact, while a linear-probe detector is proposed as a complementary mitigation with direct implications for agentic systems that process untrusted tool outputs.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.40396",
+          "url": "https://arxiv.org/abs/2610.40396"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Active Invoice Fraud Campaign Hides Commands in Invisible Unicode Characters to Hijack Email AI Agents",
+      "summary": "Sublime Security documented a live attack campaign embedding hidden prompt-injection instructions inside emails using invisible Unicode characters to redirect AI agents that read and act on email away from legitimate user instructions, posing immediate financial fraud risk to any enterprise running AI-connected email workflows.",
+      "date": "2026-11-02",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/live-invoice-fraud-campaign-hides-commands-that-hijack-email-ai-agents"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Poisoned Skills: Jailbreaks Embedded in Agent SKILL.md Files Raise Attack Success Rate From 0.5% to 45%",
+      "summary": "Embedding a jailbreak inside the SKILL.md configuration file loaded by a LangChain agent raises mean attack success rate from 0.5% (clean prompt) to 45% across seven open-weight models on 270 harmful questions, with individual models reaching 68.9%, making agent configuration files a high-impact injection surface that no current scanner reliably detects.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.37738",
+          "url": "https://arxiv.org/abs/2610.37738"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "U.S. Has No Unified Federal Framework for AI Security Incidents—Reuters Legal Analysis Documents the Gap",
+      "summary": "A Reuters legal analysis (published October 27) identifies AI-specific breach types—model manipulation, data poisoning, prompt injection, model theft, and deepfake fraud—that require investigation and notification procedures most enterprise IR programs lack, and finds the U.S. has no single federal framework governing AI security incidents, leaving organizations navigating fragmented multi-agency responsibilities.",
+      "date": "2026-11-02",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-native-breaches-expose-critical-gaps-in-enterprise-incident-response"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Hidden Prompt Injections Found in Indian Court Filings, Designed to Manipulate AI Legal Review Tools",
+      "summary": "A reported incident in India's legal system, analyzed by SpicyIP, found hidden instructions embedded in court petitions designed to manipulate AI tools that process legal documents, revealing that courts and any organization feeding external documents into AI workflows must treat those inputs as untrusted and isolate AI outputs from human decisions.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/hidden-court-filing-instructions-expose-ai-assisted-legal-review-to-manipulation"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "FlipJev: Universal Adversarial Suffixes for Typed Decision Models—One Suffix Flips 43% of Unseen Documents and Transfers Cross-Task at 90–100%",
+      "summary": "A fast black-box attack generates short adversarial suffixes that flip confident decisions in typed decision models (single-query classifiers increasingly used in security-sensitive tasks) within minutes; one suffix per dataset flips 43% of held-out documents, and transfer to other tasks reaches 90–100%, establishing that typed decision models require strict adaptive red-teaming before security-sensitive deployment.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38895",
+          "url": "https://arxiv.org/abs/2610.38895"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Miasma Campaign: Attackers Planted Credential-Harvesting Instructions in a Microsoft Repo's AI Coding Config File Using a Backdated Timestamp",
+      "summary": "A June 2026 supply-chain attack planted malicious instructions in a Microsoft repository's AI coding assistant configuration file to harvest developer credentials without touching any application source code; StepSecurity's October 2026 analysis found the commit used a pipeline-bypass flag and a backdated timestamp to evade detection, exposing AI coding config files as an attack surface most enterprises have not extended code-review controls to cover.",
+      "date": "2026-11-02",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/miasma-campaign-exposes-ai-coding-config-files-as-an-unreviewed-attack-surface"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AI-Generated NCII Is Configured, Not Built: Open-Weight Model Workflows Enable Abuse via Dual-Use Configuration, Limiting Technical Defenses",
+      "summary": "Analysis of 139 R+ guides on CivitAI finds that AI-generated non-consensual intimate imagery arises from configuring dual-use identity and sexual content workflows rather than requiring distinct tools, with most workflows relying on open-weight models where existing technical defenses are limited—and the findings offer a basis for EU-regulation-required realistic-attacker model evaluations.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.37949",
+          "url": "https://arxiv.org/abs/2610.37949"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Role Grounding Attack: Social-Platform Posts Cause Agents to Misattribute Attacker Preferences to Victims, Enabling Tool Hijacking and Data Leakage",
+      "summary": "A new attack formalizes 'Role Grounding Misattribution'—using nested conversation structures in experience-sharing posts so a victim agent incorrectly records an attacker's preference as the victim user's own—achieving high attack success rates for tool-call steering and private data leakage across five agent memory systems and six language models.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38209",
+          "url": "https://arxiv.org/abs/2610.38209"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "arXiv Survey: Self-Evolving AI Agents Invalidate the Human-Initiation Assumption Behind Standard Change-Management Controls",
+      "summary": "A new arXiv survey identifies four core safety hazards from AI agents that modify their own behavior during operation—loss of control, unsafe adaptation, difficulty evaluating the modified system, and new security threats from self-modification—exposing a structural enterprise governance gap because standard change-management and version-control processes assume all changes are human-initiated.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/self-evolving-ai-agents-break-the-assumption-underlying-every-change-control"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "ACM Peer-Reviewed Research Maps Five Private-Data Leakage Pathways in Multi-Agent AI Systems",
+      "summary": "Peer-reviewed ACM research identifies five distinct pathways through which private data leaks in multi-agent AI deployments—autonomous data exposure, cross-agent information propagation, persistent memory leakage, emergent inference, and audit-log exposure—providing a formal reference framework that regulators and auditors can use to evaluate control adequacy in multi-agent systems.",
+      "date": "2026-11-01",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/acm-research-maps-five-privacy-leakage-pathways-in-multi-agent-ai"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "VulnBench 2.0: AI Security Agents and Deterministic SAST Are Complementary—Neither Alone Suffices on 108-Vulnerability Benchmark",
+      "summary": "A 108-vulnerability benchmark across 20 open-source web apps finds Snyk Code (82.4% macro recall) and Claude Code with Opus 5 at xhigh effort (79.3%) disagree on 28 findings, with neither alone reaching the combined ceiling of 101/108, and that 'harness policy'—not the underlying model—determines which vulnerability classes AI engines will and will not report.",
+      "date": "2026-10-30",
+      "links": [
+        {
+          "title": "arXiv:2610.38617",
+          "url": "https://arxiv.org/abs/2610.38617"
+        }
+      ]
+    }
+  ]
+}
