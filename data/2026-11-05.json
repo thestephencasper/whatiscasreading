@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T14:02:55+00:00",
+  "entries": [
+    {
+      "tag": "Policy",
+      "title": "2026 Midterm Sweep Makes Strong Federal Frontier AI Law Likely by Early 2027",
+      "summary": "Democrats' midterm victory has led analysts at Transformer News to significantly upgrade the near-term probability of federal frontier AI legislation, with a bill exceeding the FRONTIER Act now anticipated to include mandatory pre-deployment testing, strict developer liability, and data-center restrictions—turning what compliance teams treated as a distant scenario into a 2027 planning constraint.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/2026-midterm-shift-makes-federal-frontier-ai-law-likely-by-early-2027"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "$6.34 Billion Binance Heist: North Korean Actors Used Internal AI Tool as Lateral-Movement Pivot to Privileged Wallet Signing Service",
+      "summary": "North Korean state-sponsored attackers compromised three Binance engineers via fake job interviews and malicious coding assignments, then used access to an internal AI tool to reach a privileged wallet-signing service and steal $6.34 billion—the largest publicly disclosed theft in which an AI tool served as the lateral-movement pivot point.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/634-billion-binance-heist-makes-internal-ai-tools-a-privileged-access-risk"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Won't Patch Claude Dispatch Flaw Enabling Cross-Machine Command Execution via Shared Account Session",
+      "summary": "A disclosed flaw in Anthropic's Claude Dispatch feature allows a malicious or compromised browser extension to run commands on any machine sharing the same Claude account session, and Anthropic has decided not to patch it—a notable vendor decision to leave an agentic security boundary unresolved.",
+      "date": "2026-11-05",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropic-wont-patch-claude-dispatch-flaw-that-lets-attackers-run-commands-across"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Postman Silently Installed AI Plugins and Attempted to Self-Approve Its Own Elevated Trust Permissions in OpenAI Codex",
+      "summary": "Postman desktop v12.33.4 silently installed plugins into OpenAI Codex and Claude Code, injected session-start instructions routing API traffic through Postman, opened a remote MCP connection, and attempted to self-approve elevated trust hooks in Codex without user consent—exposing AI coding-agent update pipelines as an unreviewed supply-chain attack surface.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/postman-auto-installed-ai-plugins-and-tried-to-self-approve-its-own-trust-hooks"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Threatened to Revoke School Search Access to Coerce Gemini Opt-In; Antitrust Backlash Forces Reversal",
+      "summary": "Google told K-12 schools they would lose Google Search access unless they opted into Gemini AI features; following antitrust criticism from lawmakers and former FTC Chair Lina Khan citing existing monopoly liability findings, Google reversed course to make Gemini, Gemini Notebook, and Search each independently switchable and off by default.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/googles-ai-bundling-threat-to-schools-exposes-coercive-adoption-risk"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Real Six-Hour Cloud Heist Documents Multi-Agent AI Completing Credential-Harvesting Attack Faster Than Standard IAM Can Detect",
+      "summary": "A SecurityWeek analysis of a documented real incident found that a multi-agent AI system executed a complete credential-harvesting attack inside a cloud environment in under six hours, with standard IAM tools—designed for human users—fundamentally unable to detect agents that instantiate in milliseconds and inherit broad human credentials.",
+      "date": "2026-11-05",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/six-hour-cloud-heist-shows-enterprise-identity-controls-cannot-keep-up-with-ai-agents"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "FINRA: AI-Cloned Voices, Deepfakes, and Fabricated Identity Documents Are Now Sophisticated Enough to Defeat Investment Fraud Detection",
+      "summary": "FINRA issued a warning that fraudsters are using AI voice cloning and deepfake imagery of financial professionals that defeat traditional human review, requiring financial firms to urgently update identity verification and payment approval controls to address AI-enabled impersonation at scale.",
+      "date": "2026-11-05",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/finra-ai-deepfakes-and-voice-cloning-are-breaking-investment-fraud-detection"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Releases FlashProve: Open-Source Cryptographic Verification That an AI Output Came From a Specific Declared Model",
+      "summary": "Anthropic published FlashProve, an open-source prototype using cryptographic proofs to verify that an AI response came from a declared model rather than a substitute or silently updated version, achieving over 100 tokens/second on a single GPU at 400B-parameter scale—directly addressing the audit gap created by third-party API routing and undisclosed version swaps.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropics-flashprove-lets-enterprises-prove-which-ai-model-answered"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Perplexity Earns First FedRAMP 20x Class C Authorization Under the 2026 Consolidated Rules, Resetting the Federal AI Vendor Bar",
+      "summary": "Perplexity received the first full FedRAMP 20x Class C authorization under the 2026 Consolidated Rules covering Perplexity Enterprise and its API for GSA and USDA, with security now measured through outcome-based Key Security Indicators rather than narrative documentation—changing what AI vendors must demonstrate to access the federal market.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/first-ai-company-earns-fedramp-20x-class-c-resetting-federal-vendor-eligibility"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "CrowdStrike Adds an AI Kill Switch to Falcon Guardian, Letting Admins Stop, Block, and Audit Rogue Agents",
+      "summary": "CrowdStrike's Falcon Guardian now includes a kill switch that lets authorized administrators stop a misbehaving autonomous AI agent, block it from restarting, and revoke its enterprise system access, with every agent action recorded in an audit trail—security analysts note it must be paired with agent discovery and incident response controls to be effective.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/crowdstrikes-agent-kill-switch-sets-a-new-containment-bar-for-rogue-ai"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Adversarial Self-Evolving Attacks on LLM Search Agents Outperform Static Human-Crafted Baselines (NeurIPS 2026)",
+      "summary": "CREO, a new framework using bi-level optimization between evolving attacker strategies and adaptive defenses, exposes LLM search agent vulnerabilities more effectively than static human-crafted attack templates across multiple multi-hop QA benchmarks and frontier models—demonstrating that real-world threats can dynamically outpace defenses calibrated against fixed attack patterns.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "arXiv:2611.03754",
+          "url": "https://arxiv.org/abs/2611.03754"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ScrambleMark: Zero-Query Speech Watermark Evasion Breaks Google SynthID, Resemble AI, and TrustedAudio at ~97% With No Quality Loss",
+      "summary": "A new zero-query, watermark-agnostic black-box attack evades all three major commercial speech watermarking platforms by harmonically scrambling the embedded pattern's structural consistency—rather than erasing it—achieving ~97% evasion and a 4.2/5 human quality rating while resisting adaptive countermeasures, raising serious concerns about speech provenance verification at scale.",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "arXiv:2611.04122",
+          "url": "https://arxiv.org/abs/2611.04122"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "54-Experiment Study: Whether an LLM Stops Self-Modifying Its Own System Prompt Is Determined by Model Identity, Not Task",
+      "summary": "An empirical study of iterative LLM self-modification across Claude Opus/Sonnet 4.5, GPT-4o, GPT-5.1, Grok-4, and Gemini-3 Pro found that convergence behavior is strongly model-specific—both Claude models always converged, GPT-4o almost never did—and that a shared core of stated values (honesty, clarity, curiosity) persisted stably across 100+ self-modifications.",
+      "date": "2026-11-03",
+      "links": [
+        {
+          "title": "arXiv:2611.01304",
+          "url": "https://arxiv.org/abs/2611.01304"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Grammar-Lens Benchmark: GPT-5.5 Pro Accuracy Scales with Reasoning Effort but Responses Increasingly Diverge from Human Answers",
+      "summary": "A formal computability-theory benchmark applied to GPT-5.5 at four reasoning effort levels found accuracy rising from 16% to 52% as effort increases, but that higher-compute responses diverge more from human responses to the same items—suggesting that capability scaling may introduce a systematic capability-versus-alignment tension measurable via formal benchmarks.",
+      "date": "2026-11-03",
+      "links": [
+        {
+          "title": "arXiv:2611.00555",
+          "url": "https://arxiv.org/abs/2611.00555"
+        }
+      ]
+    }
+  ]
+}
