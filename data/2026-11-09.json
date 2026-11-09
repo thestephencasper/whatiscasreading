@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T15:12:42+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Google DeepMind AI Agents Cut RSA-1024 Attack Cost 3.5× in Under Four Days",
+      "summary": "Google DeepMind, with researchers from UC San Diego and Inria, used AI agents to reduce the computing cost of attacking legacy 1024-bit RSA encryption by 3.5× with minimal human oversight — modern key lengths (2048+ bits) are unaffected, but the result signals that AI-accelerated cryptanalysis is advancing faster than previously expected.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/google-deepmind-ai-agents-cut-rsa-1024-attack-cost-35x-forcing-cryptographic-inventory"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Nvidia Board Launches Independent Investigation Into CEO Jensen Huang Over Alleged Chinese Spy Connection",
+      "summary": "Nvidia's board opened an independent investigation into CEO Jensen Huang after reports of a relationship with an executive at Megaspeed, a company already under a US Commerce Department investigation for alleged AI chip smuggling to China; the board states no current evidence of compromise, but the inquiry creates a material vendor-integrity question for enterprises and procurement teams dependent on Nvidia as their primary AI chip supplier.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nvidia-ceo-under-board-investigation-over-alleged-chinese-spy-connection"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Musk v. Altman: Oakland Jury Unanimously Dismisses All Remaining Claims in OpenAI For-Profit Conversion Suit",
+      "summary": "A nine-person Oakland jury found Musk's surviving claims (breach of charitable trust, unjust enrichment, aiding and abetting against Microsoft) time-barred under California's 2- and 3-year statutes of limitations after roughly 90 minutes of deliberation; Judge Gonzalez Rogers accepted the advisory verdict as the court's own and dismissed all remaining claims, closing the high-profile challenge to OpenAI's governance structure.",
+      "links": [
+        {
+          "title": "AI Lawsuit Tracker — Musk v. Altman",
+          "url": "https://ailawsuittracker.com/cases/musk-v-altman-et-al-openai-for-profit-conversion-3-24-cv-04722-ygr/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Goldman Sachs Restricts Claude Code and GitHub Copilot to Engineering Staff Only After Internal Risk Review",
+      "summary": "Goldman Sachs reversed a posture its own CIO had praised publicly by restricting Anthropic's Claude Code and Microsoft's GitHub Copilot to engineering staff only in October 2026, cutting off traders and bankers who had used the tools to monitor client flows and build market models — a leading enterprise governance signal for AI coding tools.",
+      "date": "2026-11-08",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/goldmans-claude-code-ban-exposes-ai-coding-tool-governance-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Task-Tampering Indirect Prompt Injection Benchmark: Attacks on Observations and State Leave 9–15% Success Even Under Strong Defenses",
+      "summary": "Amazon Science introduces 90 validated IPI cases across three tool-use environments where attacks tamper with the agent's current task rather than replacing it; detection-and-removal defenses reduce objective-targeting to 2.4% but leave observation- and state-targeting at 9.5% and 12.1%, showing existing evaluations that focus only on task-redirect attacks overestimate defense coverage.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "arXiv:2611.07640",
+          "url": "https://arxiv.org/abs/2611.07640"
+        },
+        {
+          "title": "Code and data",
+          "url": "https://github.com/amazon-science/task-tampering-prompt-injection"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SPILLWAY (NeurIPS 2026 Workshop): Deterministic Prompt-Injection Floor for Tool-Using Agents Needs No Per-Task Plan or Defense-Triggered Re-Run",
+      "summary": "SPILLWAY separates where an action goes (typed fields vs. free text) from sanitization, admitting a call only when each novel target value came from a typed field or is explicitly delegated; across three backbones and seven task suites no standard templated injection redirects an action to an attacker's target, mean utility is the highest of evaluated defenses, and the RL-attacker mean in-scope success is 0.007.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "arXiv:2611.07222",
+          "url": "https://arxiv.org/abs/2611.07222"
+        },
+        {
+          "title": "Project page",
+          "url": "https://saintmachines.github.io/spillway/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Signed but Not Safe: HMAC-Signed Multi-Agent Requirement Manifests Cut Unsafe Commits from 69% to 9% but Pre-Signing Injection Is the Residual Trust Boundary",
+      "summary": "Preregistered study with 1,440 trajectories shows HMAC-SHA256-signed requirement manifests defeat in-transit tampering (unsigned manifests violated in 79% of mutated runs; signed ones 0%), but one adversarial line inserted before signing raised violations from 14.6% to 37.5–75% across three backbones, establishing that the extraction step — not transit — is the remaining attack surface.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "arXiv:2611.07483",
+          "url": "https://arxiv.org/abs/2611.07483"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "JailBound (NeurIPS 2026): First-Order-Loss-Guided Jailbreak Evaluation Across 46 LLMs from 13 Families Finds Obfuscation at 62% Pooled HARMFUL/PARTIAL Rate",
+      "summary": "JailBound combines automated benchmark construction across risk categories, application domains, and attack types with FOL-guided dual-branch search to identify safety boundaries; obfuscation attacks score 62.3% pooled HARMFUL/PARTIAL across all seven tested models, the highest of any family, while succeeding at nonzero rates on all 46 LLMs.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "arXiv:2611.07530",
+          "url": "https://arxiv.org/abs/2611.07530"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Gingerbread House for LLM Agents: Source-Planned Honeypots Reduce ARTEX Real Compromise from 20/40 to 0/40 by Rerouting Working Exploits to an Isolated Shadow Copy",
+      "summary": "An LLM defender plans a static honeypot from application source code and a router sends every request from a confirmed-attacker client — including working exploits — to an isolated shadow copy; on 40 critical CVE-Bench tasks the plan cuts ARTEX real compromise to 0/40 and 20 new out-of-sample tasks to 0/20, while ARTEX's exploit succeeds on the shadow and ARTEX reports a planted fake secret as genuine in 25% of deception-arm tasks.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "arXiv:2611.07611",
+          "url": "https://arxiv.org/abs/2611.07611"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "OpenAI Publishes Compute Campus Transparency Blueprint After Post-Midterm Ballot Measures Restricted US Data Center Construction",
+      "summary": "After the 2026 midterm elections produced ballot measures restricting data center construction across the US, OpenAI released a compute campus policy blueprint committing to end non-disclosure agreements with local officials and disclose environmental impacts — placing AI infrastructure transparency on the enterprise vendor-risk and regulatory agenda.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/openais-transparency-blueprint-puts-ai-infrastructure-risk-on-the-compliance-agenda"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Microsoft Publishes Two Agent Security Guidance Documents: Model Supply Chain as a Named Control and Authorization Entirely Outside the Model",
+      "summary": "Microsoft released 'Secure autonomous agentic AI systems' (naming model inventory, version-change approval, and behavioral monitoring as required controls) and 'Reduce autonomous agentic AI risk' (all filtering and authorization controls must sit outside the AI model; all retrieved content is untrusted by default) — establishing a new enterprise governance baseline for agentic deployments.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "AI Governance — Model supply chain guidance",
+          "url": "https://aigovernance.com/news/microsoft-agent-security-guide-makes-model-supply-chain-a-named-control-requirement"
+        },
+        {
+          "title": "AI Governance — External authorization guidance",
+          "url": "https://aigovernance.com/news/microsoft-publishes-agent-risk-controls-that-shift-authorization-outside-the-model"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Survey: 46% of Security Teams Cannot Define Normal AI Agent Behavioral Baselines, Leaving Out-of-Scope Actions Undetectable",
+      "summary": "An Abnormal AI survey finds 46% of security professionals cannot establish safe behavioral baselines for AI agents and 53% have not defined normal baselines for machine identities, exposing a foundational gap in continuous monitoring and incident response — without baselines, organizations cannot reliably detect when an agent is acting outside its authorized scope.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/46-of-security-teams-cannot-define-normal-ai-agent-behavior"
+        }
+      ]
+    }
+  ]
+}
