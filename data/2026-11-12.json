@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T14:43:42+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "US Federal AI Safety Office Halts Public Research Reports Amid White House Oversight Arrangement",
+      "summary": "The US government AI safety center has stopped publishing research reports and faces questions about its independence after staff were directed to report to the White House — drawing calls from advocacy groups for a congressional investigation and raising concern about the independence of federal AI safety evaluation.",
+      "date": "2026-11-08",
+      "links": [
+        {
+          "title": "Fox News live blog (AP-sourced), Nov 8",
+          "url": "https://www.foxnews.com/live-news/ai-news-safety-11-08-26"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "METR's Ajeya Cotra: Anthropic Has Likely Crossed Its RSP 'Dramatic Acceleration' Threshold",
+      "summary": "METR evaluator Ajeya Cotra publicly argued that Anthropic has likely crossed the 'dramatic acceleration' threshold defined in its own Responsible Scaling Policy, raising the question of whether Anthropic's self-imposed commitments now require a pause or additional safeguards — the first time an external evaluator has made this claim publicly.",
+      "date": "2026-11-10",
+      "links": [
+        {
+          "title": "Humans on AI #69, Nov 10",
+          "url": "https://p3humansonai.substack.com/p/humans-on-ai-69-november-10-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "OpenAI, Anthropic, Microsoft + 16 Governments Sign 'Paris Call for AI Safety and Security'",
+      "summary": "Ten major AI companies including OpenAI, Anthropic, and Microsoft joined 16 governments in signing the Paris Call for AI Safety and Security on November 10, representing a new round of international safety coordination that extends beyond the earlier voluntary White House accord.",
+      "date": "2026-11-10",
+      "links": [
+        {
+          "title": "Humans on AI #69, Nov 10",
+          "url": "https://p3humansonai.substack.com/p/humans-on-ai-69-november-10-2026"
+        },
+        {
+          "title": "MLex AI briefing (headline), Nov 10",
+          "url": "https://www.mlex.com/mlex/artificial-intelligence"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "WEF 'Governing Agentic AI' Report: Verifiable Agent Identities, Named Owners, Least-Privilege Credentials, and Cross-Org Incident Reporting",
+      "summary": "The World Economic Forum published a systemic-risk governance framework for autonomous AI agents, calling for verifiable agent identities, named human or legal owners for each agent, least-privilege access credentials, comprehensive action logging, and incident and near-miss reporting across organizational boundaries — setting a new baseline for enterprise and regulatory expectations.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "AI Governance Institute, Nov 12",
+          "url": "https://aigovernance.com/news/wef-report-sets-systemic-risk-baseline-for-agentic-ai-governance"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "OCC Supervisory Framework Brings Generative and Agentic Bank AI Under Formal Examiner Scrutiny for the First Time",
+      "summary": "The OCC issued a non-binding supervisory framework directing examiners to review how national banks use AI in credit decisioning, payments, fraud detection, and risk management, filling a gap left by April 2026 interagency model risk guidance that explicitly excluded generative and agentic AI as 'novel and rapidly evolving.'",
+      "date": "2026-11-04",
+      "links": [
+        {
+          "title": "AI Governance Institute, Nov 12",
+          "url": "https://aigovernance.com/news/occ-supervisory-framework-puts-generative-and-agentic-bank-ai-under-examiner-scrutiny"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "UK DRCF: Developers and Deployers Must Share Accountability for AI Harms Across the Supply Chain",
+      "summary": "The UK's Digital Regulation Cooperation Forum published guidance on November 12 that responsibility for AI harms should be distributed between developers and deployers — a signal that UK regulators are moving toward shared-liability frameworks rather than placing accountability exclusively at one point in the AI supply chain.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "MLex AI briefing (headline), Nov 12",
+          "url": "https://www.mlex.com/mlex/artificial-intelligence"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Nvidia Shareholders File Suit Over CEO Huang's Undisclosed Affair, Alleging Concealment of National Security Risk to Share Price",
+      "summary": "Nvidia shareholders filed a lawsuit alleging that CEO Jensen Huang's failure to disclose his relationship with Alice Huang artificially inflated share prices and that the resulting national security concerns present a material risk to the company's business prospects — a development distinct from the board's concurrent independent investigation.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "Just Security Early Edition, Nov 10",
+          "url": "https://justsecurity.org/163937/early-edition-november-10-2026"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "SGLang RCE Vulnerability Exploited to Execute Code on NEAR AI Inference Server (Nov 8)",
+      "summary": "An attacker exploited a remote code execution flaw in the SGLang open-source LLM inference engine on November 8 to run code on a NEAR AI inference server, illustrating how vulnerabilities in widely-used AI-serving infrastructure translate directly into unauthorized model access.",
+      "date": "2026-11-08",
+      "links": [
+        {
+          "title": "CSA CISO Daily Briefing, Nov 11",
+          "url": "https://labs.cloudsecurityalliance.org/research/ciso-daily-briefing-20261111/"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ACM-Published Adaptive Visual Prompt Injection Forces Multimodal Agents to Leak Data and Make Unauthorized Tool Calls Without Model Internals Access",
+      "summary": "Researchers publishing in the ACM demonstrated an adaptive visual prompt injection technique that manipulates AI agents processing untrusted images, websites, documents, or emails to leak personal information or trigger unauthorized tool calls — a control gap unaddressed by existing text-based input filters for multimodal agent deployments.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "AI Governance Institute, Nov 11",
+          "url": "https://aigovernance.com/news/visual-prompt-injection-in-multimodal-agents-exposes-a-tool-call-control-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Long-Context Safety Gap: Reasoning LLMs Refuse Explicit Harmful Requests But Not Harmful Intent Inferred From Distributed Context Fragments (NeurIPS 2026)",
+      "summary": "Compositional reasoning attacks scatter harmful requests across semantically incomplete context fragments so models must infer the harmful objective from the neutral final query; refusal rates drop substantially compared to explicit requests, and even increasing inference-time reasoning effort leaves unsafe responses occurring — revealing a 'long-context safety gap' that existing safety evaluations do not capture.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "arXiv:2602.08874 (NeurIPS 2026)",
+          "url": "https://arxiv.org/abs/2602.08874"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ActiveSecHarness: Neurosymbolic Reference-Monitor Blocks 100% of Attacks on AI Coding Agents at 12.7 µs With Zero False Positives",
+      "summary": "A neurosymbolic reference-monitor using Macaroon-inspired capability tokens, a 2D product taint lattice, and deterministic Ring-0 OS guards achieves ABR=1.000 and FPR=0.000 across 252 attack/benign/kill-chain fixtures at 12.7 microseconds — over 11,000× faster than an LLM-as-judge guardrail that rejects 98.3% of benign work, demonstrating that security in agentic systems is a structural property of the architecture, not an emergent property of the model.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "arXiv:2611.13960",
+          "url": "https://arxiv.org/abs/2611.13960"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Springer Nature Peer-Reviewed: Four Structural Accountability Gaps Where Agentic AI Vendors Control Alignment Deployers Cannot Audit",
+      "summary": "A peer-reviewed Springer Nature paper identifies four systemic risks in agentic AI vendor arrangements — delegated authority without clear ownership, vendor-controlled alignment measures that deployers cannot audit, limited inspection rights over agent behavior, and gaps in incident response responsibility — with direct implications for vendor risk programs, human oversight requirements, and AI governance documentation.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "AI Governance Institute, Nov 12",
+          "url": "https://aigovernance.com/news/vendor-custody-delegated-authority-and-the-agentic-ai-accountability-gap"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "TERM: Inference-Time Jailbreak Defense via Attention-Entropy Calibration Outperforms 7 Defenses Across 7 Attack Types on Llama/Qwen/Gemma Models",
+      "summary": "TERM adaptively modulates a model's own residual updates based on prompt-calibrated attention entropy deviations without requiring a predefined safety direction, outperforming seven other defenses on seven jailbreak attacks while maintaining low over-refusal on benign safety-sensitive requests across Qwen3 models from 0.6B to 32B.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "arXiv:2611.13577",
+          "url": "https://arxiv.org/abs/2611.13577"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "5G CATS: Co-Packaged 5G Radio Certifies Where AI Accelerators Operate Post-Deployment, Rejecting Fiber Relays From 300 km — Directly Enabling Chip Export-Control Enforcement",
+      "summary": "5G CATS co-packages a 5G radio and cryptographic engine on the GPU, terminating round-trip verification inside the chip to remove host software from the trust path; URLLC narrows 99.9th-percentile round-trip spread to 2.60 ms in simulation, rejecting fiber relays from 300 km, providing a hardware mechanism to cryptographically certify AI accelerator locations for post-deployment export-control compliance.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "arXiv:2611.13437",
+          "url": "https://arxiv.org/abs/2611.13437"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Mechanistic Interpretability Needs a Logic of Inference: Five Principles for When Interpretability Findings Constitute Genuine Mechanistic Explanations (NeurIPS 2026 Oral)",
+      "summary": "An oral presentation at NeurIPS 2026's Interp4Discovery workshop proposes five principles and a recursive logic distinguishing decodability, shape, ownership, and causal use — arguing that existing interpretability tools often stop at surface-level observations and do not establish that an identified mechanism actually mediates model behavior, with implications for safety-relevant interpretability claims.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "arXiv:2611.14483",
+          "url": "https://arxiv.org/abs/2611.14483"
+        }
+      ]
+    },
+    {
+      "tag": "Misc",
+      "title": "HCLTech-MIT Media Lab: Agent-Level Safety Controls Are Insufficient Once AI Agents Coordinate at Ecosystem Scale via Open Discovery Protocols",
+      "summary": "HCLTech and MIT Media Lab published joint research on NandaIndex, an open agent-discovery protocol, arguing that safety controls focused on individual agents break down once agents coordinate across organizational and platform boundaries — and calling for systemic monitoring, incident-learning mechanisms, and cross-ecosystem accountability infrastructure.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "AI Governance Institute, Nov 12",
+          "url": "https://aigovernance.com/news/hcltech-mit-research-agent-discovery-infrastructure-exposes-systemic-governance-gap"
+        }
+      ]
+    }
+  ]
+}
