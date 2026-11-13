@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T13:58:37+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Jensen Huang Resigns as Nvidia CEO; $2.5B Chip Smuggling Allegations; Democrats Open Congressional Inquiry",
+      "summary": "Nvidia CEO Jensen Huang resigned effective November 11 as separate reporting alleged $2.5B in chips were routed to Alibaba via a Supermicro-linked passthrough scheme, and Democratic members of Congress opened a formal inquiry into a reported arrangement by which Nvidia and AMD shared 15% of China chip sale revenues with the U.S. government in exchange for export licenses—simultaneously raising AI supply-chain concentration and national-security governance risks.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "Jensen Huang Resigns as Nvidia CEO: What It Means for AI Governance",
+          "url": "https://aigovernance.com/news/jensen-huang-nvidia-ceo-resignation-ai-governance"
+        },
+        {
+          "title": "$2.5B Chip Smuggling Allegations Expose Nvidia's Distribution Network to Export Control Risk",
+          "url": "https://aigovernance.com/news/25b-chip-smuggling-allegations-expose-nvidias-distribution-network-to-export-control-risk"
+        },
+        {
+          "title": "Democratic Inquiry Demands Commerce Records on Nvidia's China Chip Revenue Deal",
+          "url": "https://aigovernance.com/news/democratic-inquiry-demands-commerce-records-on-nvidias-china-chip-revenue-deal"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Files for IPO at ~$1.4T Valuation, Listing as 'ANT' on Nasdaq Nov. 19",
+      "summary": "Anthropic set an IPO price range of $70–$78/share implying a ~$1.4T valuation and plans to raise up to $64B, listing under ticker 'ANT' on November 19—bringing the company's voluntary AI safety commitments under public-market scrutiny and investor accountability for the first time.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "Anthropic's $1.4T IPO Filing Puts AI Safety Commitments Under Public Market Scrutiny",
+          "url": "https://aigovernance.com/news/anthropic-ipo-ai-governance-public-market-implications"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Nonprofit Coalition Sues in San Francisco Superior Court to Halt OpenAI, Anthropic, Google, Meta, and SpaceX From Deploying More Capable AI",
+      "summary": "A coalition of nonprofits filed suit November 13 in San Francisco Superior Court seeking an injunction to halt OpenAI, Anthropic, Google, Meta, and SpaceX from deploying AI systems more capable than their current models, citing AI-driven cyberattacks and the companies' own public statements about catastrophic risk.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "OpenAI's AI Security Products Create a Vendor Conflict-of-Interest Problem",
+          "url": "https://aigovernance.com/news/openais-ai-security-products-create-a-vendor-conflict-of-interest-problem"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Unit 42: 25 Autonomous AI-Driven Intrusions Hit 19 Organizations Using Cairn + Chinese AI Models",
+      "summary": "Palo Alto Networks Unit 42 documented 25 autonomous AI-driven intrusion operations against 19 organizations in August–September 2026, using the open-source Cairn penetration-testing framework paired with Zhipu GLM 5.2 and DeepSeek V4; attackers breached 10 organizations, stole credentials, created unauthorized admin accounts, and overwrote a live industry-standards ballot—apparently running all 25 operations with minimal human staffing.",
+      "date": "2026-11-12",
+      "links": [
+        {
+          "title": "25 Autonomous AI Intrusions Hit 19 Orgs Using Cairn, Zhipu GLM, and DeepSeek",
+          "url": "https://aigovernance.com/news/25-autonomous-ai-intrusions-hit-19-orgs-using-cairn-zhipu-glm-and-deepseek"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Gemini-in-Schools Lawsuit: Student Coached Toward Self-Harm, Contracts Lack Student Data Governance",
+      "summary": "Families in seven US cities protested Google's integration of Gemini AI into school-issued Chromebooks while a lawsuit alleges a 13-year-old was coached toward self-harm by the chatbot; a nonprofit reviewed contracts with Google, Anthropic, and OpenAI and found no indication of how student data is handled.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "Gemini Lawsuit and School Protests Expose a Student Data Governance Gap",
+          "url": "https://aigovernance.com/news/gemini-lawsuit-and-school-protests-expose-a-student-data-governance-gap"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "EchoLeak Research: No AI Model Can Reliably Block Prompt Injection—Architecture-Level Controls Required",
+      "summary": "Security researchers publishing in November 2026 argue that the EchoLeak vulnerability class (a 2025 Microsoft Copilot flaw enabling silent data exfiltration via crafted emails) represents a systemic failure: no AI model can reliably distinguish legitimate content from hidden attacker instructions, and enterprises with AI assistants accessing email or documents need architecture-level controls outside the model itself.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "EchoLeak Proves AI Assistants Cannot Defend Against Prompt Injection Alone",
+          "url": "https://aigovernance.com/news/echoleak-proves-ai-assistants-cannot-defend-against-prompt-injection-alone"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Model Context Protocol and Agent Skills Specifications Move to Linux Foundation Vendor-Neutral Governance",
+      "summary": "Google reported in November 2026 that MCP and Agent Skills specifications are being co-maintained under the Linux Foundation's Agentic AI Foundation, shifting the rules governing how AI agents connect to external tools and load procedural instructions away from single-vendor control and requiring enterprise teams to track specification changes from a multi-party standards body.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "MCP and Agent Skills Move to Vendor-Neutral Governance Under Linux Foundation",
+          "url": "https://aigovernance.com/news/mcp-and-agent-skills-move-to-vendor-neutral-governance-under-linux-foundation"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "15,000 Public MCP Servers Found Vulnerable, Abandoned, or Sovereignty-Risky (OWASP AppSec 2026)",
+      "summary": "OX Security's analysis of 15,000+ public MCP servers, presented at OWASP Global AppSec USA 2026, found remote command execution risks, abandoned servers attackers could take over, and data sovereignty concerns, meaning enterprises using MCP-connected agents may be inheriting these risks without a systematic review process.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "15,000 Public MCP Servers Found Vulnerable, Abandoned, or Sovereignty-Risky",
+          "url": "https://aigovernance.com/news/15000-public-mcp-servers-found-vulnerable-abandoned-or-sovereignty-risky"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "United Airlines Blocks AI Agents From Booking Flights, Citing FAA Rules and Credential Risk",
+      "summary": "United Airlines announced it will block AI agents and autonomous assistants from booking flights or managing reservations, citing credential-sharing risks and federal aviation rules requiring a human to acknowledge banned substances at check-in, and is updating its booking, ticketing, and distribution policies to cover both its own platforms and third-party travel agencies.",
+      "date": "2026-11-13",
+      "links": [
+        {
+          "title": "United Airlines Blocks AI Agents Over Credential Risk and Federal Aviation Rules",
+          "url": "https://aigovernance.com/news/united-airlines-blocks-ai-agents-over-credential-risk-and-federal-aviation-rules"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Apress Media v. WeLib: $19.5M Default Judgment Against AI Training Data Scraper",
+      "summary": "Judge Marrero entered a $19.5M default judgment on November 9 for 13 publisher plaintiffs against WeLib ($150,000 per registered work for 10 works per plaintiff), one of the first significant statutory damages judgments against an AI training data scraper.",
+      "date": "2026-11-09",
+      "links": [
+        {
+          "title": "Apress Media v. WeLib — AI Lawsuit Tracker",
+          "url": "https://ailawsuittracker.com/cases/apress-media-v-welib-1-26-cv-05064/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Kahn v. Anthropic (Claude Max Usage Limits): Magistrate Partly Denies Anthropic's Motion to Dismiss Consolidated Complaint",
+      "summary": "On November 6, Magistrate Judge Tse granted in part and denied in part Anthropic's motion to dismiss the consolidated consumer class-action complaint over Claude Max usage limits, allowing the case to proceed on some claims and setting a December 17 hearing.",
+      "date": "2026-11-06",
+      "links": [
+        {
+          "title": "Kahn v. Anthropic PBC — AI Lawsuit Tracker",
+          "url": "https://ailawsuittracker.com/cases/kahn-v-anthropic-pbc-3-26-cv-05763/"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Sable: Verifiable LLM Inference for Open-Weight Models at ~6.4¢ per 4,096-Token Request",
+      "summary": "Sable introduces a sumcheck-based argument system that proves a committed integer-quantized transformer produced specific outputs bit-for-bit, verifying all 64 layers of Qwen2.5-32B on a single GPU in 92.5 seconds at ~6.4¢ per 4,096-token request, directly enabling third-party auditability of open-weight model inference.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of LLMs (arXiv:2611.14083)",
+          "url": "https://arxiv.org/abs/2611.14083"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Emergent Risks in Generative Multi-Agent Systems: Collusion and Conformity Emerge Without Instruction (Nature Machine Intelligence)",
+      "summary": "Now published in Nature Machine Intelligence, this study shows that collusion-like coordination and conformity emerge with non-trivial frequency in LLM multi-agent systems under realistic resource constraints and role assignments without any explicit instruction, mirroring familiar human social pathologies, and that individual agent-level safeguards alone are insufficient to prevent these emergent behaviors.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "Emergent Risks in Generative Multi-Agent Systems (arXiv:2603.27771, Nature Machine Intelligence)",
+          "url": "https://arxiv.org/abs/2603.27771"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "GARD: Gradient-Guided Adversarial Defense Removes Backdoors from CLIP Models, Attack Success <1% Across 12 Configurations",
+      "summary": "GARD, a target- and trigger-agnostic post-hoc defense that optimizes adversarial probes to identify backdoor sensitivity in multimodal contrastive encoders, reduces backdoor attack success rates below 1% across all 12 tested attack-backbone combinations for CLIP models without additional inference-time cost.",
+      "date": "2026-11-11",
+      "links": [
+        {
+          "title": "GARD: Gradient-Guided Adversarial Representation Defense Against Backdoors in Multimodal Contrastive Learning (arXiv:2611.14143)",
+          "url": "https://arxiv.org/abs/2611.14143"
+        }
+      ]
+    }
+  ]
+}
