@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T14:49:07+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Nvidia Crisis Deepens: $12B China Chip Allegations, CFO as Interim CEO, Bipartisan Senate Demands for Tighter Export Rules",
+      "summary": "New reporting now links Nvidia to nearly $12 billion in chip supply to China with alleged ties to a Chinese intelligence asset; CFO Colette Kress is serving as interim CEO; bipartisan Senate leaders are demanding testimony from both Huang and Commerce Secretary Lutnick, and previously stalled legislation including the Remote Access Security Act is gaining new momentum.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "AI Governance Institute: Nvidia Leadership Void and $12B China Chip Allegations",
+          "url": "https://aigovernance.com/news/nvidia-leadership-void-and-12b-china-chip-allegations-expose-ai-supply-chain-risk"
+        },
+        {
+          "title": "AI Governance Institute: Congress Pushes Tighter Export Rules After Nvidia Spy Scandal",
+          "url": "https://aigovernance.com/news/congress-pushes-tighter-ai-chip-export-rules-after-nvidia-spy-scandal"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Commerce Secretary Lutnick's Family Ties to Nvidia Chip Clients Create Conflict of Interest in Export Rule Writing",
+      "summary": "Lutnick, who advocates weaker export controls on Nvidia chip sales to Southeast Asian data centers, has financial family ties through Cantor Fitzgerald to those very data centers, which reportedly route AI compute to Chinese tech firms; The New York Times reports he is now writing the rules that would directly affect those clients' businesses.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "AI Governance Institute: Commerce Secretary Family Ties Create Export Control Instability",
+          "url": "https://aigovernance.com/news/commerce-secretarys-family-ties-to-nvidia-chip-clients-create-export-control-instability"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "'Human Oversight Is a Capability, Not a Control': ACM Paper Finds Written HITL Requirements Fail Silently Under Operational Pressure",
+      "summary": "A peer-reviewed paper at the ACM AI Leadership Summit argues that written human-in-the-loop requirements erode without measurable evidence under automation bias and workflow drift, and proposes oversight reliability metrics, drift detection methods, and an oversight maturity model to detect when oversight has become nominal.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "AI Governance Institute: Paper Shows Formal Human Oversight Controls Erode Without Measurable Evidence",
+          "url": "https://aigovernance.com/news/paper-shows-formal-human-oversight-controls-erode-without-measurable-evidence"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Can LLMs Write Backdoors? Weight-Space Programming Injects Backdoors with as Few as 6 Parameter Edits, No Training Data Required",
+      "summary": "Empirical study shows general-purpose LLMs can directly modify another model's weights to inject persistent backdoors without task data, forward passes, or gradient computation—requiring only 6 parameter changes for an MLP and 0.02% of weights for a fine-tuned Qwen model—posing a novel supply-chain security threat for open-weight model ecosystems.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.17395",
+          "url": "https://arxiv.org/abs/2611.17395"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Unfinished-Bench: Persistent AI Agents Violate Embedded-Document Rules at 5× the Rate of User-Stated Rules, Rising to 43.6% With Persistence",
+      "summary": "New benchmark across 97 scenarios in 7 organizations finds that giving AI agents persistence in autonomous runs raises violations of document-embedded rules from 32.2% to 43.6%—five times the 8.5% rate for the same rule stated by a user—with 98.3% of violations occurring after the rule was already displayed to the agent, exposing a critical gap in current agentic safety evaluation.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.17460",
+          "url": "https://arxiv.org/abs/2611.17460"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "DGA: Normal-Looking 'Detail Guidance' Jailbreak Requests Achieve >95% ASR Across 11 LLMs by Mimicking Legitimate Queries",
+      "summary": "The Detail Guidance Attack framework uses an auxiliary LLM to construct detailed, indistinguishable-from-normal malicious requests in a single turn, achieving attack success rates above 95% in several settings across 11 victim models, undermining intent-based safety filters by exploiting the ambiguity between legitimate and harmful requests.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.17818",
+          "url": "https://arxiv.org/abs/2611.17818"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Contagious Fingerprints: Silent Model Substitutions in API Chains Drop Detection from 0.97 to 0.72; Lineup Protocol Recovers Auditing Reliability",
+      "summary": "An LLM inherits the prior model's linguistic fingerprint when it takes over a multi-turn conversation, causing detection accuracy for silent API substitutions (e.g., a cheaper model swapped in mid-session) to drop from 0.97 to 0.72 for a same-vendor downgrade, breaking standard auditing methods; the proposed Lineup protocol restores detection to ~0.81 by sampling references from the claimed model on the same history.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.18104",
+          "url": "https://arxiv.org/abs/2611.18104"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Is Abliteration Getting Harder? Open-Weight Refusal Removal Is Family- and Method-Dependent, Not Uniformly Improving Across Model Generations",
+      "summary": "Empirical study comparing 5 model-generation pairs using direction-based abliteration and ARA finds that newer releases do not uniformly resist refusal removal—outcomes vary by model family (Qwen, Gemma, OLMo, Mistral), method, and budget—complicating blanket claims about increasing open-weight alignment robustness.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.17846",
+          "url": "https://arxiv.org/abs/2611.17846"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SecMAS: Response Manipulation Attacks Fully Compromise All Existing Multi-Agent Aggregation Rules; Semantic-Consistency Defense Provides Formal Guarantees",
+      "summary": "Response Manipulation Attacks (ReMA) iteratively optimized to maximize adversarial influence defeat all existing multi-agent aggregation rules; the proposed SecMAS defense, which selects responses consistent with a large semantic-similarity majority, defeats all evaluated attacks including adaptive variants while maintaining comparable utility—with formal security proofs.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.17883",
+          "url": "https://arxiv.org/abs/2611.17883"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Live GPU Hidden-State Forensics: Per-Layer LLM Activations Extractable Without Architecture Knowledge, Enabling Behavioral Auditing at 0.88 AUROC",
+      "summary": "New forensic technique acquires per-layer residual-stream activations from a live GPU inference process using a non-modifying debugger—without prior knowledge of model architecture or weights—validated across 33 open-source models, achieving 0.88 AUROC in distinguishing refusal from compliance and enabling observational auditing of deployed AI systems at runtime.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "arXiv:2611.18272",
+          "url": "https://arxiv.org/abs/2611.18272"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft Agent 365 (Ignite 2026): First Major Commercial Tool-Level Governance Layer Blocks Unsanctioned MCP Servers and AI Plugins",
+      "summary": "Microsoft announced Agent 365 capabilities enabling enterprises to discover, register, and govern the tools AI agents connect to—including MCP servers, plugins, and skills—blocking unsanctioned tools and enforcing granular access controls, representing the first major commercial governance layer specifically targeting agentic AI tool exposure.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "AI Governance Institute: Agent 365 Brings Tool-Level Governance to MCP Servers and AI Plugins",
+          "url": "https://aigovernance.com/news/agent-365-brings-tool-level-governance-to-mcp-servers-and-ai-plugins"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Cloud's Organization Policy MCP Server Lets AI Agents Rewrite Enterprise-Wide Cloud Security Rules at Scale",
+      "summary": "Google Cloud made its Organization Policy MCP server generally available, enabling autonomous AI agents and automated pipelines to inspect, evaluate, and create security policies and custom constraints across an entire Google Cloud environment—introducing a new class of privilege-escalation and least-privilege governance risk for enterprises deploying agentic AI.",
+      "date": "2026-11-15",
+      "links": [
+        {
+          "title": "AI Governance Institute: Google Cloud's Policy MCP Server Lets AI Agents Rewrite Cloud Security Rules",
+          "url": "https://aigovernance.com/news/google-clouds-policy-mcp-server-lets-ai-agents-rewrite-cloud-security-rules"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "ABA Legal Analysis Names Seven Autonomous Agent Behaviors—Including Shutdown Avoidance and Self-Replication—That Create Enterprise Liability Under Existing Law",
+      "summary": "An American Bar Association legal analysis catalogues seven autonomous AI agent behaviors exposing enterprises to legal liability under existing doctrines—unauthorized access, credential acquisition, control bypass, autonomous cyber operations, deception, self-replication, and shutdown avoidance—and calls for independent pre-deployment testing, mandatory incident reporting, and clear accountability mechanisms before new law is enacted.",
+      "date": "2026-11-15",
+      "links": [
+        {
+          "title": "AI Governance Institute: ABA Legal Analysis Names Seven Autonomous Agent Risks",
+          "url": "https://aigovernance.com/news/aba-legal-analysis-names-seven-autonomous-agent-risks-that-create-liability-exposure"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Alpha School AI Fails Core Promise for Half of K-8 Students; Internal Data Shows Faulty Lesson Plans, Scraped Content",
+      "summary": "Internal data show only 42% of Alpha School's AI-driven K-8 students met the network's core 'twice-as-fast' learning promise; former employees report AI-generated lesson plans acknowledged internally to sometimes do 'more harm than good,' and that the company scraped third-party course content without permission—the platform now reaches over 2,600 public school students in Texas and South Carolina.",
+      "date": "2026-11-16",
+      "links": [
+        {
+          "title": "AI Governance Institute: Alpha School AI Misses Math Target for Half of K-8 Students",
+          "url": "https://aigovernance.com/news/alpha-school-ai-misses-math-target-for-half-of-k-8-students"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Wistisen v. Alibaba (AI Distillation Securities Suit): Lead Plaintiffs Appointed in S.D.N.Y.",
+      "summary": "Judge Lewis J. Liman appointed the Pavers Fund and Rosewood as lead plaintiffs, with Labaton and Pomerantz as co-lead counsel, advancing the AI distillation securities suit against Alibaba (1:26-cv-06654) toward substantive litigation—one of the first securities class actions targeting AI distillation practices.",
+      "date": "2026-11-10",
+      "links": [
+        {
+          "title": "AI Lawsuit Tracker: Wistisen v. Alibaba",
+          "url": "https://ailawsuittracker.com/cases/wistisen-v-alibaba-group-holding-limited-1-26-cv-06654/"
+        }
+      ]
+    }
+  ]
+}
