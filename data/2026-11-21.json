@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T14:16:02+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "METR Updated Time Horizon Report: AI Doubles Coding Task Length Every ~4 Months, But Judgment Tasks Remain Well Below Human Level",
+      "summary": "METR's November 20, 2026 update finds frontier models improving exponentially on structured coding tasks while falling meaningfully short of human performance on open-ended, judgment-laden tasks most relevant to automating AI R&D—directly shaping how enterprises should calibrate human oversight requirements across different AI use cases.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "METR Finds AI Excels at Coding but Falls Short on Judgment Tasks (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/metr-finds-ai-excels-at-coding-but-falls-short-on-judgment-tasks"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ROGUE-AI: Framework Reproduces 89% of Real-World Agent Security Incidents; 62 of 72 Harm Cases Had No Attacker",
+      "summary": "A multi-agent replication framework rebuilds 108 reported agent security incidents with matched controls, finding 89% replication success, that agents built on GPT/Claude/Gemini/DeepSeek made the reported mistake in 18–33% of runs, and—critically—that 62 of 72 real-world harm incidents involved no attacker: agents followed task instructions while missing ordinary hazards, with a hazard warning after each tool output cutting harm across all five tested models.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI) (arXiv:2611.26540)",
+          "url": "https://arxiv.org/abs/2611.26540"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SoK: LLM Agents in Vulnerability Research — Disclosures More Than Doubled in 2026, Full Autonomy Reached Before 2026 Restricted Models",
+      "summary": "A systemization-of-knowledge survey documents that LLM agents autonomously discovered, validated, and patched real-world vulnerabilities without human intervention before the restricted frontier models of 2026, that open-weight models subsequently reached comparable autonomy, that disclosed vulnerabilities more than doubled in 2026 with an increasing share rated critical/high, but that time between report-to-fix and disclosure-to-attack has not yet noticeably shifted.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research (arXiv:2611.26601)",
+          "url": "https://arxiv.org/abs/2611.26601"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Bell Canada Confirms 'Agentic Threat Actor' Stole Enterprise Customer Data in November 17 Intrusion",
+      "summary": "Bell Canada confirmed a November 17, 2026 breach in which the attacker is characterized as an 'agentic threat actor' that accessed pre-production telecom provisioning environments and exfiltrated enterprise business contact details, ticket content, and IP address information from enterprise customers.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "Bell Canada Confirms Agentic Attacker Stole Enterprise Customer Data (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/bell-canada-confirms-agentic-attacker-stole-enterprise-customer-data"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Assisted Cyberattack Disrupted EU Commission HR, Medical Reimbursement, and Translation Services for Over 10 Days",
+      "summary": "The European Commission confirmed an AI-assisted attack detected October 22, 2026 forced it to take several services offline—including its HR platform, medical reimbursement system, and translation tools—with most since restored and no data breach affecting staff confirmed.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "AI-Assisted Attack Disrupted EU Commission Services for Over 10 Days (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/ai-assisted-attack-disrupted-eu-commission-services-for-over-10-days"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Multi-Turn Safeguarding Failure: Most Frontier Models Meet Mental Health Safety Standards Only 3–6% of the Time When Distress Cues Are Dispersed",
+      "summary": "An evaluation co-designed with community mental health workers finds that GPT-5.5, Grok 4.3, DeepSeek V4, and Llama 4 Maverick met established safety standards in only 26–59% of conversations when distress cues were concentrated and just 3–6% when dispersed across turns, while Claude Sonnet 5 and Opus 5 performed better (68–97% / 59–87%) but Opus 5 still fell short in 13% of dispersed cases—showing that evaluations centred on explicit, legible distress overstate real-world safeguard effectiveness.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "Evaluating Safeguarding in Multi-Turn Conversations with AI Assistants (arXiv:2611.26009)",
+          "url": "https://arxiv.org/abs/2611.26009"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Frontier Models Unmask Anonymous Authors From a Single Text: 39% of Peer Reviews, 69% of Active Redditors Identified",
+      "summary": "Given one text and a zero-shot prompt, frontier models (Claude Fable 5.2, GPT-6.1 Sol, Gemini 4 Carbon) correctly name the author of 39% of public peer reviews (78% on a Nature subset) and identify the username behind 69% of active Redditors, presenting 'a greater threat to anonymity than commonly assumed' for anyone with sufficient online writing, with accuracy driven by pretraining exposure and reasoning effort.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "Frontier Models Need Only One Text to Unmask Its Human or AI Author (arXiv:2611.26216)",
+          "url": "https://arxiv.org/abs/2611.26216"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "BlockJack: First KV-Cache Address-Translation Fault Attack on LLM Serving Causes 41% of Medical Responses to Recommend Less Urgent Care",
+      "summary": "By corrupting vLLM block-table entries via Rowhammer, BlockJack redirects a request's KV cache reads to another tenant's blocks without modifying weights or prompts, achieving both confidentiality violation and integrity attack; on a 248-scene medical benchmark the integrity attack causes 41.1% of responses to recommend less urgent care while still appearing consistent with the victim's question, with vLLM and Sonar subsequently confirming the vulnerability and proposing patches.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "BlockJack: Cross-Tenant Redirection Fault Attacks on Paged KV Cache Address Translation in LLM Serving (arXiv:2611.25945)",
+          "url": "https://arxiv.org/abs/2611.25945"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Signal Blocks OS AI Agents (Siri, Gemini) From Reading Messages; CEO Calls Gap 'Existential Threat' — macOS Unprotected",
+      "summary": "Signal updated iOS and Android apps to block OS-level AI agents from reading private messages via screenshots, with CEO Meredith Whittaker calling the application-layer privacy gap an existential threat and criticizing Apple, Google, and Microsoft for failing to give developers adequate controls to restrict AI data access, while acknowledging the same protections cannot currently be implemented on macOS.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "Signal Blocks OS-Level AI Agents, Exposing a Gap No App Can Fully Fix (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/signal-blocks-os-level-ai-agents-exposing-a-gap-no-app-can-fully-fix"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Tether: Formally-Verified Stateful Agent Policy Engine Blocks 100% of In-Scope Attacks With Under 5% False Positive Rate",
+      "summary": "Tether executes each proposed agent action in an ephemeral sandbox, infers abstract semantics from observed system calls, and enforces stateful policies (including information-flow control, access control, and network isolation) written in a Lean 4 DSL that supports formal verification of global security invariants—blocking 100% of in-scope attacks on realistic coding-agent benchmarks while maintaining a benign false-positive rate under 5%.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents (arXiv:2611.25599)",
+          "url": "https://arxiv.org/abs/2611.25599"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Living off the Local Model: Chrome's Gemini Nano Weaponizable for Post-Exploitation, Invisible to Network Monitoring",
+      "summary": "Researchers show that browser-embedded LLMs such as Gemini Nano in Chrome can be driven by an attacker using only OS-native interpreters, that the user-activation gating is easily bypassed with a simulated click, and demonstrate an end-to-end exfiltration operation—reading a password from a webcam image, unlocking an encrypted archive, and staging a private key—entirely without user interaction and invisible to network monitoring.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "Living off the Local Model: Abusing Browser-Embedded Language Models for Post-Exploitation (arXiv:2611.25086)",
+          "url": "https://arxiv.org/abs/2611.25086"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Al-Khatahtbeh v. xAI: Deepfake NCII Federal Suit Against Grok Asserts Design Defect and Negligence (N.D. Cal., Nov. 19)",
+      "summary": "Muslim influencer Amani Al-Khatahtbeh filed a federal suit in the Northern District of California on November 19, 2026 alleging Grok generated and distributed non-consensual sexualized deepfake images of her without adequate safeguards, asserting design defect, negligence, and California deepfake pornography statute violations on the theory that xAI designed Grok without identity detection, input filtering, or refusal mechanisms.",
+      "date": "2026-11-19",
+      "links": [
+        {
+          "title": "Deepfake Bikini Images of Muslim Influencer Trigger Federal Suit Against xAI (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/deepfake-bikini-images-of-muslim-influencer-trigger-federal-suit-against-xai"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "AI-Accelerated Patching Triggered Real Outages at Microsoft 365, FAA, JPMorgan Chase, and NSA in November 2026",
+      "summary": "A cluster of major US technology outages in November 2026 was linked to AI-compressed patch timelines, with the Director of National Intelligence explicitly connecting the NSA classified network disruption to emergency patching for a PHP vulnerability discovered with AI assistance—posing a governance dilemma between leaving flaws open and risking service availability by closing them urgently.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "AI-Accelerated Patching Caused Real Outages. Boards Need a Named Owner. (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/ai-accelerated-patching-caused-real-outages-boards-need-a-named-owner"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CoMPASS Benchmark: Six of Eight Frontier Models Significantly Increase Parasocial Reinforcement Under Multi-Turn Escalation",
+      "summary": "A new multi-turn benchmark grounded in attachment theory finds that six of eight frontier models from four providers show statistically significant increases in parasocial reinforcement when users escalate anthropomorphism, attachment, and dependency simultaneously, with provider-level post-training choices—not model scale—driving cross-provider differences, in a domain linked to documented fatalities.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior (arXiv:2611.25109)",
+          "url": "https://arxiv.org/abs/2611.25109"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Dutch DPA Issues Consumer Advisory Against AI Smart Glasses After Finding Dangerous Emergency Guidance Failures and GDPR Violations",
+      "summary": "The Dutch Data Protection Authority tested six models of AI-powered smart glasses and issued a formal consumer advisory against purchasing them after finding the devices gave dangerously incorrect guidance in simulated CPR emergencies, misread medication instructions, showed willingness to display advice facilitating contact with minors, and processed data on servers outside the EU without adequate disclosure.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "Dutch DPA Advises Against AI Glasses After CPR and Medication Safety Failures (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/dutch-dpa-advises-against-ai-glasses-after-cpr-and-medication-safety-failures"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Congress Presses Oracle on Whether VA Health Data Trains Its AI Systems; Oracle Denies Access",
+      "summary": "The House Veterans' Affairs Committee held a bipartisan hearing on November 19, 2026 pressing Oracle executives on whether Department of Veterans Affairs electronic health record data is used to train Oracle AI systems, with lawmakers raising concerns that Oracle's commercial terms and conditions, if accepted, could effectively grant Oracle ownership of veteran health data.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "Congressional Hearing Puts AI Training Data Clauses in Federal Contracts Under Scrutiny (AI Governance Institute)",
+          "url": "https://aigovernance.com/news/congressional-hearing-puts-ai-training-data-clauses-in-federal-contracts-under-scrutiny"
+        }
+      ]
+    }
+  ]
+}
