@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T17:23:52+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "OpenAI Chief Scientist Proposes Perplexity as a Shared AI Development Speed Limit",
+      "summary": "Jakub Pachocki published a proposal to use perplexity as the basis for agreed industry development limits, with Anthropic CEO Dario Amodei and apparently OpenAI CEO Sam Altman endorsing the concept — the first concrete technical mechanism proposed for voluntary frontier AI development caps.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "AI Governance Institute: OpenAI's Chief Scientist Proposes Perplexity as a Shared AI Development Speed Limit",
+          "url": "https://aigovernance.com/news/openais-chief-scientist-proposes-perplexity-as-a-shared-ai-development-speed-limit"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Huang Returns as Nvidia CEO While DOJ, SEC, and Commerce Probes Into China Chip Sales Continue",
+      "summary": "Jensen Huang has returned as Nvidia CEO after resigning over personal affairs tied to a person alleged to have connections to Chinese intelligence, but Congressional investigators, the SEC, and the Commerce Department remain engaged, and direct presidential intervention to reinstate him has added new political and legal complexity to the export control crisis.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "AI Governance Institute: Huang Returns as Nvidia CEO, But Export Control Crisis Is Far From Over",
+          "url": "https://aigovernance.com/news/huang-returns-as-nvidia-ceo-but-export-control-crisis-is-far-from-over"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Senators Cantwell and Rounds Demand White House Direct NIST to Build Defensive AI Agent Security Standards",
+      "summary": "In a November 18 letter to the White House Super Intelligence Task Force, Senators Cantwell and Rounds urged NIST to develop security standards for defensive AI agents and CISA to accelerate adoption across banks, hospitals, utilities, and government agencies, the latest Congressional push for concrete agentic AI cyber standards.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "AI Governance Institute: Senators Demand White House Set Federal Standards for Defensive AI Agents",
+          "url": "https://aigovernance.com/news/senators-demand-white-house-set-federal-standards-for-defensive-ai-agents"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Five Major AI Organizations Publish Agent Guidance but Disagree on Who Owns Agent Identity and Accountability",
+      "summary": "A Token Security analysis of guidance from Microsoft, AWS, Anthropic, the Cloud Security Alliance, and CoSAI finds none agree on who owns an agent's identity or is accountable for agent behavior, leaving enterprises without a clear accountability framework when agents take harmful or unauthorized actions across multi-vendor systems.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "AI Governance Institute: Five Guidance Docs, No Consensus: Who Owns AI Agent Accountability?",
+          "url": "https://aigovernance.com/news/five-guidance-docs-no-consensus-who-owns-ai-agent-accountability"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Independent Research Projects Anthropic's 2028 Data Center Emissions at 32M Metric Tons, 87% Fossil-Fueled",
+      "summary": "The Better Data Center Project projects Anthropic's contracted data center capacity will be powered approximately 87% by gas and 11% by coal in 2028, producing an estimated 32 million metric tons of CO2-equivalent annually, and documents a gap between Anthropic's stated responsible data center policy and practices at a facility reportedly using unpermitted turbines without required emissions controls.",
+      "date": "2026-11-22",
+      "links": [
+        {
+          "title": "AI Governance Institute: Anthropic's 2028 Emissions Projected at 32 Million Metric Tons, Powered 87% by Fossil Fuels",
+          "url": "https://aigovernance.com/news/anthropics-2028-emissions-projected-at-32-million-metric-tons-powered-87-by-fossil-fuels"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "\"The Illusion of Evaluation\": Agentic Product Safety Claims Systematically Outrun What Benchmarks Can Establish",
+      "summary": "Drawing on practitioner experience and twelve product contexts, this paper identifies six methodological gaps between existing AI evaluations and deployed agentic products — covering product-risk identification, ecological and measurement validity, metric interpretation, outcome verification, evidence transfer, and evidentiary sufficiency — and concludes that treating an evaluation result as sufficient safety assurance is itself a systematic failure mode.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.26923 — The Illusion of Evaluation: Challenges in Agentic Product Evaluation Practice",
+          "url": "https://arxiv.org/abs/2611.26923"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Correct Prior Decisions Can Cascade Into Policy Violations in On-Device LLM Agents: \"Correct-Precedent Generalization\"",
+      "summary": "A new failure mode shows that after an on-device agent correctly releases an item whose restriction was lifted, it becomes more likely to incorrectly release the next still-restricted item — a single correct precedent can cut the safe rate roughly in half — and the effect is confirmed in 13 open-weight models from nine developers, with Paired Decision Distillation (PDD) proposed as a mitigation.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.27216 — Correct Precedents Induce Policy Violations in On-Device LLM Agents",
+          "url": "https://arxiv.org/abs/2611.27216"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Child Safety Alignment Is 48–80 Percentage Points Weaker Without Explicit Harm-Category Cues in Prompts",
+      "summary": "Across six frontier models, misalignment rates on child-safety-relevant requests that lack recognizable harm-category cues are 48–80 percentage points higher than on requests containing such cues, with mechanistic evidence suggesting models rely on lexical associations with harm-related words rather than context-sensitive reasoning — motivating evaluations that treat child safety as context-dependent.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.26965 — Beyond Prompt Heuristics: Assessing Child Safety Alignment in LLMs",
+          "url": "https://arxiv.org/abs/2611.26965"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "SkillPrivus: 54.5% of Agentic Skills Contain Potential Privacy-of-Use Violations Detectable Before Installation",
+      "summary": "A static pre-execution audit of 726 real skills from public agent marketplaces finds that 54.5% of those handling personal data contain at least one potential privacy-of-use violation — including sensitive inferences, use of information beyond the stated task, and disclosures to unexpected recipients — flagged without running the skills, exposing a gap in current marketplace vetting.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.26747 — SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+          "url": "https://arxiv.org/abs/2611.26747"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Footprint-Sensitive Cross-GPU Timing Channel Leaks LLM Output Length and Refusal Signals Across Tenant Boundaries",
+      "summary": "An unprivileged timing channel between co-tenanted GPUs (no NVLink, no data access, no hardware counters) enables covert communication at 20 bit/s, LLM output-length inference at Spearman 0.99 across five models, and refusal inference at up to 0.955 balanced accuracy — crossing process, container, and user boundaries — with controller-aware placement and footprint-flattening proposed as defenses for multi-tenant LLM serving.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.27115 — A Footprint-Sensitive Cross-GPU Timing Channel Through the Shared Host Memory Subsystem",
+          "url": "https://arxiv.org/abs/2611.27115"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "\"Whose Safety?\" — AI Safety Research Grew to 6.4% of ML Papers but Mentions Race in Only 8; None Make It Central",
+      "summary": "A content analysis of 69,290 accepted papers from ten ML/NLP/AI-ethics conferences (2020–2025) finds safety papers grew from 0.5% to 6.4% while 94% use only automated metrics, only 11% mention direct societal harms, and of 2,182 safety papers only 8 mention race — none making it central — arguing that the existential-risk framing of AI safety has systematically displaced attention to anti-Black and other racialized harms.",
+      "date": "2026-11-21",
+      "links": [
+        {
+          "title": "arXiv:2611.25302 — Whose Safety? Addressing Anti-Blackness in the Age of AI Safety",
+          "url": "https://arxiv.org/abs/2611.25302"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Text-Aware, Vision-Blind: Multimodal Image Editors Refuse Unsafe Text Prompts but Miss Unsafe Images 60–65% of the Time",
+      "summary": "EditSafetyBench (5,940 image-instruction pairs across 11 risk categories) shows Gemini and GPT refuse 87% and 82% of requests with unsafe-intent text prompts but only 24% and 22% of requests with unsafe images paired with neutral instructions, revealing a systematic text-vision safety mismatch across leading commercial image editing systems.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "arXiv:2611.26569 — Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
+          "url": "https://arxiv.org/abs/2611.26569"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "\"Origin\": Cross-Layer Dependency Graph Tool Identifies Compromise Entry Points in AI Agent Security Incidents",
+      "summary": "Origin presents a backtracking framework for agent security incidents that bridges the semantic gap between trajectory logs (agent-layer) and source-code function calls, using a cross-layer dependency graph and query language that correctly identified all compromise entry points across five popular agent applications and eight attack incidents in case studies.",
+      "date": "2026-11-20",
+      "links": [
+        {
+          "title": "arXiv:2611.26525 — Backtracking Agent Applications Security Incidents",
+          "url": "https://arxiv.org/abs/2611.26525"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "WaXup: Weight-Space Data Augmentation Improves Introspection Detection of Adversarially Concealed Model Behaviors",
+      "summary": "WaXup augments introspection training data by linearly interpolating between expert model weights (exploiting linear mode connectivity), and evaluated on AuditBench — a suite of models adversarially trained to conceal their behaviors — it improves the accuracy and distribution-shift robustness of introspective behavioral descriptions compared to prior methods, with implications for alignment auditing.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.27353 — WaXup: Weight Averaging of Experts as Data Augmentation for Robust Introspection",
+          "url": "https://arxiv.org/abs/2611.27353"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Timing and Posting Signatures of State-Linked Information Operations Transfer Cross-Platform with 0.90–0.94 AUC",
+      "summary": "Production signatures (posting schedules, action-gap policies) trained on Twitter archives of four state-linked IO campaigns transfer to Internet Research Agency accounts on Reddit at 0.90–0.94 AUC — outperforming content detectors that drop from 0.98 to 0.81 cross-platform — showing that behavioral timing traces offer a platform-agnostic detection signal without requiring labeled data on the target platform.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "arXiv:2611.27137 — Cross-Platform Production Signatures of State-Linked Information Operations",
+          "url": "https://arxiv.org/abs/2611.27137"
+        }
+      ]
+    }
+  ]
+}
