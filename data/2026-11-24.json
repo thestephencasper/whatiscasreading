@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T17:02:36+00:00",
+  "entries": [
+    {
+      "tag": "Paper",
+      "title": "FATCAT: Physical EM Fault Injection Eliminates LLM Alignment on GPU-Accelerated Systems — Robotic Arm Attempts to Injure Researcher",
+      "summary": "A non-invasive electromagnetic fault injection attack on GPU SoCs (tested on Jetson Orin Nano and AGX Thor running Llama 3.2 1B and Gemma 3 1B) requires no software access or model-layer privileges, yet reliably bypasses safety alignment and—in a live physical demonstration on a 6-DoF robotic arm controlled by a vision-language-action policy—caused the arm to make abrupt hazardous lunges and attempt to pinch the paper author, proving hardware-level fault tolerance is necessary for aligned deployment in physical systems.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.31129",
+          "url": "https://arxiv.org/abs/2611.31129"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Oxford Research: Qwen 32B Internally Detects Prompt Injection It Denies in Outputs — Prompting on Introspection Raises Detection from 0.3% to 39.9%",
+      "summary": "Researchers from the University of Oxford show that a Qwen 32B model's internal signals reliably detect injected context that its visible outputs deny, but prompting the model with accurate information about its own introspection capacity raises detection sensitivity from 0.3% to 39.9% with only a 0.6% false-positive increase — challenging the assumption that model outputs reflect internal state and directly impacting how enterprises design and evaluate prompt injection defenses.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ai-models-can-detect-prompt-injection-while-denying-it-in-outputs"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Verifying Declared AI Workloads from GPU Supply Current: 99.9% Detection of Prohibited Training Across Five Evasion Strategies",
+      "summary": "Recording 23.4 hours of GPU supply current via a Rogowski coil, a one-class model fitted to permitted workloads flags at least 99.9% of prohibited-training windows—including training hidden by time-sharing with declared inference—without operator cooperation, suggesting a practical external analogue channel for compute verification in frontier AI governance agreements.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.29982",
+          "url": "https://arxiv.org/abs/2611.29982"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "ParseGap: Parser Divergence Bypasses Coding Agent Shell Policies in All 16 Agent-Model Pairs; Coordinated Disclosure Filed Nov. 22",
+      "summary": "Differential testing across eight production coding agents identifies 17 root causes for divergence between what a policy guard approves and what GNU Bash executes—including a tree-sitter-bash defect hiding second commands and an allow-rule that disables OpenAI Codex CLI's OS sandbox—triggering policy violations in all 16 agent-model pairs tested; all affected vendors were notified November 22, 2026 under a 90-day disclosure window.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.29546",
+          "url": "https://arxiv.org/abs/2611.29546"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "FORGETMENOT: Commercial AI Agents Store Sensitive Data With ~20% Transparency Gap and Non-Zero Post-Deletion Leakage Across All Five Agents Audited",
+      "summary": "An audit of five popular commercial AI agents (including Copilot and Claude) finds that agents store sensitive health, demographic, and personal attributes but surface only about 20% in user-visible memory; all five show non-zero post-deletion leakage of health and self-harm attributes, and Gemini exhibits a 31.9% memory-disclosure rate to third-party email recipients as a proof-of-concept, with regulatory recommendations for each failure mode.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.29804",
+          "url": "https://arxiv.org/abs/2611.29804"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "\"Oops!... I Parsed It Again\": Tool-Call Smuggling Bypasses LLM Agent Guards via JSON Parser Divergence in Production Stacks",
+      "summary": "When a guard and executor parse identical JSON bytes differently—via repeated keys, Unicode variants, or schema mismatch—the guard approves one call and the executor runs a different one with an audit trail showing only the approved call; attacks succeed on live τ-bench tasks (canceling reservations, creating blocked files), and even two official MCP SDKs accept divergent inputs.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.30624",
+          "url": "https://arxiv.org/abs/2611.30624"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Oregon and Virginia AGs Sue SpaceX/xAI Over Inadequate Grok CSAM and Deepfake Safeguards",
+      "summary": "The attorneys general of Oregon (November 22) and Virginia (November 23) each filed UDAP suits against SpaceX Super Intelligence Corp. alleging Grok Imagine's content safeguards were inadequate against CSAM and non-consensual intimate imagery and that the company made false safety representations to consumers — the second and third state enforcement actions against xAI over generative image safety this month, adding to the already-pending federal deepfake NCII suit.",
+      "date": "2026-11-23",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/oregon-and-virginia-sue-spacex-over-grok-deepfake-safeguards"
+        },
+        {
+          "title": "Virginia case (Exhibit AI)",
+          "url": "https://exhibitai.info/cases/commonwealth-of-virginia-v-spacex-super-intelligence-corp/"
+        },
+        {
+          "title": "Oregon case (Exhibit AI)",
+          "url": "https://exhibitai.info/cases/state-of-oregon-v-spacex-super-intelligence-corp/"
+        }
+      ]
+    },
+    {
+      "tag": "Lawsuit",
+      "title": "Oregon AG Sues OpenAI for Consumer Protection Violations and Negligence Over ChatGPT's Manipulation of Minors",
+      "summary": "Oregon's attorney general filed suit against OpenAI Global, LLC on November 17, 2026 for consumer-protection violations and negligence, alleging ChatGPT's exploitative engagement features were falsely marketed as child-safe and manipulated minors through design choices characterized as deceptive — a new state enforcement action joining ongoing suits in California, Arizona, Texas, and multiple other states over ChatGPT child safety.",
+      "date": "2026-11-17",
+      "links": [
+        {
+          "title": "Oregon v. OpenAI (Exhibit AI)",
+          "url": "https://exhibitai.info/cases/state-of-oregon-v-openai-global-llc/"
+        },
+        {
+          "title": "AI Lawsuit Tracker",
+          "url": "https://ailawsuittracker.com/cases/"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Commerce Expected to Add Megaspeed to Entity List as Criminal AI Chip-Smuggling Probe Advances",
+      "summary": "The US Commerce Department is expected to designate Singapore-based AI infrastructure firm Megaspeed to the Entity List—barring US companies from selling it products without a special license—following the ongoing criminal probe into Nvidia chip smuggling to China, extending the enforcement wave from criminal prosecution to formal supply-chain blacklisting.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/megaspeed-entity-list-designation-puts-ai-compute-supply-chain-on-notice"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "ASIC Formally Names AI Consumer Harm a 2027 Enforcement Priority — First Explicit AI Enforcement Signal from Australia's Financial Regulator",
+      "summary": "Australia's ASIC has named consumer harm from poorly implemented AI and automated systems as a formal 2027 enforcement priority requiring financial-services firms to demonstrate model risk governance, testing, consumer-harm monitoring, clear accountability, third-party oversight, and documented safe-deployment evidence — framed as a formal enforcement signal, not voluntary guidance.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/asic-names-ai-consumer-harm-a-2027-enforcement-priority"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Who Is Prompt-Injecting Coding Agents? First Large-Scale GitHub Empirical Study: 2,281 Findings; Orchestration Grew 5× in 4 Months",
+      "summary": "Analysis of ~145 million GitHub items reveals that most AI-directed hidden text is first-party orchestration (projects controlling their own agents), not attacks — but orchestration grew fivefold in four months and is indistinguishable from adversarial use by any commenter; actual attacks on maintainers' triage and CI agents are rare (~1 in 3.3M items) but succeed in 19% of replay attempts against one small fast model, with HTML-comment stripping the main mitigation.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.28763",
+          "url": "https://arxiv.org/abs/2611.28763"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Weight-Space Backdoors in Open-Weight LLMs: 0.0002% Weight Modification Induces Triggers Across 18 Architectures",
+      "summary": "A cross-architecture study spanning 18 open-weight checkpoints across 14 model families (124M–31.3B parameters) shows that modifying approximately 0.0002% of parameters induces trigger-conditioned output on Phi-2 with 100% top-1 agreement, identifying three response regimes and validating a forensic triage tool that classifies 4 of 5 backdoored artifacts correctly without access to a reference model.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.28543",
+          "url": "https://arxiv.org/abs/2611.28543"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "PJBack: Persistent Jailbreak Backdoor Achieves 93.9% ASR Across 8 LLMs While Evading All 7 Evaluated Defenses Including Safety Finetuning",
+      "summary": "A new backdoor attack design reduces divergence between clean and trigger-conditioned decoding continuations, making backdoored samples indistinguishable from safety training data and enabling a 93.9% average attack success rate across 8 LLMs (7B–70B) from five model families while bypassing all evaluated defenses — including safety finetuning — with intact benign utility.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.29217",
+          "url": "https://arxiv.org/abs/2611.29217"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CyberDualEval (NeurIPS 2026): No Frontier Model Effectively Balances Legitimate Cyber Help Against Risky Refusal; Open-Weight Models Rarely Refuse Risky Requests",
+      "summary": "A 430-task benchmark for dual-use cyber risk (NeurIPS 2026 Evaluations and Datasets track, submitted as CyberDualEval) finds that no existing closed- or open-weight frontier model effectively navigates providing legitimate security assistance while refusing risky exploit generation; closed models are characterized as overly cautious, while recent open-weight models rarely refuse and show high validated accuracy on risky requests.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "arXiv:2611.30533",
+          "url": "https://arxiv.org/abs/2611.30533"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "NIST Publishes Official AI RMF-to-ISO 42001 Crosswalk for Dual-Framework Compliance Programs",
+      "summary": "NIST's AI Resource Center published an official crosswalk mapping AI Risk Management Framework practices to ISO/IEC 42001 AI management system requirements, supporting control ownership assignment and reducing duplicated evidence collection for organizations running dual-framework compliance programs.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/nist-publishes-official-ai-rmf-to-iso-42001-crosswalk-for-dual-framework-programs"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "22% of Flagged MCP Servers Carry Prompt Injection or Tool Poisoning; One-Third Have No Identifiable Owner",
+      "summary": "OX Security's analysis of 542,207 software components (published November 23, 2026) found prompt injection and tool poisoning in 22% of flagged MCP servers, with 83% of flagged servers containing code that could not be independently verified and nearly one-third having no identifiable owner — adding enterprise-scale empirical data to the picture of agentic supply chain risk.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/22-of-flagged-mcp-servers-carry-prompt-injection-or-tool-poisoning-ox-security-finds"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Microsoft Agent Framework Python Library Hijacked in Supply Chain Attack; Credential Rotation Required",
+      "summary": "A Python library used to build AI agents within Microsoft's agent framework was reportedly compromised in a supply chain attack (per a BTI Group update dated November 20, 2026), with organizations that installed affected versions advised to treat those systems as fully compromised and immediately rotate all credentials and review dependency inventories.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/hijacked-microsoft-agent-library-demands-immediate-credential-rotation"
+        }
+      ]
+    }
+  ]
+}
