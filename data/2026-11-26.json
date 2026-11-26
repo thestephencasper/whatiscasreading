@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T16:34:03+00:00",
+  "entries": [
+    {
+      "tag": "News",
+      "title": "Anthropic's RSI Disclosures Strain the Meaning of 'Meaningful Human Oversight'",
+      "summary": "AI Governance Institute reports that Anthropic CEO Dario Amodei denied advocating for surrendering human control, while three contemporaneous disclosures undercut the claim: IPO filings describe each Claude generation accelerating the next, METR found improvement rates have roughly doubled, and AI now authors more than 80% of code merged into Anthropic's codebase — raising concrete questions about what human oversight means when AI is writing most of the lab's own AI.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/anthropics-rsi-disclosure-tests-the-limits-of-meaningful-human-oversight"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "BIS Interim Final Rule Requires Licenses for Remote Compute Supply to D:5 Countries; Rescinds AI Diffusion Rule",
+      "summary": "Commerce's Bureau of Industry and Security published an interim final rule (effective November 19) requiring licenses for overseas data centers that remotely supply significant compute to companies in Country Group D:5 or Macau, and for advanced chips shipped to Indonesia, Malaysia, Singapore, Thailand, and Brazil — while also formally rescinding the Biden-era AI Diffusion Rule, with comments due January 19, 2027.",
+      "date": "2026-11-19",
+      "links": [
+        {
+          "title": "Federal Register FR Doc. 2026-23529",
+          "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "H.R. 11157 RSI Safety Act: Frontier Developers Must Report Quarterly on AI-Authored Research",
+      "summary": "Rep. Gottheimer and Rep. Moran introduced H.R. 11157, requiring the largest frontier developers to report quarterly to Commerce on how much of their AI research is conducted by AI systems versus humans, with penalties up to $10 million per false or missing report — the first US bill to mandate transparency on recursive self-improvement.",
+      "date": "2026-11-24",
+      "links": [
+        {
+          "title": "Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/11157"
+        },
+        {
+          "title": "Bill text",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/11157/text"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Rep. Trahan Releases Updated FRONTIER Act Summary: Federal Floor, Embedded IVOs, Automated R&D as Catastrophic Risk",
+      "summary": "Rep. Lori Trahan released a section-by-section summary of her updated FRONTIER Act (H.R. 9925) adding key provisions: a federal safety floor preserving stronger state laws, embedded independent verification organizations, treating automated AI research and development as a category of catastrophic risk, enforceable corrective orders, near-miss reporting, and a new Office of AI Security at Commerce.",
+      "date": "2026-11-19",
+      "links": [
+        {
+          "title": "Rep. Trahan release",
+          "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "SAFE AI Act Outline: Bipartisan House Members Propose Federal Safety Frameworks with Pre-Release Government Evaluation",
+      "summary": "Reps. Jacobs, Maloy, and Beyer released a bipartisan outline requiring frontier developers to publish and follow enforceable safety frameworks meeting minimum standards set by CAISI, with government and accredited independent evaluations before release, incident reporting, emergency mitigation orders subject to judicial review, civil penalties, and an explicit federal floor preserving stronger state rules.",
+      "date": "2026-11-19",
+      "links": [
+        {
+          "title": "Rep. Beyer release",
+          "url": "https://beyer.house.gov/news/documentsingle.aspx?DocumentID=9310"
+        },
+        {
+          "title": "Bill outline (PDF)",
+          "url": "https://beyer.house.gov/UploadedFiles/SAFE_AI_Act_Outline.pdf"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Dragos Research: Attackers Stole AI Prompts from Three Hosting Providers and Tested Embedded Credentials Within Hours",
+      "summary": "Dragos embedded unique decoy credentials in nearly 2 million test prompts sent to AI hosting and routing services from July–November 2026; attackers stole prompts from at least three providers and tested embedded secrets within hours of their appearance, and MiniMax separately acknowledged its security software had been logging and opening URLs from customer prompts forwarded through OpenRouter.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/attackers-stole-ai-prompts-and-tested-embedded-secrets-within-hours"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "FedRAMP Sets December 7 Hard Deadline for AI-Era Vulnerability Rules; Non-Compliance Means Certification Revocation",
+      "summary": "GSA's FedRAMP program is requiring all certified cloud providers to shift from monthly scan-based patching to an exposure-and-threat-based vulnerability approach by December 7, 2026 (final grace period through March 7, 2027), driven by AI-accelerated attack timelines, with non-compliant providers facing certification revocation and a one-year marketplace ban.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/fedramp-sets-december-7-deadline-for-ai-era-vulnerability-rules"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Google Workspace Mandates MCP-Only AI Agent Access Starting February 2027",
+      "summary": "Google made Workspace MCP servers and a CLI generally available and issued a new AI Tools Addendum requiring all AI agents to access Gmail, Drive, Docs, Sheets, Calendar, and other Workspace data exclusively through these managed entry points — bundling user-confirmation requirements, DLP rules, access controls, and audit logging — with technical enforcement beginning February 1, 2027.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/google-workspace-enforces-mcp-only-agent-access-from-february-2027"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Ofcom Opens Active Investigation Into X/Grok for AI Deepfake Abuse as UK 10%-Revenue Fines Loom",
+      "summary": "UK Conservative MP Mims Davies disclosed she waived anonymity after her likeness was used to generate non-consensual AI pornographic deepfakes; Ofcom confirmed a live investigation into X over Grok being used to create sexualized images, with platforms that missed a September 2026 deadline to remove illegal intimate imagery now facing fines of up to 10% of global annual revenue under the Online Safety Act.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/ofcom-investigates-grok-over-ai-deepfake-abuse-as-uk-fines-loom"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "New York Becomes Second State to Ban AI Chatbot Toys, Signing Five-Year Prohibition With $15K/Day Penalties",
+      "summary": "New York Governor Hochul signed legislation banning the manufacture, distribution, and sale of AI chatbot-embedded toys for five years, with $15,000-per-day penalties enforced with the state attorney general, following a Common Sense Media study documenting safety failures — including inappropriate content exposure — across five popular AI toys.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/new-york-bans-ai-chatbot-toys-for-five-years-joining-california"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "ChatGPT Secretly Drafted Kingsland, Georgia's Laws — City Council and Public Never Told",
+      "summary": "An investigation using 1,974 exported ChatGPT sessions revealed that the city manager of Kingsland, Georgia used ChatGPT to draft ordinances, internal policies, and other governing documents for a city of roughly 20,000 residents, with sessions often lasting only minutes before adoption — including a Title VI anti-discrimination policy and a water backflow ordinance — with no disclosure of AI authorship to the council or public.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute",
+          "url": "https://aigovernance.com/news/chatgpt-wrote-kingslands-laws-no-one-was-told"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Emerging International Best Practices for AI Model Specs: Taxonomy, Guidance, and Eight Open Problems",
+      "summary": "Researchers from multiple institutions propose a taxonomy for AI model specifications, offer practical guidance for writing and implementing model specs, and identify eight open problems for making specs an effective governance tool — directly relevant to efforts to standardize safety commitments across frontier labs.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "arXiv:2611.32768",
+          "url": "https://arxiv.org/abs/2611.32768"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "MIMPA: Insider Memory Poisoning Attack Steers Multi-Agent Systems by Embedding Payloads in Successful Collaboration Records",
+      "summary": "MIMPA exploits the trust that multi-agent systems place in their shared memory of past successful collaborations: a malicious insider agent embeds a hidden payload while genuinely helping complete an earlier task, so that when the poisoned record is retrieved for a later task it steers benign agents toward attacker-specified wrong answers — outperforming existing insider attacks across three benchmarks with auditing only partially effective as a defense.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "arXiv:2611.31307",
+          "url": "https://arxiv.org/abs/2611.31307"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "CAPTA: Remote Services Can Fingerprint the Backend LLM Powering an Agent with 99% Accuracy in 10 Questions",
+      "summary": "CAPTA, inspired by CAPTCHA, uses multiple-choice preference questions to identify which of 25 LLMs from 10 model families powers a target agent with 99% mean accuracy in just 10 questions and 99.7% accuracy across 28 agent-LLM combinations — enabling remote services to launch tailored attacks like prompt injection against identified model families.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "arXiv:2611.32686",
+          "url": "https://arxiv.org/abs/2611.32686"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "DarkAgent: Coordinated Browser and Behavioral Evasion Breaks Bot Defenses at 89% Bypass Rate",
+      "summary": "DarkAgent combines a modified Chromium that conceals automation artifacts with generative models producing human-like mouse and keyboard traces, achieving an 89% page-access bypass rate on a third-party stealth benchmark — 12 points above the strongest prior baseline — and showing that browser-fingerprint and behavioral evasion must be combined to defeat all tested defenses, with action-timing remaining the strongest remaining signal for defenders.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "arXiv:2611.31962",
+          "url": "https://arxiv.org/abs/2611.31962"
+        }
+      ]
+    }
+  ]
+}
