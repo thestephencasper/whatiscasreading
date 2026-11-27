@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T16:17:39+00:00",
+  "entries": [
+    {
+      "tag": "Paper",
+      "title": "DeepBinary: Frontier Agents Discover 146 Previously Unknown 0-Days in Windows Kernel Binaries",
+      "summary": "DeepBinary, the first open-ended benchmark for vulnerability discovery in closed-source Windows kernel binaries, shows that agents built on GPT-6 Sol, Claude Opus 5, and DeepSeek V4.1 Flash discovered over 200 vulnerabilities in total—including 146 previously unknown—with estimated aggregate bug-bounty value of $661,000, while revealing large model-to-model differences in long-horizon binary analysis and raising urgent questions about autonomous offensive capability.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33486",
+          "url": "https://arxiv.org/abs/2611.33486"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Latent-in-the-Middle: Cross-Model KV Cache Handoffs Undermine Alignment and Enable 92.5% Attack Success",
+      "summary": "Sharing internal KV-cache representations across heterogeneous LLMs in multi-agent pipelines substantially undermines safety alignment—a target model that natively refuses 99.6% of benchmark prompt injections follows up to 44.2% after cache transfer through a mapper, and white-box optimization through the mapper achieves 92.5% attack success rate, motivating a lightweight cache-guard defense.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.34278",
+          "url": "https://arxiv.org/abs/2611.34278"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "AgentLens: Graph-Guided Auditing Finds 44 Validated Vulnerabilities and 12 CVE IDs Across Five Popular Agent Apps",
+      "summary": "AgentLens converts agent implementations into an Audit Knowledge Graph to derive attack paths and generate realistic multi-turn validation scenarios; across five widely-used agent applications (each with over 24,000 GitHub stars) it identified 44 vulnerabilities—every one triggered in execution—earning 12 CVE IDs and detecting 3.67× more vulnerabilities than prior state-of-the-art, underscoring the gap between static code review and executable audit of deployed agents.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33666",
+          "url": "https://arxiv.org/abs/2611.33666"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "GAO: AI Amplifies Cyberattacks and No Widely Accepted Criteria Exist for Evaluating AI Security Tools",
+      "summary": "A GAO report published November 20 finds that AI expands attack precision, speed, and scale while also strengthening defense, but no widely accepted criteria exist for evaluating AI security tools, and the agency identifies 16 policy options—including expanding AI testing environments and developing governance frameworks—for policymakers to consider.",
+      "date": "2026-11-27",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/gao-ai-amplifies-attacks-and-exposes-gaps-in-security-tool-evaluation"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "VCT Updated: OpenAI's o3 Reaches 43.8% on Dual-Use Virology Troubleshooting, Outperforming 94% of Expert Virologists",
+      "summary": "An updated Virology Capabilities Test (322 multimodal questions built by PhD-level virologists) finds the most capable publicly available LLM, OpenAI's o3, reaches 43.8% accuracy on complex dual-use virology troubleshooting—outperforming 94% of expert virologists within their own specializations—and the authors argue this frontier-model capability should be integrated into existing dual-use technology governance frameworks.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "arXiv:2504.16137 (updated version)",
+          "url": "https://arxiv.org/abs/2504.16137"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Anti-AI in the Wild: Data-Poisoning and Tarpit Outputs Have Already Entered Common Crawl and FineWeb",
+      "summary": "A measurement study of 931,640 posts across 25 Reddit communities finds that anti-AI tools are actively targeting AI training pipelines: 93.6% of code from one deployed data-poisoning service passes public curation pipelines despite 66.5% containing fabricated facts, misused APIs, or broken logic, and crawler tarpit and data-poisoning output has already entered Common Crawl and FineWeb—widely used pretraining datasets.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33254",
+          "url": "https://arxiv.org/abs/2611.33254"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "PRECEPT: Coding Agents Reintroduce the Same Vulnerability Class 26.7% of the Time; Self-Improvement Library Reaches 97.1% Secure Code",
+      "summary": "PRECEPT identifies a persistent failure in coding-agent security: agents fix a vulnerability 85.7% of the time when shown a failing test but reintroduce the same vulnerability class in a new session 26.7% of the time—nearly identical to agents that never saw it (27.5%)—and an evolving principle library that learns from the agent's own failures achieves 97.1% secure working code on novel task families versus 81.9% for the strongest unaided agent.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33519",
+          "url": "https://arxiv.org/abs/2611.33519"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "'The Detour Is the Danger': LLM Agent Workflow Recovery Silently Drops Security Protections; ARGUS Blocks All Attacks",
+      "summary": "Workflow security downgrade—where agents autonomously executing recovery plans after failures silently discard the security obligations of the original workflow—is demonstrated across seven LLMs, twelve task templates, and three security-sensitive domains without any attacker modifying instructions; the ARGUS obligation-preserving recovery framework prevents all observed protection-loss events under enforcement.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33605",
+          "url": "https://arxiv.org/abs/2611.33605"
+        }
+      ]
+    },
+    {
+      "tag": "Policy",
+      "title": "Nvidia Halts Southeast Asia Chip Shipments as Commerce Export-Control Enforcement Tightens",
+      "summary": "Nvidia instructed manufacturing partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand, and Indonesia while assessing partner compliance with U.S. export control requirements, following a Commerce Department rule that closed a loophole allowing Chinese firms to access Nvidia chips remotely through regional data centers—which an Institute for Progress estimate credits with supplying roughly 24% of China's AI computing power.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/nvidia-halts-southeast-asia-chip-shipments-in-us-export-control-review"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "S&P Places Nvidia's AA Credit Under Review, Threatening Its $500B AI Infrastructure Guarantees",
+      "summary": "S&P Global placed Nvidia's AA credit rating under review for a possible downgrade to AA-, citing weak executive oversight, absent succession planning, and concentrated key-man risk following CEO Jensen Huang's ouster and reinstatement—consequential because Nvidia committed to guarantee 25% of $500 billion in AI infrastructure financing, meaning a downgrade would raise borrowing costs across the AI compute supply chain.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/sp-credit-review-puts-nvidias-ai-infrastructure-guarantees-at-risk"
+        }
+      ]
+    },
+    {
+      "tag": "Paper",
+      "title": "Poisoning Self-Evolving Defense: A Single Prompt-Injection Episode Causes LLM Agent Defense to Over-Refuse Legitimate Tasks",
+      "summary": "A novel attack on Self-Evolving Defense (SED)—where LLM agents learn reusable security policies from observed attacks—shows that a single crafted prompt-injection episode causes the defense to learn an over-broad blocking policy that refuses legitimate requests in every poisoned run, the attack transfers to a second model (gpt-oss-120b), and existing mitigations reduce but do not eliminate over-refusal.",
+      "date": "2026-11-26",
+      "links": [
+        {
+          "title": "arXiv:2611.33385",
+          "url": "https://arxiv.org/abs/2611.33385"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Anthropic Launches Enterprise Frontier Safeguards (EFS) Beta: Cross-Request Misuse Detection Without Storing Conversation Data",
+      "summary": "Anthropic's EFS beta enables enterprise customers under zero-data-retention agreements to get cross-request misuse detection while keeping conversation data in customer-controlled, customer-encrypted cloud storage—and accompanies a published guide to securing enterprise coding agents, citing prompt injection defense test results and an automated classifier.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/anthropics-efs-beta-gives-zero-retention-enterprises-cross-request-misuse-detection"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Tidal Bans AI-Generated Music, Deleting 29 Million Tracks Starting December 9",
+      "summary": "Tidal will remove over 29 million fully AI-generated tracks from its platform starting December 9—having found 43% of tracks uploaded in the past 90 days were AI-generated with 96% accumulating zero streams—and will reject roughly 80,000–85,000 AI-generated submissions per day going forward, marking one of the largest platform-level AI content governance actions to date.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/tidal-bans-ai-generated-music-deleting-29-million-tracks-by-year-end"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "Shirudo: Cisco and OpenAI Release Open-Source Agentic Security Platform with Human Approval Checkpoints and Hardware Audit Records",
+      "summary": "Cisco and OpenAI released Shirudo, an open-source platform that uses AI agents to generate and deploy temporary security fixes into live Linux systems before permanent patches are ready, incorporating human approval checkpoints, cryptographically signed fixes, and a hardware-backed audit record—offering compliance teams a concrete reference model for governed agentic AI deployment.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/shirudo-sets-a-human-oversight-benchmark-for-autonomous-security-agents"
+        }
+      ]
+    },
+    {
+      "tag": "News",
+      "title": "NYT Bars Photoshop 2027 for Freelancers After Adobe Update Embeds AI Provenance Metadata",
+      "summary": "The New York Times directed freelance photographers on assignments to stop using Adobe Photoshop 2027 (version 28.0.0+) because its November 2026 AI features embed metadata that can mark images as AI-generated or AI-edited, citing concerns that such tags could undermine reader trust in its photojournalism—a rare instance of a major news organization refusing an AI safety tool on editorial grounds.",
+      "date": "2026-11-25",
+      "links": [
+        {
+          "title": "AI Governance Institute coverage",
+          "url": "https://aigovernance.com/news/nyt-bars-photoshop-2027-update-over-ai-provenance-tags-on-photos"
+        }
+      ]
+    }
+  ]
+}
